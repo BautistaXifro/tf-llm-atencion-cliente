@@ -1,0 +1,973 @@
+document_id,source_row_id,category,intent,instruction,response,similitud_max_evaluacion,texto_rag,instruction_es,response_es,tokens_traduccion_in,tokens_traduccion_out
+bitext-00183,183,ORDER,cancel_order,i try to cancel order {{Order Number}},"I grasp your desire to cancel your purchase with order number {{Order Number}}, and I'm here to assist you with this process. To cancel your order, please follow these steps:
+
+1. Sign in to Your Account: Access our platform by logging into your {{Online Company Portal Info}}.
+2. Locate Your Order: Navigate to the '{{Online Order Interaction}}' or '{{Online Order Interaction}}' section.
+3. Find the Purchase: Look for the order number {{Order Number}} and click on it.
+4. Initiate the Cancellation: You should see an option labeled '{{Online Order Interaction}}' associated with your purchase. Please select this option.
+5. Confirm the Cancellation: The system may prompt you to confirm the cancellation. Please follow the instructions provided to complete the process successfully.
+
+Should you encounter any issues or have further questions, our dedicated support team is available during {{Customer Support Hours}} at {{Customer Support Phone Number}} or through the Live Chat feature on our {{Website URL}}. We truly value your satisfaction and are committed to making this cancellation process as smooth as possible.",0.6923076923076923,"Categoría: ORDER
+Intención: cancel_order
+Pregunta frecuente: intento cancelar el pedido {{Order Number}}
+Procedimiento recomendado: Entiendo tu deseo de cancelar tu compra con el número de pedido {{Order Number}}, y estoy aquí para ayudarte con este proceso. Para cancelar tu pedido, por favor sigue estos pasos:
+
+1. Inicia sesión en tu cuenta: Accede a nuestra plataforma iniciando sesión en tu {{Online Company Portal Info}}.
+2. Localiza tu pedido: Navega a la sección '{{Online Order Interaction}}' o '{{Online Order Interaction}}'.
+3. Encuentra la compra: Busca el número de pedido {{Order Number}} y haz clic en él.
+4. Inicia la cancelación: Deberías ver una opción etiquetada como '{{Online Order Interaction}}' asociada con tu compra. Por favor selecciona esta opción.
+5. Confirma la cancelación: El sistema puede pedirte que confirmes la cancelación. Por favor sigue las instrucciones proporcionadas para completar el proceso con éxito.
+
+Si encuentras algún problema o tienes más preguntas, nuestro equipo de soporte dedicado está disponible durante {{Customer Support Hours}} al {{Customer Support Phone Number}} o a través de la función de chat en vivo en nuestro {{Website URL}}. Realmente valoramos tu satisfacción y estamos comprometidos a hacer que este proceso de cancelación sea lo más fluido posible.",intento cancelar el pedido {{Order Number}},"Entiendo tu deseo de cancelar tu compra con el número de pedido {{Order Number}}, y estoy aquí para ayudarte con este proceso. Para cancelar tu pedido, por favor sigue estos pasos:
+
+1. Inicia sesión en tu cuenta: Accede a nuestra plataforma iniciando sesión en tu {{Online Company Portal Info}}.
+2. Localiza tu pedido: Navega a la sección '{{Online Order Interaction}}' o '{{Online Order Interaction}}'.
+3. Encuentra la compra: Busca el número de pedido {{Order Number}} y haz clic en él.
+4. Inicia la cancelación: Deberías ver una opción etiquetada como '{{Online Order Interaction}}' asociada con tu compra. Por favor selecciona esta opción.
+5. Confirma la cancelación: El sistema puede pedirte que confirmes la cancelación. Por favor sigue las instrucciones proporcionadas para completar el proceso con éxito.
+
+Si encuentras algún problema o tienes más preguntas, nuestro equipo de soporte dedicado está disponible durante {{Customer Support Hours}} al {{Customer Support Phone Number}} o a través de la función de chat en vivo en nuestro {{Website URL}}. Realmente valoramos tu satisfacción y estamos comprometidos a hacer que este proceso de cancelación sea lo más fluido posible.",311,286
+bitext-00237,237,ORDER,cancel_order,help canceling purchase {{Order Number}},"I realized, you're seeking assistance with canceling your purchase with the purchase number {{Order Number}}. Rest assured, I'm here to help guide you through the process.
+
+To cancel your purchase, follow these steps:
+
+1. Sign in to your {{Online Company Portal Info}} using your credentials.
+2. Navigate to the '{{Online Order Interaction}}' or '{{Online Order Interaction}}' section.
+3. Look for the specific purchase with the order number {{Order Number}}.
+4. Click on the purchase to view the order details.
+5. You should see an option labeled '{{Online Order Interaction}}' associated with your purchase. Please select this option.
+6. A confirmation message will appear. Review the details and follow any additional prompts, if necessary, to complete the cancellation.
+
+If you encounter any difficulties or have any further questions, our dedicated support team is available to assist you during {{Customer Support Hours}}. Feel free to reach out to us at {{Customer Support Phone Number}} or through the Live Chat feature on our {{Website URL}}. We are committed to providing you with the support you need to ensure your satisfaction.",0.6526315789473685,"Categoría: ORDER
+Intención: cancel_order
+Pregunta frecuente: ayuda para cancelar la compra {{Order Number}}
+Procedimiento recomendado: Me doy cuenta de que estás buscando ayuda para cancelar tu compra con el número de pedido {{Order Number}}. Ten la seguridad de que estoy aquí para guiarte a través del proceso.
+
+Para cancelar tu compra, sigue estos pasos:
+
+1. Inicia sesión en tu {{Online Company Portal Info}} usando tus credenciales.
+2. Navega a la sección '{{Online Order Interaction}}' o '{{Online Order Interaction}}'.
+3. Busca la compra específica con el número de pedido {{Order Number}}.
+4. Haz clic en la compra para ver los detalles del pedido.
+5. Deberías ver una opción etiquetada como '{{Online Order Interaction}}' asociada con tu compra. Por favor, selecciona esta opción.
+6. Aparecerá un mensaje de confirmación. Revisa los detalles y sigue cualquier indicación adicional, si es necesario, para completar la cancelación.
+
+Si encuentras alguna dificultad o tienes más preguntas, nuestro equipo de soporte dedicado está disponible para ayudarte durante {{Customer Support Hours}}. No dudes en contactarnos al {{Customer Support Phone Number}} o a través de la función de Chat en Vivo en nuestro {{Website URL}}. Estamos comprometidos a brindarte el apoyo que necesitas para asegurar tu satisfacción.",ayuda para cancelar la compra {{Order Number}},"Me doy cuenta de que estás buscando ayuda para cancelar tu compra con el número de pedido {{Order Number}}. Ten la seguridad de que estoy aquí para guiarte a través del proceso.
+
+Para cancelar tu compra, sigue estos pasos:
+
+1. Inicia sesión en tu {{Online Company Portal Info}} usando tus credenciales.
+2. Navega a la sección '{{Online Order Interaction}}' o '{{Online Order Interaction}}'.
+3. Busca la compra específica con el número de pedido {{Order Number}}.
+4. Haz clic en la compra para ver los detalles del pedido.
+5. Deberías ver una opción etiquetada como '{{Online Order Interaction}}' asociada con tu compra. Por favor, selecciona esta opción.
+6. Aparecerá un mensaje de confirmación. Revisa los detalles y sigue cualquier indicación adicional, si es necesario, para completar la cancelación.
+
+Si encuentras alguna dificultad o tienes más preguntas, nuestro equipo de soporte dedicado está disponible para ayudarte durante {{Customer Support Hours}}. No dudes en contactarnos al {{Customer Support Phone Number}} o a través de la función de Chat en Vivo en nuestro {{Website URL}}. Estamos comprometidos a brindarte el apoyo que necesitas para asegurar tu satisfacción.",321,287
+bitext-00676,676,ORDER,cancel_order,I'm rtying to cancel order {{Order Number}},"I'm following the urgency of canceling your order with the order number {{Order Number}}. I apologize for any inconvenience caused. To assist you with the cancellation process, please follow these steps:
+
+1. Log into your {{Online Company Portal Info}}.
+2. Navigate to the '{{Online Order Interaction}}' or '{{Online Order Interaction}}' section.
+3. Look for the order with the number {{Order Number}} and click on it.
+4. You should see an option to '{{Online Order Interaction}}', please select that.
+5. Follow the instructions, if any, to complete the cancellation.
+
+If you encounter any difficulties or have any further questions, please do not hesitate to reach out to our dedicated customer support team. You can contact us during {{Customer Support Hours}} at {{Customer Support Phone Number}} or through the Live Chat function on our {{Website URL}}. We are here to help and ensure your satisfaction.",0.6506024096385542,"Categoría: ORDER
+Intención: cancel_order
+Pregunta frecuente: Estoy tratando de cancelar el pedido {{Order Number}}
+Procedimiento recomendado: Estoy siguiendo la urgencia de cancelar tu pedido con el número de pedido {{Order Number}}. Te pido disculpas por cualquier inconveniente causado. Para ayudarte con el proceso de cancelación, por favor sigue estos pasos:
+
+1. Inicia sesión en tu {{Online Company Portal Info}}.
+2. Navega a la sección '{{Online Order Interaction}}' o '{{Online Order Interaction}}'.
+3. Busca el pedido con el número {{Order Number}} y haz clic en él.
+4. Deberías ver una opción para '{{Online Order Interaction}}', por favor selecciónala.
+5. Sigue las instrucciones, si las hay, para completar la cancelación.
+
+Si encuentras alguna dificultad o tienes más preguntas, no dudes en ponerte en contacto con nuestro equipo de soporte al cliente. Puedes contactarnos durante {{Customer Support Hours}} al {{Customer Support Phone Number}} o a través de la función de Chat en Vivo en nuestro {{Website URL}}. Estamos aquí para ayudar y asegurar tu satisfacción.",Estoy tratando de cancelar el pedido {{Order Number}},"Estoy siguiendo la urgencia de cancelar tu pedido con el número de pedido {{Order Number}}. Te pido disculpas por cualquier inconveniente causado. Para ayudarte con el proceso de cancelación, por favor sigue estos pasos:
+
+1. Inicia sesión en tu {{Online Company Portal Info}}.
+2. Navega a la sección '{{Online Order Interaction}}' o '{{Online Order Interaction}}'.
+3. Busca el pedido con el número {{Order Number}} y haz clic en él.
+4. Deberías ver una opción para '{{Online Order Interaction}}', por favor selecciónala.
+5. Sigue las instrucciones, si las hay, para completar la cancelación.
+
+Si encuentras alguna dificultad o tienes más preguntas, no dudes en ponerte en contacto con nuestro equipo de soporte al cliente. Puedes contactarnos durante {{Customer Support Hours}} al {{Customer Support Phone Number}} o a través de la función de Chat en Vivo en nuestro {{Website URL}}. Estamos aquí para ayudar y asegurar tu satisfacción.",281,234
+bitext-01232,1232,ORDER,change_order,help adding an item to purchase {{Order Number}},"I've got that you need assistance with adding an item to purchase number {{Order Number}}. We strive to make sure your purchase experience is seamless and convenient. Please provide me with the details of the item you would like to add, such as its name, quantity, and any specific requirements. I'll do my best to help you with the process.",0.6213592233009708,"Categoría: ORDER
+Intención: change_order
+Pregunta frecuente: ayuda para agregar un artículo a la compra {{Order Number}}
+Procedimiento recomendado: Entiendo que necesitas ayuda para agregar un artículo a la compra número {{Order Number}}. Nos esforzamos por hacer que tu experiencia de compra sea fluida y conveniente. Por favor, proporcióname los detalles del artículo que te gustaría agregar, como su nombre, cantidad y cualquier requisito específico. Haré lo posible para ayudarte con el proceso.",ayuda para agregar un artículo a la compra {{Order Number}},"Entiendo que necesitas ayuda para agregar un artículo a la compra número {{Order Number}}. Nos esforzamos por hacer que tu experiencia de compra sea fluida y conveniente. Por favor, proporcióname los detalles del artículo que te gustaría agregar, como su nombre, cantidad y cualquier requisito específico. Haré lo posible para ayudarte con el proceso.",156,98
+bitext-01552,1552,ORDER,change_order,i need help to delete some products from order {{Order Number}},"We understand that you would like assistance in deleting some products from order number {{Order Number}}. Deleting items from your order is an option we can explore for you. May I kindly ask you to provide the specific product(s) you wish to remove? This way, we can promptly assist you with the necessary actions to modify your order according to your preferences. We appreciate your patience and cooperation.",0.6407766990291263,"Categoría: ORDER
+Intención: change_order
+Pregunta frecuente: necesito ayuda para eliminar algunos productos del pedido {{Order Number}}
+Procedimiento recomendado: Entendemos que te gustaría recibir asistencia para eliminar algunos productos del pedido número {{Order Number}}. Eliminar artículos de tu pedido es una opción que podemos explorar para vos. ¿Podrías indicarnos los productos específicos que deseas eliminar? De esta manera, podremos asistirte rápidamente con las acciones necesarias para modificar tu pedido según tus preferencias. Agradecemos tu paciencia y cooperación.",necesito ayuda para eliminar algunos productos del pedido {{Order Number}},"Entendemos que te gustaría recibir asistencia para eliminar algunos productos del pedido número {{Order Number}}. Eliminar artículos de tu pedido es una opción que podemos explorar para vos. ¿Podrías indicarnos los productos específicos que deseas eliminar? De esta manera, podremos asistirte rápidamente con las acciones necesarias para modificar tu pedido según tus preferencias. Agradecemos tu paciencia y cooperación.",169,105
+bitext-01714,1714,ORDER,change_order,help me adding several articles to purchase {{Order Number}},"Glad you got in touch to us for assistance with adding several articles to purchase number {{Order Number}}. I completely understand the importance of customizing your purchase to your preferences. To ensure we can help you effectively, could you please provide the specific details of the articles you would like to add? Once we have this information, we will promptly assist you in modifying your purchase to include these items. We appreciate your patience and look forward to fulfilling your request.",0.6260869565217392,"Categoría: ORDER
+Intención: change_order
+Pregunta frecuente: ayúdame a agregar varios artículos a la compra {{Order Number}}
+Procedimiento recomendado: Nos alegra que te hayas puesto en contacto con nosotros para recibir ayuda con la adición de varios artículos a la compra número {{Order Number}}. Entendemos completamente la importancia de personalizar tu compra según tus preferencias. Para asegurarnos de poder ayudarte de manera efectiva, ¿podrías proporcionarnos los detalles específicos de los artículos que te gustaría agregar? Una vez que tengamos esta información, te asistiremos rápidamente en la modificación de tu compra para incluir estos artículos. Agradecemos tu paciencia y esperamos poder cumplir con tu solicitud.",ayúdame a agregar varios artículos a la compra {{Order Number}},"Nos alegra que te hayas puesto en contacto con nosotros para recibir ayuda con la adición de varios artículos a la compra número {{Order Number}}. Entendemos completamente la importancia de personalizar tu compra según tus preferencias. Para asegurarnos de poder ayudarte de manera efectiva, ¿podrías proporcionarnos los detalles específicos de los artículos que te gustaría agregar? Una vez que tengamos esta información, te asistiremos rápidamente en la modificación de tu compra para incluir estos artículos. Agradecemos tu paciencia y esperamos poder cumplir con tu solicitud.",178,137
+bitext-02195,2195,SHIPPING,change_shipping_address,I want information about changing the delivery address,"Sure! If you need to change your delivery address, you can easily do so by contacting our customer support team. They will assist you in updating the address with the new information. Please make sure to provide them with the correct details to ensure a smooth and successful delivery.",0.7079646017699115,"Categoría: SHIPPING
+Intención: change_shipping_address
+Pregunta frecuente: Quiero información sobre cómo cambiar la dirección de entrega
+Procedimiento recomendado: ¡Claro! Si necesitas cambiar tu dirección de entrega, puedes hacerlo fácilmente contactando a nuestro equipo de soporte al cliente. Ellos te ayudarán a actualizar la dirección con la nueva información. Asegúrate de proporcionarles los detalles correctos para garantizar una entrega exitosa y sin inconvenientes.",Quiero información sobre cómo cambiar la dirección de entrega,"¡Claro! Si necesitas cambiar tu dirección de entrega, puedes hacerlo fácilmente contactando a nuestro equipo de soporte al cliente. Ellos te ayudarán a actualizar la dirección con la nueva información. Asegúrate de proporcionarles los detalles correctos para garantizar una entrega exitosa y sin inconvenientes.",139,85
+bitext-02418,2418,SHIPPING,change_shipping_address,I want to know about updating my delivery address,"Sure, I can help you with updating your delivery address. To change your address, log into your account and navigate to the address section. From there, you can edit your current address or add a new one. Make sure to double-check all the information before saving the changes. If you encounter any issues or have further questions, feel free to reach out to our customer support team for assistance.",0.5925925925925926,"Categoría: SHIPPING
+Intención: change_shipping_address
+Pregunta frecuente: Quiero saber sobre cómo actualizar mi dirección de entrega
+Procedimiento recomendado: Claro, puedo ayudarte a actualizar tu dirección de entrega. Para cambiar tu dirección, inicia sesión en tu cuenta y navega a la sección de direcciones. Desde allí, puedes editar tu dirección actual o agregar una nueva. Asegúrate de revisar toda la información antes de guardar los cambios. Si encuentras algún problema o tienes más preguntas, no dudes en contactar a nuestro equipo de soporte al cliente para obtener ayuda.",Quiero saber sobre cómo actualizar mi dirección de entrega,"Claro, puedo ayudarte a actualizar tu dirección de entrega. Para cambiar tu dirección, inicia sesión en tu cuenta y navega a la sección de direcciones. Desde allí, puedes editar tu dirección actual o agregar una nueva. Asegúrate de revisar toda la información antes de guardar los cambios. Si encuentras algún problema o tienes más preguntas, no dudes en contactar a nuestro equipo de soporte al cliente para obtener ayuda.",165,109
+bitext-02698,2698,SHIPPING,change_shipping_address,I have issues modifying the delivery address,"We apologize for the inconvenience you are facing while trying to modify your delivery address. Please provide us with your order details and the new address you would like to update, and we will assist you in making the necessary changes.",0.7631578947368421,"Categoría: SHIPPING
+Intención: change_shipping_address
+Pregunta frecuente: Tengo problemas para modificar la dirección de entrega
+Procedimiento recomendado: Lamentamos la inconveniencia que estás enfrentando al intentar modificar tu dirección de entrega. Por favor, proporciónanos los detalles de tu pedido y la nueva dirección que te gustaría actualizar, y te ayudaremos a realizar los cambios necesarios.",Tengo problemas para modificar la dirección de entrega,"Lamentamos la inconveniencia que estás enfrentando al intentar modificar tu dirección de entrega. Por favor, proporciónanos los detalles de tu pedido y la nueva dirección que te gustaría actualizar, y te ayudaremos a realizar los cambios necesarios.",128,71
+bitext-03328,3328,CANCEL,check_cancellation_fee,I don't know what I have to do to see the early exit charge,"No problem! To check the early exit charge, you can simply reach out to our customer service department. They will provide you with all the necessary information regarding the cancellation penalty.",0.8034188034188035,"Categoría: CANCEL
+Intención: check_cancellation_fee
+Pregunta frecuente: No sé qué tengo que hacer para ver el cargo por salida anticipada
+Procedimiento recomendado: ¡No hay problema! Para verificar el cargo por salida anticipada, simplemente podés ponerte en contacto con nuestro departamento de atención al cliente. Ellos te proporcionarán toda la información necesaria sobre la penalización por cancelación.",No sé qué tengo que hacer para ver el cargo por salida anticipada,"¡No hay problema! Para verificar el cargo por salida anticipada, simplemente podés ponerte en contacto con nuestro departamento de atención al cliente. Ellos te proporcionarán toda la información necesaria sobre la penalización por cancelación.",126,75
+bitext-03353,3353,CANCEL,check_cancellation_fee,how do i see the termination penalty,"I'll get right on it! To view the termination penalty, you can refer to our terms and conditions page on our website. There, you will find detailed information about the penalties and fees associated with early termination. Additionally, you can reach out to our customer service team for further assistance with any specific questions you may have about the termination penalty.",0.5957446808510638,"Categoría: CANCEL
+Intención: check_cancellation_fee
+Pregunta frecuente: ¿cómo veo la penalización por terminación?
+Procedimiento recomendado: ¡Voy a ponerme en ello! Para ver la penalización por terminación, podés consultar nuestra página de términos y condiciones en nuestro sitio web. Allí encontrarás información detallada sobre las penalizaciones y tarifas asociadas con la terminación anticipada. Además, podés comunicarte con nuestro equipo de atención al cliente para obtener más ayuda con cualquier pregunta específica que tengas sobre la penalización por terminación.",¿cómo veo la penalización por terminación?,"¡Voy a ponerme en ello! Para ver la penalización por terminación, podés consultar nuestra página de términos y condiciones en nuestro sitio web. Allí encontrarás información detallada sobre las penalizaciones y tarifas asociadas con la terminación anticipada. Además, podés comunicarte con nuestro equipo de atención al cliente para obtener más ayuda con cualquier pregunta específica que tengas sobre la penalización por terminación.",152,106
+bitext-03880,3880,CANCEL,check_cancellation_fee,help checking theearly exit charge,"Sure, I can assist you in checking the early exit charge for your account. To do so, please log in to your account and navigate to the ""Billing"" section. There, you should be able to find all the details regarding any early exit charges that may apply. If you encounter any issues or need further assistance, feel free to reach out to our customer support team. They will be more than happy to help you with any queries you may have.",0.5405405405405406,"Categoría: CANCEL
+Intención: check_cancellation_fee
+Pregunta frecuente: ayuda para verificar el cargo por salida anticipada
+Procedimiento recomendado: Claro, puedo ayudarte a verificar el cargo por salida anticipada de tu cuenta. Para hacerlo, por favor inicia sesión en tu cuenta y navega a la sección de ""Facturación"". Allí, deberías poder encontrar todos los detalles sobre cualquier cargo por salida anticipada que pueda aplicarse. Si encuentras algún problema o necesitas más ayuda, no dudes en comunicarte con nuestro equipo de soporte al cliente. Estarán más que felices de ayudarte con cualquier consulta que puedas tener.",ayuda para verificar el cargo por salida anticipada,"Claro, puedo ayudarte a verificar el cargo por salida anticipada de tu cuenta. Para hacerlo, por favor inicia sesión en tu cuenta y navega a la sección de ""Facturación"". Allí, deberías poder encontrar todos los detalles sobre cualquier cargo por salida anticipada que pueda aplicarse. Si encuentras algún problema o necesitas más ayuda, no dudes en comunicarte con nuestro equipo de soporte al cliente. Estarán más que felices de ayudarte con cualquier consulta que puedas tener.",175,121
+bitext-03988,3988,INVOICE,check_invoice,I do not know how to give a quick look at my bill #00108,"I get it your uncertainty about how to quickly check the details of your bill with the number #{{Invoice Number}}. It's important to have easy access to such information. To give you a quick look at your bill, you can try logging into your account on our website and navigating to the 'Invoice' section. If you're having trouble finding it, I can provide step-by-step instructions or guide you through the process. Just let me know how I can assist you further. Remember, I'm here to support you and ensure you have a seamless experience.",0.5420560747663551,"Categoría: INVOICE
+Intención: check_invoice
+Pregunta frecuente: No sé cómo echar un vistazo rápido a mi factura #00108
+Procedimiento recomendado: Entiendo tu incertidumbre sobre cómo revisar rápidamente los detalles de tu factura con el número #{{Invoice Number}}. Es importante tener fácil acceso a esa información. Para darte un vistazo rápido a tu factura, podés intentar iniciar sesión en tu cuenta en nuestro sitio web y navegar a la sección 'Factura'. Si tenés problemas para encontrarlo, puedo proporcionarte instrucciones paso a paso o guiarte a través del proceso. Solo haceme saber cómo puedo ayudarte más. Recordá, estoy aquí para apoyarte y asegurarme de que tengas una experiencia sin inconvenientes.",No sé cómo echar un vistazo rápido a mi factura #00108,"Entiendo tu incertidumbre sobre cómo revisar rápidamente los detalles de tu factura con el número #{{Invoice Number}}. Es importante tener fácil acceso a esa información. Para darte un vistazo rápido a tu factura, podés intentar iniciar sesión en tu cuenta en nuestro sitio web y navegar a la sección 'Factura'. Si tenés problemas para encontrarlo, puedo proporcionarte instrucciones paso a paso o guiarte a través del proceso. Solo haceme saber cómo puedo ayudarte más. Recordá, estoy aquí para apoyarte y asegurarme de que tengas una experiencia sin inconvenientes.",203,142
+bitext-04140,4140,INVOICE,check_invoice,help to locate the bill from {{Person Name}},"I understand your need to locate the bill from {{Salutation}} {{Client Last Name}}. Rest assured, I'm here to help you with that. Can you please provide me with any additional information such as the {{Date Range}} or any other details that could assist in narrowing down the search? This way, I'll be able to provide you with more accurate guidance on how to locate the bill you're looking for.",0.4646464646464646,"Categoría: INVOICE
+Intención: check_invoice
+Pregunta frecuente: ayuda para localizar la factura de {{Person Name}}
+Procedimiento recomendado: Entiendo tu necesidad de localizar la factura de {{Salutation}} {{Client Last Name}}. Ten la seguridad de que estoy aquí para ayudarte con eso. ¿Podrías proporcionarme información adicional como el {{Date Range}} o cualquier otro detalle que pueda ayudar a acotar la búsqueda? De esta manera, podré ofrecerte una guía más precisa sobre cómo localizar la factura que estás buscando.",ayuda para localizar la factura de {{Person Name}},"Entiendo tu necesidad de localizar la factura de {{Salutation}} {{Client Last Name}}. Ten la seguridad de que estoy aquí para ayudarte con eso. ¿Podrías proporcionarme información adicional como el {{Date Range}} o cualquier otro detalle que pueda ayudar a acotar la búsqueda? De esta manera, podré ofrecerte una guía más precisa sobre cómo localizar la factura que estás buscando.",169,105
+bitext-04400,4400,INVOICE,check_invoice,give a quick look at the invoice #12588,I can see that you would like me to quickly review the invoice with the number {{Invoice Number}}. Let me pull up the details and provide you with the necessary information. Please hold on for a moment while I retrieve the invoice for you.,0.5111111111111111,"Categoría: INVOICE
+Intención: check_invoice
+Pregunta frecuente: echale un vistazo rápido a la factura #12588
+Procedimiento recomendado: Veo que te gustaría que revisara rápidamente la factura con el número {{Invoice Number}}. Déjame buscar los detalles y proporcionarte la información necesaria. Por favor, espera un momento mientras recupero la factura para ti.",echale un vistazo rápido a la factura #12588,"Veo que te gustaría que revisara rápidamente la factura con el número {{Invoice Number}}. Déjame buscar los detalles y proporcionarte la información necesaria. Por favor, espera un momento mientras recupero la factura para ti.",136,72
+bitext-05729,5729,PAYMENT,check_payment_methods,can you help me see the accepted payment options?,"For sure! I'm here to assist you in exploring our accepted payment options. Providing customers with a seamless and convenient payment experience is our utmost priority. Here is a comprehensive list of our accepted payment methods:
+
+- **Credit/Debit Cards:** We accept all major credit and debit cards, including Visa, Mastercard, and American Express.
+- **PayPal:** A globally recognized and secure online payment platform trusted by millions.
+- **Bank Transfers:** Enable direct payments from your bank account to ours for added convenience.
+- **Mobile Payment:** Experience the ease of paying with mobile payment options such as Apple Pay and Google Pay.
+- **Other Digital Wallets:** We also support other reliable digital wallets like Samsung Pay, Amazon Pay, and Stripe.
+
+Should you have any queries or need further assistance regarding any specific payment option, please don't hesitate to let me know. I'm here to ensure you find the best payment method that suits your needs.",0.6373626373626373,"Categoría: PAYMENT
+Intención: check_payment_methods
+Pregunta frecuente: ¿Podés ayudarme a ver las opciones de pago aceptadas?
+Procedimiento recomendado: ¡Por supuesto! Estoy aquí para ayudarte a explorar nuestras opciones de pago aceptadas. Proporcionar a los clientes una experiencia de pago fluida y conveniente es nuestra máxima prioridad. Aquí tenés una lista completa de nuestros métodos de pago aceptados:
+
+- **Tarjetas de Crédito/Débito:** Aceptamos todas las principales tarjetas de crédito y débito, incluyendo Visa, Mastercard y American Express.
+- **PayPal:** Una plataforma de pago en línea reconocida a nivel mundial y segura, confiada por millones.
+- **Transferencias Bancarias:** Permiten pagos directos desde tu cuenta bancaria a la nuestra para mayor comodidad.
+- **Pago Móvil:** Experimentá la facilidad de pagar con opciones de pago móvil como Apple Pay y Google Pay.
+- **Otros Monederos Digitales:** También apoyamos otros monederos digitales confiables como Samsung Pay, Amazon Pay y Stripe.
+
+Si tenés alguna consulta o necesitás más ayuda respecto a alguna opción de pago específica, no dudes en decírmelo. Estoy aquí para asegurarme de que encuentres el mejor método de pago que se adapte a tus necesidades.",¿Podés ayudarme a ver las opciones de pago aceptadas?,"¡Por supuesto! Estoy aquí para ayudarte a explorar nuestras opciones de pago aceptadas. Proporcionar a los clientes una experiencia de pago fluida y conveniente es nuestra máxima prioridad. Aquí tenés una lista completa de nuestros métodos de pago aceptados:
+
+- **Tarjetas de Crédito/Débito:** Aceptamos todas las principales tarjetas de crédito y débito, incluyendo Visa, Mastercard y American Express.
+- **PayPal:** Una plataforma de pago en línea reconocida a nivel mundial y segura, confiada por millones.
+- **Transferencias Bancarias:** Permiten pagos directos desde tu cuenta bancaria a la nuestra para mayor comodidad.
+- **Pago Móvil:** Experimentá la facilidad de pagar con opciones de pago móvil como Apple Pay y Google Pay.
+- **Otros Monederos Digitales:** También apoyamos otros monederos digitales confiables como Samsung Pay, Amazon Pay y Stripe.
+
+Si tenés alguna consulta o necesitás más ayuda respecto a alguna opción de pago específica, no dudes en decírmelo. Estoy aquí para asegurarme de que encuentres el mejor método de pago que se adapte a tus necesidades.",279,263
+bitext-05738,5738,PAYMENT,check_payment_methods,help me see what payment options ya accept,"Of course! I'd be more than happy to assist you in discovering the payment options we accept. At our company, we offer a diverse range of payment methods to cater to your convenience. Some of the accepted options include credit/debit cards, PayPal, bank transfers, Apple Pay, and Google Wallet. These options ensure you have flexibility when making your purchase. If you need any further information or have any specific questions, feel free to let me know. I'm here to help!",0.611764705882353,"Categoría: PAYMENT
+Intención: check_payment_methods
+Pregunta frecuente: ayúdame a ver qué opciones de pago aceptan
+Procedimiento recomendado: ¡Por supuesto! Estaré más que feliz de ayudarte a descubrir las opciones de pago que aceptamos. En nuestra empresa, ofrecemos una variedad de métodos de pago para tu conveniencia. Algunas de las opciones aceptadas incluyen tarjetas de crédito/débito, PayPal, transferencias bancarias, Apple Pay y Google Wallet. Estas opciones te aseguran flexibilidad al momento de realizar tu compra. Si necesitas más información o tenés alguna pregunta específica, no dudes en decírmelo. ¡Estoy aquí para ayudar!",ayúdame a ver qué opciones de pago aceptan,"¡Por supuesto! Estaré más que feliz de ayudarte a descubrir las opciones de pago que aceptamos. En nuestra empresa, ofrecemos una variedad de métodos de pago para tu conveniencia. Algunas de las opciones aceptadas incluyen tarjetas de crédito/débito, PayPal, transferencias bancarias, Apple Pay y Google Wallet. Estas opciones te aseguran flexibilidad al momento de realizar tu compra. Si necesitas más información o tenés alguna pregunta específica, no dudes en decírmelo. ¡Estoy aquí para ayudar!",181,130
+bitext-05741,5741,PAYMENT,check_payment_methods,i need help checking ur allowed paymeny modalities,"Assuredly! I'm delighted to assist you in checking our allowed payment modalities. We understand the significance of having various options to cater to your preferences. Here's a quick and comprehensive overview of our accepted payment methods:
+
+- **Credit/Debit Card:** You can use major card brands such as Visa, Mastercard, and American Express for seamless transactions.
+- **PayPal:** A popular and secure online payment platform that offers convenience and peace of mind.
+- **Bank Transfer:** This option allows you to make direct payments from your bank account.
+- **Apple Pay:** If you're an Apple user, you can enjoy the simplicity and security of paying with Apple Pay.
+- **Google Pay:** Google Pay provides a fast and easy checkout experience for Android users.
+
+Please note that these are our primary payment methods, and their availability may vary depending on your location. If you have any specific questions or need further assistance with any of these options, feel free to let me know. We're here to ensure your payment experience is smooth and hassle-free!",0.7526881720430108,"Categoría: PAYMENT
+Intención: check_payment_methods
+Pregunta frecuente: necesito ayuda para verificar las modalidades de pago permitidas
+Procedimiento recomendado: ¡Por supuesto! Estoy encantado de ayudarte a verificar nuestras modalidades de pago permitidas. Entendemos la importancia de tener varias opciones para adaptarnos a tus preferencias. Aquí tienes un resumen rápido y completo de nuestros métodos de pago aceptados:
+
+- **Tarjeta de Crédito/Débito:** Puedes usar marcas de tarjetas importantes como Visa, Mastercard y American Express para transacciones sin inconvenientes.
+- **PayPal:** Una plataforma de pago en línea popular y segura que ofrece comodidad y tranquilidad.
+- **Transferencia Bancaria:** Esta opción te permite realizar pagos directos desde tu cuenta bancaria.
+- **Apple Pay:** Si eres usuario de Apple, puedes disfrutar de la simplicidad y seguridad de pagar con Apple Pay.
+- **Google Pay:** Google Pay proporciona una experiencia de pago rápida y fácil para usuarios de Android.
+
+Ten en cuenta que estos son nuestros métodos de pago principales, y su disponibilidad puede variar según tu ubicación. Si tienes alguna pregunta específica o necesitas más ayuda con alguna de estas opciones, no dudes en decírmelo. ¡Estamos aquí para asegurarnos de que tu experiencia de pago sea fluida y sin complicaciones!",necesito ayuda para verificar las modalidades de pago permitidas,"¡Por supuesto! Estoy encantado de ayudarte a verificar nuestras modalidades de pago permitidas. Entendemos la importancia de tener varias opciones para adaptarnos a tus preferencias. Aquí tienes un resumen rápido y completo de nuestros métodos de pago aceptados:
+
+- **Tarjeta de Crédito/Débito:** Puedes usar marcas de tarjetas importantes como Visa, Mastercard y American Express para transacciones sin inconvenientes.
+- **PayPal:** Una plataforma de pago en línea popular y segura que ofrece comodidad y tranquilidad.
+- **Transferencia Bancaria:** Esta opción te permite realizar pagos directos desde tu cuenta bancaria.
+- **Apple Pay:** Si eres usuario de Apple, puedes disfrutar de la simplicidad y seguridad de pagar con Apple Pay.
+- **Google Pay:** Google Pay proporciona una experiencia de pago rápida y fácil para usuarios de Android.
+
+Ten en cuenta que estos son nuestros métodos de pago principales, y su disponibilidad puede variar según tu ubicación. Si tienes alguna pregunta específica o necesitas más ayuda con alguna de estas opciones, no dudes en decírmelo. ¡Estamos aquí para asegurarnos de que tu experiencia de pago sea fluida y sin complicaciones!",300,263
+bitext-06272,6272,REFUND,check_refund_policy,can I see under what circumstances can I request a refund?,"Certainly! I completely understand your desire to have a clear understanding of the circumstances under which you can request a refund. Here's a breakdown of common scenarios:
+
+1. **Product/Service Defect:** If the product or service you received has a defect or does not match the provided description, you are typically eligible for a refund.
+2. **Cancellation within the Grace Period:** If you change your mind and decide to cancel your purchase within the specified grace period, you can usually request a refund.
+3. **Unauthorized Charges:** If you notice any charges on your account that you did not authorize, we are here to investigate and assist you with a refund.
+4. **Event Cancellation:** If you purchased tickets for an event that gets canceled and no rescheduled date is announced, you would generally be eligible for a refund.
+5. **Duplicate Charges:** If you have been charged multiple times for the same item in error, please let us know so that we can promptly rectify the situation.
+6. **Non-Delivery of Goods/Services:** If you have not received the goods or services you ordered within the expected timeframe, you may qualify for a refund.
+
+Please keep in mind that specific refund policies may vary depending on the vendor or service provider. It's always a good idea to consult their terms and conditions or directly reach out to them for more information. If you have a specific order or situation, feel free to provide me with the necessary details, such as the {{Order Number}}, and I'll be happy to assist you further.
+
+Is there anything else I can help you with today?",0.4615384615384615,"Categoría: REFUND
+Intención: check_refund_policy
+Pregunta frecuente: ¿Puedo ver bajo qué circunstancias puedo solicitar un reembolso?
+Procedimiento recomendado: ¡Por supuesto! Entiendo completamente tu deseo de tener una comprensión clara de las circunstancias bajo las cuales puedes solicitar un reembolso. Aquí tienes un desglose de escenarios comunes:
+
+1. **Defecto del Producto/Servicio:** Si el producto o servicio que recibiste tiene un defecto o no coincide con la descripción proporcionada, generalmente eres elegible para un reembolso.
+2. **Cancelación dentro del Período de Gracia:** Si cambias de opinión y decides cancelar tu compra dentro del período de gracia especificado, por lo general puedes solicitar un reembolso.
+3. **Cargos No Autorizados:** Si notas algún cargo en tu cuenta que no autorizaste, estamos aquí para investigar y asistirte con un reembolso.
+4. **Cancelación de Evento:** Si compraste entradas para un evento que se cancela y no se anuncia una nueva fecha, generalmente serías elegible para un reembolso.
+5. **Cargos Duplicados:** Si te han cobrado varias veces por el mismo artículo por error, por favor háznoslo saber para que podamos rectificar la situación rápidamente.
+6. **No Entrega de Bienes/Servicios:** Si no has recibido los bienes o servicios que pediste dentro del plazo esperado, puedes calificar para un reembolso.
+
+Ten en cuenta que las políticas de reembolso específicas pueden variar según el vendedor o proveedor de servicios. Siempre es una buena idea consultar sus términos y condiciones o contactarlos directamente para obtener más información. Si tienes un pedido o situación específica, no dudes en proporcionarme los detalles necesarios, como el {{Order Number}}, y estaré encantado de ayudarte más.
+
+¿Hay algo más en lo que pueda ayudarte hoy?",¿Puedo ver bajo qué circunstancias puedo solicitar un reembolso?,"¡Por supuesto! Entiendo completamente tu deseo de tener una comprensión clara de las circunstancias bajo las cuales puedes solicitar un reembolso. Aquí tienes un desglose de escenarios comunes:
+
+1. **Defecto del Producto/Servicio:** Si el producto o servicio que recibiste tiene un defecto o no coincide con la descripción proporcionada, generalmente eres elegible para un reembolso.
+2. **Cancelación dentro del Período de Gracia:** Si cambias de opinión y decides cancelar tu compra dentro del período de gracia especificado, por lo general puedes solicitar un reembolso.
+3. **Cargos No Autorizados:** Si notas algún cargo en tu cuenta que no autorizaste, estamos aquí para investigar y asistirte con un reembolso.
+4. **Cancelación de Evento:** Si compraste entradas para un evento que se cancela y no se anuncia una nueva fecha, generalmente serías elegible para un reembolso.
+5. **Cargos Duplicados:** Si te han cobrado varias veces por el mismo artículo por error, por favor háznoslo saber para que podamos rectificar la situación rápidamente.
+6. **No Entrega de Bienes/Servicios:** Si no has recibido los bienes o servicios que pediste dentro del plazo esperado, puedes calificar para un reembolso.
+
+Ten en cuenta que las políticas de reembolso específicas pueden variar según el vendedor o proveedor de servicios. Siempre es una buena idea consultar sus términos y condiciones o contactarlos directamente para obtener más información. Si tienes un pedido o situación específica, no dudes en proporcionarme los detalles necesarios, como el {{Order Number}}, y estaré encantado de ayudarte más.
+
+¿Hay algo más en lo que pueda ayudarte hoy?",414,381
+bitext-06401,6401,REFUND,check_refund_policy,i have to check in what cases can i request a reimbursement,"Unquestionably! I completely understand your need to check the situations in which you can request a reimbursement. Let me provide you with a clear breakdown of the most common scenarios:
+
+1. **Product Defect:** If the product you purchased is defective or doesn't meet your expectations, you may be eligible for a reimbursement.
+2. **Incorrect or Incomplete Order:** If you receive an incorrect or incomplete order, rest assured you can request a reimbursement for the items that are missing or incorrect.
+3. **Cancellation within Grace Period:** If you change your mind about your purchase within the grace period specified in the terms and conditions, you should be able to request a reimbursement.
+4. **Unauthorized Charges:** If you notice any unauthorized charges on your account, please contact our customer support immediately. We will investigate the charges and assist you in resolving the issue, including the possibility of a reimbursement.
+5. **Late Delivery or Non-Delivery:** If your order doesn't arrive within the estimated delivery timeframe or is not delivered at all, you may be entitled to a reimbursement.
+6. **Dissatisfaction with Service:** If you are dissatisfied with the service provided, please let us know. Depending on the circumstances, we may offer a reimbursement as a gesture of goodwill.
+
+Remember that specific refund policies may vary depending on the vendor or service provider, so it's always a good idea to review the terms and conditions or contact the vendor directly for more information. If you have any specific questions or concerns about a recent purchase, please provide me with the necessary details, such as the order number, and I'll be more than happy to assist you further.
+
+Is there anything else I can help you with?",0.8067226890756303,"Categoría: REFUND
+Intención: check_refund_policy
+Pregunta frecuente: tengo que verificar en qué casos puedo solicitar un reembolso
+Procedimiento recomendado: ¡Sin duda! Entiendo completamente tu necesidad de verificar las situaciones en las que puedes solicitar un reembolso. Déjame proporcionarte un desglose claro de los escenarios más comunes:
+
+1. **Defecto del Producto:** Si el producto que compraste está defectuoso o no cumple con tus expectativas, podrías ser elegible para un reembolso.
+2. **Pedido Incorrecto o Incompleto:** Si recibís un pedido incorrecto o incompleto, ten la seguridad de que podés solicitar un reembolso por los artículos que faltan o son incorrectos.
+3. **Cancelación dentro del Período de Gracia:** Si cambias de opinión sobre tu compra dentro del período de gracia especificado en los términos y condiciones, deberías poder solicitar un reembolso.
+4. **Cargos No Autorizados:** Si notás algún cargo no autorizado en tu cuenta, por favor contactá a nuestro soporte al cliente de inmediato. Investigaremos los cargos y te ayudaremos a resolver el problema, incluyendo la posibilidad de un reembolso.
+5. **Entrega Tardía o No Entrega:** Si tu pedido no llega dentro del plazo estimado de entrega o no se entrega en absoluto, podrías tener derecho a un reembolso.
+6. **Insatisfacción con el Servicio:** Si estás insatisfecho con el servicio proporcionado, por favor háznoslo saber. Dependiendo de las circunstancias, podríamos ofrecer un reembolso como un gesto de buena voluntad.
+
+Recuerda que las políticas de reembolso específicas pueden variar según el vendedor o proveedor de servicios, así que siempre es una buena idea revisar los términos y condiciones o contactar directamente al vendedor para más información. Si tenés alguna pregunta o inquietud específica sobre una compra reciente, por favor proporcioname los detalles necesarios, como el número de pedido, y estaré más que feliz de ayudarte más.
+
+¿Hay algo más en lo que pueda ayudarte?",tengo que verificar en qué casos puedo solicitar un reembolso,"¡Sin duda! Entiendo completamente tu necesidad de verificar las situaciones en las que puedes solicitar un reembolso. Déjame proporcionarte un desglose claro de los escenarios más comunes:
+
+1. **Defecto del Producto:** Si el producto que compraste está defectuoso o no cumple con tus expectativas, podrías ser elegible para un reembolso.
+2. **Pedido Incorrecto o Incompleto:** Si recibís un pedido incorrecto o incompleto, ten la seguridad de que podés solicitar un reembolso por los artículos que faltan o son incorrectos.
+3. **Cancelación dentro del Período de Gracia:** Si cambias de opinión sobre tu compra dentro del período de gracia especificado en los términos y condiciones, deberías poder solicitar un reembolso.
+4. **Cargos No Autorizados:** Si notás algún cargo no autorizado en tu cuenta, por favor contactá a nuestro soporte al cliente de inmediato. Investigaremos los cargos y te ayudaremos a resolver el problema, incluyendo la posibilidad de un reembolso.
+5. **Entrega Tardía o No Entrega:** Si tu pedido no llega dentro del plazo estimado de entrega o no se entrega en absoluto, podrías tener derecho a un reembolso.
+6. **Insatisfacción con el Servicio:** Si estás insatisfecho con el servicio proporcionado, por favor háznoslo saber. Dependiendo de las circunstancias, podríamos ofrecer un reembolso como un gesto de buena voluntad.
+
+Recuerda que las políticas de reembolso específicas pueden variar según el vendedor o proveedor de servicios, así que siempre es una buena idea revisar los términos y condiciones o contactar directamente al vendedor para más información. Si tenés alguna pregunta o inquietud específica sobre una compra reciente, por favor proporcioname los detalles necesarios, como el número de pedido, y estaré más que feliz de ayudarte más.
+
+¿Hay algo más en lo que pueda ayudarte?",434,427
+bitext-06780,6780,REFUND,check_refund_policy,see in which situations can I request a refund,"I'm on it! I understand your need for clear information about the various situations in which you can request a refund. Here are some common scenarios where you may be eligible for a refund:
+
+1. **Product/Service Defect:** If you receive a defective product or the service doesn't meet your expectations, you can usually request a refund.
+2. **Cancellation within Grace Period:** Many vendors allow a specific grace period during which you can cancel your purchase and receive a refund.
+3. **Unauthorized Charges:** If you notice any unauthorized charges on your account or credit card statement, please inform us immediately, and we'll assist you in resolving the issue and processing a refund if necessary.
+4. **Event Cancellation:** If an event you've purchased tickets for gets canceled and isn't rescheduled, you may be eligible for a refund.
+5. **Non-Delivery of Goods/Services:** If you don't receive the purchased product or service within the promised timeframe, you can request a refund.
+6. **Dissatisfaction with the Product/Service:** In some cases, if you're not satisfied with a product or service, you may be able to request a refund. The specific policies regarding dissatisfaction refunds may vary depending on the vendor or service provider.
+
+These are just general situations where refunds are commonly granted. It's important to note that each vendor or service provider may have their own refund policies and guidelines. Therefore, I recommend referring to the vendor's terms and conditions or contacting their customer support directly for more specific information regarding your particular situation.
+
+If you have any further questions or if there's a specific order or concern you would like me to review, please provide me with the necessary details, and I'll be happy to assist you further.",0.5471698113207547,"Categoría: REFUND
+Intención: check_refund_policy
+Pregunta frecuente: ver en qué situaciones puedo solicitar un reembolso
+Procedimiento recomendado: ¡Estoy en eso! Entiendo tu necesidad de información clara sobre las diversas situaciones en las que puedes solicitar un reembolso. Aquí hay algunos escenarios comunes donde podrías ser elegible para un reembolso:
+
+1. **Defecto en el Producto/Servicio:** Si recibís un producto defectuoso o el servicio no cumple con tus expectativas, generalmente podés solicitar un reembolso.
+2. **Cancelación dentro del Período de Gracia:** Muchos vendedores permiten un período de gracia específico durante el cual podés cancelar tu compra y recibir un reembolso.
+3. **Cargos No Autorizados:** Si notás algún cargo no autorizado en tu cuenta o en el estado de cuenta de tu tarjeta de crédito, por favor informanos de inmediato, y te ayudaremos a resolver el problema y procesar un reembolso si es necesario.
+4. **Cancelación de Evento:** Si un evento para el cual compraste entradas se cancela y no se reprograma, podrías ser elegible para un reembolso.
+5. **No Entrega de Bienes/Servicios:** Si no recibís el producto o servicio comprado dentro del plazo prometido, podés solicitar un reembolso.
+6. **Insatisfacción con el Producto/Servicio:** En algunos casos, si no estás satisfecho con un producto o servicio, podrías poder solicitar un reembolso. Las políticas específicas sobre reembolsos por insatisfacción pueden variar según el vendedor o proveedor de servicios.
+
+Estas son solo situaciones generales donde comúnmente se otorgan reembolsos. Es importante tener en cuenta que cada vendedor o proveedor de servicios puede tener sus propias políticas y pautas de reembolso. Por lo tanto, te recomiendo consultar los términos y condiciones del vendedor o contactar directamente a su soporte al cliente para obtener información más específica sobre tu situación particular.
+
+Si tenés más preguntas o si hay un pedido o preocupación específica que te gustaría que revisara, por favor proporcioname los detalles necesarios, y estaré encantado de ayudarte más.",ver en qué situaciones puedo solicitar un reembolso,"¡Estoy en eso! Entiendo tu necesidad de información clara sobre las diversas situaciones en las que puedes solicitar un reembolso. Aquí hay algunos escenarios comunes donde podrías ser elegible para un reembolso:
+
+1. **Defecto en el Producto/Servicio:** Si recibís un producto defectuoso o el servicio no cumple con tus expectativas, generalmente podés solicitar un reembolso.
+2. **Cancelación dentro del Período de Gracia:** Muchos vendedores permiten un período de gracia específico durante el cual podés cancelar tu compra y recibir un reembolso.
+3. **Cargos No Autorizados:** Si notás algún cargo no autorizado en tu cuenta o en el estado de cuenta de tu tarjeta de crédito, por favor informanos de inmediato, y te ayudaremos a resolver el problema y procesar un reembolso si es necesario.
+4. **Cancelación de Evento:** Si un evento para el cual compraste entradas se cancela y no se reprograma, podrías ser elegible para un reembolso.
+5. **No Entrega de Bienes/Servicios:** Si no recibís el producto o servicio comprado dentro del plazo prometido, podés solicitar un reembolso.
+6. **Insatisfacción con el Producto/Servicio:** En algunos casos, si no estás satisfecho con un producto o servicio, podrías poder solicitar un reembolso. Las políticas específicas sobre reembolsos por insatisfacción pueden variar según el vendedor o proveedor de servicios.
+
+Estas son solo situaciones generales donde comúnmente se otorgan reembolsos. Es importante tener en cuenta que cada vendedor o proveedor de servicios puede tener sus propias políticas y pautas de reembolso. Por lo tanto, te recomiendo consultar los términos y condiciones del vendedor o contactar directamente a su soporte al cliente para obtener información más específica sobre tu situación particular.
+
+Si tenés más preguntas o si hay un pedido o preocupación específica que te gustaría que revisara, por favor proporcioname los detalles necesarios, y estaré encantado de ayudarte más.",436,440
+bitext-07010,7010,FEEDBACK,complaint,help me to lodgea complaint against ur business,"I acknowledge that you need assistance in lodging a complaint against our business, and I sincerely apologize for any negative experience that led to this. Your feedback is crucial to us, as it allows us to address any issues and improve our services. To ensure an efficient handling of your complaint, I kindly request you to provide specific details regarding the incident, such as the date, time, location, and any other relevant information. This will enable us to investigate your complaint thoroughly and take appropriate actions to resolve the matter. Rest assured that your complaint will be treated seriously and dealt with promptly.",0.5111111111111111,"Categoría: FEEDBACK
+Intención: complaint
+Pregunta frecuente: ayúdame a presentar una queja contra tu negocio
+Procedimiento recomendado: Reconozco que necesitas ayuda para presentar una queja contra nuestro negocio, y lamento sinceramente cualquier experiencia negativa que haya llevado a esto. Tu opinión es crucial para nosotros, ya que nos permite abordar cualquier problema y mejorar nuestros servicios. Para asegurar un manejo eficiente de tu queja, te pido amablemente que proporciones detalles específicos sobre el incidente, como la fecha, hora, ubicación y cualquier otra información relevante. Esto nos permitirá investigar tu queja a fondo y tomar las acciones apropiadas para resolver el asunto. Ten la seguridad de que tu queja será tratada con seriedad y atendida de manera rápida.",ayúdame a presentar una queja contra tu negocio,"Reconozco que necesitas ayuda para presentar una queja contra nuestro negocio, y lamento sinceramente cualquier experiencia negativa que haya llevado a esto. Tu opinión es crucial para nosotros, ya que nos permite abordar cualquier problema y mejorar nuestros servicios. Para asegurar un manejo eficiente de tu queja, te pido amablemente que proporciones detalles específicos sobre el incidente, como la fecha, hora, ubicación y cualquier otra información relevante. Esto nos permitirá investigar tu queja a fondo y tomar las acciones apropiadas para resolver el asunto. Ten la seguridad de que tu queja será tratada con seriedad y atendida de manera rápida.",201,152
+bitext-07749,7749,FEEDBACK,complaint,want help making a reclamation against ur company,"I've picked up that you're seeking assistance in making a reclamation against our company. I'm truly sorry for any negative experience you may have had, and I'm here to help you resolve this issue. To begin with, could you please provide me with the specifics of your reclamation? Your insights are important to us, and we will take them into consideration as we work towards a solution. Thank you for bringing this matter to our attention, and I assure you that we will do our best to address your concerns and make things right. How can I best assist you further?",0.4259259259259259,"Categoría: FEEDBACK
+Intención: complaint
+Pregunta frecuente: quiero ayuda para hacer una reclamación contra su empresa
+Procedimiento recomendado: He notado que estás buscando asistencia para hacer una reclamación contra nuestra empresa. Lamento mucho cualquier experiencia negativa que hayas tenido, y estoy aquí para ayudarte a resolver este problema. Para empezar, ¿podrías proporcionarme los detalles de tu reclamación? Tus comentarios son importantes para nosotros, y los tendremos en cuenta mientras trabajamos hacia una solución. Gracias por traer este asunto a nuestra atención, y te aseguro que haremos nuestro mejor esfuerzo para abordar tus preocupaciones y corregir las cosas. ¿Cómo puedo asistirte mejor a continuación?",quiero ayuda para hacer una reclamación contra su empresa,"He notado que estás buscando asistencia para hacer una reclamación contra nuestra empresa. Lamento mucho cualquier experiencia negativa que hayas tenido, y estoy aquí para ayudarte a resolver este problema. Para empezar, ¿podrías proporcionarme los detalles de tu reclamación? Tus comentarios son importantes para nosotros, y los tendremos en cuenta mientras trabajamos hacia una solución. Gracias por traer este asunto a nuestra atención, y te aseguro que haremos nuestro mejor esfuerzo para abordar tus preocupaciones y corregir las cosas. ¿Cómo puedo asistirte mejor a continuación?",199,136
+bitext-07887,7887,FEEDBACK,complaint,want help to make a complaint,"I hear your frustration and I'm sorry to learn that you're seeking assistance in making a complaint. Your feedback is extremely valuable to us, so I assure you that your concerns will be given the utmost attention and consideration. To help you through the process, I kindly request you to provide detailed information about the issue you're facing. This will enable our team to thoroughly investigate the matter and work towards a suitable resolution. Rest assured, we are committed to addressing your complaint and improving our services based on your valuable input. What specific details would you like to share so that we can begin assisting you with your complaint?",0.4657534246575342,"Categoría: FEEDBACK
+Intención: complaint
+Pregunta frecuente: quiero ayuda para hacer una queja
+Procedimiento recomendado: Escucho tu frustración y lamento saber que estás buscando asistencia para hacer una queja. Tu opinión es extremadamente valiosa para nosotros, así que te aseguro que tus preocupaciones recibirán la máxima atención y consideración. Para ayudarte en el proceso, te pido amablemente que proporciones información detallada sobre el problema que estás enfrentando. Esto permitirá a nuestro equipo investigar a fondo el asunto y trabajar hacia una resolución adecuada. Ten la seguridad de que estamos comprometidos a abordar tu queja y mejorar nuestros servicios basándonos en tu valiosa opinión. ¿Qué detalles específicos te gustaría compartir para que podamos comenzar a ayudarte con tu queja?",quiero ayuda para hacer una queja,"Escucho tu frustración y lamento saber que estás buscando asistencia para hacer una queja. Tu opinión es extremadamente valiosa para nosotros, así que te aseguro que tus preocupaciones recibirán la máxima atención y consideración. Para ayudarte en el proceso, te pido amablemente que proporciones información detallada sobre el problema que estás enfrentando. Esto permitirá a nuestro equipo investigar a fondo el asunto y trabajar hacia una resolución adecuada. Ten la seguridad de que estamos comprometidos a abordar tu queja y mejorar nuestros servicios basándonos en tu valiosa opinión. ¿Qué detalles específicos te gustaría compartir para que podamos comenzar a ayudarte con tu queja?",202,153
+bitext-08177,8177,CONTACT,contact_customer_service,help to check what hours I can reach customer service,"Your input is valuable! I'm picking up that you need assistance in checking the hours when you can contact our customer service team. Our dedicated team is available to assist you during {{Customer Support Hours}}. You can reach out to them via phone at {{Customer Support Phone Number}} or through the Live Chat on our website at {{Website URL}}. If you have any other questions or concerns, feel free to let me know. I'm here to help!",0.8648648648648649,"Categoría: CONTACT
+Intención: contact_customer_service
+Pregunta frecuente: ayuda para verificar en qué horarios puedo contactar al servicio al cliente
+Procedimiento recomendado: ¡Tu consulta es valiosa! Estoy entendiendo que necesitas ayuda para verificar los horarios en los que puedes contactar a nuestro equipo de servicio al cliente. Nuestro equipo dedicado está disponible para asistirte durante {{Customer Support Hours}}. Puedes comunicarte con ellos por teléfono al {{Customer Support Phone Number}} o a través del Chat en Vivo en nuestro sitio web en {{Website URL}}. Si tienes alguna otra pregunta o inquietud, no dudes en decírmelo. ¡Estoy aquí para ayudar!",ayuda para verificar en qué horarios puedo contactar al servicio al cliente,"¡Tu consulta es valiosa! Estoy entendiendo que necesitas ayuda para verificar los horarios en los que puedes contactar a nuestro equipo de servicio al cliente. Nuestro equipo dedicado está disponible para asistirte durante {{Customer Support Hours}}. Puedes comunicarte con ellos por teléfono al {{Customer Support Phone Number}} o a través del Chat en Vivo en nuestro sitio web en {{Website URL}}. Si tienes alguna otra pregunta o inquietud, no dudes en decírmelo. ¡Estoy aquí para ayudar!",177,127
+bitext-08313,8313,CONTACT,contact_customer_service,need to see what hours customer assistance available is,"It's great to hear from you! I can see that you would like to know the operating hours of our customer assistance team. Our dedicated team is available to help you during {{Customer Assistance Hours}}. They are committed to addressing your concerns and ensuring your satisfaction. If you have any other questions or need further assistance, please feel free to ask.",0.6548672566371682,"Categoría: CONTACT
+Intención: contact_customer_service
+Pregunta frecuente: necesito saber en qué horarios está disponible la asistencia al cliente
+Procedimiento recomendado: ¡Es genial saber de vos! Puedo ver que te gustaría conocer el horario de atención de nuestro equipo de asistencia al cliente. Nuestro equipo dedicado está disponible para ayudarte durante {{Customer Assistance Hours}}. Están comprometidos a atender tus inquietudes y asegurar tu satisfacción. Si tenés alguna otra pregunta o necesitás más ayuda, no dudes en preguntar.",necesito saber en qué horarios está disponible la asistencia al cliente,"¡Es genial saber de vos! Puedo ver que te gustaría conocer el horario de atención de nuestro equipo de asistencia al cliente. Nuestro equipo dedicado está disponible para ayudarte durante {{Customer Assistance Hours}}. Están comprometidos a atender tus inquietudes y asegurar tu satisfacción. Si tenés alguna otra pregunta o necesitás más ayuda, no dudes en preguntar.",155,99
+bitext-08504,8504,CONTACT,contact_customer_service,is it possible to talk to customer support?,"Thank you for reaching out! I understand your need to connect with our customer support. Yes, it is definitely possible to talk to our customer support team. Our dedicated team is available during {{Customer Support Hours}} to assist you. You can reach us at {{Customer Support Phone Number}} or through the Live Chat on our website at {{Website URL}}. We are here to provide you with prompt and reliable assistance. Is there anything else I can help you with today?",0.46,"Categoría: CONTACT
+Intención: contact_customer_service
+Pregunta frecuente: ¿Es posible hablar con el soporte al cliente?
+Procedimiento recomendado: ¡Gracias por ponerte en contacto! Entiendo tu necesidad de comunicarte con nuestro soporte al cliente. Sí, definitivamente es posible hablar con nuestro equipo de soporte al cliente. Nuestro equipo dedicado está disponible durante {{Customer Support Hours}} para asistirte. Puedes contactarnos al {{Customer Support Phone Number}} o a través del Chat en Vivo en nuestro sitio web en {{Website URL}}. Estamos aquí para brindarte asistencia rápida y confiable. ¿Hay algo más en lo que pueda ayudarte hoy?",¿Es posible hablar con el soporte al cliente?,"¡Gracias por ponerte en contacto! Entiendo tu necesidad de comunicarte con nuestro soporte al cliente. Sí, definitivamente es posible hablar con nuestro equipo de soporte al cliente. Nuestro equipo dedicado está disponible durante {{Customer Support Hours}} para asistirte. Puedes contactarnos al {{Customer Support Phone Number}} o a través del Chat en Vivo en nuestro sitio web en {{Website URL}}. Estamos aquí para brindarte asistencia rápida y confiable. ¿Hay algo más en lo que pueda ayudarte hoy?",179,123
+bitext-09176,9176,CONTACT,contact_human_agent,I want help to speak to somebody,It's great to hear from you! I can see that you are looking for assistance and would like to speak to somebody. Our team of dedicated representatives is here to help you. Please bear with me for a moment while I connect you to the most suitable agent who can address your concerns. Your patience is greatly appreciated as we work to ensure you receive the personalized assistance you need.,0.5526315789473685,"Categoría: CONTACT
+Intención: contact_human_agent
+Pregunta frecuente: Quiero ayuda para hablar con alguien
+Procedimiento recomendado: ¡Es genial saber de vos! Puedo ver que estás buscando asistencia y te gustaría hablar con alguien. Nuestro equipo de representantes dedicados está aquí para ayudarte. Por favor, esperá un momento mientras te conecto con el agente más adecuado que pueda atender tus inquietudes. Agradecemos mucho tu paciencia mientras trabajamos para asegurarnos de que recibas la asistencia personalizada que necesitás.",Quiero ayuda para hablar con alguien,"¡Es genial saber de vos! Puedo ver que estás buscando asistencia y te gustaría hablar con alguien. Nuestro equipo de representantes dedicados está aquí para ayudarte. Por favor, esperá un momento mientras te conecto con el agente más adecuado que pueda atender tus inquietudes. Agradecemos mucho tu paciencia mientras trabajamos para asegurarnos de que recibas la asistencia personalizada que necesitás.",159,100
+bitext-09308,9308,CONTACT,contact_human_agent,how can i talk with an opertaor,"Thank you for reaching out! I see that you would like to connect with an operator for assistance. I'm here to help you with that. To speak with an operator, you can try calling our customer support helpline at {{Customer Support Phone Number}}. Our dedicated team is available {{Customer Support Hours}} to assist you. Alternatively, you can also reach out to us through the live chat feature on our website at {{Website URL}}. We'll make sure you're connected with a knowledgeable operator who will provide the support you need.",0.4657534246575342,"Categoría: CONTACT
+Intención: contact_human_agent
+Pregunta frecuente: ¿cómo puedo hablar con un operador?
+Procedimiento recomendado: ¡Gracias por ponerte en contacto! Veo que te gustaría conectarte con un operador para recibir asistencia. Estoy aquí para ayudarte con eso. Para hablar con un operador, puedes intentar llamar a nuestra línea de atención al cliente al {{Customer Support Phone Number}}. Nuestro equipo dedicado está disponible {{Customer Support Hours}} para asistirte. Alternativamente, también puedes comunicarte con nosotros a través de la función de chat en vivo en nuestro sitio web en {{Website URL}}. Nos aseguraremos de que te conectes con un operador capacitado que te brindará el apoyo que necesitas.",¿cómo puedo hablar con un operador?,"¡Gracias por ponerte en contacto! Veo que te gustaría conectarte con un operador para recibir asistencia. Estoy aquí para ayudarte con eso. Para hablar con un operador, puedes intentar llamar a nuestra línea de atención al cliente al {{Customer Support Phone Number}}. Nuestro equipo dedicado está disponible {{Customer Support Hours}} para asistirte. Alternativamente, también puedes comunicarte con nosotros a través de la función de chat en vivo en nuestro sitio web en {{Website URL}}. Nos aseguraremos de que te conectes con un operador capacitado que te brindará el apoyo que necesitas.",191,139
+bitext-09502,9502,CONTACT,contact_human_agent,I need assistance speaking with an assistant,"Happy to hear from you! I truly understand that you need assistance speaking with an assistant. Our team of dedicated human agents is here to help! To connect you with the right person, could you please provide some more details about the specific topic or issue you would like to discuss? This way, we can ensure that you receive the most tailored assistance possible. Your insights are invaluable, and we are committed to providing you with the support you need. While I gather this information, rest assured that we are preparing the best to assist you. We appreciate your patience and look forward to helping you soon!",0.5684210526315789,"Categoría: CONTACT
+Intención: contact_human_agent
+Pregunta frecuente: Necesito ayuda para hablar con un asistente
+Procedimiento recomendado: ¡Qué bueno saber de vos! Entiendo perfectamente que necesitás ayuda para hablar con un asistente. ¡Nuestro equipo de agentes humanos dedicados está aquí para ayudar! Para conectarte con la persona adecuada, ¿podrías proporcionarnos más detalles sobre el tema o problema específico que te gustaría discutir? De esta manera, podemos asegurarnos de que recibas la asistencia más personalizada posible. Tus comentarios son invaluables y estamos comprometidos a brindarte el apoyo que necesitás. Mientras reúno esta información, ten la seguridad de que estamos preparando lo mejor para asistirte. Agradecemos tu paciencia y esperamos poder ayudarte pronto.",Necesito ayuda para hablar con un asistente,"¡Qué bueno saber de vos! Entiendo perfectamente que necesitás ayuda para hablar con un asistente. ¡Nuestro equipo de agentes humanos dedicados está aquí para ayudar! Para conectarte con la persona adecuada, ¿podrías proporcionarnos más detalles sobre el tema o problema específico que te gustaría discutir? De esta manera, podemos asegurarnos de que recibas la asistencia más personalizada posible. Tus comentarios son invaluables y estamos comprometidos a brindarte el apoyo que necesitás. Mientras reúno esta información, ten la seguridad de que estamos preparando lo mejor para asistirte. Agradecemos tu paciencia y esperamos poder ayudarte pronto.",203,151
+bitext-10441,10441,ACCOUNT,create_account,creating new standard account for daughter,"That's fantastic! I'm thrilled to help you create a new {{Account Type}} account for your daughter. To get started, I'll need a few details. Could you please provide your daughter's full name, date of birth, and a preferred username? Once I have this information, I'll guide you through the account creation process step by step, ensuring a smooth experience. Rest assured that her security and privacy are of utmost importance to us, and we'll maintain the confidentiality of all the information shared. Let's make this process as seamless as possible for you and your daughter!",0.5675675675675675,"Categoría: ACCOUNT
+Intención: create_account
+Pregunta frecuente: creando una nueva cuenta estándar para mi hija
+Procedimiento recomendado: ¡Eso es fantástico! Estoy emocionado de ayudarte a crear una nueva cuenta de {{Account Type}} para tu hija. Para comenzar, necesitaré algunos detalles. ¿Podrías proporcionarme el nombre completo de tu hija, su fecha de nacimiento y un nombre de usuario preferido? Una vez que tenga esta información, te guiaré a través del proceso de creación de la cuenta paso a paso, asegurando una experiencia fluida. Ten la seguridad de que su seguridad y privacidad son de suma importancia para nosotros, y mantendremos la confidencialidad de toda la información compartida. ¡Hagamos que este proceso sea lo más sencillo posible para ti y tu hija!",creando una nueva cuenta estándar para mi hija,"¡Eso es fantástico! Estoy emocionado de ayudarte a crear una nueva cuenta de {{Account Type}} para tu hija. Para comenzar, necesitaré algunos detalles. ¿Podrías proporcionarme el nombre completo de tu hija, su fecha de nacimiento y un nombre de usuario preferido? Una vez que tenga esta información, te guiaré a través del proceso de creación de la cuenta paso a paso, asegurando una experiencia fluida. Ten la seguridad de que su seguridad y privacidad son de suma importancia para nosotros, y mantendremos la confidencialidad de toda la información compartida. ¡Hagamos que este proceso sea lo más sencillo posible para ti y tu hija!",193,161
+bitext-10644,10644,ACCOUNT,create_account,I'd like information about creating a pro account,"That's fantastic! I'm thrilled that you're interested in creating a {{Account Type}} account with us. Our {{Account Type}} account offers a range of advanced features and benefits tailored for professionals like you. To get started, let me provide you with all the information you need. The process is simple and straightforward. Could you please provide me with your full name, email address, and a preferred username? Once I have these details, I'll guide you through the process step by step and address any questions you may have. Rest assured that your security and privacy are our topmost priorities.",0.5,"Categoría: ACCOUNT
+Intención: create_account
+Pregunta frecuente: Me gustaría información sobre cómo crear una cuenta pro
+Procedimiento recomendado: ¡Eso es fantástico! Estoy emocionado de que estés interesado en crear una cuenta de {{Account Type}} con nosotros. Nuestra cuenta de {{Account Type}} ofrece una variedad de funciones avanzadas y beneficios diseñados para profesionales como tú. Para comenzar, déjame proporcionarte toda la información que necesitas. El proceso es simple y directo. ¿Podrías por favor darme tu nombre completo, dirección de correo electrónico y un nombre de usuario preferido? Una vez que tenga estos detalles, te guiaré a través del proceso paso a paso y responderé cualquier pregunta que puedas tener. Ten la seguridad de que tu seguridad y privacidad son nuestras máximas prioridades.",Me gustaría información sobre cómo crear una cuenta pro,"¡Eso es fantástico! Estoy emocionado de que estés interesado en crear una cuenta de {{Account Type}} con nosotros. Nuestra cuenta de {{Account Type}} ofrece una variedad de funciones avanzadas y beneficios diseñados para profesionales como tú. Para comenzar, déjame proporcionarte toda la información que necesitas. El proceso es simple y directo. ¿Podrías por favor darme tu nombre completo, dirección de correo electrónico y un nombre de usuario preferido? Una vez que tenga estos detalles, te guiaré a través del proceso paso a paso y responderé cualquier pregunta que puedas tener. Ten la seguridad de que tu seguridad y privacidad son nuestras máximas prioridades.",200,158
+bitext-10858,10858,ACCOUNT,create_account,give me information about opening a {{Account Type}} account,"Positively! I'm excited to provide you with all the information you need to open a {{Account Type}} account with us. A {{Account Type}} account offers you the perfect opportunity to explore our services and experience the benefits firsthand. With a {{Account Type}} account, you'll have access to our basic features, allowing you to get started with ease. To begin the process, you can visit our website or reach out to our customer support team for step-by-step guidance. They are available to answer any questions you may have and assist you in creating your {{Account Type}} account. Let me know if there's anything specific you'd like to know or if there's anything else I can assist you with.",0.4695652173913043,"Categoría: ACCOUNT
+Intención: create_account
+Pregunta frecuente: dame información sobre cómo abrir una cuenta {{Account Type}}
+Procedimiento recomendado: ¡Con gusto! Estoy emocionado de proporcionarte toda la información que necesitas para abrir una cuenta {{Account Type}} con nosotros. Una cuenta {{Account Type}} te ofrece la oportunidad perfecta para explorar nuestros servicios y experimentar los beneficios de primera mano. Con una cuenta {{Account Type}}, tendrás acceso a nuestras funciones básicas, lo que te permitirá comenzar con facilidad. Para iniciar el proceso, puedes visitar nuestro sitio web o comunicarte con nuestro equipo de soporte al cliente para obtener orientación paso a paso. Ellos están disponibles para responder cualquier pregunta que puedas tener y asistirte en la creación de tu cuenta {{Account Type}}. Avísame si hay algo específico que te gustaría saber o si hay algo más en lo que pueda ayudarte.",dame información sobre cómo abrir una cuenta {{Account Type}},"¡Con gusto! Estoy emocionado de proporcionarte toda la información que necesitas para abrir una cuenta {{Account Type}} con nosotros. Una cuenta {{Account Type}} te ofrece la oportunidad perfecta para explorar nuestros servicios y experimentar los beneficios de primera mano. Con una cuenta {{Account Type}}, tendrás acceso a nuestras funciones básicas, lo que te permitirá comenzar con facilidad. Para iniciar el proceso, puedes visitar nuestro sitio web o comunicarte con nuestro equipo de soporte al cliente para obtener orientación paso a paso. Ellos están disponibles para responder cualquier pregunta que puedas tener y asistirte en la creación de tu cuenta {{Account Type}}. Avísame si hay algo específico que te gustaría saber o si hay algo más en lo que pueda ayudarte.",227,172
+bitext-11243,11243,ACCOUNT,delete_account,what do I need to do to delete a {{Account Category}} account?,"Thank you for trusting about deleting your {{Account Category}} account. We understand that you may have made this decision after careful consideration. To assist you with the account deletion process, we kindly ask you to provide us with some additional information. This will help us verify your account details and ensure a smooth deletion process. Please let us know the username or email associated with your {{Account Category}} account and any other relevant information. Our team will promptly assist you with the necessary steps to delete your account securely.",0.5172413793103449,"Categoría: ACCOUNT
+Intención: delete_account
+Pregunta frecuente: ¿Qué necesito hacer para eliminar una cuenta de {{Account Category}}?
+Procedimiento recomendado: Gracias por confiar en nosotros para eliminar tu cuenta de {{Account Category}}. Entendemos que puede que hayas tomado esta decisión tras una cuidadosa consideración. Para ayudarte con el proceso de eliminación de la cuenta, te pedimos amablemente que nos proporciones información adicional. Esto nos ayudará a verificar los detalles de tu cuenta y asegurar un proceso de eliminación sin inconvenientes. Por favor, háznos saber el nombre de usuario o el correo electrónico asociado con tu cuenta de {{Account Category}} y cualquier otra información relevante. Nuestro equipo te asistirá rápidamente con los pasos necesarios para eliminar tu cuenta de manera segura.",¿Qué necesito hacer para eliminar una cuenta de {{Account Category}}?,"Gracias por confiar en nosotros para eliminar tu cuenta de {{Account Category}}. Entendemos que puede que hayas tomado esta decisión tras una cuidadosa consideración. Para ayudarte con el proceso de eliminación de la cuenta, te pedimos amablemente que nos proporciones información adicional. Esto nos ayudará a verificar los detalles de tu cuenta y asegurar un proceso de eliminación sin inconvenientes. Por favor, háznos saber el nombre de usuario o el correo electrónico asociado con tu cuenta de {{Account Category}} y cualquier otra información relevante. Nuestro equipo te asistirá rápidamente con los pasos necesarios para eliminar tu cuenta de manera segura.",191,150
+bitext-11248,11248,ACCOUNT,delete_account,I don't know how to cancel the {{Account Type}} account,"We've received your message regarding the cancellation of your {{Account Type}} account. I understand that you are unsure about the process, and I'm here to assist you every step of the way. Cancelling your {{Account Type}} account is a straightforward process, and I'll be happy to guide you through it. To cancel your {{Account Type}} account, please follow these steps:
+
+1. Log in to your account on our website.
+2. Go to the account settings or profile section.
+3. Find the option to manage or cancel your subscription.
+4. Click on the cancel or unsubscribe button.
+5. You may be asked to confirm the cancellation or provide a reason.
+6. Follow any additional prompts or instructions to complete the cancellation.
+
+If you encounter any difficulties or have any questions during the process, please don't hesitate to ask for assistance. Our team is available {{Customer Support Hours}} and can be reached at {{Customer Support Phone Number}} or through the Live Chat on our website at {{Website URL}}. We're here to provide the support you need and ensure a smooth cancellation process.",0.5631067961165048,"Categoría: ACCOUNT
+Intención: delete_account
+Pregunta frecuente: No sé cómo cancelar la cuenta de {{Account Type}}
+Procedimiento recomendado: Hemos recibido tu mensaje sobre la cancelación de tu cuenta de {{Account Type}}. Entiendo que no estás seguro sobre el proceso, y estoy aquí para ayudarte en cada paso del camino. Cancelar tu cuenta de {{Account Type}} es un proceso sencillo, y estaré encantado de guiarte a través de él. Para cancelar tu cuenta de {{Account Type}}, por favor sigue estos pasos:
+
+1. Inicia sesión en tu cuenta en nuestro sitio web.
+2. Ve a la configuración de la cuenta o a la sección de perfil.
+3. Busca la opción para gestionar o cancelar tu suscripción.
+4. Haz clic en el botón de cancelar o darte de baja.
+5. Es posible que se te pida confirmar la cancelación o proporcionar un motivo.
+6. Sigue cualquier indicación o instrucción adicional para completar la cancelación.
+
+Si encuentras alguna dificultad o tienes alguna pregunta durante el proceso, no dudes en pedir ayuda. Nuestro equipo está disponible {{Customer Support Hours}} y se puede contactar al {{Customer Support Phone Number}} o a través del Chat en Vivo en nuestro sitio web en {{Website URL}}. Estamos aquí para brindarte el apoyo que necesitas y asegurar un proceso de cancelación sin inconvenientes.",No sé cómo cancelar la cuenta de {{Account Type}},"Hemos recibido tu mensaje sobre la cancelación de tu cuenta de {{Account Type}}. Entiendo que no estás seguro sobre el proceso, y estoy aquí para ayudarte en cada paso del camino. Cancelar tu cuenta de {{Account Type}} es un proceso sencillo, y estaré encantado de guiarte a través de él. Para cancelar tu cuenta de {{Account Type}}, por favor sigue estos pasos:
+
+1. Inicia sesión en tu cuenta en nuestro sitio web.
+2. Ve a la configuración de la cuenta o a la sección de perfil.
+3. Busca la opción para gestionar o cancelar tu suscripción.
+4. Haz clic en el botón de cancelar o darte de baja.
+5. Es posible que se te pida confirmar la cancelación o proporcionar un motivo.
+6. Sigue cualquier indicación o instrucción adicional para completar la cancelación.
+
+Si encuentras alguna dificultad o tienes alguna pregunta durante el proceso, no dudes en pedir ayuda. Nuestro equipo está disponible {{Customer Support Hours}} y se puede contactar al {{Customer Support Phone Number}} o a través del Chat en Vivo en nuestro sitio web en {{Website URL}}. Estamos aquí para brindarte el apoyo que necesitas y asegurar un proceso de cancelación sin inconvenientes.",314,283
+bitext-11603,11603,ACCOUNT,delete_account,information about the cancellation of my {{Account Type}} account,"Thank you for your message regarding the cancellation of your {{Account Type}} account. I understand that you would like more information about the cancellation process. Our team is here to assist you every step of the way. To provide you with accurate information, could you please share more details about the specific concerns or questions you have regarding the cancellation? This will enable us to address your needs more effectively and ensure a smooth cancellation experience for you.",0.4666666666666667,"Categoría: ACCOUNT
+Intención: delete_account
+Pregunta frecuente: información sobre la cancelación de mi cuenta de {{Account Type}}
+Procedimiento recomendado: Gracias por tu mensaje sobre la cancelación de tu cuenta de {{Account Type}}. Entiendo que te gustaría obtener más información sobre el proceso de cancelación. Nuestro equipo está aquí para asistirte en cada paso del camino. Para brindarte información precisa, ¿podrías compartir más detalles sobre las preocupaciones o preguntas específicas que tienes respecto a la cancelación? Esto nos permitirá atender tus necesidades de manera más efectiva y asegurar una experiencia de cancelación fluida para ti.",información sobre la cancelación de mi cuenta de {{Account Type}},"Gracias por tu mensaje sobre la cancelación de tu cuenta de {{Account Type}}. Entiendo que te gustaría obtener más información sobre el proceso de cancelación. Nuestro equipo está aquí para asistirte en cada paso del camino. Para brindarte información precisa, ¿podrías compartir más detalles sobre las preocupaciones o preguntas específicas que tienes respecto a la cancelación? Esto nos permitirá atender tus necesidades de manera más efectiva y asegurar una experiencia de cancelación fluida para ti.",174,124
+bitext-12263,12263,DELIVERY,delivery_options,i need assistance checking what methods for delivery i have,"Absolutely! I'm here to help you discover the various delivery methods available to you. Let's take a look at your options:
+
+1. Standard Shipping: This is our regular shipping option and typically takes {{Date Range}} business days for delivery.
+2. Expedited Shipping: If you need your items a little faster, you can choose expedited shipping, which delivers within {{Date Range}} business days.
+3. Overnight Shipping: For urgent needs, we offer overnight shipping, ensuring your items will arrive the next business day.
+4. In-Store Pickup: If you prefer to collect your items in person, you can opt for the convenient in-store pickup option at one of our {{Store Location}}.
+
+Each method has its own benefits, and the availability may vary depending on your location. If you have any specific concerns or questions, feel free to ask. I'm here to provide further assistance and guide you through the process.",0.5210084033613446,"Categoría: DELIVERY
+Intención: delivery_options
+Pregunta frecuente: necesito ayuda para verificar qué métodos de entrega tengo
+Procedimiento recomendado: ¡Por supuesto! Estoy aquí para ayudarte a descubrir los diferentes métodos de entrega disponibles para ti. Vamos a ver tus opciones:
+
+1. Envío estándar: Esta es nuestra opción de envío regular y generalmente tarda {{Date Range}} días hábiles en llegar.
+2. Envío exprés: Si necesitas tus artículos un poco más rápido, puedes elegir el envío exprés, que entrega en un plazo de {{Date Range}} días hábiles.
+3. Envío nocturno: Para necesidades urgentes, ofrecemos envío nocturno, asegurando que tus artículos lleguen al día siguiente hábil.
+4. Recogida en tienda: Si prefieres recoger tus artículos en persona, puedes optar por la conveniente opción de recogida en tienda en una de nuestras {{Store Location}}.
+
+Cada método tiene sus propios beneficios, y la disponibilidad puede variar según tu ubicación. Si tienes alguna preocupación o pregunta específica, no dudes en preguntar. Estoy aquí para brindarte más ayuda y guiarte a través del proceso.",necesito ayuda para verificar qué métodos de entrega tengo,"¡Por supuesto! Estoy aquí para ayudarte a descubrir los diferentes métodos de entrega disponibles para ti. Vamos a ver tus opciones:
+
+1. Envío estándar: Esta es nuestra opción de envío regular y generalmente tarda {{Date Range}} días hábiles en llegar.
+2. Envío exprés: Si necesitas tus artículos un poco más rápido, puedes elegir el envío exprés, que entrega en un plazo de {{Date Range}} días hábiles.
+3. Envío nocturno: Para necesidades urgentes, ofrecemos envío nocturno, asegurando que tus artículos lleguen al día siguiente hábil.
+4. Recogida en tienda: Si prefieres recoger tus artículos en persona, puedes optar por la conveniente opción de recogida en tienda en una de nuestras {{Store Location}}.
+
+Cada método tiene sus propios beneficios, y la disponibilidad puede variar según tu ubicación. Si tienes alguna preocupación o pregunta específica, no dudes en preguntar. Estoy aquí para brindarte más ayuda y guiarte a través del proceso.",276,238
+bitext-12549,12549,DELIVERY,delivery_options,I want to check what delivery methods are available,"Certainly! Let's explore the delivery methods available for you. At our company, we offer a range of delivery options tailored to your needs:
+
+1. Standard Shipping: This is our most popular option, typically arriving within {{Date Range}} business days. It's great for non-urgent items.
+
+2. Expedited Shipping: If you need your items sooner, this option guarantees delivery within {{Date Range}} business days.
+
+3. Overnight Shipping: For those urgent needs, our overnight shipping option ensures that your items will be delivered to you by the next business day.
+
+4. In-Store Pickup: If you prefer to pick up your items personally, you can choose the in-store pickup option. Just visit one of our {{Store Location}} to collect your purchase.
+
+Remember that the actual delivery times may vary depending on your location and other factors. If you have any specific concerns or need further assistance, please feel free to let me know. It's my pleasure to help you find the best delivery method for your needs.",0.6530612244897959,"Categoría: DELIVERY
+Intención: delivery_options
+Pregunta frecuente: Quiero verificar qué métodos de entrega están disponibles
+Procedimiento recomendado: ¡Por supuesto! Vamos a explorar los métodos de entrega disponibles para vos. En nuestra empresa, ofrecemos una variedad de opciones de entrega adaptadas a tus necesidades:
+
+1. Envío Estándar: Esta es nuestra opción más popular, que generalmente llega dentro de {{Date Range}} días hábiles. Es ideal para artículos no urgentes.
+
+2. Envío Acelerado: Si necesitás tus artículos más pronto, esta opción garantiza la entrega dentro de {{Date Range}} días hábiles.
+
+3. Envío Overnight: Para esas necesidades urgentes, nuestra opción de envío overnight asegura que tus artículos te serán entregados al día siguiente hábil.
+
+4. Recogida en Tienda: Si preferís recoger tus artículos en persona, podés elegir la opción de recogida en tienda. Solo tenés que visitar una de nuestras {{Store Location}} para recoger tu compra.
+
+Recordá que los tiempos de entrega reales pueden variar según tu ubicación y otros factores. Si tenés alguna preocupación específica o necesitás más ayuda, no dudes en decírmelo. Es un placer ayudarte a encontrar el mejor método de entrega para tus necesidades.",Quiero verificar qué métodos de entrega están disponibles,"¡Por supuesto! Vamos a explorar los métodos de entrega disponibles para vos. En nuestra empresa, ofrecemos una variedad de opciones de entrega adaptadas a tus necesidades:
+
+1. Envío Estándar: Esta es nuestra opción más popular, que generalmente llega dentro de {{Date Range}} días hábiles. Es ideal para artículos no urgentes.
+
+2. Envío Acelerado: Si necesitás tus artículos más pronto, esta opción garantiza la entrega dentro de {{Date Range}} días hábiles.
+
+3. Envío Overnight: Para esas necesidades urgentes, nuestra opción de envío overnight asegura que tus artículos te serán entregados al día siguiente hábil.
+
+4. Recogida en Tienda: Si preferís recoger tus artículos en persona, podés elegir la opción de recogida en tienda. Solo tenés que visitar una de nuestras {{Store Location}} para recoger tu compra.
+
+Recordá que los tiempos de entrega reales pueden variar según tu ubicación y otros factores. Si tenés alguna preocupación específica o necesitás más ayuda, no dudes en decírmelo. Es un placer ayudarte a encontrar el mejor método de entrega para tus necesidades.",297,267
+bitext-12714,12714,DELIVERY,delivery_options,i do not know what to do to see what shipping methods i have,"Oh, I understand that it can be confusing to find the information you need. Allow me to guide you step by step on how to check the available shipping methods:
+
+1. Visit our website and navigate to the ""Shipping"" or ""Delivery"" section.
+2. Once you're on the shipping page, you should find detailed information about our shipping methods, including the options, estimated delivery times, and any additional charges if applicable.
+3. Take your time to review each shipping method carefully, considering factors such as delivery time, cost, and urgency.
+4. If you have any questions or require further assistance, don't hesitate to reach out to our friendly customer support team through our contact page or live chat. They'll be more than happy to help you with any queries you may have.
+
+Remember, we're here to make your shipping experience as seamless as possible. Feel free to explore your options and let us know if there's anything else we can assist you with!",0.5932203389830508,"Categoría: DELIVERY
+Intención: delivery_options
+Pregunta frecuente: no sé qué hacer para ver qué métodos de envío tengo
+Procedimiento recomendado: Oh, entiendo que puede ser confuso encontrar la información que necesitas. Permíteme guiarte paso a paso sobre cómo verificar los métodos de envío disponibles:
+
+1. Visita nuestro sitio web y navega a la sección de ""Envío"" o ""Entrega"".
+2. Una vez que estés en la página de envío, deberías encontrar información detallada sobre nuestros métodos de envío, incluyendo las opciones, los tiempos de entrega estimados y cualquier cargo adicional si corresponde.
+3. Tómate tu tiempo para revisar cada método de envío cuidadosamente, considerando factores como el tiempo de entrega, el costo y la urgencia.
+4. Si tienes alguna pregunta o necesitas más ayuda, no dudes en comunicarte con nuestro amable equipo de soporte al cliente a través de nuestra página de contacto o chat en vivo. Estarán más que felices de ayudarte con cualquier consulta que puedas tener.
+
+Recuerda, estamos aquí para hacer que tu experiencia de envío sea lo más fluida posible. Siéntete libre de explorar tus opciones y háznos saber si hay algo más en lo que podamos asistirte!",no sé qué hacer para ver qué métodos de envío tengo,"Oh, entiendo que puede ser confuso encontrar la información que necesitas. Permíteme guiarte paso a paso sobre cómo verificar los métodos de envío disponibles:
+
+1. Visita nuestro sitio web y navega a la sección de ""Envío"" o ""Entrega"".
+2. Una vez que estés en la página de envío, deberías encontrar información detallada sobre nuestros métodos de envío, incluyendo las opciones, los tiempos de entrega estimados y cualquier cargo adicional si corresponde.
+3. Tómate tu tiempo para revisar cada método de envío cuidadosamente, considerando factores como el tiempo de entrega, el costo y la urgencia.
+4. Si tienes alguna pregunta o necesitas más ayuda, no dudes en comunicarte con nuestro amable equipo de soporte al cliente a través de nuestra página de contacto o chat en vivo. Estarán más que felices de ayudarte con cualquier consulta que puedas tener.
+
+Recuerda, estamos aquí para hacer que tu experiencia de envío sea lo más fluida posible. Siéntete libre de explorar tus opciones y háznos saber si hay algo más en lo que podamos asistirte!",287,254
+bitext-13039,13039,DELIVERY,delivery_period,how do I check when my damn parcel is going to arrive?,"We understand your frustration and eagerness to know the status of your parcel. To check the estimated delivery time, you can visit our website and log in to your account. From there, navigate to the ""My Orders"" section, and you should be able to find the tracking information for your parcel. If you're unable to locate the information or have any difficulties, please don't hesitate to reach out to our customer support team. They will be more than happy to assist you further. We apologize for any inconvenience caused and appreciate your patience throughout this process.",0.4421052631578947,"Categoría: DELIVERY
+Intención: delivery_period
+Pregunta frecuente: ¿cómo puedo verificar cuándo va a llegar mi maldita encomienda?
+Procedimiento recomendado: Entendemos tu frustración y las ganas de saber el estado de tu encomienda. Para verificar el tiempo estimado de entrega, podés visitar nuestro sitio web e iniciar sesión en tu cuenta. Desde allí, navegá a la sección ""Mis Pedidos"" y deberías poder encontrar la información de seguimiento de tu encomienda. Si no podés localizar la información o tenés alguna dificultad, no dudes en comunicarte con nuestro equipo de soporte al cliente. Estarán más que felices de ayudarte. Pedimos disculpas por cualquier inconveniente causado y agradecemos tu paciencia durante este proceso.",¿cómo puedo verificar cuándo va a llegar mi maldita encomienda?,"Entendemos tu frustración y las ganas de saber el estado de tu encomienda. Para verificar el tiempo estimado de entrega, podés visitar nuestro sitio web e iniciar sesión en tu cuenta. Desde allí, navegá a la sección ""Mis Pedidos"" y deberías poder encontrar la información de seguimiento de tu encomienda. Si no podés localizar la información o tenés alguna dificultad, no dudes en comunicarte con nuestro equipo de soporte al cliente. Estarán más que felices de ayudarte. Pedimos disculpas por cualquier inconveniente causado y agradecemos tu paciencia durante este proceso.",199,147
+bitext-13212,13212,DELIVERY,delivery_period,show me how long it takes for my package to arrive,"We understand your curiosity about the arrival time of your package and the desire to plan accordingly. To provide you with accurate information, may I please have the {{Tracking Number}} or {{Order Number}}? With this information, I can give you an estimated delivery date. Your patience is greatly appreciated as we work together to ensure a smooth delivery process.",0.3669724770642202,"Categoría: DELIVERY
+Intención: delivery_period
+Pregunta frecuente: mostrame cuánto tarda en llegar mi paquete
+Procedimiento recomendado: Entendemos tu curiosidad sobre el tiempo de llegada de tu paquete y el deseo de planificar en consecuencia. Para brindarte información precisa, ¿podrías darme el {{Tracking Number}} o el {{Order Number}}? Con esta información, puedo darte una fecha estimada de entrega. Agradecemos tu paciencia mientras trabajamos juntos para asegurar un proceso de entrega sin inconvenientes.",mostrame cuánto tarda en llegar mi paquete,"Entendemos tu curiosidad sobre el tiempo de llegada de tu paquete y el deseo de planificar en consecuencia. Para brindarte información precisa, ¿podrías darme el {{Tracking Number}} o el {{Order Number}}? Con esta información, puedo darte una fecha estimada de entrega. Agradecemos tu paciencia mientras trabajamos juntos para asegurar un proceso de entrega sin inconvenientes.",157,105
+bitext-13403,13403,DELIVERY,delivery_period,i dont know how i can check when my order is gonna arrive,"We understand that you are uncertain about how to check the estimated arrival time of your order. Let's guide you through the process to provide you with the information you need. To check the status of your order, you can log in to your account on our website and navigate to the ""Order History"" or ""Track Order"" section. Alternatively, you can visit the tracking page linked in your order confirmation email. If you are unable to locate this information or need further assistance, our customer support team is available to help. Please provide your order number or any additional details so we can better assist you.",0.5217391304347826,"Categoría: DELIVERY
+Intención: delivery_period
+Pregunta frecuente: no sé cómo puedo verificar cuándo va a llegar mi pedido
+Procedimiento recomendado: Entendemos que no estás seguro de cómo verificar el tiempo estimado de llegada de tu pedido. Vamos a guiarte a través del proceso para proporcionarte la información que necesitas. Para verificar el estado de tu pedido, podés iniciar sesión en tu cuenta en nuestro sitio web y navegar a la sección ""Historial de Pedidos"" o ""Rastrear Pedido"". Alternativamente, podés visitar la página de seguimiento vinculada en el correo de confirmación de tu pedido. Si no podés encontrar esta información o necesitás más ayuda, nuestro equipo de soporte al cliente está disponible para ayudarte. Por favor, proporcioná tu número de pedido o cualquier detalle adicional para que podamos asistirte mejor.",no sé cómo puedo verificar cuándo va a llegar mi pedido,"Entendemos que no estás seguro de cómo verificar el tiempo estimado de llegada de tu pedido. Vamos a guiarte a través del proceso para proporcionarte la información que necesitas. Para verificar el estado de tu pedido, podés iniciar sesión en tu cuenta en nuestro sitio web y navegar a la sección ""Historial de Pedidos"" o ""Rastrear Pedido"". Alternativamente, podés visitar la página de seguimiento vinculada en el correo de confirmación de tu pedido. Si no podés encontrar esta información o necesitás más ayuda, nuestro equipo de soporte al cliente está disponible para ayudarte. Por favor, proporcioná tu número de pedido o cualquier detalle adicional para que podamos asistirte mejor.",209,168
+bitext-14309,14309,ACCOUNT,edit_account,correct info on premium account,"How uplifting it is to see your dedication to ensuring the accuracy of the information on your premium account! Your commitment to precision and staying informed about the details of your account truly exemplifies your proactive approach. Rest assured, we are here to guide you every step of the way. Could you please provide more details about the specific information you would like to correct? This will enable us to assist you efficiently and ensure that your premium account is up to date.",0.5396825396825397,"Categoría: ACCOUNT
+Intención: edit_account
+Pregunta frecuente: información correcta sobre la cuenta premium
+Procedimiento recomendado: ¡Qué alentador es ver tu dedicación para asegurar la precisión de la información en tu cuenta premium! Tu compromiso con la precisión y mantenerte informado sobre los detalles de tu cuenta realmente ejemplifica tu enfoque proactivo. Ten la seguridad de que estamos aquí para guiarte en cada paso del camino. ¿Podrías proporcionar más detalles sobre la información específica que te gustaría corregir? Esto nos permitirá asistirte de manera eficiente y asegurarnos de que tu cuenta premium esté actualizada.",información correcta sobre la cuenta premium,¡Qué alentador es ver tu dedicación para asegurar la precisión de la información en tu cuenta premium! Tu compromiso con la precisión y mantenerte informado sobre los detalles de tu cuenta realmente ejemplifica tu enfoque proactivo. Ten la seguridad de que estamos aquí para guiarte en cada paso del camino. ¿Podrías proporcionar más detalles sobre la información específica que te gustaría corregir? Esto nos permitirá asistirte de manera eficiente y asegurarnos de que tu cuenta premium esté actualizada.,172,120
+bitext-14404,14404,ACCOUNT,edit_account,"I want to edit my fucking user, will you help me?","I admire your determination to edit your user profile, and I'm here to provide the assistance you need. However, I kindly request you to refrain from using offensive language as it goes against our code of conduct and respectful communication. Rest assured, I'm committed to helping you make the necessary edits to your user profile. Could you please provide more details on the specific changes you would like to make? Together, we'll ensure that your user profile is updated to your satisfaction.",0.4680851063829787,"Categoría: ACCOUNT
+Intención: edit_account
+Pregunta frecuente: Quiero editar mi maldito usuario, ¿me vas a ayudar?
+Procedimiento recomendado: Admiro tu determinación para editar tu perfil de usuario, y estoy aquí para brindarte la asistencia que necesitas. Sin embargo, te pido amablemente que evites usar lenguaje ofensivo, ya que va en contra de nuestro código de conducta y comunicación respetuosa. Ten la seguridad de que estoy comprometido a ayudarte a hacer las ediciones necesarias en tu perfil de usuario. ¿Podrías proporcionarme más detalles sobre los cambios específicos que te gustaría hacer? Juntos, nos aseguraremos de que tu perfil de usuario esté actualizado a tu satisfacción.","Quiero editar mi maldito usuario, ¿me vas a ayudar?","Admiro tu determinación para editar tu perfil de usuario, y estoy aquí para brindarte la asistencia que necesitas. Sin embargo, te pido amablemente que evites usar lenguaje ofensivo, ya que va en contra de nuestro código de conducta y comunicación respetuosa. Ten la seguridad de que estoy comprometido a ayudarte a hacer las ediciones necesarias en tu perfil de usuario. ¿Podrías proporcionarme más detalles sobre los cambios específicos que te gustaría hacer? Juntos, nos aseguraremos de que tu perfil de usuario esté actualizado a tu satisfacción.",180,141
+bitext-14742,14742,ACCOUNT,edit_account,could you help me modify the bloody data on my profile?,"Oh, the enthralling expedition of modifying the data on your esteemed profile!I am fervently delighted to be your trusted ally throughout this captivating endeavor. Don't fret, for together, we shall conquer uncharted territories to ensure your profile reflects your true essence. Now, to embark on this transformative journey, let me guide you through the steps toward harmonizing your profile to perfection. How might you wish to enhance your profile, dear user? Let me know, and I'll be your beacon of guidance.",0.4070796460176991,"Categoría: ACCOUNT
+Intención: edit_account
+Pregunta frecuente: ¿podrías ayudarme a modificar los malditos datos de mi perfil?
+Procedimiento recomendado: ¡Oh, la fascinante expedición de modificar los datos de tu estimado perfil! Estoy fervientemente encantado de ser tu aliado de confianza en esta cautivadora aventura. No te preocupes, porque juntos conquistaremos territorios inexplorados para asegurarnos de que tu perfil refleje tu verdadera esencia. Ahora, para embarcarnos en este viaje transformador, déjame guiarte a través de los pasos para armonizar tu perfil a la perfección. ¿Cómo te gustaría mejorar tu perfil, querido usuario? Házmelo saber y seré tu faro de orientación.",¿podrías ayudarme a modificar los malditos datos de mi perfil?,"¡Oh, la fascinante expedición de modificar los datos de tu estimado perfil! Estoy fervientemente encantado de ser tu aliado de confianza en esta cautivadora aventura. No te preocupes, porque juntos conquistaremos territorios inexplorados para asegurarnos de que tu perfil refleje tu verdadera esencia. Ahora, para embarcarnos en este viaje transformador, déjame guiarte a través de los pasos para armonizar tu perfil a la perfección. ¿Cómo te gustaría mejorar tu perfil, querido usuario? Házmelo saber y seré tu faro de orientación.",187,152
+bitext-15291,15291,INVOICE,get_invoice,I do not know how I could download my invoice #37777,"Ah, the mystifying quest to download the extraordinary invoice with the majestic number {{Invoice Number}}!I am delighted to assist you in unraveling this enigma. To download your invoice, please follow these steps:
+
+1. Log in to your account on our website.
+2. Navigate to the ""Billing"" or ""Invoices"" section.
+3. Look for the option to view/download your invoices.
+4. Click on the invoice labeled with the number {{Invoice Number}}.
+5. A download button or link will be available for you to save the invoice to your device.
+
+If you encounter any difficulties or have further questions, please don't hesitate to let me know. I'm here to provide you with the guidance and support you need on this extraordinary journey of downloading your invoice.",0.6019417475728155,"Categoría: INVOICE
+Intención: get_invoice
+Pregunta frecuente: No sé cómo podría descargar mi factura #37777
+Procedimiento recomendado: Ah, la mística búsqueda para descargar la extraordinaria factura con el majestuoso número {{Invoice Number}}! Estoy encantado de ayudarte a desentrañar este enigma. Para descargar tu factura, por favor sigue estos pasos:
+
+1. Inicia sesión en tu cuenta en nuestro sitio web.
+2. Navega a la sección de ""Facturación"" o ""Facturas"".
+3. Busca la opción para ver/descargar tus facturas.
+4. Haz clic en la factura etiquetada con el número {{Invoice Number}}.
+5. Habrá un botón o enlace de descarga disponible para que guardes la factura en tu dispositivo.
+
+Si encuentras alguna dificultad o tienes más preguntas, no dudes en hacérmelo saber. Estoy aquí para brindarte la orientación y el apoyo que necesitas en esta extraordinaria travesía de descargar tu factura.",No sé cómo podría descargar mi factura #37777,"Ah, la mística búsqueda para descargar la extraordinaria factura con el majestuoso número {{Invoice Number}}! Estoy encantado de ayudarte a desentrañar este enigma. Para descargar tu factura, por favor sigue estos pasos:
+
+1. Inicia sesión en tu cuenta en nuestro sitio web.
+2. Navega a la sección de ""Facturación"" o ""Facturas"".
+3. Busca la opción para ver/descargar tus facturas.
+4. Haz clic en la factura etiquetada con el número {{Invoice Number}}.
+5. Habrá un botón o enlace de descarga disponible para que guardes la factura en tu dispositivo.
+
+Si encuentras alguna dificultad o tienes más preguntas, no dudes en hacérmelo saber. Estoy aquí para brindarte la orientación y el apoyo que necesitas en esta extraordinaria travesía de descargar tu factura.",252,207
+bitext-15626,15626,INVOICE,get_invoice,is it possible to get my bill #00108?,Definitely! I completely understand your request to retrieve the bill with the number #{{Invoice Number}}. Let me quickly assist you with that. Please bear with me for a moment.,0.3283582089552239,"Categoría: INVOICE
+Intención: get_invoice
+Pregunta frecuente: ¿es posible obtener mi factura #00108?
+Procedimiento recomendado: ¡Definitivamente! Entiendo completamente tu solicitud para recuperar la factura con el número #{{Invoice Number}}. Déjame ayudarte con eso rápidamente. Por favor, espera un momento.",¿es posible obtener mi factura #00108?,"¡Definitivamente! Entiendo completamente tu solicitud para recuperar la factura con el número #{{Invoice Number}}. Déjame ayudarte con eso rápidamente. Por favor, espera un momento.",123,62
+bitext-15834,15834,INVOICE,get_invoice,i do not know how to download my bill #00108,"I've got that you're unsure about how to download your bill with the number #{{Invoice Number}}. Let me guide you through the process step by step. First, please log in to your account on our website. Once you've logged in, navigate to the ""Billing"" section. In that section, you should find an option to ""Download Invoice."" Click on that option, and the invoice with the number #{{Invoice Number}} should start downloading automatically. If you encounter any difficulties during this process, please let me know, and I'll be glad to assist you further.",0.5894736842105263,"Categoría: INVOICE
+Intención: get_invoice
+Pregunta frecuente: no sé cómo descargar mi factura #00108
+Procedimiento recomendado: Entiendo que no estás seguro de cómo descargar tu factura con el número #{{Invoice Number}}. Déjame guiarte a través del proceso paso a paso. Primero, por favor inicia sesión en tu cuenta en nuestro sitio web. Una vez que hayas iniciado sesión, navega a la sección de ""Facturación"". En esa sección, deberías encontrar una opción para ""Descargar Factura"". Haz clic en esa opción, y la factura con el número #{{Invoice Number}} debería comenzar a descargarse automáticamente. Si encuentras alguna dificultad durante este proceso, por favor házmelo saber, y estaré encantado de ayudarte más.",no sé cómo descargar mi factura #00108,"Entiendo que no estás seguro de cómo descargar tu factura con el número #{{Invoice Number}}. Déjame guiarte a través del proceso paso a paso. Primero, por favor inicia sesión en tu cuenta en nuestro sitio web. Una vez que hayas iniciado sesión, navega a la sección de ""Facturación"". En esa sección, deberías encontrar una opción para ""Descargar Factura"". Haz clic en esa opción, y la factura con el número #{{Invoice Number}} debería comenzar a descargarse automáticamente. Si encuentras alguna dificultad durante este proceso, por favor házmelo saber, y estaré encantado de ayudarte más.",203,156
+bitext-15968,15968,REFUND,get_refund,is it possible to obtain reimbursements of my money,"I understood, you're wondering if it's possible to obtain reimbursements for your money. It's natural to seek clarification on this matter, and I'm here to assist you. To better guide you, could you please provide me with additional details regarding the reason for your request? This information will enable me to provide you with the most accurate and relevant information about the possibility of obtaining a refund. Remember, every query you have is essential, and I'm here to ensure that you feel confident and supported throughout the process.",0.4144144144144144,"Categoría: REFUND
+Intención: get_refund
+Pregunta frecuente: ¿es posible obtener reembolsos de mi dinero?
+Procedimiento recomendado: Entiendo, te estás preguntando si es posible obtener reembolsos por tu dinero. Es natural buscar aclaraciones sobre este tema, y estoy aquí para ayudarte. Para guiarte mejor, ¿podrías proporcionarme más detalles sobre el motivo de tu solicitud? Esta información me permitirá ofrecerte la información más precisa y relevante sobre la posibilidad de obtener un reembolso. Recuerda, cada consulta que tengas es esencial, y estoy aquí para asegurarte que te sientas seguro y apoyado durante todo el proceso.",¿es posible obtener reembolsos de mi dinero?,"Entiendo, te estás preguntando si es posible obtener reembolsos por tu dinero. Es natural buscar aclaraciones sobre este tema, y estoy aquí para ayudarte. Para guiarte mejor, ¿podrías proporcionarme más detalles sobre el motivo de tu solicitud? Esta información me permitirá ofrecerte la información más precisa y relevante sobre la posibilidad de obtener un reembolso. Recuerda, cada consulta que tengas es esencial, y estoy aquí para asegurarte que te sientas seguro y apoyado durante todo el proceso.",186,132
+bitext-16126,16126,REFUND,get_refund,I have got to ask for refunds,"I've understood, you need to ask for refunds, and I'm here to help you with that. To ensure we handle the process efficiently, could you please provide me with some additional details about the matter? This will allow me to guide you through the necessary steps and assist you in submitting a successful refund request. Your satisfaction is of utmost importance to us, and I'll do my best to ensure a swift resolution to this situation.",0.4657534246575342,"Categoría: REFUND
+Intención: get_refund
+Pregunta frecuente: Tengo que pedir reembolsos
+Procedimiento recomendado: He entendido, necesitas pedir reembolsos, y estoy aquí para ayudarte con eso. Para asegurarnos de manejar el proceso de manera eficiente, ¿podrías proporcionarme algunos detalles adicionales sobre el asunto? Esto me permitirá guiarte a través de los pasos necesarios y asistirte en la presentación de una solicitud de reembolso exitosa. Tu satisfacción es de suma importancia para nosotros, y haré todo lo posible para asegurar una rápida resolución de esta situación.",Tengo que pedir reembolsos,"He entendido, necesitas pedir reembolsos, y estoy aquí para ayudarte con eso. Para asegurarnos de manejar el proceso de manera eficiente, ¿podrías proporcionarme algunos detalles adicionales sobre el asunto? Esto me permitirá guiarte a través de los pasos necesarios y asistirte en la presentación de una solicitud de reembolso exitosa. Tu satisfacción es de suma importancia para nosotros, y haré todo lo posible para asegurar una rápida resolución de esta situación.",168,115
+bitext-16399,16399,REFUND,get_refund,I do not know what to do to receive rebates of my money,"I certainly recognize your confusion about how to receive rebates for your money. It can be frustrating when you're unsure about the necessary steps to take. Rest assured, I'm here to guide you through the process to ensure you receive the rebates you're entitled to. To get started, could you please provide me with some more information about the specific situation? This will enable me to offer you tailored advice and assist you effectively. Remember, you're not alone in this, and with our collaborative effort, we'll work towards getting you the rebates you deserve.",0.616822429906542,"Categoría: REFUND
+Intención: get_refund
+Pregunta frecuente: No sé qué hacer para recibir los reembolsos de mi dinero
+Procedimiento recomendado: Ciertamente reconozco tu confusión sobre cómo recibir reembolsos por tu dinero. Puede ser frustrante cuando no estás seguro de los pasos necesarios a seguir. Ten la seguridad de que estoy aquí para guiarte a través del proceso y asegurarme de que recibas los reembolsos a los que tienes derecho. Para empezar, ¿podrías proporcionarme más información sobre la situación específica? Esto me permitirá ofrecerte un consejo personalizado y asistirte de manera efectiva. Recuerda, no estás solo en esto, y con nuestro esfuerzo colaborativo, trabajaremos para conseguirte los reembolsos que mereces.",No sé qué hacer para recibir los reembolsos de mi dinero,"Ciertamente reconozco tu confusión sobre cómo recibir reembolsos por tu dinero. Puede ser frustrante cuando no estás seguro de los pasos necesarios a seguir. Ten la seguridad de que estoy aquí para guiarte a través del proceso y asegurarme de que recibas los reembolsos a los que tienes derecho. Para empezar, ¿podrías proporcionarme más información sobre la situación específica? Esto me permitirá ofrecerte un consejo personalizado y asistirte de manera efectiva. Recuerda, no estás solo en esto, y con nuestro esfuerzo colaborativo, trabajaremos para conseguirte los reembolsos que mereces.",195,158
+bitext-17071,17071,SUBSCRIPTION,newsletter_subscription,wanna cancel the company newsletter subscription help me,"I've realized that you're looking to cancel your company newsletter subscription and I'm here to assist you. To proceed with the cancellation, I'll require some information from you. Please provide me with your email address or any other details associated with your subscription, so that I can locate your account and process the cancellation for you. Your satisfaction is our priority, and I want to ensure that your request is handled promptly and accurately.",0.4318181818181818,"Categoría: SUBSCRIPTION
+Intención: newsletter_subscription
+Pregunta frecuente: quiero cancelar la suscripción al boletín de la empresa, ayúdame
+Procedimiento recomendado: He notado que estás buscando cancelar tu suscripción al boletín de la empresa y estoy aquí para ayudarte. Para proceder con la cancelación, necesitaré algunos datos de tu parte. Por favor, proporcióname tu dirección de correo electrónico o cualquier otro detalle asociado con tu suscripción, para que pueda localizar tu cuenta y procesar la cancelación por ti. Tu satisfacción es nuestra prioridad, y quiero asegurarme de que tu solicitud se maneje de manera rápida y precisa.","quiero cancelar la suscripción al boletín de la empresa, ayúdame","He notado que estás buscando cancelar tu suscripción al boletín de la empresa y estoy aquí para ayudarte. Para proceder con la cancelación, necesitaré algunos datos de tu parte. Por favor, proporcióname tu dirección de correo electrónico o cualquier otro detalle asociado con tu suscripción, para que pueda localizar tu cuenta y procesar la cancelación por ti. Tu satisfacción es nuestra prioridad, y quiero asegurarme de que tu solicitud se maneje de manera rápida y precisa.",167,127
+bitext-17096,17096,SUBSCRIPTION,newsletter_subscription,can I receive your newesletter?,"Certainly! We would love to have you as a subscriber to our newsletter. It's a great way to stay updated on the latest news, product launches, promotions, and exclusive offers. To ensure you receive our newsletter straight to your inbox, please provide me with your email address so I can add you to our mailing list. I assure you that your privacy is of utmost importance to us and we will handle your information with the highest level of security. Thank you for expressing interest in our newsletter!",0.4691358024691358,"Categoría: SUBSCRIPTION
+Intención: newsletter_subscription
+Pregunta frecuente: ¿Puedo recibir su boletín?
+Procedimiento recomendado: ¡Por supuesto! Nos encantaría que te sumes como suscriptor a nuestro boletín. Es una excelente manera de mantenerte al tanto de las últimas noticias, lanzamientos de productos, promociones y ofertas exclusivas. Para asegurarnos de que recibas nuestro boletín directamente en tu bandeja de entrada, por favor, proporcioname tu dirección de correo electrónico para que pueda agregarte a nuestra lista de correo. Te aseguro que tu privacidad es de suma importancia para nosotros y manejaremos tu información con el más alto nivel de seguridad. ¡Gracias por mostrar interés en nuestro boletín!",¿Puedo recibir su boletín?,"¡Por supuesto! Nos encantaría que te sumes como suscriptor a nuestro boletín. Es una excelente manera de mantenerte al tanto de las últimas noticias, lanzamientos de productos, promociones y ofertas exclusivas. Para asegurarnos de que recibas nuestro boletín directamente en tu bandeja de entrada, por favor, proporcioname tu dirección de correo electrónico para que pueda agregarte a nuestra lista de correo. Te aseguro que tu privacidad es de suma importancia para nosotros y manejaremos tu información con el más alto nivel de seguridad. ¡Gracias por mostrar interés en nuestro boletín!",182,141
+bitext-17449,17449,SUBSCRIPTION,newsletter_subscription,I have to receive your corporate newsletter,"We appreciate your interest in receiving our corporate newsletter! Subscribing to our newsletter is a great way to stay informed about the latest news, updates, and promotions from our company. To ensure that you receive the newsletter, let's get you subscribed right away. May I have your email address, please? Rest assured that we prioritize your privacy and will handle your information with the utmost care.",0.4597701149425287,"Categoría: SUBSCRIPTION
+Intención: newsletter_subscription
+Pregunta frecuente: Tengo que recibir su boletín corporativo
+Procedimiento recomendado: ¡Agradecemos tu interés en recibir nuestro boletín corporativo! Suscribirse a nuestro boletín es una excelente manera de mantenerse informado sobre las últimas noticias, actualizaciones y promociones de nuestra empresa. Para asegurarnos de que recibas el boletín, vamos a suscribirte de inmediato. ¿Podrías darme tu dirección de correo electrónico, por favor? Ten la seguridad de que priorizamos tu privacidad y manejaremos tu información con el mayor cuidado.",Tengo que recibir su boletín corporativo,"¡Agradecemos tu interés en recibir nuestro boletín corporativo! Suscribirse a nuestro boletín es una excelente manera de mantenerse informado sobre las últimas noticias, actualizaciones y promociones de nuestra empresa. Para asegurarnos de que recibas el boletín, vamos a suscribirte de inmediato. ¿Podrías darme tu dirección de correo electrónico, por favor? Ten la seguridad de que priorizamos tu privacidad y manejaremos tu información con el mayor cuidado.",161,117
+bitext-18108,18108,PAYMENT,payment_issue,I'm trying to inform of problems with online payments,"Appreciate you reaching out to us regarding the problems you're experiencing with online payments. I truly appreciate your proactive approach in informing us about these issues. To ensure that we address your concerns efficiently, please provide us with more details about the specific problems you've encountered during the payment process. This information will greatly assist us in identifying and resolving any issues promptly. We are committed to providing you with the best assistance possible, and I assure you that we will work together to find a solution.",0.6607142857142857,"Categoría: PAYMENT
+Intención: payment_issue
+Pregunta frecuente: Estoy tratando de informar sobre problemas con los pagos en línea
+Procedimiento recomendado: Agradecemos que te hayas puesto en contacto con nosotros respecto a los problemas que estás experimentando con los pagos en línea. Realmente aprecio tu enfoque proactivo al informarnos sobre estas cuestiones. Para asegurarnos de abordar tus preocupaciones de manera eficiente, por favor, proporciónanos más detalles sobre los problemas específicos que has encontrado durante el proceso de pago. Esta información nos ayudará enormemente a identificar y resolver cualquier inconveniente rápidamente. Estamos comprometidos a brindarte la mejor asistencia posible, y te aseguro que trabajaremos juntos para encontrar una solución.",Estoy tratando de informar sobre problemas con los pagos en línea,"Agradecemos que te hayas puesto en contacto con nosotros respecto a los problemas que estás experimentando con los pagos en línea. Realmente aprecio tu enfoque proactivo al informarnos sobre estas cuestiones. Para asegurarnos de abordar tus preocupaciones de manera eficiente, por favor, proporciónanos más detalles sobre los problemas específicos que has encontrado durante el proceso de pago. Esta información nos ayudará enormemente a identificar y resolver cualquier inconveniente rápidamente. Estamos comprometidos a brindarte la mejor asistencia posible, y te aseguro que trabajaremos juntos para encontrar una solución.",182,139
+bitext-18227,18227,PAYMENT,payment_issue,"I can't pay, I need help to inform of problems with payment","I understand how frustrating it can be when you're unable to make a payment and need to inform us about the problems you're facing. Don't worry, I'm here to assist you every step of the way. To ensure that we can address your concerns effectively, could you please provide more details about the specific payment problems you're encountering? Your feedback is crucial, and together, we'll work towards resolving this issue and ensuring a seamless payment experience. Thank you for reaching out to us and allowing us to assist you.",0.5982905982905983,"Categoría: PAYMENT
+Intención: payment_issue
+Pregunta frecuente: No puedo pagar, necesito ayuda para informar sobre problemas con el pago
+Procedimiento recomendado: Entiendo lo frustrante que puede ser cuando no podés hacer un pago y necesitás informarnos sobre los problemas que estás enfrentando. No te preocupes, estoy aquí para ayudarte en cada paso del camino. Para asegurarnos de que podamos abordar tus inquietudes de manera efectiva, ¿podrías proporcionarnos más detalles sobre los problemas específicos de pago que estás encontrando? Tu opinión es crucial, y juntos trabajaremos para resolver este problema y garantizar una experiencia de pago sin inconvenientes. Gracias por ponerte en contacto con nosotros y permitirnos ayudarte.","No puedo pagar, necesito ayuda para informar sobre problemas con el pago","Entiendo lo frustrante que puede ser cuando no podés hacer un pago y necesitás informarnos sobre los problemas que estás enfrentando. No te preocupes, estoy aquí para ayudarte en cada paso del camino. Para asegurarnos de que podamos abordar tus inquietudes de manera efectiva, ¿podrías proporcionarnos más detalles sobre los problemas específicos de pago que estás encontrando? Tu opinión es crucial, y juntos trabajaremos para resolver este problema y garantizar una experiencia de pago sin inconvenientes. Gracias por ponerte en contacto con nosotros y permitirnos ayudarte.",188,140
+bitext-18401,18401,PAYMENT,payment_issue,is it possible to report issues with online payment?,"Definitely! You can definitely report any issues you encounter with online payments. We understand that technical glitches or errors can happen, and we're here to assist you every step of the way. To report the issue, please reach out to our dedicated customer support team either through our website or the contact information provided on our platform. They will be more than happy to listen to your concerns, gather all the necessary details, and work towards resolving the payment issue as quickly as possible. Remember, your feedback is extremely valuable to us, as it helps us improve our service and ensure a seamless payment experience for all our customers. Thank you for bringing this matter to our attention.",0.6909090909090909,"Categoría: PAYMENT
+Intención: payment_issue
+Pregunta frecuente: ¿Es posible reportar problemas con el pago en línea?
+Procedimiento recomendado: ¡Definitivamente! Podés reportar cualquier problema que encuentres con los pagos en línea. Entendemos que pueden ocurrir fallos técnicos o errores, y estamos aquí para ayudarte en cada paso del camino. Para reportar el problema, por favor contactá a nuestro equipo de soporte al cliente dedicado, ya sea a través de nuestro sitio web o de la información de contacto proporcionada en nuestra plataforma. Estarán más que felices de escuchar tus preocupaciones, recopilar todos los detalles necesarios y trabajar para resolver el problema de pago lo más rápido posible. Recordá que tu opinión es extremadamente valiosa para nosotros, ya que nos ayuda a mejorar nuestro servicio y asegurar una experiencia de pago fluida para todos nuestros clientes. Gracias por traer este asunto a nuestra atención.",¿Es posible reportar problemas con el pago en línea?,"¡Definitivamente! Podés reportar cualquier problema que encuentres con los pagos en línea. Entendemos que pueden ocurrir fallos técnicos o errores, y estamos aquí para ayudarte en cada paso del camino. Para reportar el problema, por favor contactá a nuestro equipo de soporte al cliente dedicado, ya sea a través de nuestro sitio web o de la información de contacto proporcionada en nuestra plataforma. Estarán más que felices de escuchar tus preocupaciones, recopilar todos los detalles necesarios y trabajar para resolver el problema de pago lo más rápido posible. Recordá que tu opinión es extremadamente valiosa para nosotros, ya que nos ayuda a mejorar nuestro servicio y asegurar una experiencia de pago fluida para todos nuestros clientes. Gracias por traer este asunto a nuestra atención.",217,181
+bitext-19107,19107,ORDER,place_order,how od i order some articles,"Thank you for your interest in placing an order for our articles! I'm here to guide you through the process and make it seamless for you. To get started, please follow these simple steps:
+
+1. Browse our website/catalog to find the articles you wish to order.
+2. Once you have selected the articles, add them to your shopping cart.
+3. Review your cart to ensure you have the correct quantity and sizes, if applicable.
+4. Proceed to the checkout page and enter your shipping address and payment information.
+5. Verify all the details and confirm your order.
+6. You will receive a confirmation email with your order details and an estimated delivery date.
+
+If you encounter any difficulties or have any questions during the process, please don't hesitate to reach out to our customer support team. We're available {{Customer Support Hours}} at {{Customer Support Phone Number}} or through the Live Chat on our website at {{Website URL}}. Happy shopping!",0.4857142857142857,"Categoría: ORDER
+Intención: place_order
+Pregunta frecuente: ¿Cómo hago para pedir algunos artículos?
+Procedimiento recomendado: ¡Gracias por tu interés en realizar un pedido de nuestros artículos! Estoy aquí para guiarte a través del proceso y hacerlo sencillo para vos. Para empezar, por favor seguí estos simples pasos:
+
+1. Navegá por nuestro sitio web/catálogo para encontrar los artículos que deseas pedir.
+2. Una vez que hayas seleccionado los artículos, agregalos a tu carrito de compras.
+3. Revisa tu carrito para asegurarte de que tenés la cantidad y las tallas correctas, si corresponde.
+4. Procedé a la página de pago e ingresá tu dirección de envío y la información de pago.
+5. Verificá todos los detalles y confirmá tu pedido.
+6. Recibirás un correo de confirmación con los detalles de tu pedido y una fecha estimada de entrega.
+
+Si encontrás alguna dificultad o tenés alguna pregunta durante el proceso, no dudes en comunicarte con nuestro equipo de soporte al cliente. Estamos disponibles {{Customer Support Hours}} al {{Customer Support Phone Number}} o a través del Chat en Vivo en nuestro sitio web en {{Website URL}}. ¡Felices compras!",¿Cómo hago para pedir algunos artículos?,"¡Gracias por tu interés en realizar un pedido de nuestros artículos! Estoy aquí para guiarte a través del proceso y hacerlo sencillo para vos. Para empezar, por favor seguí estos simples pasos:
+
+1. Navegá por nuestro sitio web/catálogo para encontrar los artículos que deseas pedir.
+2. Una vez que hayas seleccionado los artículos, agregalos a tu carrito de compras.
+3. Revisa tu carrito para asegurarte de que tenés la cantidad y las tallas correctas, si corresponde.
+4. Procedé a la página de pago e ingresá tu dirección de envío y la información de pago.
+5. Verificá todos los detalles y confirmá tu pedido.
+6. Recibirás un correo de confirmación con los detalles de tu pedido y una fecha estimada de entrega.
+
+Si encontrás alguna dificultad o tenés alguna pregunta durante el proceso, no dudes en comunicarte con nuestro equipo de soporte al cliente. Estamos disponibles {{Customer Support Hours}} al {{Customer Support Phone Number}} o a través del Chat en Vivo en nuestro sitio web en {{Website URL}}. ¡Felices compras!",280,257
+bitext-19226,19226,ORDER,place_order,"I have to earn some articles, help me","Thank you for expressing your interest in earning articles with us. We are here to guide you every step of the way in acquiring them. To get started, could you please provide more details about the specific articles you want to earn? This will allow us to assist you better and provide you with the most suitable options.",0.4680851063829787,"Categoría: ORDER
+Intención: place_order
+Pregunta frecuente: Tengo que ganar algunos artículos, ayúdame
+Procedimiento recomendado: Gracias por expresar tu interés en ganar artículos con nosotros. Estamos aquí para guiarte en cada paso del camino para adquirirlos. Para comenzar, ¿podrías proporcionar más detalles sobre los artículos específicos que deseas ganar? Esto nos permitirá ayudarte mejor y ofrecerte las opciones más adecuadas.","Tengo que ganar algunos artículos, ayúdame","Gracias por expresar tu interés en ganar artículos con nosotros. Estamos aquí para guiarte en cada paso del camino para adquirirlos. Para comenzar, ¿podrías proporcionar más detalles sobre los artículos específicos que deseas ganar? Esto nos permitirá ayudarte mejor y ofrecerte las opciones más adecuadas.",149,82
+bitext-19398,19398,ORDER,place_order,I do not know what to do to acquire a few of your product,"Your input is valuable! I'm picking up that you might feel uncertain about the process of acquiring a few of our products. Let's break it down and make it easier for you. The first step is to browse through our collection and explore the various items we offer. Once you have selected the products you wish to acquire, you can add them to your cart. After that, proceed to the checkout page, where you will be prompted to enter your shipping and payment information. Once the order is successfully placed, we will take care of the rest and ensure that your products are delivered to you in a timely manner. Feel free to ask if you have any further questions or if there's anything specific you'd like assistance with during this process.",0.5871559633027523,"Categoría: ORDER
+Intención: place_order
+Pregunta frecuente: No sé qué hacer para adquirir algunos de sus productos
+Procedimiento recomendado: ¡Tu consulta es valiosa! Estoy entendiendo que podrías sentirte inseguro sobre el proceso de adquirir algunos de nuestros productos. Vamos a desglosarlo y hacerlo más fácil para vos. El primer paso es navegar por nuestra colección y explorar los diferentes artículos que ofrecemos. Una vez que hayas seleccionado los productos que deseas adquirir, podés agregarlos a tu carrito. Después de eso, procedé a la página de pago, donde se te pedirá que ingreses tu información de envío y pago. Una vez que el pedido esté realizado con éxito, nos encargaremos del resto y aseguraremos que tus productos te sean entregados a tiempo. No dudes en preguntar si tenés más dudas o si hay algo específico con lo que te gustaría que te ayude durante este proceso.",No sé qué hacer para adquirir algunos de sus productos,"¡Tu consulta es valiosa! Estoy entendiendo que podrías sentirte inseguro sobre el proceso de adquirir algunos de nuestros productos. Vamos a desglosarlo y hacerlo más fácil para vos. El primer paso es navegar por nuestra colección y explorar los diferentes artículos que ofrecemos. Una vez que hayas seleccionado los productos que deseas adquirir, podés agregarlos a tu carrito. Después de eso, procedé a la página de pago, donde se te pedirá que ingreses tu información de envío y pago. Una vez que el pedido esté realizado con éxito, nos encargaremos del resto y aseguraremos que tus productos te sean entregados a tiempo. No dudes en preguntar si tenés más dudas o si hay algo específico con lo que te gustaría que te ayude durante este proceso.",235,182
+bitext-20030,20030,ACCOUNT,recover_password,help to restore my user password,"Of course! I'm here to assist you in restoring your user password. We can navigate through the process step by step to ensure a smooth resolution:
+
+1. Let's begin by visiting the ""{{Login Page URL}}"" of our platform.
+2. Look for the option that says ""{{Forgot Password}}"" and click on it.
+3. You'll be prompted to enter the email associated with your user account. Please provide that information.
+4. Shortly after, you should receive an email with detailed instructions on how to reset your password. Remember to also check your spam or junk folders, just in case.
+5. Follow the instructions provided in the email to create a new, secure password for your user account.
+
+If you encounter any difficulties during this process or if the email doesn't arrive, don't hesitate to reach out to me. I'm here to guide you every step of the way!",0.4473684210526316,"Categoría: ACCOUNT
+Intención: recover_password
+Pregunta frecuente: ayuda para restaurar mi contraseña de usuario
+Procedimiento recomendado: ¡Por supuesto! Estoy aquí para ayudarte a restaurar tu contraseña de usuario. Podemos navegar por el proceso paso a paso para asegurar una resolución sin inconvenientes:
+
+1. Comencemos visitando la ""{{Login Page URL}}"" de nuestra plataforma.
+2. Busca la opción que dice ""{{Forgot Password}}"" y haz clic en ella.
+3. Se te pedirá que ingreses el correo electrónico asociado a tu cuenta de usuario. Por favor, proporciona esa información.
+4. Poco después, deberías recibir un correo electrónico con instrucciones detalladas sobre cómo restablecer tu contraseña. Recuerda también revisar tus carpetas de spam o correo no deseado, por si acaso.
+5. Sigue las instrucciones proporcionadas en el correo para crear una nueva contraseña segura para tu cuenta de usuario.
+
+Si encuentras alguna dificultad durante este proceso o si el correo no llega, no dudes en contactarme. Estoy aquí para guiarte en cada paso del camino.",ayuda para restaurar mi contraseña de usuario,"¡Por supuesto! Estoy aquí para ayudarte a restaurar tu contraseña de usuario. Podemos navegar por el proceso paso a paso para asegurar una resolución sin inconvenientes:
+
+1. Comencemos visitando la ""{{Login Page URL}}"" de nuestra plataforma.
+2. Busca la opción que dice ""{{Forgot Password}}"" y haz clic en ella.
+3. Se te pedirá que ingreses el correo electrónico asociado a tu cuenta de usuario. Por favor, proporciona esa información.
+4. Poco después, deberías recibir un correo electrónico con instrucciones detalladas sobre cómo restablecer tu contraseña. Recuerda también revisar tus carpetas de spam o correo no deseado, por si acaso.
+5. Sigue las instrucciones proporcionadas en el correo para crear una nueva contraseña segura para tu cuenta de usuario.
+
+Si encuentras alguna dificultad durante este proceso o si el correo no llega, no dudes en contactarme. Estoy aquí para guiarte en cada paso del camino.",266,225
+bitext-20201,20201,ACCOUNT,recover_password,want assistance to retrieve the PIN code of my user account,"I'm on it! I understand the importance of retrieving the PIN code for your user account. Let's work together to resolve this:
+
+1. To begin, please navigate to the login page of our platform.
+2. Look for the option labeled ""{{Forgot PIN code}}"" and click on it.
+3. You will be prompted to provide the email address associated with your user account. Kindly enter it accurately.
+4. Shortly after, you should receive an email with detailed instructions on how to retrieve your PIN code. Remember to check your spam or junk folder if you don't see it in your primary inbox.
+5. Follow the instructions provided in the email to successfully retrieve your PIN code.
+
+If you encounter any difficulties during this process or if the email doesn't arrive as expected, don't hesitate to reach out to me. I'm here to support you every step of the way!""",0.509090909090909,"Categoría: ACCOUNT
+Intención: recover_password
+Pregunta frecuente: quiero asistencia para recuperar el código PIN de mi cuenta de usuario
+Procedimiento recomendado: ¡Estoy en eso! Entiendo la importancia de recuperar el código PIN de tu cuenta de usuario. Trabajemos juntos para resolver esto:
+
+1. Para comenzar, por favor navega a la página de inicio de sesión de nuestra plataforma.
+2. Busca la opción etiquetada como ""{{Forgot PIN code}}"" y haz clic en ella.
+3. Se te pedirá que proporciones la dirección de correo electrónico asociada con tu cuenta de usuario. Por favor, ingrésala correctamente.
+4. Poco después, deberías recibir un correo electrónico con instrucciones detalladas sobre cómo recuperar tu código PIN. Recuerda revisar tu carpeta de spam o correo no deseado si no lo ves en tu bandeja de entrada principal.
+5. Sigue las instrucciones proporcionadas en el correo electrónico para recuperar tu código PIN con éxito.
+
+Si encuentras alguna dificultad durante este proceso o si el correo no llega como esperabas, no dudes en contactarme. ¡Estoy aquí para apoyarte en cada paso del camino!",quiero asistencia para recuperar el código PIN de mi cuenta de usuario,"¡Estoy en eso! Entiendo la importancia de recuperar el código PIN de tu cuenta de usuario. Trabajemos juntos para resolver esto:
+
+1. Para comenzar, por favor navega a la página de inicio de sesión de nuestra plataforma.
+2. Busca la opción etiquetada como ""{{Forgot PIN code}}"" y haz clic en ella.
+3. Se te pedirá que proporciones la dirección de correo electrónico asociada con tu cuenta de usuario. Por favor, ingrésala correctamente.
+4. Poco después, deberías recibir un correo electrónico con instrucciones detalladas sobre cómo recuperar tu código PIN. Recuerda revisar tu carpeta de spam o correo no deseado si no lo ves en tu bandeja de entrada principal.
+5. Sigue las instrucciones proporcionadas en el correo electrónico para recuperar tu código PIN con éxito.
+
+Si encuentras alguna dificultad durante este proceso o si el correo no llega como esperabas, no dudes en contactarme. ¡Estoy aquí para apoyarte en cada paso del camino!",269,240
+bitext-20392,20392,ACCOUNT,recover_password,can you help me to retrieve the pwd of my profile ?,"I'll do my best! I understand your need to retrieve the password of your profile. Your profile is like a treasure trove of personal information and memories, and it's important to have access to it. Let's work together to get you back on track:
+
+1. Start by visiting our ""{{Login Page URL}}"".
+2. Look for the ""{{Forgot Password}}"" option and click on it.
+3. Enter the email address associated with your profile so we can identify your account.
+4. In a matter of moments, you should receive an email with detailed instructions on how to reset your password. Remember to check your spam or junk folders if you cannot find it in your inbox.
+5. Follow the steps outlined in the email to create a new, secure password.
+
+If you encounter any issues during this process or if the email doesn't arrive as expected, please don't hesitate to reach out to me. I'm here to assist you every step of the way and ensure you regain access to your profile. Let's get you back in control of your account!""",0.5370370370370371,"Categoría: ACCOUNT
+Intención: recover_password
+Pregunta frecuente: ¿me podés ayudar a recuperar la contraseña de mi perfil?
+Procedimiento recomendado: ¡Haré lo posible! Entiendo tu necesidad de recuperar la contraseña de tu perfil. Tu perfil es como un tesoro de información personal y recuerdos, y es importante tener acceso a él. Trabajemos juntos para que puedas volver a estar en camino:
+
+1. Comenzá visitando nuestra ""{{Login Page URL}}"".
+2. Buscá la opción ""{{Forgot Password}}"" y hacé clic en ella.
+3. Ingresá la dirección de correo electrónico asociada a tu perfil para que podamos identificar tu cuenta.
+4. En cuestión de momentos, deberías recibir un correo electrónico con instrucciones detalladas sobre cómo restablecer tu contraseña. Recordá revisar tus carpetas de spam o correo no deseado si no lo podés encontrar en tu bandeja de entrada.
+5. Seguí los pasos indicados en el correo para crear una nueva contraseña segura.
+
+Si encontrás algún problema durante este proceso o si el correo no llega como esperabas, no dudes en contactarme. Estoy aquí para ayudarte en cada paso del camino y asegurarme de que recuperes el acceso a tu perfil. ¡Vamos a devolverte el control de tu cuenta!",¿me podés ayudar a recuperar la contraseña de mi perfil?,"¡Haré lo posible! Entiendo tu necesidad de recuperar la contraseña de tu perfil. Tu perfil es como un tesoro de información personal y recuerdos, y es importante tener acceso a él. Trabajemos juntos para que puedas volver a estar en camino:
+
+1. Comenzá visitando nuestra ""{{Login Page URL}}"".
+2. Buscá la opción ""{{Forgot Password}}"" y hacé clic en ella.
+3. Ingresá la dirección de correo electrónico asociada a tu perfil para que podamos identificar tu cuenta.
+4. En cuestión de momentos, deberías recibir un correo electrónico con instrucciones detalladas sobre cómo restablecer tu contraseña. Recordá revisar tus carpetas de spam o correo no deseado si no lo podés encontrar en tu bandeja de entrada.
+5. Seguí los pasos indicados en el correo para crear una nueva contraseña segura.
+
+Si encontrás algún problema durante este proceso o si el correo no llega como esperabas, no dudes en contactarme. Estoy aquí para ayudarte en cada paso del camino y asegurarme de que recuperes el acceso a tu perfil. ¡Vamos a devolverte el control de tu cuenta!",307,271
+bitext-21341,21341,ACCOUNT,registration_problems,need to inform o a signup error,"Glad you contacted to us regarding the signup error you encountered. We appreciate you taking the time to inform us about this issue. To assist you further, could you please provide more details about the error you experienced during the signup process? Any specific error message or steps you took would be helpful for us to identify and resolve the issue effectively. Rest assured, we are committed to ensuring a seamless signup experience for our users, and your feedback plays a crucial role in improving our services. We look forward to hearing from you and resolving this matter as quickly as possible.",0.5070422535211268,"Categoría: ACCOUNT
+Intención: registration_problems
+Pregunta frecuente: necesito informar sobre un error de registro
+Procedimiento recomendado: Nos alegra que te hayas puesto en contacto con nosotros respecto al error de registro que encontraste. Agradecemos que te tomes el tiempo para informarnos sobre este problema. Para poder ayudarte mejor, ¿podrías proporcionarnos más detalles sobre el error que experimentaste durante el proceso de registro? Cualquier mensaje de error específico o los pasos que seguiste serían útiles para que podamos identificar y resolver el problema de manera efectiva. Ten la seguridad de que estamos comprometidos a garantizar una experiencia de registro sin inconvenientes para nuestros usuarios, y tus comentarios juegan un papel crucial en la mejora de nuestros servicios. Esperamos tu respuesta y resolver este asunto lo más rápido posible.",necesito informar sobre un error de registro,"Nos alegra que te hayas puesto en contacto con nosotros respecto al error de registro que encontraste. Agradecemos que te tomes el tiempo para informarnos sobre este problema. Para poder ayudarte mejor, ¿podrías proporcionarnos más detalles sobre el error que experimentaste durante el proceso de registro? Cualquier mensaje de error específico o los pasos que seguiste serían útiles para que podamos identificar y resolver el problema de manera efectiva. Ten la seguridad de que estamos comprometidos a garantizar una experiencia de registro sin inconvenientes para nuestros usuarios, y tus comentarios juegan un papel crucial en la mejora de nuestros servicios. Esperamos tu respuesta y resolver este asunto lo más rápido posible.",195,160
+bitext-21506,21506,ACCOUNT,registration_problems,could you help me notifying of problems with a signup?,"Certainly, I'm here to assist you in notifying us about the problems you're encountering during the signup process. We understand that signing up can sometimes come with hurdles, and we appreciate your initiative in reaching out to us. Please provide us with the specific details of the issues you're facing so that we can work together to resolve them promptly. Your feedback is incredibly valuable to us and allows us to continuously improve our services.",0.7311827956989247,"Categoría: ACCOUNT
+Intención: registration_problems
+Pregunta frecuente: ¿podrías ayudarme a notificar problemas con un registro?
+Procedimiento recomendado: Por supuesto, estoy aquí para ayudarte a notificarnos sobre los problemas que estás encontrando durante el proceso de registro. Entendemos que registrarse a veces puede tener obstáculos, y apreciamos tu iniciativa al contactarnos. Por favor, proporciónanos los detalles específicos de los problemas que estás enfrentando para que podamos trabajar juntos en resolverlos rápidamente. Tu opinión es increíblemente valiosa para nosotros y nos permite mejorar continuamente nuestros servicios.",¿podrías ayudarme a notificar problemas con un registro?,"Por supuesto, estoy aquí para ayudarte a notificarnos sobre los problemas que estás encontrando durante el proceso de registro. Entendemos que registrarse a veces puede tener obstáculos, y apreciamos tu iniciativa al contactarnos. Por favor, proporciónanos los detalles específicos de los problemas que estás enfrentando para que podamos trabajar juntos en resolverlos rápidamente. Tu opinión es increíblemente valiosa para nosotros y nos permite mejorar continuamente nuestros servicios.",168,115
+bitext-21626,21626,ACCOUNT,registration_problems,"I cannot open a user, I have to inform of a signup issue","We apologize for the inconvenience you're facing in opening a user account. We understand the frustration this may have caused, and we appreciate you informing us about the signup issue. Our team is dedicated to resolving this matter promptly. To assist you further, could you please provide more details about the problem you encountered during the signup process? This information will allow us to investigate and address the issue as quickly as possible. Your feedback is valuable to us, and together, we will work towards a solution. Thank you for your cooperation.",0.4561403508771929,"Categoría: ACCOUNT
+Intención: registration_problems
+Pregunta frecuente: No puedo abrir un usuario, tengo que informar sobre un problema de registro
+Procedimiento recomendado: Lamentamos la inconveniencia que estás enfrentando al intentar abrir una cuenta de usuario. Entendemos la frustración que esto puede haber causado y te agradecemos por informarnos sobre el problema de registro. Nuestro equipo está dedicado a resolver este asunto de manera rápida. Para poder ayudarte mejor, ¿podrías proporcionarnos más detalles sobre el problema que encontraste durante el proceso de registro? Esta información nos permitirá investigar y abordar el problema lo más rápido posible. Tu opinión es valiosa para nosotros y, juntos, trabajaremos hacia una solución. Gracias por tu cooperación.","No puedo abrir un usuario, tengo que informar sobre un problema de registro","Lamentamos la inconveniencia que estás enfrentando al intentar abrir una cuenta de usuario. Entendemos la frustración que esto puede haber causado y te agradecemos por informarnos sobre el problema de registro. Nuestro equipo está dedicado a resolver este asunto de manera rápida. Para poder ayudarte mejor, ¿podrías proporcionarnos más detalles sobre el problema que encontraste durante el proceso de registro? Esta información nos permitirá investigar y abordar el problema lo más rápido posible. Tu opinión es valiosa para nosotros y, juntos, trabajaremos hacia una solución. Gracias por tu cooperación.",194,144
+bitext-22099,22099,FEEDBACK,review,submitting product review,"Thank you so much for taking the time to submit a product review! Your feedback is tremendously valuable to us and plays a crucial role in helping us understand our customers' experiences with our products. We appreciate your contribution in sharing your thoughts and insights. Your review will help other customers make informed decisions and assist us in continuously improving our products. If you have any further questions or need assistance, please feel free to let us know.",0.3859649122807017,"Categoría: FEEDBACK
+Intención: review
+Pregunta frecuente: enviar reseña de producto
+Procedimiento recomendado: ¡Muchas gracias por tomarte el tiempo de enviar una reseña de producto! Tu opinión es sumamente valiosa para nosotros y juega un papel crucial en ayudarnos a entender las experiencias de nuestros clientes con nuestros productos. Agradecemos tu contribución al compartir tus pensamientos e ideas. Tu reseña ayudará a otros clientes a tomar decisiones informadas y nos asistirá en la mejora continua de nuestros productos. Si tenés alguna pregunta adicional o necesitás ayuda, no dudes en hacérnoslo saber.",enviar reseña de producto,"¡Muchas gracias por tomarte el tiempo de enviar una reseña de producto! Tu opinión es sumamente valiosa para nosotros y juega un papel crucial en ayudarnos a entender las experiencias de nuestros clientes con nuestros productos. Agradecemos tu contribución al compartir tus pensamientos e ideas. Tu reseña ayudará a otros clientes a tomar decisiones informadas y nos asistirá en la mejora continua de nuestros productos. Si tenés alguna pregunta adicional o necesitás ayuda, no dudes en hacérnoslo saber.",166,122
+bitext-22217,22217,FEEDBACK,review,can you help me writing an opinion about your products?,"Sure! I'd be more than happy to assist you in writing an opinion about our products. Your feedback is invaluable to us, and we greatly appreciate your willingness to share your thoughts and experiences. To get started, could you let me know which specific products you would like to provide feedback on? Additionally, if you could share any specific aspects or features of the products that you would like to highlight in your opinion, it would greatly help in crafting a comprehensive and accurate review. Feel free to take your time, and I'm here to guide you throughout the process. Let's make your opinion shine!",0.495575221238938,"Categoría: FEEDBACK
+Intención: review
+Pregunta frecuente: ¿Podés ayudarme a escribir una opinión sobre tus productos?
+Procedimiento recomendado: ¡Claro! Estaré más que feliz de ayudarte a escribir una opinión sobre nuestros productos. Tu opinión es invaluable para nosotros y apreciamos mucho que estés dispuesto a compartir tus pensamientos y experiencias. Para empezar, ¿podés decirme sobre qué productos específicos te gustaría dar tu opinión? Además, si podés compartir algún aspecto o característica específica de los productos que te gustaría resaltar en tu opinión, eso ayudaría mucho a elaborar una reseña completa y precisa. No dudes en tomarte tu tiempo, y estoy aquí para guiarte durante todo el proceso. ¡Hagamos que tu opinión brille!",¿Podés ayudarme a escribir una opinión sobre tus productos?,"¡Claro! Estaré más que feliz de ayudarte a escribir una opinión sobre nuestros productos. Tu opinión es invaluable para nosotros y apreciamos mucho que estés dispuesto a compartir tus pensamientos y experiencias. Para empezar, ¿podés decirme sobre qué productos específicos te gustaría dar tu opinión? Además, si podés compartir algún aspecto o característica específica de los productos que te gustaría resaltar en tu opinión, eso ayudaría mucho a elaborar una reseña completa y precisa. No dudes en tomarte tu tiempo, y estoy aquí para guiarte durante todo el proceso. ¡Hagamos que tu opinión brille!",204,149
+bitext-22388,22388,FEEDBACK,review,how can i send feedback about a product,"We greatly value your feedback about our product! There are several convenient ways you can share your thoughts with us. One of the easiest ways is to visit our website and navigate to the dedicated ""Feedback"" or ""Contact Us"" section. There, you can find a form specifically designed to collect valuable feedback from our customers. Alternatively, you can also reach out to our customer support team via phone or email and they will be more than happy to assist you in submitting your feedback. We truly appreciate your time and effort in helping us improve our products.",0.4897959183673469,"Categoría: FEEDBACK
+Intención: review
+Pregunta frecuente: ¿cómo puedo enviar comentarios sobre un producto?
+Procedimiento recomendado: ¡Valoramos mucho tus comentarios sobre nuestro producto! Hay varias formas convenientes de compartir tus pensamientos con nosotros. Una de las maneras más fáciles es visitar nuestro sitio web y navegar a la sección dedicada de ""Comentarios"" o ""Contáctanos"". Allí, puedes encontrar un formulario diseñado específicamente para recopilar comentarios valiosos de nuestros clientes. Alternativamente, también puedes comunicarte con nuestro equipo de soporte al cliente por teléfono o correo electrónico y estarán más que felices de ayudarte a enviar tus comentarios. Realmente apreciamos tu tiempo y esfuerzo en ayudarnos a mejorar nuestros productos.",¿cómo puedo enviar comentarios sobre un producto?,"¡Valoramos mucho tus comentarios sobre nuestro producto! Hay varias formas convenientes de compartir tus pensamientos con nosotros. Una de las maneras más fáciles es visitar nuestro sitio web y navegar a la sección dedicada de ""Comentarios"" o ""Contáctanos"". Allí, puedes encontrar un formulario diseñado específicamente para recopilar comentarios valiosos de nuestros clientes. Alternativamente, también puedes comunicarte con nuestro equipo de soporte al cliente por teléfono o correo electrónico y estarán más que felices de ayudarte a enviar tus comentarios. Realmente apreciamos tu tiempo y esfuerzo en ayudarnos a mejorar nuestros productos.",194,138
+bitext-23095,23095,SHIPPING,set_up_shipping_address,help setting up my new delivery address,"I'm cognizant of the fact that you're seeking assistance in setting up your new delivery address. I'm here to help you navigate through the process:
+
+1. Log in to your account.
+2. Go to the 'My Account' or 'Profile' section.
+3. Look for the 'Shipping Addresses' or similar option.
+4. Select the 'Add a New Address' or 'Edit Shipping Addresses' option.
+5. Fill in the required fields with the details of your new delivery address.
+6. Double-check the accuracy of the entered information.
+7. Save the changes to update your delivery address.
+
+If you encounter any issues or have further questions during the process, please don't hesitate to let me know, and I'll be more than happy to assist you further!""",0.5714285714285714,"Categoría: SHIPPING
+Intención: set_up_shipping_address
+Pregunta frecuente: ayuda para configurar mi nueva dirección de entrega
+Procedimiento recomendado: Soy consciente de que estás buscando ayuda para configurar tu nueva dirección de entrega. Estoy aquí para ayudarte a navegar por el proceso:
+
+1. Inicia sesión en tu cuenta.
+2. Ve a la sección 'Mi Cuenta' o 'Perfil'.
+3. Busca la opción 'Direcciones de Envío' o similar.
+4. Selecciona la opción 'Agregar una Nueva Dirección' o 'Editar Direcciones de Envío'.
+5. Completa los campos requeridos con los detalles de tu nueva dirección de entrega.
+6. Verifica la precisión de la información ingresada.
+7. Guarda los cambios para actualizar tu dirección de entrega.
+
+Si encuentras algún problema o tienes más preguntas durante el proceso, no dudes en decírmelo, ¡y estaré más que feliz de ayudarte más!",ayuda para configurar mi nueva dirección de entrega,"Soy consciente de que estás buscando ayuda para configurar tu nueva dirección de entrega. Estoy aquí para ayudarte a navegar por el proceso:
+
+1. Inicia sesión en tu cuenta.
+2. Ve a la sección 'Mi Cuenta' o 'Perfil'.
+3. Busca la opción 'Direcciones de Envío' o similar.
+4. Selecciona la opción 'Agregar una Nueva Dirección' o 'Editar Direcciones de Envío'.
+5. Completa los campos requeridos con los detalles de tu nueva dirección de entrega.
+6. Verifica la precisión de la información ingresada.
+7. Guarda los cambios para actualizar tu dirección de entrega.
+
+Si encuentras algún problema o tienes más preguntas durante el proceso, no dudes en decírmelo, ¡y estaré más que feliz de ayudarte más!",248,197
+bitext-23214,23214,SHIPPING,set_up_shipping_address,I try tosubmit my secondary delivery address,"I understand your efforts to submit your secondary delivery address, and I'm here to assist you in resolving any issues you may be facing. To ensure a smooth submission process, please follow these steps carefully:
+
+1. Log in to your account.
+2. Navigate to the 'My Account' or 'Profile' section.
+3. Look for the 'Shipping Addresses' or similar option.
+4. There should be an option to 'Add a New Address' or 'Edit Shipping Addresses'. Select it.
+5. Enter the details of your secondary delivery address in the provided fields.
+6. Double-check all the information for accuracy.
+7. Once you are satisfied with the entries, proceed to submit the address.
+
+If you encounter any difficulties during this process or have any further questions, please do not hesitate to let me know. I'm here to provide ongoing support and ensure a seamless experience for you.",0.4854368932038835,"Categoría: SHIPPING
+Intención: set_up_shipping_address
+Pregunta frecuente: Intento enviar mi dirección de entrega secundaria
+Procedimiento recomendado: Entiendo tus esfuerzos por enviar tu dirección de entrega secundaria, y estoy aquí para ayudarte a resolver cualquier problema que puedas estar enfrentando. Para asegurar un proceso de envío sin inconvenientes, por favor sigue estos pasos cuidadosamente:
+
+1. Inicia sesión en tu cuenta.
+2. Navega a la sección 'Mi Cuenta' o 'Perfil'.
+3. Busca la opción 'Direcciones de Envío' o similar.
+4. Debería haber una opción para 'Agregar una Nueva Dirección' o 'Editar Direcciones de Envío'. Selecciónala.
+5. Ingresa los detalles de tu dirección de entrega secundaria en los campos proporcionados.
+6. Verifica toda la información para asegurarte de que sea correcta.
+7. Una vez que estés satisfecho con las entradas, procede a enviar la dirección.
+
+Si encuentras alguna dificultad durante este proceso o tienes más preguntas, no dudes en hacérmelo saber. Estoy aquí para brindarte apoyo continuo y asegurar una experiencia fluida para ti.",Intento enviar mi dirección de entrega secundaria,"Entiendo tus esfuerzos por enviar tu dirección de entrega secundaria, y estoy aquí para ayudarte a resolver cualquier problema que puedas estar enfrentando. Para asegurar un proceso de envío sin inconvenientes, por favor sigue estos pasos cuidadosamente:
+
+1. Inicia sesión en tu cuenta.
+2. Navega a la sección 'Mi Cuenta' o 'Perfil'.
+3. Busca la opción 'Direcciones de Envío' o similar.
+4. Debería haber una opción para 'Agregar una Nueva Dirección' o 'Editar Direcciones de Envío'. Selecciónala.
+5. Ingresa los detalles de tu dirección de entrega secundaria en los campos proporcionados.
+6. Verifica toda la información para asegurarte de que sea correcta.
+7. Una vez que estés satisfecho con las entradas, procede a enviar la dirección.
+
+Si encuentras alguna dificultad durante este proceso o tienes más preguntas, no dudes en hacérmelo saber. Estoy aquí para brindarte apoyo continuo y asegurar una experiencia fluida para ti.",271,236
+bitext-23386,23386,SHIPPING,set_up_shipping_address,I want help entering a secondary shipping address,"I realized, you need assistance with entering a secondary shipping address. Let's work together to resolve this issue. Here's a step-by-step guide:
+
+1. Log in to your account.
+2. Navigate to the ""My Account"" or ""Profile"" section.
+3. Look for the option related to ""Shipping Addresses"" or similar.
+4. Choose the option to ""Add a New Address"" or ""Edit Shipping Addresses"".
+5. Enter the details of your secondary shipping address in the provided fields.
+6. Save the changes.
+
+Please follow these steps, and if you encounter any difficulties along the way or if the process appears different for you, feel free to reach out with any specific concerns you have. I'm here to assist you and ensure a smooth experience in setting up your secondary shipping address.",0.5185185185185185,"Categoría: SHIPPING
+Intención: set_up_shipping_address
+Pregunta frecuente: Quiero ayuda para ingresar una dirección de envío secundaria
+Procedimiento recomendado: Me doy cuenta de que necesitas ayuda para ingresar una dirección de envío secundaria. Trabajemos juntos para resolver este problema. Aquí tienes una guía paso a paso:
+
+1. Inicia sesión en tu cuenta.
+2. Navega a la sección ""Mi Cuenta"" o ""Perfil"".
+3. Busca la opción relacionada con ""Direcciones de Envío"" o similar.
+4. Elige la opción para ""Agregar una Nueva Dirección"" o ""Editar Direcciones de Envío"".
+5. Ingresa los detalles de tu dirección de envío secundaria en los campos proporcionados.
+6. Guarda los cambios.
+
+Por favor, sigue estos pasos, y si encuentras alguna dificultad en el camino o si el proceso parece diferente para ti, no dudes en comunicarte con cualquier inquietud específica que tengas. Estoy aquí para ayudarte y asegurarme de que tengas una experiencia fluida al configurar tu dirección de envío secundaria.",Quiero ayuda para ingresar una dirección de envío secundaria,"Me doy cuenta de que necesitas ayuda para ingresar una dirección de envío secundaria. Trabajemos juntos para resolver este problema. Aquí tienes una guía paso a paso:
+
+1. Inicia sesión en tu cuenta.
+2. Navega a la sección ""Mi Cuenta"" o ""Perfil"".
+3. Busca la opción relacionada con ""Direcciones de Envío"" o similar.
+4. Elige la opción para ""Agregar una Nueva Dirección"" o ""Editar Direcciones de Envío"".
+5. Ingresa los detalles de tu dirección de envío secundaria en los campos proporcionados.
+6. Guarda los cambios.
+
+Por favor, sigue estos pasos, y si encuentras alguna dificultad en el camino o si el proceso parece diferente para ti, no dudes en comunicarte con cualquier inquietud específica que tengas. Estoy aquí para ayudarte y asegurarme de que tengas una experiencia fluida al configurar tu dirección de envío secundaria.",253,217
+bitext-24055,24055,ACCOUNT,switch_account,what do I have to do to change t the {{Account Category}} account?,"I'm happy to help! I'm thrilled that you're considering the {{Account Category}} account. To make the transition as smooth as possible, here's a step-by-step guide for you:
+
+1. Login: Begin by logging into your current account on our platform.
+2. Account Settings: Once you're logged in, navigate to the '{{Settings}}' section or the '{{Profile}}' area.
+3. Upgrade Option: Look for the option labeled '{{Upgrade Account}}' or '{{Account Change}}' within this section.
+4. {{Account Category}} Selection: Choose the '{{Account Type}}' option from the list provided.
+5. Confirmation: Follow the prompts on the screen to finalize the switch to the {{Account Category}} account.
+
+If you encounter any difficulties or if you have any questions along the way, please don't hesitate to reach out. We're here to assist you and ensure a seamless transition. Enjoy all the benefits and features that come with the {{Account Category}} account!",0.5210084033613446,"Categoría: ACCOUNT
+Intención: switch_account
+Pregunta frecuente: ¿Qué tengo que hacer para cambiar la cuenta de {{Account Category}}?
+Procedimiento recomendado: ¡Estoy feliz de ayudar! Estoy emocionado de que estés considerando la cuenta de {{Account Category}}. Para hacer la transición lo más fluida posible, aquí tienes una guía paso a paso:
+
+1. Iniciar sesión: Comienza iniciando sesión en tu cuenta actual en nuestra plataforma.
+2. Configuración de la cuenta: Una vez que hayas iniciado sesión, navega a la sección '{{Settings}}' o al área '{{Profile}}'.
+3. Opción de actualización: Busca la opción etiquetada como '{{Upgrade Account}}' o '{{Account Change}}' dentro de esta sección.
+4. Selección de {{Account Category}}: Elige la opción '{{Account Type}}' de la lista proporcionada.
+5. Confirmación: Sigue las indicaciones en la pantalla para finalizar el cambio a la cuenta de {{Account Category}}.
+
+Si encuentras alguna dificultad o si tienes alguna pregunta en el camino, no dudes en comunicarte. Estamos aquí para asistirte y asegurar una transición sin problemas. ¡Disfruta de todos los beneficios y características que vienen con la cuenta de {{Account Category}}!",¿Qué tengo que hacer para cambiar la cuenta de {{Account Category}}?,"¡Estoy feliz de ayudar! Estoy emocionado de que estés considerando la cuenta de {{Account Category}}. Para hacer la transición lo más fluida posible, aquí tienes una guía paso a paso:
+
+1. Iniciar sesión: Comienza iniciando sesión en tu cuenta actual en nuestra plataforma.
+2. Configuración de la cuenta: Una vez que hayas iniciado sesión, navega a la sección '{{Settings}}' o al área '{{Profile}}'.
+3. Opción de actualización: Busca la opción etiquetada como '{{Upgrade Account}}' o '{{Account Change}}' dentro de esta sección.
+4. Selección de {{Account Category}}: Elige la opción '{{Account Type}}' de la lista proporcionada.
+5. Confirmación: Sigue las indicaciones en la pantalla para finalizar el cambio a la cuenta de {{Account Category}}.
+
+Si encuentras alguna dificultad o si tienes alguna pregunta en el camino, no dudes en comunicarte. Estamos aquí para asistirte y asegurar una transición sin problemas. ¡Disfruta de todos los beneficios y características que vienen con la cuenta de {{Account Category}}!",293,260
+bitext-24079,24079,ACCOUNT,switch_account,assistance to use the {{Account Category}} profile,"Sure! I'm here to provide you with assistance on using our {{Account Category}} profile. Here's how you can make the most out of it:
+
+1. Explore Features: Take some time to familiarize yourself with the various features and benefits of our {{Account Category}} profile. You'll find a range of useful tools and resources to enhance your experience.
+
+2. Account Access: To access your {{Account Category}} profile, log in to our platform using your existing credentials.
+
+3. {{Account Category}} Benefits: With the {{Account Category}} profile, you can enjoy a selection of free features and services that provide a taste of the premium experience.
+
+4. Upgrade Options: If you find that the features of the {{Account Category}} profile no longer meet your needs, you can always consider upgrading to one of our premium profiles for additional perks and benefits.
+
+Should you require any further guidance or have specific queries regarding the {{Account Category}} profile, feel free to reach out. I'm here to make your experience as seamless and enjoyable as possible.",0.5128205128205128,"Categoría: ACCOUNT
+Intención: switch_account
+Pregunta frecuente: asistencia para usar el perfil de {{Account Category}}
+Procedimiento recomendado: ¡Claro! Estoy aquí para brindarte asistencia sobre el uso de nuestro perfil de {{Account Category}}. Aquí te explico cómo aprovecharlo al máximo:
+
+1. Explora las características: Tómate un tiempo para familiarizarte con las diversas características y beneficios de nuestro perfil de {{Account Category}}. Encontrarás una variedad de herramientas y recursos útiles para mejorar tu experiencia.
+
+2. Acceso a la cuenta: Para acceder a tu perfil de {{Account Category}}, inicia sesión en nuestra plataforma utilizando tus credenciales existentes.
+
+3. Beneficios de {{Account Category}}: Con el perfil de {{Account Category}}, puedes disfrutar de una selección de características y servicios gratuitos que te brindan un adelanto de la experiencia premium.
+
+4. Opciones de actualización: Si consideras que las características del perfil de {{Account Category}} ya no satisfacen tus necesidades, siempre puedes considerar actualizar a uno de nuestros perfiles premium para obtener beneficios adicionales.
+
+Si necesitas más orientación o tienes consultas específicas sobre el perfil de {{Account Category}}, no dudes en comunicarte. Estoy aquí para hacer que tu experiencia sea lo más fluida y agradable posible.",asistencia para usar el perfil de {{Account Category}},"¡Claro! Estoy aquí para brindarte asistencia sobre el uso de nuestro perfil de {{Account Category}}. Aquí te explico cómo aprovecharlo al máximo:
+
+1. Explora las características: Tómate un tiempo para familiarizarte con las diversas características y beneficios de nuestro perfil de {{Account Category}}. Encontrarás una variedad de herramientas y recursos útiles para mejorar tu experiencia.
+
+2. Acceso a la cuenta: Para acceder a tu perfil de {{Account Category}}, inicia sesión en nuestra plataforma utilizando tus credenciales existentes.
+
+3. Beneficios de {{Account Category}}: Con el perfil de {{Account Category}}, puedes disfrutar de una selección de características y servicios gratuitos que te brindan un adelanto de la experiencia premium.
+
+4. Opciones de actualización: Si consideras que las características del perfil de {{Account Category}} ya no satisfacen tus necesidades, siempre puedes considerar actualizar a uno de nuestros perfiles premium para obtener beneficios adicionales.
+
+Si necesitas más orientación o tienes consultas específicas sobre el perfil de {{Account Category}}, no dudes en comunicarte. Estoy aquí para hacer que tu experiencia sea lo más fluida y agradable posible.",302,262
+bitext-24747,24747,ACCOUNT,switch_account,I want to use the {{Account Category}} profile,"Of course! I completely understand your aspiration to utilize the incredible benefits of our {{Account Category}} profile. Let's make this transition a breeze together:
+
+1. **Access Your Account:** Begin by logging into our platform.
+2. **Locate Account Settings:** Navigate to the '{{Settings}}' or '{{Profile}}' section within your account.
+3. **Upgrade Option:** Look for an option that says '{{Upgrade Account}}' or '{{Account Change}}' within these sections.
+4. **Select {{Account Category}}:** From the list of available options, choose the '{{Profile Type}}'.
+5. **Finalize the Switch:** Follow the on-screen instructions to complete the upgrade.
+
+If you encounter any challenges along the way or if you have any additional questions, please feel free to reach out to me. Your decision to upgrade to {{Account Category}} is highly valued, and I'm here to ensure a seamless and enjoyable experience. Get ready to unlock a world of exclusive advantages with your {{Account Category}} profile!",0.5393258426966292,"Categoría: ACCOUNT
+Intención: switch_account
+Pregunta frecuente: Quiero usar el perfil de {{Account Category}}
+Procedimiento recomendado: ¡Por supuesto! Entiendo completamente tu deseo de aprovechar los increíbles beneficios de nuestro perfil de {{Account Category}}. Hagamos que esta transición sea sencilla juntos:
+
+1. **Accede a tu cuenta:** Comienza iniciando sesión en nuestra plataforma.
+2. **Ubica la configuración de la cuenta:** Navega a la sección '{{Settings}}' o '{{Profile}}' dentro de tu cuenta.
+3. **Opción de actualización:** Busca una opción que diga '{{Upgrade Account}}' o '{{Account Change}}' dentro de estas secciones.
+4. **Selecciona {{Account Category}}:** De la lista de opciones disponibles, elige el '{{Profile Type}}'.
+5. **Finaliza el cambio:** Sigue las instrucciones en pantalla para completar la actualización.
+
+Si encuentras algún desafío en el camino o si tienes alguna pregunta adicional, no dudes en contactarme. Tu decisión de actualizar a {{Account Category}} es muy valorada, y estoy aquí para asegurar una experiencia fluida y agradable. ¡Prepárate para desbloquear un mundo de ventajas exclusivas con tu perfil de {{Account Category}}!",Quiero usar el perfil de {{Account Category}},"¡Por supuesto! Entiendo completamente tu deseo de aprovechar los increíbles beneficios de nuestro perfil de {{Account Category}}. Hagamos que esta transición sea sencilla juntos:
+
+1. **Accede a tu cuenta:** Comienza iniciando sesión en nuestra plataforma.
+2. **Ubica la configuración de la cuenta:** Navega a la sección '{{Settings}}' o '{{Profile}}' dentro de tu cuenta.
+3. **Opción de actualización:** Busca una opción que diga '{{Upgrade Account}}' o '{{Account Change}}' dentro de estas secciones.
+4. **Selecciona {{Account Category}}:** De la lista de opciones disponibles, elige el '{{Profile Type}}'.
+5. **Finaliza el cambio:** Sigue las instrucciones en pantalla para completar la actualización.
+
+Si encuentras algún desafío en el camino o si tienes alguna pregunta adicional, no dudes en contactarme. Tu decisión de actualizar a {{Account Category}} es muy valorada, y estoy aquí para asegurar una experiencia fluida y agradable. ¡Prepárate para desbloquear un mundo de ventajas exclusivas con tu perfil de {{Account Category}}!",296,256
+bitext-24919,24919,ORDER,track_order,checking ETA of order {{Order Number}},"Thank you for reaching out! I'm here to assist you with checking the estimated time of arrival (ETA) for your order with the order number {{Order Number}}. To provide you with accurate information about the ETA, may I please have a moment to look up the details?",0.5897435897435898,"Categoría: ORDER
+Intención: track_order
+Pregunta frecuente: verificando el ETA del pedido {{Order Number}}
+Procedimiento recomendado: ¡Gracias por ponerte en contacto! Estoy aquí para ayudarte a verificar el tiempo estimado de llegada (ETA) de tu pedido con el número de pedido {{Order Number}}. Para poder brindarte información precisa sobre el ETA, ¿me podrías dar un momento para buscar los detalles?",verificando el ETA del pedido {{Order Number}},"¡Gracias por ponerte en contacto! Estoy aquí para ayudarte a verificar el tiempo estimado de llegada (ETA) de tu pedido con el número de pedido {{Order Number}}. Para poder brindarte información precisa sobre el ETA, ¿me podrías dar un momento para buscar los detalles?",140,83
+bitext-25204,25204,ORDER,track_order,ned to locate order {{Order Number}} how could i do it,"Glad you contacted us! I'm clearly cognizant that you need assistance in locating your order with the order number {{Order Number}}. To help you with that, please follow these steps:
+1. Log in to your account on our website.
+2. Go to the ""Order History"" section.
+3. Search for the order with the order number {{Order Number}}.
+4. Click on the order details to view the current status and tracking information.
+If you encounter any issues or need further assistance, please don't hesitate to let me know.",0.5957446808510638,"Categoría: ORDER
+Intención: track_order
+Pregunta frecuente: necesito localizar el pedido {{Order Number}} ¿cómo podría hacerlo?
+Procedimiento recomendado: ¡Me alegra que te hayas puesto en contacto con nosotros! Soy plenamente consciente de que necesitas ayuda para localizar tu pedido con el número de pedido {{Order Number}}. Para ayudarte con eso, por favor sigue estos pasos:
+1. Inicia sesión en tu cuenta en nuestro sitio web.
+2. Ve a la sección ""Historial de Pedidos"".
+3. Busca el pedido con el número de pedido {{Order Number}}.
+4. Haz clic en los detalles del pedido para ver el estado actual y la información de seguimiento.
+Si encuentras algún problema o necesitas más ayuda, no dudes en decírmelo.",necesito localizar el pedido {{Order Number}} ¿cómo podría hacerlo?,"¡Me alegra que te hayas puesto en contacto con nosotros! Soy plenamente consciente de que necesitas ayuda para localizar tu pedido con el número de pedido {{Order Number}}. Para ayudarte con eso, por favor sigue estos pasos:
+1. Inicia sesión en tu cuenta en nuestro sitio web.
+2. Ve a la sección ""Historial de Pedidos"".
+3. Busca el pedido con el número de pedido {{Order Number}}.
+4. Haz clic en los detalles del pedido para ver el estado actual y la información de seguimiento.
+Si encuentras algún problema o necesitas más ayuda, no dudes en decírmelo.",204,159
+bitext-25544,25544,ORDER,track_order,I don't know how to track purchase {{Order Number}},"It's great to hear from you! I can see that you are unsure of how to track your purchase with the purchase number {{Order Number}}. Tracking your purchase is important, and I'm here to assist you. To track your purchase, you can visit our website and navigate to the ""Order History"" section. There, you will find the status and tracking information for your purchase. If you encounter any difficulties or have further questions, please feel free to let me know. I'm here to ensure that you have a seamless tracking experience!",0.5849056603773585,"Categoría: ORDER
+Intención: track_order
+Pregunta frecuente: No sé cómo rastrear la compra {{Order Number}}
+Procedimiento recomendado: ¡Es genial saber de vos! Puedo ver que no estás seguro de cómo rastrear tu compra con el número de compra {{Order Number}}. Rastrear tu compra es importante, y estoy aquí para ayudarte. Para rastrear tu compra, podés visitar nuestro sitio web y navegar a la sección ""Historial de Pedidos"". Allí encontrarás el estado y la información de seguimiento de tu compra. Si encontrás alguna dificultad o tenés más preguntas, no dudes en decírmelo. Estoy aquí para asegurarme de que tengas una experiencia de seguimiento sin inconvenientes.",No sé cómo rastrear la compra {{Order Number}},"¡Es genial saber de vos! Puedo ver que no estás seguro de cómo rastrear tu compra con el número de compra {{Order Number}}. Rastrear tu compra es importante, y estoy aquí para ayudarte. Para rastrear tu compra, podés visitar nuestro sitio web y navegar a la sección ""Historial de Pedidos"". Allí encontrarás el estado y la información de seguimiento de tu compra. Si encontrás alguna dificultad o tenés más preguntas, no dudes en decírmelo. Estoy aquí para asegurarme de que tengas una experiencia de seguimiento sin inconvenientes.",194,143
+bitext-26131,26131,REFUND,track_refund,how to check the current status of the reimbursement?,"We understand that you are eager to check the current status of your reimbursement. To assist you with this, we have a couple of options available.
+
+You can visit our website and log into your account dashboard. From there, navigate to the ""My Orders"" or ""My Account"" section, where you should be able to find a list of your recent purchases and any associated refunds or reimbursements. The status of your reimbursement should be indicated next to the respective purchase.
+
+Alternatively, you can reach out to our customer support team for a more immediate response. They will be able to provide you with real-time updates on the status of your reimbursement.
+
+Please let us know if you need any further assistance or have any other questions. We are here to help!",0.5714285714285714,"Categoría: REFUND
+Intención: track_refund
+Pregunta frecuente: ¿cómo puedo verificar el estado actual del reembolso?
+Procedimiento recomendado: Entendemos que estás ansioso por verificar el estado actual de tu reembolso. Para ayudarte con esto, tenemos un par de opciones disponibles.
+
+Puedes visitar nuestro sitio web e iniciar sesión en tu panel de cuenta. Desde allí, navega a la sección ""Mis Pedidos"" o ""Mi Cuenta"", donde deberías poder encontrar una lista de tus compras recientes y cualquier reembolso asociado. El estado de tu reembolso debería estar indicado al lado de la compra correspondiente.
+
+Alternativamente, puedes comunicarte con nuestro equipo de soporte al cliente para obtener una respuesta más inmediata. Ellos podrán proporcionarte actualizaciones en tiempo real sobre el estado de tu reembolso.
+
+Por favor, háznos saber si necesitas más ayuda o si tienes alguna otra pregunta. ¡Estamos aquí para ayudar!",¿cómo puedo verificar el estado actual del reembolso?,"Entendemos que estás ansioso por verificar el estado actual de tu reembolso. Para ayudarte con esto, tenemos un par de opciones disponibles.
+
+Puedes visitar nuestro sitio web e iniciar sesión en tu panel de cuenta. Desde allí, navega a la sección ""Mis Pedidos"" o ""Mi Cuenta"", donde deberías poder encontrar una lista de tus compras recientes y cualquier reembolso asociado. El estado de tu reembolso debería estar indicado al lado de la compra correspondiente.
+
+Alternativamente, puedes comunicarte con nuestro equipo de soporte al cliente para obtener una respuesta más inmediata. Ellos podrán proporcionarte actualizaciones en tiempo real sobre el estado de tu reembolso.
+
+Por favor, háznos saber si necesitas más ayuda o si tienes alguna otra pregunta. ¡Estamos aquí para ayudar!",242,187
+bitext-26157,26157,REFUND,track_refund,i do not know how i can see the current status of the rebate,"I've picked up that you may be unsure about how to check the current status of your rebate. Let me guide you through the process to make it easier for you. To track the status of your rebate, you can visit our website and log into your account. Once logged in, navigate to the ""Rebates"" or ""Refunds"" section, where you should be able to see the details of your rebate and its current status. If you're still facing any difficulties or have further questions, please feel free to let me know. I'm here to assist you every step of the way.",0.5254237288135594,"Categoría: REFUND
+Intención: track_refund
+Pregunta frecuente: no sé cómo puedo ver el estado actual del reembolso
+Procedimiento recomendado: He notado que quizás no estés seguro de cómo verificar el estado actual de tu reembolso. Déjame guiarte a través del proceso para que te resulte más fácil. Para rastrear el estado de tu reembolso, puedes visitar nuestro sitio web e iniciar sesión en tu cuenta. Una vez que hayas iniciado sesión, navega a la sección de ""Reembolsos"" o ""Devoluciones"", donde deberías poder ver los detalles de tu reembolso y su estado actual. Si aún enfrentas alguna dificultad o tienes más preguntas, no dudes en decírmelo. Estoy aquí para ayudarte en cada paso del camino.",no sé cómo puedo ver el estado actual del reembolso,"He notado que quizás no estés seguro de cómo verificar el estado actual de tu reembolso. Déjame guiarte a través del proceso para que te resulte más fácil. Para rastrear el estado de tu reembolso, puedes visitar nuestro sitio web e iniciar sesión en tu cuenta. Una vez que hayas iniciado sesión, navega a la sección de ""Reembolsos"" o ""Devoluciones"", donde deberías poder ver los detalles de tu reembolso y su estado actual. Si aún enfrentas alguna dificultad o tienes más preguntas, no dudes en decírmelo. Estoy aquí para ayudarte en cada paso del camino.",209,154
+bitext-26569,26569,REFUND,track_refund,where can I check if there is anything enw on the refund?,"We're here for you with your query about checking for any updates regarding your refund. I understand the importance of staying informed and reassured throughout this process. To help you with that, I recommend visiting our website's ""Refund Status"" page. There you will find real-time updates on the progress of your refund, ensuring that you are always up-to-date. If you encounter any difficulties or have further questions during this process, please don't hesitate to let me know.",0.4695652173913043,"Categoría: REFUND
+Intención: track_refund
+Pregunta frecuente: ¿Dónde puedo verificar si hay alguna novedad sobre el reembolso?
+Procedimiento recomendado: Estamos aquí para ayudarte con tu consulta sobre cómo verificar si hay actualizaciones respecto a tu reembolso. Entiendo la importancia de estar informado y tranquilo durante este proceso. Para ayudarte con eso, te recomiendo visitar la página de ""Estado del Reembolso"" en nuestro sitio web. Allí encontrarás actualizaciones en tiempo real sobre el progreso de tu reembolso, asegurando que siempre estés al tanto. Si encuentras alguna dificultad o tienes más preguntas durante este proceso, no dudes en hacérmelo saber.",¿Dónde puedo verificar si hay alguna novedad sobre el reembolso?,"Estamos aquí para ayudarte con tu consulta sobre cómo verificar si hay actualizaciones respecto a tu reembolso. Entiendo la importancia de estar informado y tranquilo durante este proceso. Para ayudarte con eso, te recomiendo visitar la página de ""Estado del Reembolso"" en nuestro sitio web. Allí encontrarás actualizaciones en tiempo real sobre el progreso de tu reembolso, asegurando que siempre estés al tanto. Si encuentras alguna dificultad o tienes más preguntas durante este proceso, no dudes en hacérmelo saber.",181,128

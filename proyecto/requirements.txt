@@ -1,0 +1,37 @@
+# Dependencias del Trabajo Final
+# Evaluación de modelos LLM para soporte al cliente
+#
+# Instalación:
+#   python3 -m venv venv
+#   source venv/bin/activate
+#   pip install -r requirements.txt
+
+# --- Clientes de modelos ---
+openai>=1.40.0
+ollama>=0.3.0
+
+# --- Datos ---
+datasets>=2.20.0
+numpy>=1.26.0
+pandas>=2.0.0
+
+# --- Recuperación aumentada (Subproyecto 2) ---
+sentence-transformers>=6.1.0,<7.0.0
+
+# --- Métricas de evaluación ---
+bert-score>=0.3.13
+rouge-score>=0.1.2
+
+# --- Utilidades ---
+tqdm>=4.66.0
+python-dotenv>=1.0.0
+
+# --- Soporte para notebooks en VS Code ---
+ipykernel>=6.29.0
+
+# --- Generación y ejecución de notebooks (Task 6) ---
+nbformat>=5.10.0
+nbconvert>=7.0.0
+
+# --- Tests ---
+pytest>=8.0.0

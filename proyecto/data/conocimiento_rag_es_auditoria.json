@@ -1,0 +1,10 @@
+{
+  "modelo": "gpt-4o-mini-2024-07-18",
+  "documentos": 81,
+  "tokens_in": 17466,
+  "tokens_out": 13799,
+  "precio_entrada_usd_por_millon": 0.15,
+  "precio_salida_usd_por_millon": 0.6,
+  "costo_total_usd": 0.010899,
+  "campos_con_marcadores_restaurados": 2
+}

@@ -1,0 +1,21 @@
+consulta,intent_esperado,documento_top1,intent_top1,score_top1,hit_top1,hit_top_k,documentos_recuperados,latencia_recuperacion_s
+¿Dónde notificar sobre problemas con el registro?,registration_problems,bitext-21341,registration_problems,0.7086138725280762,True,True,bitext-21341|bitext-21506|bitext-21626,0.017485
+Estoy tratando de ver la penalización por salida anticipada.,check_cancellation_fee,bitext-03353,check_cancellation_fee,0.6690033078193665,True,True,bitext-03353|bitext-03328|bitext-26157,0.014256
+Tengo que verificar en qué horarios puedo acceder a la asistencia al cliente.,contact_customer_service,bitext-08177,contact_customer_service,0.7988922595977783,True,True,bitext-08177|bitext-08313|bitext-03880,0.01644
+¿Hacen envíos a {{Delivery City}}?,delivery_options,bitext-13212,delivery_period,0.4817589819431305,False,True,bitext-13212|bitext-12263|bitext-12549,0.014194
+¿Cómo hago para presentar una maldita reclamación de consumidor?,complaint,bitext-07010,complaint,0.6108258962631226,True,True,bitext-07010|bitext-07749|bitext-07887,0.012229
+No sé qué hacer para localizar la factura #85632.,check_invoice,bitext-15291,get_invoice,0.4930022358894348,False,True,bitext-15291|bitext-04400|bitext-15626,0.013684
+¿Podés ayudarme a quitar algo de la compra {{Número de Orden}}?,change_order,bitext-00237,cancel_order,0.5858171582221985,False,True,bitext-00237|bitext-19398|bitext-01552,0.015489
+ayudame a ver tus modalidades de pago permitidas.,check_payment_methods,bitext-05729,check_payment_methods,0.6433502435684204,True,True,bitext-05729|bitext-18108|bitext-05741,0.013483
+Necesito verificar en qué casos puedo solicitar un reembolso.,check_refund_policy,bitext-06401,check_refund_policy,0.6770715713500977,True,True,bitext-06401|bitext-26131|bitext-06780,0.014472
+Tengo problemas para editar mi dirección.,change_shipping_address,bitext-02418,change_shipping_address,0.47913438081741333,True,True,bitext-02418|bitext-14404|bitext-23095,0.013922
+Quiero ayuda para darme de baja del boletín.,newsletter_subscription,bitext-17071,newsletter_subscription,0.5264178514480591,True,True,bitext-17071|bitext-07887|bitext-11603,0.014874
+Quiero ayuda para ver el estado del pedido {{Número de Pedido}}.,track_order,bitext-13403,delivery_period,0.5117925405502319,False,False,bitext-13403|bitext-04140|bitext-03880,0.015933
+No sé qué tengo que hacer para verificar las tarifas de retiro.,check_cancellation_fee,bitext-03328,check_cancellation_fee,0.4582304358482361,True,True,bitext-03328|bitext-26157|bitext-16399,0.014638
+¿Qué tengo que hacer para reportar problemas con el pago en línea?,payment_issue,bitext-18401,payment_issue,0.8401747345924377,True,True,bitext-18401|bitext-18108|bitext-18227,0.014471
+¿Dónde puedo obtener información sobre un cambio de dirección de entrega?,change_shipping_address,bitext-02195,change_shipping_address,0.6811319589614868,True,True,bitext-02195|bitext-02418|bitext-02698,0.014612
+No puedo corregir el pedido que hice.,change_order,bitext-00676,cancel_order,0.4740055203437805,False,False,bitext-00676|bitext-02698|bitext-00183,0.01473
+No sé qué tengo que hacer para ver las tarifas de cancelación.,check_cancellation_fee,bitext-03328,check_cancellation_fee,0.5747320652008057,True,True,bitext-03328|bitext-03353|bitext-00237,0.014813
+Quiero verificar qué métodos de envío ofrecen.,delivery_options,bitext-12714,delivery_options,0.5952370166778564,True,True,bitext-12714|bitext-12549|bitext-12263,0.014425
+revisá las facturas de hace once meses.,check_invoice,bitext-04400,check_invoice,0.5382107496261597,True,True,bitext-04400|bitext-26131|bitext-03988,0.013886
+crear cuenta platinum para mi esposa,create_account,bitext-14309,edit_account,0.35090363025665283,False,False,bitext-14309|bitext-15968|bitext-04400,0.0132

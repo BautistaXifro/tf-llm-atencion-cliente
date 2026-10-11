@@ -1,0 +1,10 @@
+{
+  "filas_dataset": 26872,
+  "duplicados_internos_eliminados": 2800,
+  "coincidencias_exactas_excluidas": 20,
+  "coincidencias_cercanas_excluidas": 54,
+  "umbral_similitud": 0.9,
+  "intenciones_disponibles": 27,
+  "documentos_seleccionados": 81,
+  "documentos_por_intencion_objetivo": 3
+}

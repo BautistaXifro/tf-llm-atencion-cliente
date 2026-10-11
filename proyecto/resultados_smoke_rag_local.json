@@ -1,0 +1,54 @@
+[
+  {
+    "modelo": "llama-3.1-8b",
+    "consulta": "¿Dónde notificar sobre problemas con el registro?",
+    "documentos": [
+      "bitext-21341",
+      "bitext-21506",
+      "bitext-21626"
+    ],
+    "latencia_recuperacion_s": 0.014952,
+    "latencia_generacion_s": 1.194,
+    "error": null,
+    "respuesta": "Puedes notificar sobre problemas con el registro contactando con nosotros. Estamos aquí para ayudarte a resolver cualquier problema que tengas durante el proceso de registro. Por favor, proporciona más detalles sobre el error que experimentaste, incluyendo cualquier mensaje de error específico o los pasos que siguió. Esto nos ayudará a identificar y resolver el problema de manera efectiva."
+  },
+  {
+    "modelo": "llama-3.1-8b",
+    "consulta": "Estoy tratando de ver la penalización por salida anticipada.",
+    "documentos": [
+      "bitext-03353",
+      "bitext-03328",
+      "bitext-03880"
+    ],
+    "latencia_recuperacion_s": 0.014707,
+    "latencia_generacion_s": 1.013,
+    "error": null,
+    "respuesta": "Puedes referirte a nuestra página de términos y condiciones en nuestro sitio web, donde encontrarás información detallada sobre las penalizaciones y cargos asociados con la terminación anticipada. Si tienes alguna pregunta específica, también puedes contactar con nuestro equipo de atención al cliente para obtener ayuda adicional."
+  },
+  {
+    "modelo": "mistral",
+    "consulta": "¿Dónde notificar sobre problemas con el registro?",
+    "documentos": [
+      "bitext-21341",
+      "bitext-21506",
+      "bitext-21626"
+    ],
+    "latencia_recuperacion_s": 0.014952,
+    "latencia_generacion_s": 1.371,
+    "error": null,
+    "respuesta": "Para notificar sobre problemas con el registro, puedes enviar un correo electrónico a nuestro departamento de soporte al cliente o utilizar el formulario de contacto disponible en nuestra página web. Por favor, proporciona detalles específicos sobre el problema que estás enfrentando durante el proceso de registro para que podamos investigar y resolver la situación de manera efectiva."
+  },
+  {
+    "modelo": "mistral",
+    "consulta": "Estoy tratando de ver la penalización por salida anticipada.",
+    "documentos": [
+      "bitext-03353",
+      "bitext-03328",
+      "bitext-03880"
+    ],
+    "latencia_recuperacion_s": 0.014707,
+    "latencia_generacion_s": 1.532,
+    "error": null,
+    "respuesta": "Para ver la penalización por salida anticipada, puedes acceder a nuestras condiciones generales en la sección de nuestra página web. Allí encontrarás información detallada sobre las penas y tarifas asociadas con la cancelación anticipada. Además, puedes ponerte en contacto con nuestro departamento de atención al cliente para obtener asistencia con cualquier pregunta específica que tengas sobre la penalización por salida anticipada."
+  }
+]

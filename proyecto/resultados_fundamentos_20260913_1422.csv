@@ -1,0 +1,420 @@
+modelo,tipo,category,consulta,referencia,respuesta,latencia_s,tokens_in,tokens_out,error,bertscore_f1,rouge_l,costo_usd,costo_electricidad_usd,costo_instancia_usd,costo_oficial_usd,n_calidad,n_costo,n_latencia,indice
+gpt-4o-mini,propietario,ACCOUNT,¿Dónde notificar sobre problemas con el registro?,"Nos alegra que te hayas puesto en contacto con nosotros respecto a los problemas que encontraste durante el proceso de registro. Valoramos tus comentarios y queremos asegurar una experiencia fluida para todos nuestros usuarios. Para notificarnos sobre cualquier inconveniente o problema en el registro, te recomendamos que contactes a nuestro equipo de atención al cliente. Están disponibles {{Horario de Atención al Cliente}} al {{Número de Teléfono de Atención al Cliente}} o a través del Chat en Vivo en nuestro sitio web en {{URL del Sitio Web}}. Nuestros agentes de soporte dedicados estarán más que felices de asistirte y recopilar toda la información necesaria para abordar el problema de manera efectiva. Ten la seguridad de que tomamos todos los problemas de registro en serio y estamos comprometidos a resolverlos rápidamente. Agradecemos tu paciencia y comprensión mientras trabajamos para mejorar nuestro proceso de registro.","Para notificar sobre problemas con el registro, te recomendamos que te pongas en contacto con el servicio de atención al cliente de la plataforma o empresa en cuestión. Generalmente, puedes encontrar un formulario de contacto, un correo electrónico o un número de teléfono en la sección de ""Ayuda"" o ""Soporte"" de su sitio web. Si necesitas más detalles específicos, por favor indícanos la plataforma o servicio al que te refieres.",1.802,63,90,,0.7018,0.2403,6.345e-05,,,6.345e-05,0.37811634,0.9903605605672937,0.921675895656815,0.7634
+gpt-4o-mini,propietario,CANCEL,Estoy tratando de ver la penalización por salida anticipada.,"¡Por supuesto! Para ver la penalización por salida anticipada, podés consultar la sección de términos y condiciones de tu acuerdo de cuenta. Allí encontrarás información detallada sobre cualquier cargo o penalización relacionada con la cancelación de tu cuenta antes del plazo acordado. Si necesitás más ayuda, no dudes en decírmelo.","Para poder ayudarte de manera más precisa, necesitaría saber a qué tipo de contrato o servicio te refieres, ya que las penalizaciones por salida anticipada pueden variar según el tipo de acuerdo (por ejemplo, un contrato de telefonía, un préstamo, un alquiler, etc.). Si puedes proporcionar más detalles, estaré encantado de asistirte.",1.045,65,70,,0.7022,0.1849,5.175e-05,,,5.175e-05,0.38088647,0.993992813107154,0.9721795983721395,0.7824
+gpt-4o-mini,propietario,CONTACT,Tengo que verificar en qué horarios puedo acceder a la asistencia al cliente.,"¡Es un honor ayudar! Estoy al tanto de que querés averiguar el horario de atención para contactar a nuestro equipo de asistencia al cliente. Nuestro equipo de asistencia al cliente está disponible de {{Customer Support Hours}}. No dudes en comunicarte durante esos horarios, y estaremos más que felices de ayudarte. ¡Haceme saber si hay algo más en lo que pueda asistirte!","Nuestro horario de atención al cliente es de lunes a viernes, de 9:00 a 18:00 horas. Si necesitas asistencia fuera de este horario, te recomendamos dejar un mensaje y te responderemos a la brevedad posible durante el siguiente día hábil. Si tienes alguna otra consulta, no dudes en preguntar.",1.356,67,65,,0.6879,0.2185,4.904999999999999e-05,,,4.904999999999999e-05,0.2818561,0.9948310252317372,0.9514310494362532,0.7427
+gpt-4o-mini,propietario,DELIVERY,¿Hacen envíos a {{Delivery City}}?,"¡A la hermosa ciudad de {{Delivery City}}, nuestros envíos se dirigen con entusiasmo! Definitivamente podés hacer un pedido con nosotros y recibirlo en {{Delivery City}}. Ofrecemos una variedad de opciones de envío para asegurar tu comodidad y satisfacción. Ya sea que prefieras envío estándar, envío exprés o incluso envío nocturno, tenemos todo cubierto. Así que no dudes en explorar nuestros productos, hacer tu selección y prepararte para disfrutar la emoción de recibir tu pedido en la renombrada Ciudad Esmeralda. Si tenés alguna pregunta adicional o necesitás ayuda con algo más, no dudes en decírmelo. ¡Felices compras y entregas sin inconvenientes te esperan en {{Delivery City}}!","Para poder ayudarte mejor, necesitaría saber el nombre de la ciudad a la que te refieres. Por favor, indícame la ciudad y con gusto te informaré sobre la disponibilidad de envíos.",0.628,64,41,,0.6472,0.1039,3.42e-05,,,3.42e-05,0.0,0.9994411919169446,1.0,0.6665
+gpt-4o-mini,propietario,FEEDBACK,¿Cómo hago para presentar una maldita reclamación de consumidor?,"Lamento mucho saber que estás frustrado y necesitas ayuda para presentar una reclamación como consumidor. Nos importa de verdad resolver cualquier problema que puedas tener. Para asegurarnos de que tu queja sea tratada adecuadamente, por favor proporcioname algunos detalles adicionales, como la naturaleza del problema, cualquier persona específica involucrada y cualquier documentación de apoyo que puedas tener. Esto nos ayudará a procesar tu queja de manera más eficiente. Valoramos tu opinión y esperamos poder ayudarte más en este asunto.","Para presentar una reclamación como consumidor, puedes seguir estos pasos:
+
+1. **Reúne la documentación**: Asegúrate de tener todos los documentos relevantes, como recibos, contratos, correos electrónicos y cualquier otra prueba que respalde tu reclamación.
+
+2. **Contacta al vendedor o proveedor**: Intenta resolver el problema directamente con la empresa. Comunícate con su servicio al cliente y expón tu situación de manera clara y concisa.
+
+3. **Escribe una carta de reclamación**: Si no obtienes una respuesta satisfactoria, redacta una carta formal de reclamación. Incluye tus datos, una descripción del problema, lo que esperas como solución y la documentación adjunta.
+
+4. **Dirígete a una entidad de defensa del consumidor**: Si la empresa no responde o no resuelve tu problema, puedes presentar tu reclamación ante una organización de defensa del consumidor en tu país o región. Busca la entidad correspondiente y sigue sus instrucciones para presentar la queja.
+
+5. **Considera acciones legales**: Si el problema persiste y es grave, podrías considerar asesorarte con un abogado para explorar opciones legales.
+
+Recuerda que cada país puede tener procedimientos específicos, así que verifica la normativa local. Si necesitas más información, no dudes en preguntar.",2.342,65,265,,0.6827,0.1751,0.00016874999999999998,,,0.00016874999999999998,0.24584481,0.9576702877085506,0.8856494762826073,0.6964
+gpt-4o-mini,propietario,INVOICE,No sé qué hacer para localizar la factura #85632.,"Entiendo lo que estás diciendo, tu incertidumbre sobre cómo localizar la factura con el número #{{Número de Factura}}. Ten la seguridad de que estoy aquí para guiarte y proporcionarte los pasos necesarios. Para empezar, ¿has revisado tu bandeja de entrada de correo electrónico en busca de notificaciones o recordatorios sobre la factura? También podés intentar iniciar sesión en tu cuenta en nuestro sitio web y acceder a la sección de facturación o facturas, donde deberías poder encontrar la factura que estás buscando. Si aún no podés localizarla, te recomiendo que te pongas en contacto con nuestro equipo de atención al cliente, ya que ellos podrán ayudarte a encontrar la factura. Están disponibles {{Horario de Atención al Cliente}} al {{Número de Teléfono de Atención al Cliente}} o a través del Chat en Vivo en nuestro sitio web en {{URL del Sitio Web}}. Juntos, encontraremos una solución para ayudarte a localizar tu factura con éxito.","Para localizar la factura #85632, te recomiendo seguir estos pasos:
+
+1. **Revisa tu correo electrónico**: Busca en tu bandeja de entrada y en la carpeta de spam cualquier correo relacionado con esa factura.
+2. **Accede a tu cuenta**: Si tienes una cuenta en nuestro sitio web, inicia sesión y dirígete a la sección de ""Facturas"" o ""Historial de compras"" para buscar la factura por su número.
+3. **Contacta a soporte**: Si no puedes encontrarla, por favor proporciona más detalles como la fecha de la compra o el nombre asociado a la cuenta, y estaré encantado de ayudarte a localizarla.
+
+Si necesitas más asistencia, no dudes en preguntar.",1.596,65,147,,0.7184,0.2552,9.794999999999998e-05,,,9.794999999999998e-05,0.4930749,0.9796500723087311,0.935419307492161,0.8027
+gpt-4o-mini,propietario,ORDER,¿Podés ayudarme a quitar algo de la compra {{Número de Orden}}?,"Entendemos que estás buscando ayuda para eliminar un artículo de tu compra con el número de orden {{Order Number}}. Pedimos disculpas por cualquier inconveniente causado. Para poder asistirte mejor, ¿podrías por favor indicarnos cuál es el artículo específico que te gustaría eliminar? Una vez que tengamos esta información, te ayudaremos rápidamente a actualizar tu compra. Tu satisfacción es nuestra máxima prioridad, y agradecemos tu paciencia y colaboración para resolver este asunto.","Claro, estaré encantado de ayudarte. Sin embargo, necesitaría que me proporciones más detalles sobre la compra y el artículo que deseas quitar. También es importante saber si la orden ya ha sido procesada o si aún está en estado de preparación. Por favor, indícame esta información para poder asistirte mejor.",0.943,70,65,,0.7008,0.169,4.949999999999999e-05,,,4.949999999999999e-05,0.37119123,0.9946913232109733,0.9789845886983788,0.7816
+gpt-4o-mini,propietario,PAYMENT,ayudame a ver tus modalidades de pago permitidas.,"¡Gracias por ponerte en contacto! Estoy aquí para brindarte toda la información necesaria sobre nuestros métodos de pago permitidos. Aquí tienes una lista completa de las modalidades de pago que ofrecemos:
+
+1. Tarjeta de Crédito/Débito: Aceptamos las principales tarjetas como Visa, Mastercard y American Express, asegurando una experiencia de pago conveniente y segura.
+2. PayPal: Una plataforma de pago en línea ampliamente reconocida y confiable que garantiza un proceso de transacción sin inconvenientes.
+3. Transferencia Bancaria: Tienes la opción de realizar un pago directo desde tu cuenta bancaria, asegurando transacciones sin complicaciones.
+4. Apple Pay: Un método de pago sin esfuerzo diseñado exclusivamente para usuarios de Apple.
+5. Google Wallet: El sistema de pago de Google que permite pagos rápidos y sencillos.
+
+Nuestro objetivo es ofrecerte una amplia gama de opciones de pago para adaptarnos a tus preferencias. Si tienes alguna pregunta adicional o necesitas ayuda con alguno de estos métodos de pago, no dudes en decírmelo.","Claro, con gusto te ayudo. Las modalidades de pago permitidas son las siguientes:
+
+1. **Tarjetas de crédito**: Aceptamos las principales tarjetas de crédito.
+2. **Tarjetas de débito**: También puedes utilizar tarjetas de débito que sean aceptadas en nuestro sistema.
+3. **Transferencias bancarias**: Es posible realizar pagos mediante transferencias desde tu banco.
+4. **PayPal**: Aceptamos pagos a través de PayPal para mayor comodidad.
+5. **Pagos en efectivo**: En algunos casos, ofrecemos la opción de pago en efectivo en puntos de venta autorizados.
+
+Si necesitas más información sobre alguna modalidad específica o tienes alguna otra consulta, no dudes en decírmelo.",1.416,65,150,,0.7484,0.2867,9.974999999999999e-05,,,9.974999999999999e-05,0.70083094,0.9790912642256757,0.9474281139502302,0.8758
+gpt-4o-mini,propietario,REFUND,Necesito verificar en qué casos puedo solicitar un reembolso.,"¡Por supuesto! Entiendo completamente tu necesidad de familiarizarte con los casos en los que podés solicitar un reembolso. Permíteme aclararte esto.
+
+Cuando se trata de reembolsos, hay algunos escenarios comunes en los que podés ser elegible:
+
+1. **Defecto en el Producto/Servicio:** Si el producto o servicio que compraste tiene un defecto o no coincide con la descripción, generalmente tenés la opción de solicitar un reembolso.
+
+2. **Cancelación dentro del Período de Gracia:** Si cambiás de opinión sobre una compra dentro del período de gracia especificado, normalmente podés pedir un reembolso.
+
+3. **Cargos No Autorizados:** Si encontrás cargos en tu cuenta que no autorizaste o no reconocés, estamos aquí para ayudarte a investigar y potencialmente asegurar un reembolso.
+
+4. **Cancelación de Evento:** Entendemos la decepción de que un evento para el cual compraste entradas sea cancelado. En casos donde el evento no se reprograma, podés ser elegible para un reembolso.
+
+5. **Cargos Duplicados:** Los errores ocurren, y si notás cargos duplicados por el mismo artículo, por favor avísanos para que podamos corregir el problema y potencialmente ofrecerte un reembolso.
+
+6. **No Recepción de Bienes:** Si no has recibido el artículo que compraste dentro del plazo esperado, podés calificar para un reembolso.
+
+Es importante tener en cuenta que cada vendedor o proveedor de servicios puede tener sus políticas de reembolso específicas, por lo que es recomendable revisar sus términos y condiciones o contactarlos directamente para obtener más información. Si tenés alguna inquietud respecto a un pedido específico o necesitás ayuda con una posible solicitud de reembolso, por favor proporcioname los detalles necesarios, como el número de pedido, y estaré más que feliz de asistirte.
+
+Recordá, nuestro objetivo es asegurar tu satisfacción y brindarte orientación útil a lo largo de tu experiencia. ¿En qué más puedo ayudarte hoy?","Para solicitar un reembolso, generalmente debes cumplir con ciertas condiciones que pueden variar según la política de la empresa o el servicio en cuestión. En términos generales, puedes solicitar un reembolso en los siguientes casos:
+
+1. **Producto defectuoso**: Si el artículo que compraste está dañado o no funciona como se esperaba.
+2. **Error en el pedido**: Si recibiste un producto diferente al que solicitaste.
+3. **Cancelación de servicio**: Si decidiste cancelar un servicio antes de que se haya proporcionado.
+4. **Plazo de devolución**: Si estás dentro del período establecido para solicitar un reembolso, que suele ser de 14 a 30 días, dependiendo de la política.
+
+Te recomiendo revisar la política de reembolsos específica de la empresa con la que realizaste la compra, ya que puede haber excepciones o requisitos adicionales. Si necesitas más ayuda, no dudes en preguntar.",1.891,65,187,,0.7257,0.1897,0.00012194999999999998,,,0.00012194999999999998,0.54362905,0.972199297867992,0.9157382080192141,0.8105
+gpt-4o-mini,propietario,SHIPPING,Tengo problemas para editar mi dirección.,"He tomado nota de que estás teniendo dificultades para editar tu dirección. Para ayudarte a resolver este problema, por favor sigue estos pasos:
+1. Inicia sesión en tu cuenta en nuestro sitio web.
+2. Navega a la sección ""Mi Cuenta"".
+3. Haz clic en el botón ""Editar Dirección"".
+4. Realiza los cambios necesarios en tu dirección.
+5. Guarda la dirección actualizada.
+Si encuentras algún otro problema o tienes alguna pregunta, no dudes en ponerte en contacto con nuestro equipo de atención al cliente para obtener ayuda.","Lamento que estés teniendo problemas para editar tu dirección. Para poder ayudarte mejor, por favor indícame en qué plataforma o servicio estás intentando realizar la edición. También sería útil saber si estás recibiendo algún mensaje de error. Quedo a la espera de tu respuesta para asistirte.",1.311,60,58,,0.7201,0.2914,4.38e-05,,,4.38e-05,0.50484765,0.9964608821406489,0.9544332510507706,0.8186
+gpt-4o-mini,propietario,SUBSCRIPTION,Quiero ayuda para darme de baja del boletín.,"Me informaron que te gustaría recibir ayuda para darte de baja de nuestro boletín. Lamento si el contenido del boletín ya no se ajusta a tus intereses. Para darte de baja, simplemente podés hacer clic en el enlace de ""darse de baja"" que está al final de cualquier correo del boletín que recibas de nuestra parte. Alternativamente, también podés comunicarte con nuestro equipo de atención al cliente, y estarán más que felices de ayudarte a darte de baja. Nuestro equipo toma en serio tus comentarios y quiere asegurarse de que tus preferencias de boletín se alineen con tus intereses. ¿Hay algo más en lo que pueda ayudarte?","Para darte de baja del boletín, por favor sigue estos pasos:
+
+1. Busca un correo electrónico reciente que hayas recibido del boletín.
+2. Desplázate hasta el final del correo y busca un enlace que diga ""Darse de baja"" o ""Unsubscribe"".
+3. Haz clic en ese enlace y sigue las instrucciones que se te proporcionen.
+
+Si no encuentras el enlace o necesitas más ayuda, por favor indícanos tu dirección de correo electrónico y te asistiremos con el proceso.",1.486,65,103,,0.6902,0.2157,7.154999999999999e-05,,,7.154999999999999e-05,0.29778382,0.9878459241935442,0.94275802254987,0.7428
+gpt-4o-mini,propietario,ORDER,Quiero ayuda para ver el estado del pedido {{Número de Pedido}}.,"¡Me alegra saber de vos! Entiendo perfectamente que estás buscando ayuda para verificar el estado de tu pedido con el número de orden {{Order Number}}. Para brindarte información precisa y actualizada, te pido que visites la sección '{{Order Status}}' en nuestro sitio web. Allí podrás ver el estado actual de tu pedido junto con cualquier actualización relevante. Si tenés más preguntas o necesitás apoyo adicional, no dudes en preguntar. ¡Estoy aquí para asegurarme de que tengas una experiencia sin inconvenientes!","Para poder ayudarte con el estado de tu pedido, necesitaría que me proporciones el número de pedido completo. Una vez que tenga esa información, podré verificar el estado para ti.",0.783,68,37,,0.7117,0.2623,3.2399999999999995e-05,,,3.2399999999999995e-05,0.44667614,1.0,0.9896590833277737,0.8121
+gpt-4o-mini,propietario,CANCEL,No sé qué tengo que hacer para verificar las tarifas de retiro.,"¡No hay problema! Puedo ayudarte a verificar las tarifas de retiro. Para hacerlo, podés consultar nuestro documento de términos y condiciones o comunicarte con nuestro equipo de atención al cliente para obtener información detallada.","Para verificar las tarifas de retiro, te recomiendo que sigas estos pasos:
+
+1. **Visita nuestro sitio web**: Accede a la sección de tarifas o comisiones, donde encontrarás información detallada sobre los costos asociados a los retiros.
+
+2. **Inicia sesión en tu cuenta**: Si tienes una cuenta, inicia sesión y dirígete a la sección de ""Retiro"" o ""Cuentas"" para ver las tarifas específicas aplicables a tu perfil.
+
+3. **Consulta el soporte**: Si no encuentras la información que necesitas, puedes contactar a nuestro equipo de soporte al cliente a través de chat, correo electrónico o teléfono, y estaremos encantados de ayudarte.
+
+Si necesitas más asistencia, no dudes en preguntar.",1.392,66,149,,0.7156,0.1772,9.929999999999999e-05,,,9.929999999999999e-05,0.47368437,0.9792309662464396,0.9490292881446394,0.8006
+gpt-4o-mini,propietario,PAYMENT,¿Qué tengo que hacer para reportar problemas con el pago en línea?,"He llegado a entender que estás teniendo problemas con tu pago en línea, y estoy aquí para guiarte en el proceso de reportar estos inconvenientes. El primer paso es comunicarte con nuestro equipo de atención al cliente. Están disponibles {{Customer Support Hours}} al {{Customer Support Phone Number}} o a través del chat en vivo en nuestro sitio web en {{Website URL}}. Una vez que te conectes con nuestro equipo, te ayudarán a documentar los detalles del problema e iniciarán las investigaciones necesarias para resolverlo. Proporcionarles información específica sobre el error que encontraste, como códigos de error, marcas de tiempo de la transacción y cualquier mensaje de error recibido, ayudará mucho a acelerar el proceso de resolución. Ten la seguridad de que nuestro equipo dedicado trabajará arduamente para atender tus inquietudes de manera rápida y asegurar una resolución satisfactoria. Gracias por traer este asunto a nuestra atención, y apreciamos tu paciencia mientras trabajamos juntos para resolver tu problema de pago en línea.","Para reportar problemas con el pago en línea, te recomendamos seguir estos pasos:
+
+1. **Verifica la información**: Asegúrate de que todos los datos ingresados (número de tarjeta, fecha de vencimiento, código de seguridad) sean correctos.
+
+2. **Revisa tu conexión**: Asegúrate de que tu conexión a internet sea estable.
+
+3. **Intenta nuevamente**: Si el problema persiste, intenta realizar el pago desde otro navegador o dispositivo.
+
+4. **Contacta al soporte**: Si después de estos pasos el problema continúa, por favor contacta a nuestro equipo de soporte al cliente. Puedes hacerlo a través de [indicar el medio de contacto, como un número de teléfono o correo electrónico].
+
+Proporciona detalles sobre el problema que estás experimentando para que podamos ayudarte de manera más efectiva.",1.529,67,173,,0.6873,0.1725,0.00011385,,,0.00011385,0.27770108,0.9747139342417415,0.93988925211822,0.7308
+gpt-4o-mini,propietario,SHIPPING,¿Dónde puedo obtener información sobre un cambio de dirección de entrega?,"Podés encontrar información sobre cómo cambiar tu dirección de entrega visitando nuestro sitio web y navegando a la sección de ""Ayuda"" o ""Preguntas Frecuentes"". Alternativamente, podés contactar directamente a nuestro equipo de atención al cliente para obtener ayuda con el cambio de tu dirección de entrega.","Para obtener información sobre un cambio de dirección de entrega, te recomiendo que te pongas en contacto directamente con el servicio de atención al cliente de la empresa con la que realizaste la compra. También puedes visitar su sitio web, donde suelen tener secciones de preguntas frecuentes o información sobre cambios en los pedidos. Si tienes un número de seguimiento, a veces puedes gestionar cambios a través de la plataforma de envío. Si necesitas ayuda adicional, no dudes en preguntar.",1.219,66,91,,0.735,0.2394,6.45e-05,,,6.45e-05,0.6080334,0.9900345891855113,0.9605710854626727,0.8529
+gpt-4o-mini,propietario,ORDER,No puedo corregir el pedido que hice.,"Entendemos que estás teniendo dificultades para corregir el pedido que hiciste. Pedimos disculpas por cualquier inconveniente que esto haya podido causar. Para poder ayudarte mejor, ¿podrías proporcionarnos el número de pedido? Esto nos permitirá entender tu situación con más claridad y encontrar una solución adecuada para vos. Tu satisfacción es nuestra máxima prioridad, y estamos aquí para ayudar.","Lamento que estés teniendo problemas para corregir tu pedido. Para poder ayudarte mejor, por favor indícame qué tipo de corrección necesitas realizar y en qué plataforma o servicio hiciste el pedido. Así podré ofrecerte una solución más específica.",0.928,62,50,,0.7323,0.3273,3.93e-05,,,3.93e-05,0.58933514,0.9978579023482875,0.9799853225698846,0.8557
+gpt-4o-mini,propietario,CANCEL,No sé qué tengo que hacer para ver las tarifas de cancelación.,"Para ver las tarifas de cancelación, podés iniciar sesión en tu cuenta en línea y navegar a la sección de detalles del contrato. Ahí deberías poder encontrar información sobre cualquier cargo de cancelación aplicable. Si no podés localizar esta información en línea, te recomiendo que te pongas en contacto con nuestro equipo de atención al cliente, que estará encantado de ayudarte.","Para ver las tarifas de cancelación, te recomiendo que accedas a la sección de ""Políticas de Cancelación"" en nuestro sitio web. Allí encontrarás información detallada sobre las tarifas aplicables según el tipo de servicio o producto que hayas adquirido. Si necesitas ayuda adicional, no dudes en contactarnos directamente y con gusto te asistiremos.",1.047,67,68,,0.7766,0.3158,5.0849999999999996e-05,,,5.0849999999999996e-05,0.896122,0.9942722171486817,0.9720461671892722,0.9541
+gpt-4o-mini,propietario,DELIVERY,Quiero verificar qué métodos de envío ofrecen.,"¡Haré lo mejor que pueda! Es genial ver tu interés en explorar nuestros métodos de envío. Vamos a desglosar las opciones que tenemos para vos:
+
+1. Envío Estándar: Esta es nuestra opción de envío regular que generalmente tarda {{Rango de Fechas}} días hábiles en entregar. Es perfecta para envíos no urgentes.
+
+2. Envío Acelerado: Si necesitás tu paquete un poco más rápido, nuestra opción de envío acelerado es la indicada. Tus artículos llegarán en un plazo de {{Rango de Fechas}} días hábiles.
+
+3. Envío Overnight: Para esos envíos urgentes, ofrecemos envío overnight. Esto asegura que tu paquete se entregue al día siguiente hábil.
+
+4. Recogida en Tienda: Si preferís recoger tus artículos en una de nuestras tiendas, podés elegir la opción de recogida en tienda. Solo tenés que seleccionar la ubicación de la tienda más cercana durante el proceso de compra.
+
+Espero que esto te ayude a decidir el mejor método de envío para tus necesidades. Si tenés más preguntas o necesitás ayuda con algo más, no dudes en decírmelo.","Para poder ayudarte mejor, necesitaría saber a qué empresa o tienda te refieres. Sin embargo, en general, muchas empresas suelen ofrecer métodos de envío como:
+
+1. Envío estándar
+2. Envío exprés
+3. Recogida en tienda
+4. Envío internacional
+
+Te recomiendo visitar la sección de ""Métodos de envío"" en el sitio web de la empresa o contactar directamente con su servicio al cliente para obtener información específica. Si tienes más detalles, estaré encantado de ayudarte.",1.246,62,106,,0.6606,0.2155,7.29e-05,,,7.29e-05,0.09279791,0.9874268181312527,0.9587697644939622,0.6797
+gpt-4o-mini,propietario,INVOICE,revisá las facturas de hace once meses.,"Reconozco que estás buscando revisar facturas de hace once meses. Para ayudarte con esto, ¿podrías proporcionarme el rango de fechas específico de las facturas que te gustaría revisar? Una vez que tenga esta información, puedo guiarte sobre cómo acceder y ver las facturas de ese período. Tu satisfacción es mi prioridad, y estoy aquí para ayudarte en cada paso del camino.","Para poder ayudarte con la revisión de las facturas de hace once meses, necesitaría que me proporciones más detalles, como el número de factura o el período específico que deseas revisar. También puedes indicarme si necesitas información sobre un servicio en particular. Quedo a la espera de tu respuesta para asistirte mejor.",0.992,64,63,,0.7602,0.2636,4.74e-05,,,4.74e-05,0.7825487,0.995343265974538,0.9757155247181266,0.9179
+gpt-4o-mini,propietario,ACCOUNT,crear cuenta platinum para mi esposa,"¡Eso es maravilloso! Puedo ayudarte a crear una cuenta platinum para tu esposa. Para continuar, necesitaré algunos detalles. ¿Podrías proporcionarme el nombre completo de tu esposa, su dirección de correo electrónico y un nombre de usuario preferido? Ten la seguridad de que priorizamos la seguridad y la privacidad, y toda la información compartida será tratada con el máximo cuidado. Una vez que tenga estos detalles, te guiaré paso a paso a través del proceso de creación de la cuenta, asegurando una experiencia fluida y agradable tanto para vos como para tu esposa.","Para crear una cuenta Platinum para su esposa, necesitaré que me proporcione algunos datos básicos, como su nombre completo, dirección de correo electrónico y cualquier otra información requerida por el proceso de registro. 
+
+Si prefiere, puede visitar nuestro sitio web y seguir las instrucciones para crear la cuenta directamente. Si tiene alguna duda o necesita asistencia adicional, no dude en preguntar. Estoy aquí para ayudarle.",1.079,59,80,,0.7354,0.2976,5.685e-05,,,5.685e-05,0.61080354,0.992409523538497,0.9699112682633931,0.8577
+llama-3.1-8b,open-source,ACCOUNT,¿Dónde notificar sobre problemas con el registro?,"Nos alegra que te hayas puesto en contacto con nosotros respecto a los problemas que encontraste durante el proceso de registro. Valoramos tus comentarios y queremos asegurar una experiencia fluida para todos nuestros usuarios. Para notificarnos sobre cualquier inconveniente o problema en el registro, te recomendamos que contactes a nuestro equipo de atención al cliente. Están disponibles {{Horario de Atención al Cliente}} al {{Número de Teléfono de Atención al Cliente}} o a través del Chat en Vivo en nuestro sitio web en {{URL del Sitio Web}}. Nuestros agentes de soporte dedicados estarán más que felices de asistirte y recopilar toda la información necesaria para abordar el problema de manera efectiva. Ten la seguridad de que tomamos todos los problemas de registro en serio y estamos comprometidos a resolverlos rápidamente. Agradecemos tu paciencia y comprensión mientras trabajamos para mejorar nuestro proceso de registro.","Si tienes problemas con tu registro, te recomiendo que contactes con nuestro equipo de soporte técnico a través de nuestro sitio web o correo electrónico oficial. Allí podrás encontrar la información necesaria para comunicarte con nosotros y resolver cualquier inconveniente relacionado con tu registro.",8.36,74,59,,0.7183,0.2266,,6.9666666666666655e-06,0.0017416666666666665,0.0017416666666666665,0.49238226,0.46935998364968945,0.4841550470344921,0.482
+llama-3.1-8b,open-source,CANCEL,Estoy tratando de ver la penalización por salida anticipada.,"¡Por supuesto! Para ver la penalización por salida anticipada, podés consultar la sección de términos y condiciones de tu acuerdo de cuenta. Allí encontrarás información detallada sobre cualquier cargo o penalización relacionada con la cancelación de tu cuenta antes del plazo acordado. Si necesitás más ayuda, no dudes en decírmelo.","Lo siento, pero no tengo información sobre un contenido específico llamado ""penalización por salida anticipada"". ¿Podrías proporcionarme más detalles o contexto sobre lo que estás tratando de encontrar? ¿Es un video, un artículo o un programa de televisión? Esto me ayudará a ofrecerte una respuesta más precisa.",4.02,76,71,,0.6975,0.2051,,3.3499999999999997e-06,0.0008374999999999999,0.0008374999999999999,0.34833798,0.7500575624067036,0.7737007138568284,0.624
+llama-3.1-8b,open-source,CONTACT,Tengo que verificar en qué horarios puedo acceder a la asistencia al cliente.,"¡Es un honor ayudar! Estoy al tanto de que querés averiguar el horario de atención para contactar a nuestro equipo de asistencia al cliente. Nuestro equipo de asistencia al cliente está disponible de {{Customer Support Hours}}. No dudes en comunicarte durante esos horarios, y estaremos más que felices de ayudarte. ¡Haceme saber si hay algo más en lo que pueda asistirte!","Puedes verificar los horarios de asistencia al cliente en nuestra página web en el apartado de ""Soporte"" o en el menú de ayuda. También puedes contactar con nosotros a través de nuestro formulario de contacto o a través de nuestras redes sociales.",3.138,80,55,,0.6755,0.2162,,2.615e-06,0.00065375,0.00065375,0.19598329,0.807102554218613,0.8325438655013677,0.6119
+llama-3.1-8b,open-source,DELIVERY,¿Hacen envíos a {{Delivery City}}?,"¡A la hermosa ciudad de {{Delivery City}}, nuestros envíos se dirigen con entusiasmo! Definitivamente podés hacer un pedido con nosotros y recibirlo en {{Delivery City}}. Ofrecemos una variedad de opciones de envío para asegurar tu comodidad y satisfacción. Ya sea que prefieras envío estándar, envío exprés o incluso envío nocturno, tenemos todo cubierto. Así que no dudes en explorar nuestros productos, hacer tu selección y prepararte para disfrutar la emoción de recibir tu pedido en la renombrada Ciudad Esmeralda. Si tenés alguna pregunta adicional o necesitás ayuda con algo más, no dudes en decírmelo. ¡Felices compras y entregas sin inconvenientes te esperan en {{Delivery City}}!","Lo siento, pero no tengo información sobre la ciudad específica a la que te refieres con ""{{Delivery City}}"". Sin embargo, puedo decirte que nuestra empresa ofrece envíos a una amplia gama de ciudades y localidades en todo el país. Si deseas saber si podemos enviar a tu ciudad, te recomendaría visitar nuestra página web o contactar con nuestro servicio de atención al cliente para obtener más información sobre nuestros servicios de entrega y si están disponibles en tu área.",5.859,74,103,,0.6874,0.1722,,4.882499999999999e-06,0.001220625,0.001220625,0.27839333,0.6311168141730288,0.6510107412102208,0.5202
+llama-3.1-8b,open-source,FEEDBACK,¿Cómo hago para presentar una maldita reclamación de consumidor?,"Lamento mucho saber que estás frustrado y necesitas ayuda para presentar una reclamación como consumidor. Nos importa de verdad resolver cualquier problema que puedas tener. Para asegurarnos de que tu queja sea tratada adecuadamente, por favor proporcioname algunos detalles adicionales, como la naturaleza del problema, cualquier persona específica involucrada y cualquier documentación de apoyo que puedas tener. Esto nos ayudará a procesar tu queja de manera más eficiente. Valoramos tu opinión y esperamos poder ayudarte más en este asunto.",Puedes presentar una reclamación de consumidor a través de la Oficina de Consumidores de tu país o a través de la plataforma de reclamaciones de tu banco o empresa de servicios. También puedes contactar con un abogado especializado en derecho del consumidor para que te asesore y te ayude a presentar la reclamación.,4.335,80,77,,0.6868,0.1931,,3.6125000000000006e-06,0.000903125,0.000903125,0.27423832,0.7296843510453075,0.7526853025552072,0.5855
+llama-3.1-8b,open-source,INVOICE,No sé qué hacer para localizar la factura #85632.,"Entiendo lo que estás diciendo, tu incertidumbre sobre cómo localizar la factura con el número #{{Número de Factura}}. Ten la seguridad de que estoy aquí para guiarte y proporcionarte los pasos necesarios. Para empezar, ¿has revisado tu bandeja de entrada de correo electrónico en busca de notificaciones o recordatorios sobre la factura? También podés intentar iniciar sesión en tu cuenta en nuestro sitio web y acceder a la sección de facturación o facturas, donde deberías poder encontrar la factura que estás buscando. Si aún no podés localizarla, te recomiendo que te pongas en contacto con nuestro equipo de atención al cliente, ya que ellos podrán ayudarte a encontrar la factura. Están disponibles {{Horario de Atención al Cliente}} al {{Número de Teléfono de Atención al Cliente}} o a través del Chat en Vivo en nuestro sitio web en {{URL del Sitio Web}}. Juntos, encontraremos una solución para ayudarte a localizar tu factura con éxito.","Puedes intentar lo siguiente:
+
+1. Verifica tu correo electrónico: Asegúrate de que la factura no haya sido enviada a tu dirección de correo electrónico registrada.
+2. Inicia sesión en tu cuenta en nuestra plataforma: Puedes acceder a tu cuenta y buscar la factura en la sección de ""Mis documentos"" o ""Facturas"".
+3. Contacta con nuestro equipo de soporte: Si no puedes encontrar la factura, puedes contactar con nosotros a través de nuestro chat en línea, correo electrónico o llamada telefónica. Estamos aquí para ayudarte.",6.875,75,124,,0.701,0.2741,,5.729166666666667e-06,0.0014322916666666668,0.0014322916666666668,0.3725761,0.5654051229248429,0.5832277003135633,0.5071
+llama-3.1-8b,open-source,ORDER,¿Podés ayudarme a quitar algo de la compra {{Número de Orden}}?,"Entendemos que estás buscando ayuda para eliminar un artículo de tu compra con el número de orden {{Order Number}}. Pedimos disculpas por cualquier inconveniente causado. Para poder asistirte mejor, ¿podrías por favor indicarnos cuál es el artículo específico que te gustaría eliminar? Una vez que tengamos esta información, te ayudaremos rápidamente a actualizar tu compra. Tu satisfacción es nuestra máxima prioridad, y agradecemos tu paciencia y colaboración para resolver este asunto.","Claro, puedo ayudarte con eso. ¿Podrías proporcionarme más detalles sobre lo que necesitas quitar de tu compra? ¿Cuál es el artículo específico que deseas eliminar y por qué motivo? De esta manera, puedo asistirte de manera más efectiva.",3.445,80,61,,0.7098,0.25,,2.870833333333333e-06,0.0007177083333333333,0.0007177083333333333,0.4335181,0.7872467577489348,0.8120621789312162,0.6776
+llama-3.1-8b,open-source,PAYMENT,ayudame a ver tus modalidades de pago permitidas.,"¡Gracias por ponerte en contacto! Estoy aquí para brindarte toda la información necesaria sobre nuestros métodos de pago permitidos. Aquí tienes una lista completa de las modalidades de pago que ofrecemos:
+
+1. Tarjeta de Crédito/Débito: Aceptamos las principales tarjetas como Visa, Mastercard y American Express, asegurando una experiencia de pago conveniente y segura.
+2. PayPal: Una plataforma de pago en línea ampliamente reconocida y confiable que garantiza un proceso de transacción sin inconvenientes.
+3. Transferencia Bancaria: Tienes la opción de realizar un pago directo desde tu cuenta bancaria, asegurando transacciones sin complicaciones.
+4. Apple Pay: Un método de pago sin esfuerzo diseñado exclusivamente para usuarios de Apple.
+5. Google Wallet: El sistema de pago de Google que permite pagos rápidos y sencillos.
+
+Nuestro objetivo es ofrecerte una amplia gama de opciones de pago para adaptarnos a tus preferencias. Si tienes alguna pregunta adicional o necesitas ayuda con alguno de estos métodos de pago, no dudes en decírmelo.","Claro, aquí te presento las modalidades de pago que estamos autorizados a aceptar:
+
+1. **Tarjetas de crédito**: Visa, Mastercard, American Express y Diners Club.
+2. **Tarjetas de débito**: Visa, Mastercard y Maestro.
+3. **PayPal**: Puedes pagar con tu cuenta de PayPal.
+4. **Transferencia bancaria**: Puedes realizar una transferencia bancaria a nuestro banco y cuenta específica.
+5. **Mercado Pago**: También aceptamos pagos con Mercado Pago.
+
+Recuerda que debes verificar con tu banco o proveedor de servicios de pago para asegurarte de que no haya restricciones o cargos adicionales asociados con el uso de estas opciones de pago.
+
+¿Necesitas ayuda para realizar un pago o tienes alguna otra pregunta?",10.009,75,182,,0.7413,0.2705,,8.340833333333333e-06,0.0020852083333333334,0.0020852083333333334,0.65166205,0.3627078390943169,0.37414103676029087,0.4628
+llama-3.1-8b,open-source,REFUND,Necesito verificar en qué casos puedo solicitar un reembolso.,"¡Por supuesto! Entiendo completamente tu necesidad de familiarizarte con los casos en los que podés solicitar un reembolso. Permíteme aclararte esto.
+
+Cuando se trata de reembolsos, hay algunos escenarios comunes en los que podés ser elegible:
+
+1. **Defecto en el Producto/Servicio:** Si el producto o servicio que compraste tiene un defecto o no coincide con la descripción, generalmente tenés la opción de solicitar un reembolso.
+
+2. **Cancelación dentro del Período de Gracia:** Si cambiás de opinión sobre una compra dentro del período de gracia especificado, normalmente podés pedir un reembolso.
+
+3. **Cargos No Autorizados:** Si encontrás cargos en tu cuenta que no autorizaste o no reconocés, estamos aquí para ayudarte a investigar y potencialmente asegurar un reembolso.
+
+4. **Cancelación de Evento:** Entendemos la decepción de que un evento para el cual compraste entradas sea cancelado. En casos donde el evento no se reprograma, podés ser elegible para un reembolso.
+
+5. **Cargos Duplicados:** Los errores ocurren, y si notás cargos duplicados por el mismo artículo, por favor avísanos para que podamos corregir el problema y potencialmente ofrecerte un reembolso.
+
+6. **No Recepción de Bienes:** Si no has recibido el artículo que compraste dentro del plazo esperado, podés calificar para un reembolso.
+
+Es importante tener en cuenta que cada vendedor o proveedor de servicios puede tener sus políticas de reembolso específicas, por lo que es recomendable revisar sus términos y condiciones o contactarlos directamente para obtener más información. Si tenés alguna inquietud respecto a un pedido específico o necesitás ayuda con una posible solicitud de reembolso, por favor proporcioname los detalles necesarios, como el número de pedido, y estaré más que feliz de asistirte.
+
+Recordá, nuestro objetivo es asegurar tu satisfacción y brindarte orientación útil a lo largo de tu experiencia. ¿En qué más puedo ayudarte hoy?","Claro, te puedo ayudar con eso.
+
+En general, los reembolsos se aplican en casos de productos o servicios que no se ajustan a las especificaciones o características anunciadas, o cuando el producto no cumple con las normas de seguridad y calidad.
+
+Algunos ejemplos de casos en los que podrías solicitar un reembolso son:
+
+*   El producto no funciona como se espera.
+*   El producto tiene defectos o daños en el momento de la entrega.
+*   El producto no cumple con las especificaciones o características anunciadas.
+*   El producto no es compatible con otros productos o sistemas.
+
+Si crees que tienes derecho a un reembolso, te recomiendo que revises el contrato de compra o la política de devoluciones y reembolsos del proveedor para conocer los pasos a seguir y los plazos establecidos.
+
+Si necesitas más información o ayuda para solicitar un reembolso, no dudes en preguntar. Estoy aquí para ayudarte.",12.106,79,220,,0.7097,0.1901,,1.0088333333333333e-05,0.002522083333333333,0.002522083333333333,0.43282548,0.22708046060273668,0.23423844152378415,0.298
+llama-3.1-8b,open-source,SHIPPING,Tengo problemas para editar mi dirección.,"He tomado nota de que estás teniendo dificultades para editar tu dirección. Para ayudarte a resolver este problema, por favor sigue estos pasos:
+1. Inicia sesión en tu cuenta en nuestro sitio web.
+2. Navega a la sección ""Mi Cuenta"".
+3. Haz clic en el botón ""Editar Dirección"".
+4. Realiza los cambios necesarios en tu dirección.
+5. Guarda la dirección actualizada.
+Si encuentras algún otro problema o tienes alguna pregunta, no dudes en ponerte en contacto con nuestro equipo de atención al cliente para obtener ayuda.","Lo siento que estés teniendo problemas para editar tu dirección. ¿Podrías proporcionarme más detalles sobre el error que estás experimentando? ¿Es un problema con la interfaz de usuario, un mensaje de error específico o algo más? Esto me ayudará a ofrecerte una solución más efectiva.",3.769,70,67,,0.6883,0.1867,,3.1408333333333335e-06,0.0007852083333333333,0.0007852083333333333,0.28462622,0.7662914546343559,0.7904463273066916,0.6138
+llama-3.1-8b,open-source,SUBSCRIPTION,Quiero ayuda para darme de baja del boletín.,"Me informaron que te gustaría recibir ayuda para darte de baja de nuestro boletín. Lamento si el contenido del boletín ya no se ajusta a tus intereses. Para darte de baja, simplemente podés hacer clic en el enlace de ""darse de baja"" que está al final de cualquier correo del boletín que recibas de nuestra parte. Alternativamente, también podés comunicarte con nuestro equipo de atención al cliente, y estarán más que felices de ayudarte a darte de baja. Nuestro equipo toma en serio tus comentarios y quiere asegurarse de que tus preferencias de boletín se alineen con tus intereses. ¿Hay algo más en lo que pueda ayudarte?","Claro, puedo ayudarte a darte de baja del boletín. ¿Podrías proporcionarme más información sobre el boletín al que te refieres? ¿Es de nuestra empresa o de otra organización? ¿Tienes acceso a tu cuenta de correo electrónico asociada al boletín?",3.612,75,64,,0.7219,0.241,,3.0099999999999996e-06,0.0007525,0.0007525,0.517313,0.7764457218843215,0.8009206751617853,0.6982
+llama-3.1-8b,open-source,ORDER,Quiero ayuda para ver el estado del pedido {{Número de Pedido}}.,"¡Me alegra saber de vos! Entiendo perfectamente que estás buscando ayuda para verificar el estado de tu pedido con el número de orden {{Order Number}}. Para brindarte información precisa y actualizada, te pido que visites la sección '{{Order Status}}' en nuestro sitio web. Allí podrás ver el estado actual de tu pedido junto con cualquier actualización relevante. Si tenés más preguntas o necesitás apoyo adicional, no dudes en preguntar. ¡Estoy aquí para asegurarme de que tengas una experiencia sin inconvenientes!","Claro que sí, te puedo ayudar con eso. Para ver el estado de tu pedido, necesito que me proporciones el número de pedido que me mencionaste. Una vez que lo tenga, puedo guiarte a través del proceso para que puedas ver el estado actual de tu pedido. ¿Podrías proporcionarme el número de pedido exacto?",4.264,77,76,,0.7223,0.3129,,3.5533333333333333e-06,0.0008883333333333334,0.0008883333333333334,0.5200831,0.7342764082093046,0.7574221095470012,0.6706
+llama-3.1-8b,open-source,CANCEL,No sé qué tengo que hacer para verificar las tarifas de retiro.,"¡No hay problema! Puedo ayudarte a verificar las tarifas de retiro. Para hacerlo, podés consultar nuestro documento de términos y condiciones o comunicarte con nuestro equipo de atención al cliente para obtener información detallada.",Puedes verificar las tarifas de retiro en tu cuenta bancaria o en el sitio web de tu banco. También puedes contactar con el servicio al cliente de tu banco para obtener la información más reciente sobre las tarifas de retiro.,2.944,77,52,,0.783,0.3457,,2.453333333333333e-06,0.0006133333333333334,0.0006133333333333334,0.9404432,0.8196498653427744,0.845486690239509,0.8685
+llama-3.1-8b,open-source,PAYMENT,¿Qué tengo que hacer para reportar problemas con el pago en línea?,"He llegado a entender que estás teniendo problemas con tu pago en línea, y estoy aquí para guiarte en el proceso de reportar estos inconvenientes. El primer paso es comunicarte con nuestro equipo de atención al cliente. Están disponibles {{Customer Support Hours}} al {{Customer Support Phone Number}} o a través del chat en vivo en nuestro sitio web en {{Website URL}}. Una vez que te conectes con nuestro equipo, te ayudarán a documentar los detalles del problema e iniciarán las investigaciones necesarias para resolverlo. Proporcionarles información específica sobre el error que encontraste, como códigos de error, marcas de tiempo de la transacción y cualquier mensaje de error recibido, ayudará mucho a acelerar el proceso de resolución. Ten la seguridad de que nuestro equipo dedicado trabajará arduamente para atender tus inquietudes de manera rápida y asegurar una resolución satisfactoria. Gracias por traer este asunto a nuestra atención, y apreciamos tu paciencia mientras trabajamos juntos para resolver tu problema de pago en línea.","Para reportar problemas con el pago en línea, te recomiendo seguir estos pasos:
+
+1. **Verifica tu cuenta**: Asegúrate de que tu cuenta esté actualizada y que tus datos de pago sean correctos.
+2. **Contacta con nuestro equipo de soporte**: Puedes hacernos llegar un correo electrónico a [soporte@nombredeempresa.com](mailto:soporte@nombredeempresa.com) con detalles sobre el problema que estás experimentando.
+3. **Proporciona información adicional**: Por favor, incluye en tu correo electrónico la fecha y hora del pago, el método de pago utilizado y cualquier otro detalle relevante que pueda ayudarnos a resolver el problema.
+4. **Nuestro equipo de soporte se pondrá en contacto contigo**: Nos aseguraremos de investigar el problema y de comunicarnos contigo para encontrar una solución.
+
+Si tienes alguna otra pregunta o necesitas ayuda adicional, no dudes en hacérmelo saber. Estoy aquí para ayudarte.",11.958,77,218,,0.6932,0.1981,,9.965e-06,0.00249125,0.00249125,0.3185596,0.2366526360995196,0.24411234905597445,0.2664
+llama-3.1-8b,open-source,SHIPPING,¿Dónde puedo obtener información sobre un cambio de dirección de entrega?,"Podés encontrar información sobre cómo cambiar tu dirección de entrega visitando nuestro sitio web y navegando a la sección de ""Ayuda"" o ""Preguntas Frecuentes"". Alternativamente, podés contactar directamente a nuestro equipo de atención al cliente para obtener ayuda con el cambio de tu dirección de entrega.","Puedes obtener información sobre un cambio de dirección de entrega en la sección de ""Mi cuenta"" de nuestro sitio web, donde encontrarás un formulario para actualizar tus datos personales y de facturación. También puedes contactar con nuestro equipo de soporte al cliente a través de nuestro correo electrónico o llamada telefónica, y ellos podrán asistirte con el proceso.",4.529,77,81,,0.7916,0.3279,,3.7741666666666664e-06,0.0009435416666666666,0.0009435416666666666,1.0,0.717137039921146,0.7397424778170658,0.819
+llama-3.1-8b,open-source,ORDER,No puedo corregir el pedido que hice.,"Entendemos que estás teniendo dificultades para corregir el pedido que hiciste. Pedimos disculpas por cualquier inconveniente que esto haya podido causar. Para poder ayudarte mejor, ¿podrías proporcionarnos el número de pedido? Esto nos permitirá entender tu situación con más claridad y encontrar una solución adecuada para vos. Tu satisfacción es nuestra máxima prioridad, y estamos aquí para ayudar.",Lo siento que tengas problemas con tu pedido. ¿Podrías proporcionarme más detalles sobre lo que sucede? ¿Qué tipo de pedido es y qué error específico estás experimentando al intentar corregirlo? Estoy aquí para ayudarte a resolver el problema.,3.393,73,60,,0.7268,0.1852,,2.8275e-06,0.000706875,0.000706875,0.55124676,0.7906099545451017,0.8155313896857697,0.7191
+llama-3.1-8b,open-source,CANCEL,No sé qué tengo que hacer para ver las tarifas de cancelación.,"Para ver las tarifas de cancelación, podés iniciar sesión en tu cuenta en línea y navegar a la sección de detalles del contrato. Ahí deberías poder encontrar información sobre cualquier cargo de cancelación aplicable. Si no podés localizar esta información en línea, te recomiendo que te pongas en contacto con nuestro equipo de atención al cliente, que estará encantado de ayudarte.","Puedes acceder a las tarifas de cancelación en tu cuenta de [nombre de la empresa o plataforma]. 
+
+1. Inicia sesión en tu cuenta.
+2. Ve a la sección de ""Mi cuenta"" o ""Configuración"".
+3. Busca la opción de ""Tarifas de cancelación"" o ""Política de cancelación"".
+4. Allí podrás ver los detalles de las tarifas de cancelación.
+
+Si tienes alguna duda o necesitas ayuda adicional, no dudes en preguntar.",6.217,77,112,,0.7327,0.2914,,5.180833333333333e-06,0.0012952083333333333,0.0012952083333333333,0.59210527,0.6079624977686482,0.6271265594769498,0.6091
+llama-3.1-8b,open-source,DELIVERY,Quiero verificar qué métodos de envío ofrecen.,"¡Haré lo mejor que pueda! Es genial ver tu interés en explorar nuestros métodos de envío. Vamos a desglosar las opciones que tenemos para vos:
+
+1. Envío Estándar: Esta es nuestra opción de envío regular que generalmente tarda {{Rango de Fechas}} días hábiles en entregar. Es perfecta para envíos no urgentes.
+
+2. Envío Acelerado: Si necesitás tu paquete un poco más rápido, nuestra opción de envío acelerado es la indicada. Tus artículos llegarán en un plazo de {{Rango de Fechas}} días hábiles.
+
+3. Envío Overnight: Para esos envíos urgentes, ofrecemos envío overnight. Esto asegura que tu paquete se entregue al día siguiente hábil.
+
+4. Recogida en Tienda: Si preferís recoger tus artículos en una de nuestras tiendas, podés elegir la opción de recogida en tienda. Solo tenés que seleccionar la ubicación de la tienda más cercana durante el proceso de compra.
+
+Espero que esto te ayude a decidir el mejor método de envío para tus necesidades. Si tenés más preguntas o necesitás ayuda con algo más, no dudes en decírmelo.","Nuestra empresa ofrece varios métodos de envío para satisfacer tus necesidades. Algunos de los métodos de envío que ofrecemos son:
+
+* Envío estándar: Este es nuestro método de envío más económico, que tarda aproximadamente 3-5 días hábiles en llegar a la mayoría de las áreas.
+* Envío rápido: Este método de envío es un poco más rápido que el estándar, tardando aproximadamente 1-3 días hábiles en llegar.
+* Envío urgente: Este es nuestro método de envío más rápido, que tarda aproximadamente 24 horas en llegar a la mayoría de las áreas.
+* Envío a domicilio: También ofrecemos la opción de envío a domicilio, donde el paquete se entrega directamente a la puerta de tu hogar.
+
+¿Te gustaría saber más sobre alguno de estos métodos de envío o necesitas ayuda para elegir el que mejor se adapte a tus necesidades?",11.764,74,212,,0.743,0.3141,,9.803333333333333e-06,0.002450833333333333,0.002450833333333333,0.6634348,0.2491999472236811,0.2570551737941158,0.3899
+llama-3.1-8b,open-source,INVOICE,revisá las facturas de hace once meses.,"Reconozco que estás buscando revisar facturas de hace once meses. Para ayudarte con esto, ¿podrías proporcionarme el rango de fechas específico de las facturas que te gustaría revisar? Una vez que tenga esta información, puedo guiarte sobre cómo acceder y ver las facturas de ese período. Tu satisfacción es mi prioridad, y estoy aquí para ayudarte en cada paso del camino.","Lo siento, pero como asistente de soporte, no tengo acceso a información personal o financiera de usuarios específicos. Sin embargo, puedo ofrecerte algunas opciones para revisar tus facturas de los últimos once meses:
+
+1. **Acceso a tu cuenta en línea**: Si tienes una cuenta en línea con nosotros, puedes acceder a tu área de cliente y revisar tus facturas desde allí. Si no recuerdas la contraseña o tienes problemas para acceder, puedes intentar recuperarla o contactar con nuestro equipo de soporte para asistencia.
+
+2. **Contactar con nuestro equipo de soporte**: Puedes contactar con nuestro equipo de soporte a través de nuestro sitio web o de las opciones de contacto disponibles en tu factura. Nosotros podemos ayudarte a revisar tus facturas y proporcionarte información sobre tus cargos y pagos.
+
+3. **Descargar tus facturas**: Si tienes acceso a tu cuenta en línea, también puedes descargar tus facturas en formato PDF para revisarlas en detalle.
+
+Recuerda que, por motivos de seguridad y privacidad, no puedo acceder a información financiera o personal de usuarios. Espero que estas opciones te sean útiles. ¿Hay algo más en lo que pueda ayudarte?",14.47,73,264,,0.6802,0.166,,1.2058333333333333e-05,0.0030145833333333335,0.0030145833333333335,0.22853181,0.07418436010006801,0.0765227833744746,0.1264
+llama-3.1-8b,open-source,ACCOUNT,crear cuenta platinum para mi esposa,"¡Eso es maravilloso! Puedo ayudarte a crear una cuenta platinum para tu esposa. Para continuar, necesitaré algunos detalles. ¿Podrías proporcionarme el nombre completo de tu esposa, su dirección de correo electrónico y un nombre de usuario preferido? Ten la seguridad de que priorizamos la seguridad y la privacidad, y toda la información compartida será tratada con el máximo cuidado. Una vez que tenga estos detalles, te guiaré paso a paso a través del proceso de creación de la cuenta, asegurando una experiencia fluida y agradable tanto para vos como para tu esposa.","Lo siento, pero no puedo ayudarte a crear una cuenta de tarjeta de crédito o cualquier otro tipo de cuenta financiera para tu esposa. ¿Hay algo más en lo que pueda ayudarte?",2.468,68,43,,0.6969,0.1955,,2.0566666666666667e-06,0.0005141666666666667,0.0005141666666666667,0.34418297,0.8504360513999953,0.8772433117619588,0.6906
+mistral,open-source,ACCOUNT,¿Dónde notificar sobre problemas con el registro?,"Nos alegra que te hayas puesto en contacto con nosotros respecto a los problemas que encontraste durante el proceso de registro. Valoramos tus comentarios y queremos asegurar una experiencia fluida para todos nuestros usuarios. Para notificarnos sobre cualquier inconveniente o problema en el registro, te recomendamos que contactes a nuestro equipo de atención al cliente. Están disponibles {{Horario de Atención al Cliente}} al {{Número de Teléfono de Atención al Cliente}} o a través del Chat en Vivo en nuestro sitio web en {{URL del Sitio Web}}. Nuestros agentes de soporte dedicados estarán más que felices de asistirte y recopilar toda la información necesaria para abordar el problema de manera efectiva. Ten la seguridad de que tomamos todos los problemas de registro en serio y estamos comprometidos a resolverlos rápidamente. Agradecemos tu paciencia y comprensión mientras trabajamos para mejorar nuestro proceso de registro.","Para notificar sobre problemas con el registro, puedes contactarnos a través de nuestro correo electrónico [support@miempresa.com](mailto:support@miempresa.com) o llamando al número de teléfono de atención al cliente que se encuentra en nuestro sitio web. También puedes utilizar el chat en línea si estás accediendo a nuestra página web.",9.398,76,100,,0.6805,0.2407,,7.831666666666667e-06,0.0019579166666666664,0.0019579166666666664,0.2306093,0.4022254014492792,0.4149042631262927,0.3492
+mistral,open-source,CANCEL,Estoy tratando de ver la penalización por salida anticipada.,"¡Por supuesto! Para ver la penalización por salida anticipada, podés consultar la sección de términos y condiciones de tu acuerdo de cuenta. Allí encontrarás información detallada sobre cualquier cargo o penalización relacionada con la cancelación de tu cuenta antes del plazo acordado. Si necesitás más ayuda, no dudes en decírmelo.","Para ver la penalización por salida anticipada, es necesario revisar el contrato de alquiler que tiene firmado el cliente. En general, la penalización por salida anticipada puede incluir una tasa de cancelación, un mes de alquiler adicional o una combinación de ambas. Sin embargo, el monto de la penalización puede variar según el contrato específico. Es recomendable que el cliente revise detenidamente su contrato de alquiler para obtener más información sobre la penalización por salida anticipada.",6.745,76,131,,0.7125,0.2585,,5.620833333333333e-06,0.0014052083333333332,0.0014052083333333332,0.45221597,0.5738131149152603,0.5919007271999466,0.5393
+mistral,open-source,CONTACT,Tengo que verificar en qué horarios puedo acceder a la asistencia al cliente.,"¡Es un honor ayudar! Estoy al tanto de que querés averiguar el horario de atención para contactar a nuestro equipo de asistencia al cliente. Nuestro equipo de asistencia al cliente está disponible de {{Customer Support Hours}}. No dudes en comunicarte durante esos horarios, y estaremos más que felices de ayudarte. ¡Haceme saber si hay algo más en lo que pueda asistirte!","Para acceder a la asistencia al cliente, puedes hacerlo durante los siguientes horarios:
+
+Lunes a Viernes de 9:00 a 18:00 horas.
+
+En caso de necesitar asistencia fuera de estos horarios, puedes enviar un correo electrónico a [soporte@miempresa.com](mailto:soporte@miempresa.com) y recibirás una respuesta en breve.
+
+Espero que esto te sea de ayuda. ¡Si tienes alguna otra pregunta, no dudes en preguntar!",7.652,85,149,,0.672,0.2239,,6.376666666666666e-06,0.0015941666666666667,0.0015941666666666667,0.17174517,0.5151512015667323,0.5313896857695644,0.4061
+mistral,open-source,DELIVERY,¿Hacen envíos a {{Delivery City}}?,"¡A la hermosa ciudad de {{Delivery City}}, nuestros envíos se dirigen con entusiasmo! Definitivamente podés hacer un pedido con nosotros y recibirlo en {{Delivery City}}. Ofrecemos una variedad de opciones de envío para asegurar tu comodidad y satisfacción. Ya sea que prefieras envío estándar, envío exprés o incluso envío nocturno, tenemos todo cubierto. Así que no dudes en explorar nuestros productos, hacer tu selección y prepararte para disfrutar la emoción de recibir tu pedido en la renombrada Ciudad Esmeralda. Si tenés alguna pregunta adicional o necesitás ayuda con algo más, no dudes en decírmelo. ¡Felices compras y entregas sin inconvenientes te esperan en {{Delivery City}}!","Para proporcionar una respuesta precisa, es necesario tener en cuenta que la disponibilidad de envíos a diferentes ciudades puede variar según la empresa o servicio de entrega en cuestión. En este caso, no tengo información específica sobre la ciudad de {{Delivery City}}. Por favor, consulta directamente a la empresa o servicio de entrega para obtener información actualizada sobre su cobertura en esa ciudad.",5.918,75,114,,0.6648,0.1587,,4.931666666666667e-06,0.0012329166666666667,0.0012329166666666667,0.12188365,0.6273008793466084,0.6470745213156315,0.4654
+mistral,open-source,FEEDBACK,¿Cómo hago para presentar una maldita reclamación de consumidor?,"Lamento mucho saber que estás frustrado y necesitas ayuda para presentar una reclamación como consumidor. Nos importa de verdad resolver cualquier problema que puedas tener. Para asegurarnos de que tu queja sea tratada adecuadamente, por favor proporcioname algunos detalles adicionales, como la naturaleza del problema, cualquier persona específica involucrada y cualquier documentación de apoyo que puedas tener. Esto nos ayudará a procesar tu queja de manera más eficiente. Valoramos tu opinión y esperamos poder ayudarte más en este asunto.","Para presentar una reclamación de consumidor, sigue estos pasos:
+
+1. Identifica el producto o servicio que está en disputa.
+2. Recopila todos los documentos relacionados con la compra, incluyendo facturas, correos electrónicos, contratos, etc.
+3. Escribe una carta de reclamación detallando el problema, incluyendo la fecha de la compra, el número de orden de compra si se aplica, y una descripción clara del problema.
+4. Envía la carta de reclamación y los documentos relacionados al proveedor del producto o servicio.
+5. Si no hay respuesta dentro de un plazo razonable, puedes recurrir a un organismo de mediación o al organismo regulador del sector correspondiente.
+6. Si la reclamación no se resuelve, puedes presentar una demanda en un tribunal competente.
+
+Es importante tener en cuenta que la forma exacta de presentar una reclamación puede variar según el país y el proveedor, así que es posible que necesites consultar la página web del proveedor o contactar con su departamento de atención al cliente para obtener más información.",15.222,82,298,,0.6814,0.1498,,1.2684999999999998e-05,0.00317125,0.00317125,0.23684219,0.02554736027857618,0.026352658616318747,0.0962
+mistral,open-source,INVOICE,No sé qué hacer para localizar la factura #85632.,"Entiendo lo que estás diciendo, tu incertidumbre sobre cómo localizar la factura con el número #{{Número de Factura}}. Ten la seguridad de que estoy aquí para guiarte y proporcionarte los pasos necesarios. Para empezar, ¿has revisado tu bandeja de entrada de correo electrónico en busca de notificaciones o recordatorios sobre la factura? También podés intentar iniciar sesión en tu cuenta en nuestro sitio web y acceder a la sección de facturación o facturas, donde deberías poder encontrar la factura que estás buscando. Si aún no podés localizarla, te recomiendo que te pongas en contacto con nuestro equipo de atención al cliente, ya que ellos podrán ayudarte a encontrar la factura. Están disponibles {{Horario de Atención al Cliente}} al {{Número de Teléfono de Atención al Cliente}} o a través del Chat en Vivo en nuestro sitio web en {{URL del Sitio Web}}. Juntos, encontraremos una solución para ayudarte a localizar tu factura con éxito.","Para localizar la factura con el número #85632, puedes seguir estos pasos:
+
+1. Accede a tu cuenta en nuestra página web.
+2. Navega hasta la sección de facturas.
+3. Introduce el número de factura #85632 en el campo de búsqueda.
+4. Presiona el botón de búsqueda.
+
+Si aún no puedes encontrarla, no dudes en contactarnos a través de nuestro servicio de atención al cliente para que podamos ayudarte.",7.133,78,138,,0.7184,0.252,,5.944166666666666e-06,0.0014860416666666665,0.0014860416666666665,0.4930749,0.5487184926669375,0.5660150777236641,0.5359
+mistral,open-source,ORDER,¿Podés ayudarme a quitar algo de la compra {{Número de Orden}}?,"Entendemos que estás buscando ayuda para eliminar un artículo de tu compra con el número de orden {{Order Number}}. Pedimos disculpas por cualquier inconveniente causado. Para poder asistirte mejor, ¿podrías por favor indicarnos cuál es el artículo específico que te gustaría eliminar? Una vez que tengamos esta información, te ayudaremos rápidamente a actualizar tu compra. Tu satisfacción es nuestra máxima prioridad, y agradecemos tu paciencia y colaboración para resolver este asunto.","Claro, estoy aquí para ayudarte. Para quitar algo de la compra con el número de orden {{Número de Orden}}, puedes contactarnos a través de nuestro servicio de atención al cliente. Por favor, visita nuestro sitio web y haz clic en ""Ayuda"" o ""Contacto"" para encontrar la opción de chat en línea o el número de teléfono para llamar a nuestro centro de atención al cliente. Una vez que estés en contacto con nosotros, podrás proporcionar el número de orden de tu compra y solicitar la eliminación de algún artículo específico. Espero que esto te ayude a resolver tu problema.",9.016,85,176,,0.7266,0.2312,,7.513333333333333e-06,0.0018783333333333334,0.0018783333333333334,0.5498615,0.4269319625288135,0.440389619053973,0.4724
+mistral,open-source,PAYMENT,ayudame a ver tus modalidades de pago permitidas.,"¡Gracias por ponerte en contacto! Estoy aquí para brindarte toda la información necesaria sobre nuestros métodos de pago permitidos. Aquí tienes una lista completa de las modalidades de pago que ofrecemos:
+
+1. Tarjeta de Crédito/Débito: Aceptamos las principales tarjetas como Visa, Mastercard y American Express, asegurando una experiencia de pago conveniente y segura.
+2. PayPal: Una plataforma de pago en línea ampliamente reconocida y confiable que garantiza un proceso de transacción sin inconvenientes.
+3. Transferencia Bancaria: Tienes la opción de realizar un pago directo desde tu cuenta bancaria, asegurando transacciones sin complicaciones.
+4. Apple Pay: Un método de pago sin esfuerzo diseñado exclusivamente para usuarios de Apple.
+5. Google Wallet: El sistema de pago de Google que permite pagos rápidos y sencillos.
+
+Nuestro objetivo es ofrecerte una amplia gama de opciones de pago para adaptarnos a tus preferencias. Si tienes alguna pregunta adicional o necesitas ayuda con alguno de estos métodos de pago, no dudes en decírmelo.","Las modalidades de pago permitidas en mi sistema son:
+
+1. Tarjeta de crédito/débito (Visa, Mastercard, American Express)
+2. PayPal
+3. Transferencia bancaria
+4. Efectivo en caso de transacciones en persona.
+
+Por favor, recuerda que las condiciones de pago pueden variar según el servicio o producto que estés solicitando. Si tienes alguna pregunta adicional, no dudes en preguntar.",6.297,76,122,,0.7463,0.2931,,5.2475e-06,0.0013118749999999999,0.0013118749999999999,0.68628806,0.6027883488514683,0.6217893121622524,0.637
+mistral,open-source,REFUND,Necesito verificar en qué casos puedo solicitar un reembolso.,"¡Por supuesto! Entiendo completamente tu necesidad de familiarizarte con los casos en los que podés solicitar un reembolso. Permíteme aclararte esto.
+
+Cuando se trata de reembolsos, hay algunos escenarios comunes en los que podés ser elegible:
+
+1. **Defecto en el Producto/Servicio:** Si el producto o servicio que compraste tiene un defecto o no coincide con la descripción, generalmente tenés la opción de solicitar un reembolso.
+
+2. **Cancelación dentro del Período de Gracia:** Si cambiás de opinión sobre una compra dentro del período de gracia especificado, normalmente podés pedir un reembolso.
+
+3. **Cargos No Autorizados:** Si encontrás cargos en tu cuenta que no autorizaste o no reconocés, estamos aquí para ayudarte a investigar y potencialmente asegurar un reembolso.
+
+4. **Cancelación de Evento:** Entendemos la decepción de que un evento para el cual compraste entradas sea cancelado. En casos donde el evento no se reprograma, podés ser elegible para un reembolso.
+
+5. **Cargos Duplicados:** Los errores ocurren, y si notás cargos duplicados por el mismo artículo, por favor avísanos para que podamos corregir el problema y potencialmente ofrecerte un reembolso.
+
+6. **No Recepción de Bienes:** Si no has recibido el artículo que compraste dentro del plazo esperado, podés calificar para un reembolso.
+
+Es importante tener en cuenta que cada vendedor o proveedor de servicios puede tener sus políticas de reembolso específicas, por lo que es recomendable revisar sus términos y condiciones o contactarlos directamente para obtener más información. Si tenés alguna inquietud respecto a un pedido específico o necesitás ayuda con una posible solicitud de reembolso, por favor proporcioname los detalles necesarios, como el número de pedido, y estaré más que feliz de asistirte.
+
+Recordá, nuestro objetivo es asegurar tu satisfacción y brindarte orientación útil a lo largo de tu experiencia. ¿En qué más puedo ayudarte hoy?","Para solicitar un reembolso, es necesario que cumplas con algunos requisitos:
+
+1. El producto o servicio que deseas reembolsar debe estar dañado, defectuoso o no cumpla con las especificaciones que se indicaron al momento de la compra.
+2. Debes haber realizado la compra a través de nuestra plataforma y tener la factura de compra como prueba de la transacción.
+3. Debes contactarnos a través de nuestro servicio de soporte al cliente para informarnos del problema y solicitar el reembolso.
+4. En algunos casos, se podrán solicitar imágenes o videos que demuestren el daño o defecto del producto o servicio.
+5. El plazo para solicitar un reembolso es de 15 días a partir de la fecha de la compra.
+6. El reembolso se realizará en la misma forma de pago que se utilizó para la compra original.
+7. En algunos casos, se podrán aplicar cargos de manejo o tarifas de envío adicionales.
+8. El reembolso se realizará",15.617,83,300,,0.6788,0.1807,,1.3014166666666668e-05,0.0032535416666666667,0.0032535416666666667,0.21883656,0.0,0.0,0.0729
+mistral,open-source,SHIPPING,Tengo problemas para editar mi dirección.,"He tomado nota de que estás teniendo dificultades para editar tu dirección. Para ayudarte a resolver este problema, por favor sigue estos pasos:
+1. Inicia sesión en tu cuenta en nuestro sitio web.
+2. Navega a la sección ""Mi Cuenta"".
+3. Haz clic en el botón ""Editar Dirección"".
+4. Realiza los cambios necesarios en tu dirección.
+5. Guarda la dirección actualizada.
+Si encuentras algún otro problema o tienes alguna pregunta, no dudes en ponerte en contacto con nuestro equipo de atención al cliente para obtener ayuda.","Lo siento por tu inconveniente. Para editar tu dirección, sigue estos pasos:
+
+1. Inicia sesión en tu cuenta en nuestra página web.
+2. Haz clic en la sección ""Mi cuenta"" o ""Perfil"".
+3. Busca la sección ""Mis datos personales"" o similar.
+4. Encuentra la sección donde se muestra tu dirección actual y haz clic en el botón ""Editar"" o ""Actualizar"".
+5. Introduce tus nuevas dirección y asegúrate de revisar cuidadosamente todos los datos antes de guardarlos.
+6. Haz clic en el botón ""Guardar"" o ""Actualizar"" para aplicar los cambios.
+
+Si aún tienes problemas para editar tu dirección, no dudes en contactarnos de nuevo.",10.735,73,208,,0.7702,0.4057,,8.945833333333333e-06,0.0022364583333333334,0.0022364583333333334,0.85180074,0.31575243767090866,0.32570551737941167,0.4978
+mistral,open-source,SUBSCRIPTION,Quiero ayuda para darme de baja del boletín.,"Me informaron que te gustaría recibir ayuda para darte de baja de nuestro boletín. Lamento si el contenido del boletín ya no se ajusta a tus intereses. Para darte de baja, simplemente podés hacer clic en el enlace de ""darse de baja"" que está al final de cualquier correo del boletín que recibas de nuestra parte. Alternativamente, también podés comunicarte con nuestro equipo de atención al cliente, y estarán más que felices de ayudarte a darte de baja. Nuestro equipo toma en serio tus comentarios y quiere asegurarse de que tus preferencias de boletín se alineen con tus intereses. ¿Hay algo más en lo que pueda ayudarte?","Para darte de baja del boletín, necesitamos que realices el siguiente proceso:
+
+1. Accede a tu cuenta en nuestra página web.
+2. Navega hasta la sección de ""Mis preferencias"" o ""Mi cuenta"".
+3. Busca la opción ""Boletines de noticias"" o similar.
+4. Desmarca la casilla correspondiente al boletín que deseas cancelar.
+5. Confirma tu decisión y asegúrate de guardar los cambios.
+
+Si tienes dificultades para realizar este proceso, no dudes en contactarnos a través de nuestro servicio de atención al cliente. Estamos aquí para ayudarte.",9.101,76,175,,0.7151,0.2254,,7.584166666666668e-06,0.001896041666666667,0.001896041666666667,0.4702216,0.42143442930430963,0.43471879378210687,0.4421
+mistral,open-source,ORDER,Quiero ayuda para ver el estado del pedido {{Número de Pedido}}.,"¡Me alegra saber de vos! Entiendo perfectamente que estás buscando ayuda para verificar el estado de tu pedido con el número de orden {{Order Number}}. Para brindarte información precisa y actualizada, te pido que visites la sección '{{Order Status}}' en nuestro sitio web. Allí podrás ver el estado actual de tu pedido junto con cualquier actualización relevante. Si tenés más preguntas o necesitás apoyo adicional, no dudes en preguntar. ¡Estoy aquí para asegurarme de que tengas una experiencia sin inconvenientes!","Para ver el estado de tu pedido {{Número de Pedido}}, puedes acceder a nuestra página web y entrar a tu cuenta. Una vez allí, puedes encontrar la sección de ""Mis pedidos"" y seleccionar el pedido específico que deseas ver. Allí podrás ver el estado actual de tu pedido.
+
+Si tienes dificultades para acceder a tu cuenta o si tienes preguntas adicionales, no dudes en contactarnos de nuevo.
+
+Gracias por tu compra.",6.843,81,133,,0.7729,0.3515,,5.702500000000001e-06,0.001425625,0.001425625,0.8704986,0.5674747824917148,0.5853625992394422,0.6744
+mistral,open-source,CANCEL,No sé qué tengo que hacer para verificar las tarifas de retiro.,"¡No hay problema! Puedo ayudarte a verificar las tarifas de retiro. Para hacerlo, podés consultar nuestro documento de términos y condiciones o comunicarte con nuestro equipo de atención al cliente para obtener información detallada.","Para verificar las tarifas de retiro, puedes seguir estos pasos:
+
+1. Accede a tu cuenta en nuestra página web.
+2. Navega hasta la sección de ""Retiros"".
+3. Selecciona la opción de ""Verificar tarifas"".
+4. Ingresa los detalles necesarios, como el monto y el destino del retiro.
+5. Se mostrarán las tarifas correspondientes.
+
+Si tienes alguna duda adicional, no dudes en preguntar. Estoy aquí para ayudarte.",7.227,81,141,,0.716,0.1682,,6.022500000000001e-06,0.001505625,0.001505625,0.47645453,0.5426388676892508,0.5597438121288945,0.5263
+mistral,open-source,PAYMENT,¿Qué tengo que hacer para reportar problemas con el pago en línea?,"He llegado a entender que estás teniendo problemas con tu pago en línea, y estoy aquí para guiarte en el proceso de reportar estos inconvenientes. El primer paso es comunicarte con nuestro equipo de atención al cliente. Están disponibles {{Customer Support Hours}} al {{Customer Support Phone Number}} o a través del chat en vivo en nuestro sitio web en {{Website URL}}. Una vez que te conectes con nuestro equipo, te ayudarán a documentar los detalles del problema e iniciarán las investigaciones necesarias para resolverlo. Proporcionarles información específica sobre el error que encontraste, como códigos de error, marcas de tiempo de la transacción y cualquier mensaje de error recibido, ayudará mucho a acelerar el proceso de resolución. Ten la seguridad de que nuestro equipo dedicado trabajará arduamente para atender tus inquietudes de manera rápida y asegurar una resolución satisfactoria. Gracias por traer este asunto a nuestra atención, y apreciamos tu paciencia mientras trabajamos juntos para resolver tu problema de pago en línea.","Para reportar problemas con el pago en línea, puedes seguir estos pasos:
+
+1. Accede a tu cuenta en nuestro sitio web.
+2. Haz clic en la sección ""Ayuda"" o ""Soporte"".
+3. Encuentra la opción ""Problemas con el pago"" y haz clic en ella.
+4. Sigue las instrucciones para completar el formulario de contacto.
+5. Describe detalladamente el problema que estás experimentando y proporciona cualquier información adicional que pueda ser útil para resolverlo.
+6. Envía el formulario y espera a que nos contactemos contigo a través de nuestro correo electrónico o teléfono para proporcionarte una solución.
+
+Si tienes alguna pregunta adicional, no dudes en contactarnos. Estamos aquí para ayudarte.",11.197,82,221,,0.682,0.2034,,9.33083333333333e-06,0.0023327083333333333,0.0023327083333333333,0.24099718,0.2858717276741942,0.29488291413703394,0.2739
+mistral,open-source,SHIPPING,¿Dónde puedo obtener información sobre un cambio de dirección de entrega?,"Podés encontrar información sobre cómo cambiar tu dirección de entrega visitando nuestro sitio web y navegando a la sección de ""Ayuda"" o ""Preguntas Frecuentes"". Alternativamente, podés contactar directamente a nuestro equipo de atención al cliente para obtener ayuda con el cambio de tu dirección de entrega.","Para obtener información sobre un cambio de dirección de entrega, puedes seguir estos pasos:
+
+1. Accede a tu cuenta en nuestra página web.
+2. Haz clic en la sección ""Mi cuenta"" o ""Perfil"".
+3. Busca la opción ""Dirección de entrega"" o ""Mis direcciones"".
+4. Haz clic en el botón ""Editar"" o ""Cambiar"" junto a la dirección que deseas modificar.
+5. Ingresa tus nuevos datos de dirección y confirma los cambios.
+
+Si tienes dificultades para realizar estos pasos, no dudes en contactarnos a través de nuestro servicio de asistencia al cliente. Estaremos encantados de ayudarte.",9.934,83,195,,0.7371,0.2405,,8.278333333333333e-06,0.0020695833333333334,0.0020695833333333334,0.6225763,0.36755860370417326,0.3791447061178198,0.4564
+mistral,open-source,ORDER,No puedo corregir el pedido que hice.,"Entendemos que estás teniendo dificultades para corregir el pedido que hiciste. Pedimos disculpas por cualquier inconveniente que esto haya podido causar. Para poder ayudarte mejor, ¿podrías proporcionarnos el número de pedido? Esto nos permitirá entender tu situación con más claridad y encontrar una solución adecuada para vos. Tu satisfacción es nuestra máxima prioridad, y estamos aquí para ayudar.","Lo siento por el inconveniente que estás enfrentando. Para corregir un pedido, es necesario que tengas acceso a la plataforma o sistema donde se realizó el pedido original. Si no tienes acceso a dicha plataforma, te recomiendo que contactes con el proveedor o tienda desde donde realizaste el pedido, y les expliques el problema que estás enfrentando. Espero que puedas resolver el problema de la manera más rápida y eficiente posible.",6.617,74,129,,0.6992,0.1986,,5.514166666666666e-06,0.0013785416666666666,0.0013785416666666666,0.3601107,0.5820917531827483,0.6004403229034625,0.5142
+mistral,open-source,CANCEL,No sé qué tengo que hacer para ver las tarifas de cancelación.,"Para ver las tarifas de cancelación, podés iniciar sesión en tu cuenta en línea y navegar a la sección de detalles del contrato. Ahí deberías poder encontrar información sobre cualquier cargo de cancelación aplicable. Si no podés localizar esta información en línea, te recomiendo que te pongas en contacto con nuestro equipo de atención al cliente, que estará encantado de ayudarte.","Para ver las tarifas de cancelación, puedes seguir estos pasos:
+
+1. Accede a tu cuenta en nuestra página web.
+2. Haz clic en la sección ""Mi cuenta"" o ""Perfil"".
+3. Busca la opción ""Tarifas y planes"".
+4. En la página de ""Tarifas y planes"", encontrarás la información sobre las tarifas de cancelación.
+
+Si tienes dificultades para acceder a tu cuenta o encontrar la información, no dudes en contactarnos por correo electrónico o por teléfono. Estamos aquí para ayudarte.",8.079,79,158,,0.736,0.321,,6.7325e-06,0.0016831250000000002,0.0016831250000000002,0.6149585,0.48753418172128404,0.5029021282273667,0.5351
+mistral,open-source,DELIVERY,Quiero verificar qué métodos de envío ofrecen.,"¡Haré lo mejor que pueda! Es genial ver tu interés en explorar nuestros métodos de envío. Vamos a desglosar las opciones que tenemos para vos:
+
+1. Envío Estándar: Esta es nuestra opción de envío regular que generalmente tarda {{Rango de Fechas}} días hábiles en entregar. Es perfecta para envíos no urgentes.
+
+2. Envío Acelerado: Si necesitás tu paquete un poco más rápido, nuestra opción de envío acelerado es la indicada. Tus artículos llegarán en un plazo de {{Rango de Fechas}} días hábiles.
+
+3. Envío Overnight: Para esos envíos urgentes, ofrecemos envío overnight. Esto asegura que tu paquete se entregue al día siguiente hábil.
+
+4. Recogida en Tienda: Si preferís recoger tus artículos en una de nuestras tiendas, podés elegir la opción de recogida en tienda. Solo tenés que seleccionar la ubicación de la tienda más cercana durante el proceso de compra.
+
+Espero que esto te ayude a decidir el mejor método de envío para tus necesidades. Si tenés más preguntas o necesitás ayuda con algo más, no dudes en decírmelo.","Para verificar los métodos de envío disponibles en nuestra plataforma, puedes acceder a la sección ""Envío y Devoluciones"" en tu cuenta de cliente. Allí podrás ver los diferentes métodos de envío que ofrecemos, así como sus respectivos costos y tiempos de entrega. Si tienes alguna pregunta adicional sobre los métodos de envío, no dudes en contactarnos a través de nuestro servicio al cliente.",6.141,77,120,,0.6971,0.1773,,5.1175e-06,0.0012793750000000001,0.0012793750000000001,0.34556782,0.6128779392399692,0.6321969444259123,0.5302
+mistral,open-source,INVOICE,revisá las facturas de hace once meses.,"Reconozco que estás buscando revisar facturas de hace once meses. Para ayudarte con esto, ¿podrías proporcionarme el rango de fechas específico de las facturas que te gustaría revisar? Una vez que tenga esta información, puedo guiarte sobre cómo acceder y ver las facturas de ese período. Tu satisfacción es mi prioridad, y estoy aquí para ayudarte en cada paso del camino.","Hola, para revisar las facturas de hace once meses, puedes seguir estos pasos:
+
+1. Accede a tu cuenta en nuestra página web.
+2. Navega hasta la sección de ""Facturas"".
+3. Utiliza el filtro de fechas para seleccionar el rango de meses que deseas revisar (en este caso, los once meses anteriores).
+4. Revisa detenidamente cada factura, verificando los detalles de la fecha, el número de factura, el importe y los productos o servicios que incluye.
+5. Si tienes alguna pregunta o duda sobre una factura en particular, no dudes en contactarnos para obtener más información.
+
+Recuerda que si tienes dificultades para acceder a tu cuenta o revisar las facturas, no dudes en contactarnos y nosotros nos encargaremos de ayudarte.
+
+Espero que esto te haya sido de ayuda. ¡Tenga un excelente día!",13.343,73,259,,0.7027,0.2136,,1.1119166666666665e-05,0.0027797916666666665,0.0027797916666666665,0.38434923,0.1470751829708411,0.15171125492027493,0.2277
+mistral,open-source,ACCOUNT,crear cuenta platinum para mi esposa,"¡Eso es maravilloso! Puedo ayudarte a crear una cuenta platinum para tu esposa. Para continuar, necesitaré algunos detalles. ¿Podrías proporcionarme el nombre completo de tu esposa, su dirección de correo electrónico y un nombre de usuario preferido? Ten la seguridad de que priorizamos la seguridad y la privacidad, y toda la información compartida será tratada con el máximo cuidado. Una vez que tenga estos detalles, te guiaré paso a paso a través del proceso de creación de la cuenta, asegurando una experiencia fluida y agradable tanto para vos como para tu esposa.","Para crear una cuenta Platinum para tu esposa, sigue estos pasos:
+
+1. Accede a nuestro sitio web o aplicación móvil.
+2. Haz clic en ""Registrarse"" o ""Crear cuenta"".
+3. Ingresa los datos solicitados, incluyendo su nombre, correo electrónico y contraseña.
+4. Selecciona la opción ""Platinum"" como tu plan de membresía.
+5. Completa el resto de los campos solicitados, incluyendo su nombre completo, dirección y número de teléfono.
+6. Asegúrate de leer y aceptar nuestros términos y condiciones antes de finalizar el proceso de registro.
+7. Una vez finalizado el proceso, tu esposa recibirá un correo electrónico de confirmación con instrucciones para activar su cuenta.
+
+Si tienes alguna duda durante el proceso, no dudes en contactarnos. Estamos aquí para ayudarte.",12.696,71,250,,0.696,0.2165,,1.0579999999999999e-05,0.0026449999999999998,0.0026449999999999998,0.33795008,0.18892111233853426,0.1948762425778905,0.2406
