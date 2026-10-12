@@ -1,0 +1,23 @@
+{
+  "consultas": 54,
+  "respuestas_por_evaluador": 324,
+  "evaluadores_previstos": 2,
+  "semillas": {
+    "evaluador_1": 20261021,
+    "evaluador_2": 20261022
+  },
+  "archivos": {
+    "evaluador_1": {
+      "ruta": "evaluador_1.csv",
+      "sha256": "4ceca8772ad659eda659ac52fe977e8e86f57454a2c336ae76e8bfdcfa212470"
+    },
+    "evaluador_2": {
+      "ruta": "evaluador_2.csv",
+      "sha256": "39a333253f3f1d7884c7bc7793e19c63f468b9ee4b33dcfd4a4e780433973906"
+    },
+    "clave": {
+      "ruta": "clave_ciega.csv",
+      "sha256": "0f9de42dbdaad2954172142ac78fb6814d6c92b25933a594488fb62ac49207bc"
+    }
+  }
+}

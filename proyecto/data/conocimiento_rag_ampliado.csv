@@ -1,0 +1,695 @@
+document_id,source_row_id,category,intent,instruction,response,similitud_max_evaluacion,texto_rag
+bitext-00044,44,ORDER,cancel_order,assistance canceling purchase {{Order Number}},"I've observed that you need assistance with canceling your purchase, specifically with the purchase number {{Order Number}}. Rest assured, I'm here to guide you through the process and ensure a smooth cancellation experience. Here's how you can cancel your purchase:
+
+1. Sign in to your {{Online Company Portal Info}} using your credentials.
+2. Navigate to the '{{Online Order Interaction}}' or '{{Online Order Interaction}}' section.
+3. Locate the purchase with the purchase number {{Order Number}} and click on it for more details.
+4. Look for the '{{Online Order Interaction}}' option associated with the purchase and select it.
+5. Follow any additional steps or prompts provided by the system to complete the cancellation process.
+
+If you encounter any difficulties or have further questions during this process, our dedicated team is available to assist you. Feel free to contact us during {{Customer Support Hours}} at {{Customer Support Phone Number}} or via the Live Chat feature on our {{Website URL}}. Your satisfaction is our top priority, and we'll do everything we can to help you with your cancellation.
+
+Please remember that canceled purchases may be subject to our {{Cancellation Policy}}. We appreciate your understanding and cooperation in this matter.",0.8888888888888888,"Categoría: ORDER
+Intención: cancel_order
+Pregunta frecuente: assistance canceling purchase {{Order Number}}
+Procedimiento recomendado: I've observed that you need assistance with canceling your purchase, specifically with the purchase number {{Order Number}}. Rest assured, I'm here to guide you through the process and ensure a smooth cancellation experience. Here's how you can cancel your purchase:
+
+1. Sign in to your {{Online Company Portal Info}} using your credentials.
+2. Navigate to the '{{Online Order Interaction}}' or '{{Online Order Interaction}}' section.
+3. Locate the purchase with the purchase number {{Order Number}} and click on it for more details.
+4. Look for the '{{Online Order Interaction}}' option associated with the purchase and select it.
+5. Follow any additional steps or prompts provided by the system to complete the cancellation process.
+
+If you encounter any difficulties or have further questions during this process, our dedicated team is available to assist you. Feel free to contact us during {{Customer Support Hours}} at {{Customer Support Phone Number}} or via the Live Chat feature on our {{Website URL}}. Your satisfaction is our top priority, and we'll do everything we can to help you with your cancellation.
+
+Please remember that canceled purchases may be subject to our {{Cancellation Policy}}. We appreciate your understanding and cooperation in this matter."
+bitext-00123,123,ORDER,cancel_order,"I have ordered some article, cancel purchase {{Order Number}}","I can relate to the understanding that you have ordered an article and now need assistance with canceling the purchase with the order number {{Order Number}}. I apologize for any inconvenience caused, and I'm here to help you with the cancellation process. To proceed with canceling your purchase, please follow these steps:
+
+1. Log into your account: Access our platform by signing in to your {{Online Company Portal Info}}.
+2. Navigate to your order history: Once logged in, go to the '{{Online Order Interaction}}' or '{{Online Order Interaction}}' section.
+3. Locate the relevant purchase: Look for the purchase associated with the order number {{Order Number}} and click on it to view the details.
+4. Initiate the cancellation: Within the order details, you should find an option labeled '{{Online Order Interaction}}' or similar. Select that option to start the cancellation process.
+5. Complete any additional steps: Our system may ask you a few questions for confirmation or feedback. Please follow the prompts and provide the necessary information.
+
+If you encounter any difficulties or have further questions, our dedicated customer support team is available during {{Customer Support Hours}}. You can reach us at {{Customer Support Phone Number}} or use the Live Chat feature on our {{Website URL}}. We deeply value your satisfaction and are committed to assisting you throughout the cancellation process.",0.7272727272727273,"Categoría: ORDER
+Intención: cancel_order
+Pregunta frecuente: I have ordered some article, cancel purchase {{Order Number}}
+Procedimiento recomendado: I can relate to the understanding that you have ordered an article and now need assistance with canceling the purchase with the order number {{Order Number}}. I apologize for any inconvenience caused, and I'm here to help you with the cancellation process. To proceed with canceling your purchase, please follow these steps:
+
+1. Log into your account: Access our platform by signing in to your {{Online Company Portal Info}}.
+2. Navigate to your order history: Once logged in, go to the '{{Online Order Interaction}}' or '{{Online Order Interaction}}' section.
+3. Locate the relevant purchase: Look for the purchase associated with the order number {{Order Number}} and click on it to view the details.
+4. Initiate the cancellation: Within the order details, you should find an option labeled '{{Online Order Interaction}}' or similar. Select that option to start the cancellation process.
+5. Complete any additional steps: Our system may ask you a few questions for confirmation or feedback. Please follow the prompts and provide the necessary information.
+
+If you encounter any difficulties or have further questions, our dedicated customer support team is available during {{Customer Support Hours}}. You can reach us at {{Customer Support Phone Number}} or use the Live Chat feature on our {{Website URL}}. We deeply value your satisfaction and are committed to assisting you throughout the cancellation process."
+bitext-00867,867,ORDER,cancel_order,have a problem with cancelling order {{Order Number}},"I can relate that you're facing difficulties with canceling your order with the order number {{Order Number}}. Please allow me to assist you in resolving this issue. Here's what you can do:
+
+1. Sign in to Your Account: Access our platform by logging in to your {{Online Company Portal Info}}.
+2. Find Your Order: Once you're logged in, navigate to the '{{Online Order Interaction}}' or '{{Online Order Interaction}}' section.
+3. Locate the Specific Order: Look for the order number {{Order Number}} and click on it to access the details.
+4. Initiate Cancellation: On the order details page, you should see an option labeled '{{Online Order Interaction}}'. Please select this to proceed.
+5. Follow Any Additional Steps: The system may prompt you to provide a reason for cancellation or ask for further confirmation. Kindly complete the necessary steps.
+
+If you encounter any challenges or have more questions during the process, please don't hesitate to reach out to our dedicated support team. You can contact us during {{Customer Support Hours}} at {{Customer Support Phone Number}} or use the Live Chat feature on our {{Website URL}}. Rest assured, we are committed to resolving this matter for you promptly.",0.7529411764705882,"Categoría: ORDER
+Intención: cancel_order
+Pregunta frecuente: have a problem with cancelling order {{Order Number}}
+Procedimiento recomendado: I can relate that you're facing difficulties with canceling your order with the order number {{Order Number}}. Please allow me to assist you in resolving this issue. Here's what you can do:
+
+1. Sign in to Your Account: Access our platform by logging in to your {{Online Company Portal Info}}.
+2. Find Your Order: Once you're logged in, navigate to the '{{Online Order Interaction}}' or '{{Online Order Interaction}}' section.
+3. Locate the Specific Order: Look for the order number {{Order Number}} and click on it to access the details.
+4. Initiate Cancellation: On the order details page, you should see an option labeled '{{Online Order Interaction}}'. Please select this to proceed.
+5. Follow Any Additional Steps: The system may prompt you to provide a reason for cancellation or ask for further confirmation. Kindly complete the necessary steps.
+
+If you encounter any challenges or have more questions during the process, please don't hesitate to reach out to our dedicated support team. You can contact us during {{Customer Support Hours}} at {{Customer Support Phone Number}} or use the Live Chat feature on our {{Website URL}}. Rest assured, we are committed to resolving this matter for you promptly."
+bitext-01214,1214,ORDER,change_order,i cannotedit purchase {{Order Number}},"I've noticed that you are facing difficulties in editing purchase number {{Order Number}}. I apologize for the inconvenience caused. To assist you further, could you please specify the changes you would like to make to your purchase? With this information, I will be able to find a suitable solution for you. Your satisfaction is our top priority, and we are committed to resolving any issues you may have.",0.8051948051948052,"Categoría: ORDER
+Intención: change_order
+Pregunta frecuente: i cannotedit purchase {{Order Number}}
+Procedimiento recomendado: I've noticed that you are facing difficulties in editing purchase number {{Order Number}}. I apologize for the inconvenience caused. To assist you further, could you please specify the changes you would like to make to your purchase? With this information, I will be able to find a suitable solution for you. Your satisfaction is our top priority, and we are committed to resolving any issues you may have."
+bitext-01326,1326,ORDER,change_order,need to change something of order {{Order Number}},I'll do my best! I understand that you need to make some changes to order number {{Order Number}}. We're here to assist you with that. Could you please provide more details about the specific changes you would like to make? This will help us ensure that we address your request accurately and efficiently.,0.7872340425531915,"Categoría: ORDER
+Intención: change_order
+Pregunta frecuente: need to change something of order {{Order Number}}
+Procedimiento recomendado: I'll do my best! I understand that you need to make some changes to order number {{Order Number}}. We're here to assist you with that. Could you please provide more details about the specific changes you would like to make? This will help us ensure that we address your request accurately and efficiently."
+bitext-01896,1896,ORDER,change_order,I need to remove several articles from purchase {{Order Number}},"We're here for you to us with your request to remove several articles from purchase number {{Order Number}}. I understand that you would like to make some modifications to your order, and I'm here to assist you with that. To proceed with the removal of the articles, could you kindly provide me with the specific details of the items you wish to remove? This will help us ensure that the changes are accurately made to your purchase.",0.7304347826086957,"Categoría: ORDER
+Intención: change_order
+Pregunta frecuente: I need to remove several articles from purchase {{Order Number}}
+Procedimiento recomendado: We're here for you to us with your request to remove several articles from purchase number {{Order Number}}. I understand that you would like to make some modifications to your order, and I'm here to assist you with that. To proceed with the removal of the articles, could you kindly provide me with the specific details of the items you wish to remove? This will help us ensure that the changes are accurately made to your purchase."
+bitext-02066,2066,SHIPPING,change_shipping_address,I don't know what I have to do to change my address,"No worries! I can help you with that. To change your address, you need to log in to your account and navigate to the ""Account Settings"" section. From there, you should see an option to update your address. If you have any difficulties, feel free to reach out to our customer support team for further assistance.",0.7636363636363637,"Categoría: SHIPPING
+Intención: change_shipping_address
+Pregunta frecuente: I don't know what I have to do to change my address
+Procedimiento recomendado: No worries! I can help you with that. To change your address, you need to log in to your account and navigate to the ""Account Settings"" section. From there, you should see an option to update your address. If you have any difficulties, feel free to reach out to our customer support team for further assistance."
+bitext-02652,2652,SHIPPING,change_shipping_address,there is an issue trying to change the address,"I apologize for the difficulties you're encountering when trying to change your address. Let's troubleshoot the issue together. First, make sure you are logged into your account on our website. Then, navigate to the ""My Account"" section and locate the option to edit your address. If you're still having trouble, please provide more details about the issue so that we can assist you further.",0.68,"Categoría: SHIPPING
+Intención: change_shipping_address
+Pregunta frecuente: there is an issue trying to change the address
+Procedimiento recomendado: I apologize for the difficulties you're encountering when trying to change your address. Let's troubleshoot the issue together. First, make sure you are logged into your account on our website. Then, navigate to the ""My Account"" section and locate the option to edit your address. If you're still having trouble, please provide more details about the issue so that we can assist you further."
+bitext-02857,2857,SHIPPING,change_shipping_address,can ya tell me more about changing the address,"I'll take care of it! If you need help with changing your address, our customer support team can assist you in updating your shipping information. You can also find step-by-step instructions on our website's FAQ section on how to modify your delivery address. Don't hesitate to reach out to us for any further assistance!",0.6292134831460674,"Categoría: SHIPPING
+Intención: change_shipping_address
+Pregunta frecuente: can ya tell me more about changing the address
+Procedimiento recomendado: I'll take care of it! If you need help with changing your address, our customer support team can assist you in updating your shipping information. You can also find step-by-step instructions on our website's FAQ section on how to modify your delivery address. Don't hesitate to reach out to us for any further assistance!"
+bitext-03014,3014,CANCEL,check_cancellation_fee,assistance to see thd early termination fee,"Indeed! I can help you with that. To check the early termination fee, you can refer to the terms and conditions of your account or contact our customer support team. They will provide you with the specific information regarding any applicable fees for canceling your service.",0.7469879518072289,"Categoría: CANCEL
+Intención: check_cancellation_fee
+Pregunta frecuente: assistance to see thd early termination fee
+Procedimiento recomendado: Indeed! I can help you with that. To check the early termination fee, you can refer to the terms and conditions of your account or contact our customer support team. They will provide you with the specific information regarding any applicable fees for canceling your service."
+bitext-03060,3060,CANCEL,check_cancellation_fee,I do not know how to see the termination charges,"No problem! I can help you find the information you need about the termination charges. To check the termination fee for your account, you can visit your online profile and navigate to the ""Account Details"" or ""Billing"" section. Alternatively, you can reach out to our customer support team who will be able to assist you further.",0.7045454545454546,"Categoría: CANCEL
+Intención: check_cancellation_fee
+Pregunta frecuente: I do not know how to see the termination charges
+Procedimiento recomendado: No problem! I can help you find the information you need about the termination charges. To check the termination fee for your account, you can visit your online profile and navigate to the ""Account Details"" or ""Billing"" section. Alternatively, you can reach out to our customer support team who will be able to assist you further."
+bitext-03317,3317,CANCEL,check_cancellation_fee,"I have to check the termination fee, how can I do it?","I'll make it happen! To check the termination fee, you can visit our website and log in to your account. Navigate to the account settings or billing section, where you should find detailed information about the termination fee. If you're unable to locate it, you can also contact our customer support team who will be happy to assist you in checking the termination fee.",0.803921568627451,"Categoría: CANCEL
+Intención: check_cancellation_fee
+Pregunta frecuente: I have to check the termination fee, how can I do it?
+Procedimiento recomendado: I'll make it happen! To check the termination fee, you can visit our website and log in to your account. Navigate to the account settings or billing section, where you should find detailed information about the termination fee. If you're unable to locate it, you can also contact our customer support team who will be happy to assist you in checking the termination fee."
+bitext-04046,4046,INVOICE,check_invoice,I do not know how I can locate my bills from {{Person Name}},"I understand your frustration and uncertainty about how to find your bills related to {{Salutation}} {{Client Last Name}}. Let me assure you that I'm here to assist you in this process. To locate your bills from {{Person Name}}, you can try accessing your online account or reaching out to our customer support team. They can provide you with the necessary guidance and help you navigate through the platform to find the desired invoices. Is there anything specific you are struggling with or any other information you would like to share? This will enable me to provide you with more accurate assistance. Remember, I'm here to support you every step of the way to ensure you locate your bills from {{Person Name}} efficiently and effortlessly.",0.8305084745762712,"Categoría: INVOICE
+Intención: check_invoice
+Pregunta frecuente: I do not know how I can locate my bills from {{Person Name}}
+Procedimiento recomendado: I understand your frustration and uncertainty about how to find your bills related to {{Salutation}} {{Client Last Name}}. Let me assure you that I'm here to assist you in this process. To locate your bills from {{Person Name}}, you can try accessing your online account or reaching out to our customer support team. They can provide you with the necessary guidance and help you navigate through the platform to find the desired invoices. Is there anything specific you are struggling with or any other information you would like to share? This will enable me to provide you with more accurate assistance. Remember, I'm here to support you every step of the way to ensure you locate your bills from {{Person Name}} efficiently and effortlessly."
+bitext-04604,4604,INVOICE,check_invoice,i want assistance to find the bikll #00108,"I comprehend your need for assistance in finding the specific bill with the number #{{Invoice Number}}. Rest assured, I'm here to guide you through this process. To help you more efficiently, could you kindly provide me with additional details such as the date range or any specific information related to the bill? With that information, we can work together towards locating your bill successfully.",0.6172839506172839,"Categoría: INVOICE
+Intención: check_invoice
+Pregunta frecuente: i want assistance to find the bikll #00108
+Procedimiento recomendado: I comprehend your need for assistance in finding the specific bill with the number #{{Invoice Number}}. Rest assured, I'm here to guide you through this process. To help you more efficiently, could you kindly provide me with additional details such as the date range or any specific information related to the bill? With that information, we can work together towards locating your bill successfully."
+bitext-04737,4737,INVOICE,check_invoice,"I want to locate invoice #37777, how to do it?","I understand your need to locate the details of invoice #{{Invoice Number}}. Let me guide you through the process. To find the invoice, you can follow these steps:
+1. Log in to your account on our website.
+2. Navigate to the ""Invoices"" or ""Billing"" section.
+3. Look for a search bar or filter options where you can enter the invoice number.
+4. Enter the invoice number {{Invoice Number}} in the search bar or apply a filter for the specific invoice number.
+5. Click on the search icon or apply the filter to display the invoice details.
+If you are unable to find the invoice using these steps, please let me know, and I'll be glad to assist you further.",0.5925925925925926,"Categoría: INVOICE
+Intención: check_invoice
+Pregunta frecuente: I want to locate invoice #37777, how to do it?
+Procedimiento recomendado: I understand your need to locate the details of invoice #{{Invoice Number}}. Let me guide you through the process. To find the invoice, you can follow these steps:
+1. Log in to your account on our website.
+2. Navigate to the ""Invoices"" or ""Billing"" section.
+3. Look for a search bar or filter options where you can enter the invoice number.
+4. Enter the invoice number {{Invoice Number}} in the search bar or apply a filter for the specific invoice number.
+5. Click on the search icon or apply the filter to display the invoice details.
+If you are unable to find the invoice using these steps, please let me know, and I'll be glad to assist you further."
+bitext-05271,5271,PAYMENT,check_payment_methods,i dont know how to list ur payment methods,"Thank you for reaching out! It's completely understandable if you're unsure about how to access our list of payment methods. I'm here to guide you through the process. To list our available payment methods, simply follow these steps:
+
+1. Visit our website and navigate to the ""Payment Methods"" section, usually located in the ""Payment"" or ""Checkout"" menu.
+2. You will find a comprehensive list of the payment options we offer, including credit/debit card, PayPal, bank transfer, Apple Pay, and Google Wallet.
+3. If you prefer, you can also reach out to our customer support team via live chat, email, or phone. They will be more than happy to provide you with detailed information about our payment methods.
+
+Remember, we strive to make your payment experience as convenient as possible. If you encounter any difficulties or have further questions, please don't hesitate to let me know. I'm here to assist you every step of the way!",0.6976744186046512,"Categoría: PAYMENT
+Intención: check_payment_methods
+Pregunta frecuente: i dont know how to list ur payment methods
+Procedimiento recomendado: Thank you for reaching out! It's completely understandable if you're unsure about how to access our list of payment methods. I'm here to guide you through the process. To list our available payment methods, simply follow these steps:
+
+1. Visit our website and navigate to the ""Payment Methods"" section, usually located in the ""Payment"" or ""Checkout"" menu.
+2. You will find a comprehensive list of the payment options we offer, including credit/debit card, PayPal, bank transfer, Apple Pay, and Google Wallet.
+3. If you prefer, you can also reach out to our customer support team via live chat, email, or phone. They will be more than happy to provide you with detailed information about our payment methods.
+
+Remember, we strive to make your payment experience as convenient as possible. If you encounter any difficulties or have further questions, please don't hesitate to let me know. I'm here to assist you every step of the way!"
+bitext-05282,5282,PAYMENT,check_payment_methods,assistance to list the payment options,"Of course! I'm here to provide you with a comprehensive list of our payment options. Here are the payment methods you can use for your purchases:
+
+- Credit/Debit Card: We accept major card brands like Visa, Mastercard, and American Express.
+- PayPal: A secure and widely used online payment platform.
+- Bank Transfer: This allows you to make direct payments from your bank account.
+- Apple Pay: An easy and convenient way for Apple users to make payments.
+- Google Wallet: Google's payment system for fast and hassle-free checkouts.
+
+If you have any further questions or need assistance with any of these payment methods, please feel free to let me know. I am here to help you make a smooth and secure payment.",0.7472527472527473,"Categoría: PAYMENT
+Intención: check_payment_methods
+Pregunta frecuente: assistance to list the payment options
+Procedimiento recomendado: Of course! I'm here to provide you with a comprehensive list of our payment options. Here are the payment methods you can use for your purchases:
+
+- Credit/Debit Card: We accept major card brands like Visa, Mastercard, and American Express.
+- PayPal: A secure and widely used online payment platform.
+- Bank Transfer: This allows you to make direct payments from your bank account.
+- Apple Pay: An easy and convenient way for Apple users to make payments.
+- Google Wallet: Google's payment system for fast and hassle-free checkouts.
+
+If you have any further questions or need assistance with any of these payment methods, please feel free to let me know. I am here to help you make a smooth and secure payment."
+bitext-05464,5464,PAYMENT,check_payment_methods,I try to check what payment options are allowed,"I'm on it! I'm thrilled to provide you with an overview of our accepted payment methods. Our company offers a wide range of payment options to ensure convenience for our valued customers. Here are some of the payment methods you can use:
+
+- Credit/Debit Card: We accept major credit and debit cards such as Visa, Mastercard, and American Express.
+- PayPal: A popular and secure online payment method.
+- Bank Transfer: You can make direct payments from your bank account.
+- Apple Pay: If you're an Apple user, you can make payments with ease.
+- Google Pay: A fast and convenient payment method supported by Google.
+
+These are just a few examples of the payment options we offer. If you have any specific preferences or questions about a particular payment method, feel free to let me know. I'm here to help you make the payment process as smooth as possible.",0.7843137254901961,"Categoría: PAYMENT
+Intención: check_payment_methods
+Pregunta frecuente: I try to check what payment options are allowed
+Procedimiento recomendado: I'm on it! I'm thrilled to provide you with an overview of our accepted payment methods. Our company offers a wide range of payment options to ensure convenience for our valued customers. Here are some of the payment methods you can use:
+
+- Credit/Debit Card: We accept major credit and debit cards such as Visa, Mastercard, and American Express.
+- PayPal: A popular and secure online payment method.
+- Bank Transfer: You can make direct payments from your bank account.
+- Apple Pay: If you're an Apple user, you can make payments with ease.
+- Google Pay: A fast and convenient payment method supported by Google.
+
+These are just a few examples of the payment options we offer. If you have any specific preferences or questions about a particular payment method, feel free to let me know. I'm here to help you make the payment process as smooth as possible."
+bitext-06300,6300,REFUND,check_refund_policy,"I have got to see your money back policy, help me","I grasp your need to see our money-back policy. We want you to feel confident and informed about our refund process. Our money-back policy ensures that you can request a refund under certain circumstances. However, please note that specific policies may vary depending on the product or service you've purchased. To provide you with accurate information, could you please provide me with the specific product or service you're referring to? Once I have that information, I'll be happy to assist you further.",0.6363636363636364,"Categoría: REFUND
+Intención: check_refund_policy
+Pregunta frecuente: I have got to see your money back policy, help me
+Procedimiento recomendado: I grasp your need to see our money-back policy. We want you to feel confident and informed about our refund process. Our money-back policy ensures that you can request a refund under certain circumstances. However, please note that specific policies may vary depending on the product or service you've purchased. To provide you with accurate information, could you please provide me with the specific product or service you're referring to? Once I have that information, I'll be happy to assist you further."
+bitext-06326,6326,REFUND,check_refund_policy,see in which cases can I ask for my goddamn money back,"I completely understand your need to comprehend the situations in which you can request a refund. Here are some common scenarios where you may be eligible for a refund:
+
+1. **Product/Service Defect:** If the product or service you received is defective, damaged, or doesn't meet your expectations, you may be entitled to a refund.
+2. **Cancellation within Grace Period:** Many times, if you decide to cancel your purchase within a specific grace period, you can request a refund.
+3. **Unauthorized Charges:** If you notice any unauthorized charges on your account, it's crucial to reach out to us immediately. We'll investigate and assist you accordingly.
+4. **Event Cancellation:** In the unfortunate event that an event is canceled or rescheduled, and you're unable to attend the new date, you're typically eligible for a refund.
+5. **Non-receipt of Goods or Services:** If you haven't received your ordered goods or services within the expected timeframe, you might qualify for a refund.
+6. **Duplicate Charges:** If you notice that you've been charged multiple times for the same item or service, please inform us promptly. We'll work on rectifying the situation and issuing a refund if necessary.
+
+Please note that these are general scenarios in which you may request a refund. Each product or service provider may have specific refund policies, so it's advisable to review their terms and conditions for more details. If you have a specific order or concern, kindly provide me with the relevant details, such as the {{Order Number}}, and I'll be more than happy to assist you further.
+
+I hope this information helps! If you have any other questions or need further assistance, please feel free to ask.",0.6808510638297872,"Categoría: REFUND
+Intención: check_refund_policy
+Pregunta frecuente: see in which cases can I ask for my goddamn money back
+Procedimiento recomendado: I completely understand your need to comprehend the situations in which you can request a refund. Here are some common scenarios where you may be eligible for a refund:
+
+1. **Product/Service Defect:** If the product or service you received is defective, damaged, or doesn't meet your expectations, you may be entitled to a refund.
+2. **Cancellation within Grace Period:** Many times, if you decide to cancel your purchase within a specific grace period, you can request a refund.
+3. **Unauthorized Charges:** If you notice any unauthorized charges on your account, it's crucial to reach out to us immediately. We'll investigate and assist you accordingly.
+4. **Event Cancellation:** In the unfortunate event that an event is canceled or rescheduled, and you're unable to attend the new date, you're typically eligible for a refund.
+5. **Non-receipt of Goods or Services:** If you haven't received your ordered goods or services within the expected timeframe, you might qualify for a refund.
+6. **Duplicate Charges:** If you notice that you've been charged multiple times for the same item or service, please inform us promptly. We'll work on rectifying the situation and issuing a refund if necessary.
+
+Please note that these are general scenarios in which you may request a refund. Each product or service provider may have specific refund policies, so it's advisable to review their terms and conditions for more details. If you have a specific order or concern, kindly provide me with the relevant details, such as the {{Order Number}}, and I'll be more than happy to assist you further.
+
+I hope this information helps! If you have any other questions or need further assistance, please feel free to ask."
+bitext-06841,6841,REFUND,check_refund_policy,assistance to see your refund policy,"Assuredly! I'm here to help you with our refund policy. Our refund policy aims to provide fairness and satisfaction to our valued customers like you. Here is a succinct overview of our refund policy:
+
+1. **Product/Service Defect:** If you receive a product or service that is defective or doesn't meet the description provided, you are eligible for a refund. We want to ensure that every product or service you receive is of the highest quality.
+
+2. **Cancellation within Grace Period:** If you change your mind about a purchase and decide to cancel within the specified grace period, you will be entitled to a refund. We understand that circumstances can change, and we want to accommodate your needs.
+
+3. **Unauthorized Charges:** If you notice any unauthorized charges on your account, please reach out to our customer support team immediately. We take unauthorized charges seriously and will investigate the issue promptly to ensure you receive a refund if necessary.
+
+4. **Event Cancellation:** In the unfortunate event that a scheduled event is canceled and not rescheduled, you will be eligible for a refund. We understand the disappointment that comes with event cancellations and want to make sure you are refunded accordingly.
+
+5. **Duplicate Charges:** If you are charged multiple times for the same item or service, please notify us immediately. We will rectify the situation and ensure that you receive a prompt refund for any duplicate charges.
+
+6. **Non-receipt of Goods:** If you do not receive the goods or services you purchased within the expected timeframe, please contact our customer support team. We will investigate the matter and arrange for a refund if necessary. Your satisfaction is our top priority.
+
+Please keep in mind that specific refund policies may vary depending on the vendor or service provider. We recommend reviewing the terms and conditions or contacting the relevant parties directly for more specialized information.
+
+If you have any specific questions or concerns about our refund policy or a particular order, please provide me with the necessary details, such as the order number or any relevant information, and I'll be more than happy to assist you further.
+
+How can I further assist you today?",0.7397260273972602,"Categoría: REFUND
+Intención: check_refund_policy
+Pregunta frecuente: assistance to see your refund policy
+Procedimiento recomendado: Assuredly! I'm here to help you with our refund policy. Our refund policy aims to provide fairness and satisfaction to our valued customers like you. Here is a succinct overview of our refund policy:
+
+1. **Product/Service Defect:** If you receive a product or service that is defective or doesn't meet the description provided, you are eligible for a refund. We want to ensure that every product or service you receive is of the highest quality.
+
+2. **Cancellation within Grace Period:** If you change your mind about a purchase and decide to cancel within the specified grace period, you will be entitled to a refund. We understand that circumstances can change, and we want to accommodate your needs.
+
+3. **Unauthorized Charges:** If you notice any unauthorized charges on your account, please reach out to our customer support team immediately. We take unauthorized charges seriously and will investigate the issue promptly to ensure you receive a refund if necessary.
+
+4. **Event Cancellation:** In the unfortunate event that a scheduled event is canceled and not rescheduled, you will be eligible for a refund. We understand the disappointment that comes with event cancellations and want to make sure you are refunded accordingly.
+
+5. **Duplicate Charges:** If you are charged multiple times for the same item or service, please notify us immediately. We will rectify the situation and ensure that you receive a prompt refund for any duplicate charges.
+
+6. **Non-receipt of Goods:** If you do not receive the goods or services you purchased within the expected timeframe, please contact our customer support team. We will investigate the matter and arrange for a refund if necessary. Your satisfaction is our top priority.
+
+Please keep in mind that specific refund policies may vary depending on the vendor or service provider. We recommend reviewing the terms and conditions or contacting the relevant parties directly for more specialized information.
+
+If you have any specific questions or concerns about our refund policy or a particular order, please provide me with the necessary details, such as the order number or any relevant information, and I'll be more than happy to assist you further.
+
+How can I further assist you today?"
+bitext-07180,7180,FEEDBACK,complaint,assistance making a consumer reclamation against ur company,"I'm sorry to hear that you need assistance in making a consumer reclamation against our company. Your feedback and concerns are important to us, and we aim to address them promptly and effectively. To assist you further, could you please provide more details about the specific issue and your desired resolution? This will enable us to understand your experience better and take the necessary steps to resolve the situation. We are committed to resolving this matter and ensuring your satisfaction.",0.7899159663865546,"Categoría: FEEDBACK
+Intención: complaint
+Pregunta frecuente: assistance making a consumer reclamation against ur company
+Procedimiento recomendado: I'm sorry to hear that you need assistance in making a consumer reclamation against our company. Your feedback and concerns are important to us, and we aim to address them promptly and effectively. To assist you further, could you please provide more details about the specific issue and your desired resolution? This will enable us to understand your experience better and take the necessary steps to resolve the situation. We are committed to resolving this matter and ensuring your satisfaction."
+bitext-07313,7313,FEEDBACK,complaint,can you help me to make a claim against your business?,"I'm sorry to hear that you're looking to make a claim against our business. It's important to us that we address any concerns or issues you may have. To assist you further, could you please provide me with more details about the claim you'd like to make? This will help us better understand the situation and take appropriate action. Thank you for bringing this to our attention, and we'll do our best to resolve the matter.",0.6274509803921569,"Categoría: FEEDBACK
+Intención: complaint
+Pregunta frecuente: can you help me to make a claim against your business?
+Procedimiento recomendado: I'm sorry to hear that you're looking to make a claim against our business. It's important to us that we address any concerns or issues you may have. To assist you further, could you please provide me with more details about the claim you'd like to make? This will help us better understand the situation and take appropriate action. Thank you for bringing this to our attention, and we'll do our best to resolve the matter."
+bitext-07509,7509,FEEDBACK,complaint,I don't know what to do to file a consumer claim,"I'm attuned to the idea that you may be feeling uncertain about how to file a consumer claim. Rest assured, I'm here to guide you through the process. To initiate a consumer claim, you can start by gathering any relevant documentation or evidence related to the issue you're facing. This may include receipts, proof of purchase, or any correspondence with the company. Once you have gathered all the necessary information, you can reach out to our customer support team either through our website or by phone. They will be able to assist you further and provide you with the appropriate steps to file your consumer claim. Remember, we value your feedback, and we are committed to resolving any issues you may have.",0.7058823529411765,"Categoría: FEEDBACK
+Intención: complaint
+Pregunta frecuente: I don't know what to do to file a consumer claim
+Procedimiento recomendado: I'm attuned to the idea that you may be feeling uncertain about how to file a consumer claim. Rest assured, I'm here to guide you through the process. To initiate a consumer claim, you can start by gathering any relevant documentation or evidence related to the issue you're facing. This may include receipts, proof of purchase, or any correspondence with the company. Once you have gathered all the necessary information, you can reach out to our customer support team either through our website or by phone. They will be able to assist you further and provide you with the appropriate steps to file your consumer claim. Remember, we value your feedback, and we are committed to resolving any issues you may have."
+bitext-08509,8509,CONTACT,contact_customer_service,i dont know what i need to do to call customer assistance,"Thank you for trusting us! I'm fully aware of you're unsure about the steps to call our customer assistance. Don't worry, I'm here to guide you through the process. To contact our customer assistance, simply dial {{Customer Support Phone Number}} during our operating hours {{Customer Support Hours}}. Our dedicated team will be more than happy to assist you with any queries or concerns you may have. If you prefer, you can also reach out to us through the Live Chat feature on our website at {{Website URL}}. Let me know if there's anything else I can assist you with!",0.7321428571428571,"Categoría: CONTACT
+Intención: contact_customer_service
+Pregunta frecuente: i dont know what i need to do to call customer assistance
+Procedimiento recomendado: Thank you for trusting us! I'm fully aware of you're unsure about the steps to call our customer assistance. Don't worry, I'm here to guide you through the process. To contact our customer assistance, simply dial {{Customer Support Phone Number}} during our operating hours {{Customer Support Hours}}. Our dedicated team will be more than happy to assist you with any queries or concerns you may have. If you prefer, you can also reach out to us through the Live Chat feature on our website at {{Website URL}}. Let me know if there's anything else I can assist you with!"
+bitext-08626,8626,CONTACT,contact_customer_service,I need help talking to customer service,"It's great to hear from you! I can see that you need assistance in connecting with our customer service team. I'm here to guide you through the process. To better assist you, could you please provide more details about the specific issue or question you would like to discuss with our customer service representatives? This will allow me to provide you with the most accurate and efficient support.",0.7123287671232876,"Categoría: CONTACT
+Intención: contact_customer_service
+Pregunta frecuente: I need help talking to customer service
+Procedimiento recomendado: It's great to hear from you! I can see that you need assistance in connecting with our customer service team. I'm here to guide you through the process. To better assist you, could you please provide more details about the specific issue or question you would like to discuss with our customer service representatives? This will allow me to provide you with the most accurate and efficient support."
+bitext-08746,8746,CONTACT,contact_customer_service,assistance to see what hours i can contact customersupport,Thank you for reaching out! I completely understand your need for assistance in identifying the hours during which you can contact our customer support team. Our team is available to assist you during {{Customer Support Hours}}. Please don't hesitate to reach out if you have any further questions or concerns. We're here to help!,0.7413793103448276,"Categoría: CONTACT
+Intención: contact_customer_service
+Pregunta frecuente: assistance to see what hours i can contact customersupport
+Procedimiento recomendado: Thank you for reaching out! I completely understand your need for assistance in identifying the hours during which you can contact our customer support team. Our team is available to assist you during {{Customer Support Hours}}. Please don't hesitate to reach out if you have any further questions or concerns. We're here to help!"
+bitext-08946,8946,CONTACT,contact_human_agent,"you aren't helpful at all, talk to an operator","I apologize if I haven't been helpful so far. I understand that you're frustrated and would like to speak to an operator. Your concerns are important to us, and we want to ensure you receive the support you need. Rest assured, I will connect you with one of our experienced human operators who will be able to assist you further. Please bear with me while I make the arrangements. Thank you for your patience and understanding.",0.5301204819277109,"Categoría: CONTACT
+Intención: contact_human_agent
+Pregunta frecuente: you aren't helpful at all, talk to an operator
+Procedimiento recomendado: I apologize if I haven't been helpful so far. I understand that you're frustrated and would like to speak to an operator. Your concerns are important to us, and we want to ensure you receive the support you need. Rest assured, I will connect you with one of our experienced human operators who will be able to assist you further. Please bear with me while I make the arrangements. Thank you for your patience and understanding."
+bitext-09261,9261,CONTACT,contact_human_agent,can you help me contact a human agent?,"It's great to hear from you! I can see that you're looking to contact a human agent for personalized assistance. I'm here to guide you through the process. To better assist you, could you please provide some additional information about the nature of your concern or the specific department you wish to speak with? With these details, I can ensure that you are connected to the most appropriate human representative who can address your needs effectively. Your satisfaction is our utmost priority, and we're committed to providing you with the support you need.",0.6666666666666666,"Categoría: CONTACT
+Intención: contact_human_agent
+Pregunta frecuente: can you help me contact a human agent?
+Procedimiento recomendado: It's great to hear from you! I can see that you're looking to contact a human agent for personalized assistance. I'm here to guide you through the process. To better assist you, could you please provide some additional information about the nature of your concern or the specific department you wish to speak with? With these details, I can ensure that you are connected to the most appropriate human representative who can address your needs effectively. Your satisfaction is our utmost priority, and we're committed to providing you with the support you need."
+bitext-09562,9562,CONTACT,contact_human_agent,I want assistance to talk with an agent,"Thanks for getting in touch! I grasp that you need assistance to talk with an agent. Our team is here to help you. To connect you with the right agent, may I please know the purpose of your call? Understanding the reason for your call will allow us to provide you with the most accurate and efficient support. Take a moment to share the details with me, and I'll ensure that you're connected to the appropriate person who can assist you further. Your satisfaction is our top priority, and we're committed to resolving your query as quickly as possible.",0.8354430379746836,"Categoría: CONTACT
+Intención: contact_human_agent
+Pregunta frecuente: I want assistance to talk with an agent
+Procedimiento recomendado: Thanks for getting in touch! I grasp that you need assistance to talk with an agent. Our team is here to help you. To connect you with the right agent, may I please know the purpose of your call? Understanding the reason for your call will allow us to provide you with the most accurate and efficient support. Take a moment to share the details with me, and I'll ensure that you're connected to the appropriate person who can assist you further. Your satisfaction is our top priority, and we're committed to resolving your query as quickly as possible."
+bitext-10145,10145,ACCOUNT,create_account,creating account,"I'll take care of it! 🌟 I'm thrilled to assist you in creating an account. To proceed, I'll need some essential information from you. Could you please provide your full name, email address, and a preferred username? Once I have these details, I'll guide you through the account creation process, ensuring you're informed at every step. Rest assured that we prioritize the security and privacy of your information, so it will be handled with utmost care. If you have any questions or need further assistance, feel free to ask. Let's get started on this exciting journey together!",0.6046511627906976,"Categoría: ACCOUNT
+Intención: create_account
+Pregunta frecuente: creating account
+Procedimiento recomendado: I'll take care of it! 🌟 I'm thrilled to assist you in creating an account. To proceed, I'll need some essential information from you. Could you please provide your full name, email address, and a preferred username? Once I have these details, I'll guide you through the account creation process, ensuring you're informed at every step. Rest assured that we prioritize the security and privacy of your information, so it will be handled with utmost care. If you have any questions or need further assistance, feel free to ask. Let's get started on this exciting journey together!"
+bitext-10475,10475,ACCOUNT,create_account,I have to create a premium account for my fiance,"How wonderful! I'm excited to assist you in creating a premium account for your fiance. To begin the process, could you please provide your fiance's full name, email address, and a preferred username? With this information, we can ensure a personalized experience for your fiance, tailored to their preferences. Rest assured that we prioritize the security and privacy of our users, so every detail shared will remain confidential. Feel free to ask any questions or share any specific requirements for your fiance's account, and I'll be more than happy to help you.",0.7142857142857143,"Categoría: ACCOUNT
+Intención: create_account
+Pregunta frecuente: I have to create a premium account for my fiance
+Procedimiento recomendado: How wonderful! I'm excited to assist you in creating a premium account for your fiance. To begin the process, could you please provide your fiance's full name, email address, and a preferred username? With this information, we can ensure a personalized experience for your fiance, tailored to their preferences. Rest assured that we prioritize the security and privacy of our users, so every detail shared will remain confidential. Feel free to ask any questions or share any specific requirements for your fiance's account, and I'll be more than happy to help you."
+bitext-10631,10631,ACCOUNT,create_account,I do not know how I could create a standard account,"I appreciate your interest in creating a standard account with us. Allow me to guide you through the process step by step. To get started, you can visit our website at {{Website URL}} and look for the ""Sign Up"" or ""Create an Account"" button. Click on it, and you'll be directed to a page where you can choose the type of account you want to create. Select ""{{Account Type}} Account"" from the options provided. Next, you'll need to fill in your personal information, such as your name, email address, and desired username. Make sure to create a strong password to protect your account. Once you've completed the form, review the terms and conditions, and click on the ""Create Account"" button to finalize the process. Should you encounter any difficulties along the way, please don't hesitate to reach out to our customer support team, available {{Customer Support Hours}}, at {{Customer Support Phone Number}} or through the Live Chat on our website. We'll be more than happy to assist you in creating your standard account and answer any questions you may have.",0.6601941747572816,"Categoría: ACCOUNT
+Intención: create_account
+Pregunta frecuente: I do not know how I could create a standard account
+Procedimiento recomendado: I appreciate your interest in creating a standard account with us. Allow me to guide you through the process step by step. To get started, you can visit our website at {{Website URL}} and look for the ""Sign Up"" or ""Create an Account"" button. Click on it, and you'll be directed to a page where you can choose the type of account you want to create. Select ""{{Account Type}} Account"" from the options provided. Next, you'll need to fill in your personal information, such as your name, email address, and desired username. Make sure to create a strong password to protect your account. Once you've completed the form, review the terms and conditions, and click on the ""Create Account"" button to finalize the process. Should you encounter any difficulties along the way, please don't hesitate to reach out to our customer support team, available {{Customer Support Hours}}, at {{Customer Support Phone Number}} or through the Live Chat on our website. We'll be more than happy to assist you in creating your standard account and answer any questions you may have."
+bitext-10954,10954,ACCOUNT,delete_account,can I close a {{Account Type}} account?,"Thank you for your inquiry about closing a {{Account Type}} account. We understand that circumstances may change, and you may want to close your account. To assist you better, could you please provide us with the specific details of the {{Account Type}} account you would like to close? This will enable us to guide you through the necessary steps and ensure a smooth account closure process. We value your trust and are here to support you throughout this process.",0.6744186046511628,"Categoría: ACCOUNT
+Intención: delete_account
+Pregunta frecuente: can I close a {{Account Type}} account?
+Procedimiento recomendado: Thank you for your inquiry about closing a {{Account Type}} account. We understand that circumstances may change, and you may want to close your account. To assist you better, could you please provide us with the specific details of the {{Account Type}} account you would like to close? This will enable us to guide you through the necessary steps and ensure a smooth account closure process. We value your trust and are here to support you throughout this process."
+bitext-11178,11178,ACCOUNT,delete_account,I do not know what I have to do to delete a {{Account Category}} account,"Grateful you reached out to us for assistance with the deletion of your {{Account Category}} account. I understand that you may be unsure about the steps involved in removing your account, and I'm here to help guide you through the process. To delete your {{Account Category}} account, you will need to follow a few simple steps. Let me provide you with a clear and concise explanation of what you need to do. First, log in to your account and navigate to the account settings or preferences section. Look for an option to ""Delete Account"" or ""Close Account"" and click on it. You may be asked to confirm your decision and provide a reason for deleting your account. Once you've completed these steps, your {{Account Category}} account will be deleted. If you encounter any difficulties or have any further questions, please don't hesitate to let me know. I'm here to ensure a smooth and hassle-free account deletion process for you.",0.8120300751879699,"Categoría: ACCOUNT
+Intención: delete_account
+Pregunta frecuente: I do not know what I have to do to delete a {{Account Category}} account
+Procedimiento recomendado: Grateful you reached out to us for assistance with the deletion of your {{Account Category}} account. I understand that you may be unsure about the steps involved in removing your account, and I'm here to help guide you through the process. To delete your {{Account Category}} account, you will need to follow a few simple steps. Let me provide you with a clear and concise explanation of what you need to do. First, log in to your account and navigate to the account settings or preferences section. Look for an option to ""Delete Account"" or ""Close Account"" and click on it. You may be asked to confirm your decision and provide a reason for deleting your account. Once you've completed these steps, your {{Account Category}} account will be deleted. If you encounter any difficulties or have any further questions, please don't hesitate to let me know. I'm here to ensure a smooth and hassle-free account deletion process for you."
+bitext-11249,11249,ACCOUNT,delete_account,I need assistance to remove my {{Account Type}} account,"Happy to get your message to us regarding the removal of your {{Account Type}} account. I understand that you need guidance and support in this process. Rest assured, I am here to help you every step of the way. To ensure a smooth account removal, please provide me with some more information such as your account details or any specific questions you have. By doing so, we can proceed efficiently and ensure that everything is taken care of in a timely manner.",0.7961165048543689,"Categoría: ACCOUNT
+Intención: delete_account
+Pregunta frecuente: I need assistance to remove my {{Account Type}} account
+Procedimiento recomendado: Happy to get your message to us regarding the removal of your {{Account Type}} account. I understand that you need guidance and support in this process. Rest assured, I am here to help you every step of the way. To ensure a smooth account removal, please provide me with some more information such as your account details or any specific questions you have. By doing so, we can proceed efficiently and ensure that everything is taken care of in a timely manner."
+bitext-11956,11956,DELIVERY,delivery_options,"I want to see what shipment options I have, how do I do it?","I'll get right on it! I'm thrilled to guide you through the process of exploring the shipment options available to you. To see the various shipment methods we offer, simply follow these steps:
+
+1. Visit our website at {{Website URL}}.
+2. Navigate to the ""Shipping"" or ""Delivery"" section. You may find it under the ""Services,"" ""Help,"" or ""Support"" tab.
+3. Once you're on the shipping page, you'll see a comprehensive list of our shipment options, including details on delivery times, costs, and any additional services or features.
+
+If you have any questions or need further assistance while exploring the shipment options on our website, feel free to reach out to our customer support team. They are available {{Customer Support Hours}} at {{Customer Support Phone Number}} or through the Live Chat on our website. Happy exploring!""",0.7,"Categoría: DELIVERY
+Intención: delivery_options
+Pregunta frecuente: I want to see what shipment options I have, how do I do it?
+Procedimiento recomendado: I'll get right on it! I'm thrilled to guide you through the process of exploring the shipment options available to you. To see the various shipment methods we offer, simply follow these steps:
+
+1. Visit our website at {{Website URL}}.
+2. Navigate to the ""Shipping"" or ""Delivery"" section. You may find it under the ""Services,"" ""Help,"" or ""Support"" tab.
+3. Once you're on the shipping page, you'll see a comprehensive list of our shipment options, including details on delivery times, costs, and any additional services or features.
+
+If you have any questions or need further assistance while exploring the shipment options on our website, feel free to reach out to our customer support team. They are available {{Customer Support Hours}} at {{Customer Support Phone Number}} or through the Live Chat on our website. Happy exploring!"""
+bitext-11998,11998,DELIVERY,delivery_options,can i place an order frim {{Delivery Country}},"Indeed! We are thrilled to extend our services to customers in {{Delivery Country}}. You can definitely place an order from {{Delivery Country}} and have it delivered to your desired location. We offer various shipping methods to ensure your order reaches you efficiently and securely. Whether you prefer standard shipping for non-urgent items, expedited shipping for faster delivery, or even overnight shipping for those time-sensitive orders, we have you covered. Additionally, you also have the option of in-store pickup if that works best for you. Our goal is to make your shopping experience seamless and convenient, no matter where you are. If you have any specific questions or need further assistance regarding placing an order from {{Delivery Country}}, please feel free to let me know. I'm here to help every step of the way!",0.5205479452054794,"Categoría: DELIVERY
+Intención: delivery_options
+Pregunta frecuente: can i place an order frim {{Delivery Country}}
+Procedimiento recomendado: Indeed! We are thrilled to extend our services to customers in {{Delivery Country}}. You can definitely place an order from {{Delivery Country}} and have it delivered to your desired location. We offer various shipping methods to ensure your order reaches you efficiently and securely. Whether you prefer standard shipping for non-urgent items, expedited shipping for faster delivery, or even overnight shipping for those time-sensitive orders, we have you covered. Additionally, you also have the option of in-store pickup if that works best for you. Our goal is to make your shopping experience seamless and convenient, no matter where you are. If you have any specific questions or need further assistance regarding placing an order from {{Delivery Country}}, please feel free to let me know. I'm here to help every step of the way!"
+bitext-12835,12835,DELIVERY,delivery_options,I am calling to see what delivery options I have,"Thank you for calling! I'm here to help you explore the various delivery options available to you. Let's dive into the options tailored to your needs:
+
+1. Standard Shipping: Our most popular option, with an estimated delivery time of {{Date Range}} business days.
+2. Expedited Shipping: If you're in a hurry, this option guarantees delivery within {{Date Range}} business days.
+3. Overnight Shipping: For urgent deliveries, this option ensures your package arrives by the next business day.
+4. In-Store Pickup: If you prefer to collect your items from our store, we offer this convenient option.
+
+With these choices at your disposal, you can select the one that best suits your requirements. If you have any specific concerns or further questions, feel free to let me know.",0.6808510638297872,"Categoría: DELIVERY
+Intención: delivery_options
+Pregunta frecuente: I am calling to see what delivery options I have
+Procedimiento recomendado: Thank you for calling! I'm here to help you explore the various delivery options available to you. Let's dive into the options tailored to your needs:
+
+1. Standard Shipping: Our most popular option, with an estimated delivery time of {{Date Range}} business days.
+2. Expedited Shipping: If you're in a hurry, this option guarantees delivery within {{Date Range}} business days.
+3. Overnight Shipping: For urgent deliveries, this option ensures your package arrives by the next business day.
+4. In-Store Pickup: If you prefer to collect your items from our store, we offer this convenient option.
+
+With these choices at your disposal, you can select the one that best suits your requirements. If you have any specific concerns or further questions, feel free to let me know."
+bitext-13107,13107,DELIVERY,delivery_period,can i check how long it takes for my order to arrive,"We understand your desire to know when you can expect your order to arrive. To give you accurate information, please provide us with either the {{Order Number}} or the {{Tracking Number}}. With these details, we will be able to determine the estimated delivery date for your order. Your patience is greatly appreciated as we work to provide you with the most up-to-date information.",0.8181818181818182,"Categoría: DELIVERY
+Intención: delivery_period
+Pregunta frecuente: can i check how long it takes for my order to arrive
+Procedimiento recomendado: We understand your desire to know when you can expect your order to arrive. To give you accurate information, please provide us with either the {{Order Number}} or the {{Tracking Number}}. With these details, we will be able to determine the estimated delivery date for your order. Your patience is greatly appreciated as we work to provide you with the most up-to-date information."
+bitext-13343,13343,DELIVERY,delivery_period,help me checking how soon can I expewct the damn shipment,"We completely understand your urgency in wanting to know when you can expect the shipment. To provide you with an accurate estimate, could you please provide us with the {{Tracking Number}} or {{Order Number}}? With this information, we can track your shipment and determine the expected delivery date. Your patience is greatly appreciated.",0.6785714285714286,"Categoría: DELIVERY
+Intención: delivery_period
+Pregunta frecuente: help me checking how soon can I expewct the damn shipment
+Procedimiento recomendado: We completely understand your urgency in wanting to know when you can expect the shipment. To provide you with an accurate estimate, could you please provide us with the {{Tracking Number}} or {{Order Number}}? With this information, we can track your shipment and determine the expected delivery date. Your patience is greatly appreciated."
+bitext-13629,13629,DELIVERY,delivery_period,I do not know how I can see how long the shipment takes,"We completely understand your uncertainty about tracking your shipment and determining its estimated delivery time. To help you with this, we recommend visiting our website's tracking page and entering your {{Tracking Number}} or {{Order Number}}. This will provide you with real-time updates on the status and expected arrival of your shipment. If you need any further assistance or have any other questions, please don't hesitate to let us know. We're here to help!",0.7207207207207207,"Categoría: DELIVERY
+Intención: delivery_period
+Pregunta frecuente: I do not know how I can see how long the shipment takes
+Procedimiento recomendado: We completely understand your uncertainty about tracking your shipment and determining its estimated delivery time. To help you with this, we recommend visiting our website's tracking page and entering your {{Tracking Number}} or {{Order Number}}. This will provide you with real-time updates on the status and expected arrival of your shipment. If you need any further assistance or have any other questions, please don't hesitate to let us know. We're here to help!"
+bitext-14311,14311,ACCOUNT,edit_account,i want assistance to correct the data included on my profile,"We greatly appreciate your proactive approach to correcting the data included in your profile. Your attention to detail and commitment to accuracy are truly commendable. Rest assured, we are here to provide you with the necessary assistance.
+
+To ensure the accuracy of your profile data, we recommend logging into your account on our {{Online Company Portal Info}}. From there, you can access and update your profile information securely and conveniently.
+
+If you encounter any challenges or require further guidance during the process, please don't hesitate to reach out to our dedicated customer support team. They are available at {{Customer Support Hours}} and can be contacted via {{Customer Support Phone Number}} or through the Live Chat on our website at {{Website URL}}.
+
+Remember, maintaining accurate data in your profile is crucial for an optimal experience. We're confident that with our guidance, you'll be able to make the necessary corrections effortlessly. You're in control, and we're here to support you every step of the way. Let's ensure your profile reflects the accurate information you deserve.",0.6788990825688074,"Categoría: ACCOUNT
+Intención: edit_account
+Pregunta frecuente: i want assistance to correct the data included on my profile
+Procedimiento recomendado: We greatly appreciate your proactive approach to correcting the data included in your profile. Your attention to detail and commitment to accuracy are truly commendable. Rest assured, we are here to provide you with the necessary assistance.
+
+To ensure the accuracy of your profile data, we recommend logging into your account on our {{Online Company Portal Info}}. From there, you can access and update your profile information securely and conveniently.
+
+If you encounter any challenges or require further guidance during the process, please don't hesitate to reach out to our dedicated customer support team. They are available at {{Customer Support Hours}} and can be contacted via {{Customer Support Phone Number}} or through the Live Chat on our website at {{Website URL}}.
+
+Remember, maintaining accurate data in your profile is crucial for an optimal experience. We're confident that with our guidance, you'll be able to make the necessary corrections effortlessly. You're in control, and we're here to support you every step of the way. Let's ensure your profile reflects the accurate information you deserve."
+bitext-14564,14564,ACCOUNT,edit_account,modify info on gold account,"Congratulations on taking the initiative to modify the information on your gold account! It's evident that you value keeping your account details accurate and personalized. Rest assured, we're here to guide you through the process and ensure a seamless experience. To get started, could you please let us know which specific information you would like to modify? Whether it's updating your contact details, changing your preferred payment method, or any other details, we're here to assist you every step of the way. Let's make sure your gold account reflects your current preferences and needs.",0.8571428571428571,"Categoría: ACCOUNT
+Intención: edit_account
+Pregunta frecuente: modify info on gold account
+Procedimiento recomendado: Congratulations on taking the initiative to modify the information on your gold account! It's evident that you value keeping your account details accurate and personalized. Rest assured, we're here to guide you through the process and ensure a seamless experience. To get started, could you please let us know which specific information you would like to modify? Whether it's updating your contact details, changing your preferred payment method, or any other details, we're here to assist you every step of the way. Let's make sure your gold account reflects your current preferences and needs."
+bitext-14687,14687,ACCOUNT,edit_account,changing information on pro account,"How absolutely thrilling it is to embark on the remarkable journey of changing the information on your esteemed {{Account Type}} account!I am honored to assist you through this transformative process and ensure that your account reflects your evolving needs and aspirations. Together, we will navigate the path to a more personalized and tailored experience. Shall we begin this exciting endeavor?",0.8235294117647058,"Categoría: ACCOUNT
+Intención: edit_account
+Pregunta frecuente: changing information on pro account
+Procedimiento recomendado: How absolutely thrilling it is to embark on the remarkable journey of changing the information on your esteemed {{Account Type}} account!I am honored to assist you through this transformative process and ensure that your account reflects your evolving needs and aspirations. Together, we will navigate the path to a more personalized and tailored experience. Shall we begin this exciting endeavor?"
+bitext-15090,15090,INVOICE,get_invoice,I do not know how to get the bill from {{Person Name}},I understand your confusion about retrieving the bill from {{Person Name}}. Let me assist you with that. Could you please provide me with the invoice number or any relevant details so that I can help you locate the bill?,0.75,"Categoría: INVOICE
+Intención: get_invoice
+Pregunta frecuente: I do not know how to get the bill from {{Person Name}}
+Procedimiento recomendado: I understand your confusion about retrieving the bill from {{Person Name}}. Let me assist you with that. Could you please provide me with the invoice number or any relevant details so that I can help you locate the bill?"
+bitext-15119,15119,INVOICE,get_invoice,want help to get the invokces from {{Person Name}},"I'll do my best! I fully comprehend the importance of acquiring the invoices for {{Person Name}}. Allow me to assist you in this endeavor and swiftly retrieve the desired invoices. Please bear with me as I navigate through our system to gather the requested information. Should you have any other questions or concerns, feel free to let me know. I'm here to provide comprehensive support and ensure your satisfaction.",0.8041237113402062,"Categoría: INVOICE
+Intención: get_invoice
+Pregunta frecuente: want help to get the invokces from {{Person Name}}
+Procedimiento recomendado: I'll do my best! I fully comprehend the importance of acquiring the invoices for {{Person Name}}. Allow me to assist you in this endeavor and swiftly retrieve the desired invoices. Please bear with me as I navigate through our system to gather the requested information. Should you have any other questions or concerns, feel free to let me know. I'm here to provide comprehensive support and ensure your satisfaction."
+bitext-15242,15242,INVOICE,get_invoice,I don't know what to do to download the invoice #85632,"I'm on your side your confusion about how to download the invoice with the number #{{Invoice Number}}. Let me guide you through the process step by step. First, log in to your account on our website. Once you're logged in, navigate to the ""Invoices"" section. In this section, you should see a list of your invoices, including the invoice with the number #{{Invoice Number}}. To download it, simply click on the download icon next to the invoice. If you encounter any difficulties or have any further questions, please don't hesitate to let me know. I'll be more than happy to assist you further.",0.8952380952380953,"Categoría: INVOICE
+Intención: get_invoice
+Pregunta frecuente: I don't know what to do to download the invoice #85632
+Procedimiento recomendado: I'm on your side your confusion about how to download the invoice with the number #{{Invoice Number}}. Let me guide you through the process step by step. First, log in to your account on our website. Once you're logged in, navigate to the ""Invoices"" section. In this section, you should see a list of your invoices, including the invoice with the number #{{Invoice Number}}. To download it, simply click on the download icon next to the invoice. If you encounter any difficulties or have any further questions, please don't hesitate to let me know. I'll be more than happy to assist you further."
+bitext-15942,15942,REFUND,get_refund,what do i need to do to get a reimbursement of money,"I see your desire to receive a reimbursement for your money. To initiate the process, I recommend reaching out to our customer support team with all the relevant details and documentation regarding your reimbursement request. They will guide you through the necessary steps and provide you with any additional information or forms that may be required. It's important to keep track of all communications and reference numbers provided during this process. By following these steps and maintaining open communication with our support team, you can expedite the reimbursement process and ensure a satisfactory resolution.",0.7070707070707071,"Categoría: REFUND
+Intención: get_refund
+Pregunta frecuente: what do i need to do to get a reimbursement of money
+Procedimiento recomendado: I see your desire to receive a reimbursement for your money. To initiate the process, I recommend reaching out to our customer support team with all the relevant details and documentation regarding your reimbursement request. They will guide you through the necessary steps and provide you with any additional information or forms that may be required. It's important to keep track of all communications and reference numbers provided during this process. By following these steps and maintaining open communication with our support team, you can expedite the reimbursement process and ensure a satisfactory resolution."
+bitext-15985,15985,REFUND,get_refund,I don't know how I can ask for a rebate of money,"I recognize that you're unsure about how to request a rebate or refund for your money. Don't worry, I'm here to help you with that. To initiate the process, you can start by reaching out to our customer support team. They will guide you through the necessary steps and provide you with the required information to request a refund. Alternatively, you can also check our website or contact us through our online chat for more details on our refund policy and the specific procedure to follow. Our goal is to ensure that you have a smooth experience throughout the refund process, so please don't hesitate to reach out to us if you have any further questions or need assistance with anything else.",0.7272727272727273,"Categoría: REFUND
+Intención: get_refund
+Pregunta frecuente: I don't know how I can ask for a rebate of money
+Procedimiento recomendado: I recognize that you're unsure about how to request a rebate or refund for your money. Don't worry, I'm here to help you with that. To initiate the process, you can start by reaching out to our customer support team. They will guide you through the necessary steps and provide you with the required information to request a refund. Alternatively, you can also check our website or contact us through our online chat for more details on our refund policy and the specific procedure to follow. Our goal is to ensure that you have a smooth experience throughout the refund process, so please don't hesitate to reach out to us if you have any further questions or need assistance with anything else."
+bitext-16268,16268,REFUND,get_refund,I want help to obtain a reimbursement,"I grasp that you are in need of assistance to obtain a reimbursement. Reimbursements can be obtained by following the proper procedure. To ensure a smooth process, please provide me with the necessary details regarding your purchase and the reason for the reimbursement. With this information, I will be able to guide you through the necessary steps and help you to obtain your reimbursement in a timely manner. Rest assured, I am here to support you throughout the process and address any concerns or questions you may have along the way.",0.6571428571428571,"Categoría: REFUND
+Intención: get_refund
+Pregunta frecuente: I want help to obtain a reimbursement
+Procedimiento recomendado: I grasp that you are in need of assistance to obtain a reimbursement. Reimbursements can be obtained by following the proper procedure. To ensure a smooth process, please provide me with the necessary details regarding your purchase and the reason for the reimbursement. With this information, I will be able to guide you through the necessary steps and help you to obtain your reimbursement in a timely manner. Rest assured, I am here to support you throughout the process and address any concerns or questions you may have along the way."
+bitext-16928,16928,SUBSCRIPTION,newsletter_subscription,assistance to unsubscribe from the company newsletter,"Absolutely! I'm here to provide the assistance you need to unsubscribe from our company newsletter. I understand that preferences change over time, and it's important to have control over the information you receive. To begin the unsubscribe process, could you please provide me with the email address you used to subscribe to the newsletter? Once I have that information, I will promptly take care of your request. Your satisfaction is our top priority, and we appreciate your trust in us.",0.7741935483870968,"Categoría: SUBSCRIPTION
+Intención: newsletter_subscription
+Pregunta frecuente: assistance to unsubscribe from the company newsletter
+Procedimiento recomendado: Absolutely! I'm here to provide the assistance you need to unsubscribe from our company newsletter. I understand that preferences change over time, and it's important to have control over the information you receive. To begin the unsubscribe process, could you please provide me with the email address you used to subscribe to the newsletter? Once I have that information, I will promptly take care of your request. Your satisfaction is our top priority, and we appreciate your trust in us."
+bitext-17613,17613,SUBSCRIPTION,newsletter_subscription,need help unsubscribing from ur newsletter,"I apologize for any inconvenience you may have experienced with our newsletter. I understand that you are looking for assistance in unsubscribing from our newsletter. I will do my best to help you with this request. To proceed with unsubscribing, could you please provide me with the email address you used to subscribe to our newsletter? Once I have the necessary details, I will ensure that your subscription is cancelled promptly.",0.7472527472527473,"Categoría: SUBSCRIPTION
+Intención: newsletter_subscription
+Pregunta frecuente: need help unsubscribing from ur newsletter
+Procedimiento recomendado: I apologize for any inconvenience you may have experienced with our newsletter. I understand that you are looking for assistance in unsubscribing from our newsletter. I will do my best to help you with this request. To proceed with unsubscribing, could you please provide me with the email address you used to subscribe to our newsletter? Once I have the necessary details, I will ensure that your subscription is cancelled promptly."
+bitext-17708,17708,SUBSCRIPTION,newsletter_subscription,I want to know about signing up to your company newsletter,"Fantastic! I'm thrilled to hear that you're interested in signing up for our company newsletter. It's a wonderful way to stay informed about all the latest updates, promotions, and exciting news. To subscribe, simply visit our website and navigate to the newsletter section. You'll find a sign-up form where you can enter your email address and choose your preferences. We value your privacy, so rest assured that your information will be handled securely and in accordance with our strict privacy policies. By subscribing, you'll be part of our vibrant community and receive exclusive content tailored just for you. If you have any questions or need further assistance, please don't hesitate to let me know. Happy reading!",0.7391304347826086,"Categoría: SUBSCRIPTION
+Intención: newsletter_subscription
+Pregunta frecuente: I want to know about signing up to your company newsletter
+Procedimiento recomendado: Fantastic! I'm thrilled to hear that you're interested in signing up for our company newsletter. It's a wonderful way to stay informed about all the latest updates, promotions, and exciting news. To subscribe, simply visit our website and navigate to the newsletter section. You'll find a sign-up form where you can enter your email address and choose your preferences. We value your privacy, so rest assured that your information will be handled securely and in accordance with our strict privacy policies. By subscribing, you'll be part of our vibrant community and receive exclusive content tailored just for you. If you have any questions or need further assistance, please don't hesitate to let me know. Happy reading!"
+bitext-18257,18257,PAYMENT,payment_issue,where can I report errors with payments?,"I grasp your frustration with experiencing errors in your payments. To report these errors, you can reach out to our dedicated customer support team. They are available {{Customer Support Hours}} at {{Customer Support Phone Number}}, or you can also report the errors through the Live Chat on our website at {{Website URL}}. Our team will be more than happy to assist you in resolving these payment issues. Feel free to contact us anytime and we'll make sure to address your concerns promptly.",0.8,"Categoría: PAYMENT
+Intención: payment_issue
+Pregunta frecuente: where can I report errors with payments?
+Procedimiento recomendado: I grasp your frustration with experiencing errors in your payments. To report these errors, you can reach out to our dedicated customer support team. They are available {{Customer Support Hours}} at {{Customer Support Phone Number}}, or you can also report the errors through the Live Chat on our website at {{Website URL}}. Our team will be more than happy to assist you in resolving these payment issues. Feel free to contact us anytime and we'll make sure to address your concerns promptly."
+bitext-18441,18441,PAYMENT,payment_issue,notifying of payment problem,"I've ascertained that you need to notify us about a payment problem, and I'm here to help. To ensure a swift resolution, please provide us with some details regarding the issue you encountered. Any specific error messages or screenshots you can share would be greatly appreciated. Rest assured that we take payment problems seriously, and we'll work together to resolve this matter as quickly as possible. Thank you for bringing this to our attention.",0.7076923076923077,"Categoría: PAYMENT
+Intención: payment_issue
+Pregunta frecuente: notifying of payment problem
+Procedimiento recomendado: I've ascertained that you need to notify us about a payment problem, and I'm here to help. To ensure a swift resolution, please provide us with some details regarding the issue you encountered. Any specific error messages or screenshots you can share would be greatly appreciated. Rest assured that we take payment problems seriously, and we'll work together to resolve this matter as quickly as possible. Thank you for bringing this to our attention."
+bitext-18797,18797,PAYMENT,payment_issue,where to report errors with online payment?,"I appreciate your inquiry about where to report errors with online payments. To ensure that we address your concern promptly and accurately, I recommend reaching out to our dedicated customer support team. They are specifically trained to handle payment-related issues and will be able to assist you in reporting any errors you may have encountered. You can contact them through our website's live chat feature or by calling our customer support hotline. Rest assured that we are here to help and resolve any payment problems you are facing.",0.8205128205128205,"Categoría: PAYMENT
+Intención: payment_issue
+Pregunta frecuente: where to report errors with online payment?
+Procedimiento recomendado: I appreciate your inquiry about where to report errors with online payments. To ensure that we address your concern promptly and accurately, I recommend reaching out to our dedicated customer support team. They are specifically trained to handle payment-related issues and will be able to assist you in reporting any errors you may have encountered. You can contact them through our website's live chat feature or by calling our customer support hotline. Rest assured that we are here to help and resolve any payment problems you are facing."
+bitext-19162,19162,ORDER,place_order,i need assistance acquiring some of ur product,"I appreciate your request for assistance in acquiring some of our products. It's delightful to see your interest, and I'm here to provide you with all the guidance you need. To better assist you, could you please specify the products you are interested in acquiring? Once you provide the details, I will ensure a smooth and rewarding purchasing experience for you.",0.7578947368421053,"Categoría: ORDER
+Intención: place_order
+Pregunta frecuente: i need assistance acquiring some of ur product
+Procedimiento recomendado: I appreciate your request for assistance in acquiring some of our products. It's delightful to see your interest, and I'm here to provide you with all the guidance you need. To better assist you, could you please specify the products you are interested in acquiring? Once you provide the details, I will ensure a smooth and rewarding purchasing experience for you."
+bitext-19295,19295,ORDER,place_order,could you help me buying several articles?,"I'll make it happen! I would be more than happy to assist you in buying several articles. Our wide range of products ensures that you have plenty of options to choose from. To get started, could you please provide me with some more details about the articles you are interested in? This way, I can guide you through the process and ensure a smooth and enjoyable shopping experience. Let's find you the perfect articles together!",0.6666666666666666,"Categoría: ORDER
+Intención: place_order
+Pregunta frecuente: could you help me buying several articles?
+Procedimiento recomendado: I'll make it happen! I would be more than happy to assist you in buying several articles. Our wide range of products ensures that you have plenty of options to choose from. To get started, could you please provide me with some more details about the articles you are interested in? This way, I can guide you through the process and ensure a smooth and enjoyable shopping experience. Let's find you the perfect articles together!"
+bitext-19486,19486,ORDER,place_order,help buying some products,Thank you for considering our assistance in buying products! I'm here to guide you through the purchasing process and ensure that you have a seamless and satisfying experience. Could you please provide me with more details about the specific products you are interested in? This will allow me to provide you with accurate information and suitable recommendations to help you make an informed decision.,0.576271186440678,"Categoría: ORDER
+Intención: place_order
+Pregunta frecuente: help buying some products
+Procedimiento recomendado: Thank you for considering our assistance in buying products! I'm here to guide you through the purchasing process and ensure that you have a seamless and satisfying experience. Could you please provide me with more details about the specific products you are interested in? This will allow me to provide you with accurate information and suitable recommendations to help you make an informed decision."
+bitext-20161,20161,ACCOUNT,recover_password,want help retrieving the pwd of my user account,"I'm happy to help! I completely understand that you're seeking assistance in retrieving the password for your user account. Don't worry, I've got you covered! Here's what you can do:
+
+1. First, head over to our platform's login page. You'll find it at {{Login Page URL}}.
+2. Look for the ""Forgot Password"" option on the login page and click on it. It will take you to the password recovery process.
+3. Next, you'll be prompted to enter the email address associated with your user account. Make sure to provide the correct email address to proceed.
+4. After submitting the email address, keep an eye on your inbox. We'll send you an email with detailed instructions on how to reset your password. If you don't see it in your inbox, please check your spam or junk folder, as it might have ended up there.
+5. Follow the instructions in the email carefully to create a new, strong password for your user account.
+
+If you encounter any difficulties or if you have any further questions, feel free to reach out to our customer support team at {{Customer Support Phone Number}} or through the live chat on our website at {{Website URL}}. We're here to help you every step of the way and ensure that you regain access to your user account smoothly.",0.6265060240963856,"Categoría: ACCOUNT
+Intención: recover_password
+Pregunta frecuente: want help retrieving the pwd of my user account
+Procedimiento recomendado: I'm happy to help! I completely understand that you're seeking assistance in retrieving the password for your user account. Don't worry, I've got you covered! Here's what you can do:
+
+1. First, head over to our platform's login page. You'll find it at {{Login Page URL}}.
+2. Look for the ""Forgot Password"" option on the login page and click on it. It will take you to the password recovery process.
+3. Next, you'll be prompted to enter the email address associated with your user account. Make sure to provide the correct email address to proceed.
+4. After submitting the email address, keep an eye on your inbox. We'll send you an email with detailed instructions on how to reset your password. If you don't see it in your inbox, please check your spam or junk folder, as it might have ended up there.
+5. Follow the instructions in the email carefully to create a new, strong password for your user account.
+
+If you encounter any difficulties or if you have any further questions, feel free to reach out to our customer support team at {{Customer Support Phone Number}} or through the live chat on our website at {{Website URL}}. We're here to help you every step of the way and ensure that you regain access to your user account smoothly."
+bitext-20294,20294,ACCOUNT,recover_password,I have to reset the key of my user,"I'll take care of it! I'm here to offer my support in resetting the key of your user account. It's essential to maintain the security and integrity of your profile, so let's go ahead and get it done smoothly. Here's what you need to do:
+
+1. Begin by logging into your user account on our platform.
+2. Once you're logged in, navigate to the account settings or profile section.
+3. Look for the option that allows you to reset or change the key of your user account.
+4. Click on that option and follow the necessary steps provided.
+5. You may need to enter your current key and then proceed to create a new one.
+6. Choose a strong, unique, and memorable key that meets our platform's security requirements.
+7. Finally, save the changes to complete the process.
+
+If you encounter any difficulties or have any questions while resetting the key of your user account, don't hesitate to reach out to me. I'm here to guide you every step of the way and ensure a smooth and secure reset process.",0.5952380952380952,"Categoría: ACCOUNT
+Intención: recover_password
+Pregunta frecuente: I have to reset the key of my user
+Procedimiento recomendado: I'll take care of it! I'm here to offer my support in resetting the key of your user account. It's essential to maintain the security and integrity of your profile, so let's go ahead and get it done smoothly. Here's what you need to do:
+
+1. Begin by logging into your user account on our platform.
+2. Once you're logged in, navigate to the account settings or profile section.
+3. Look for the option that allows you to reset or change the key of your user account.
+4. Click on that option and follow the necessary steps provided.
+5. You may need to enter your current key and then proceed to create a new one.
+6. Choose a strong, unique, and memorable key that meets our platform's security requirements.
+7. Finally, save the changes to complete the process.
+
+If you encounter any difficulties or have any questions while resetting the key of your user account, don't hesitate to reach out to me. I'm here to guide you every step of the way and ensure a smooth and secure reset process."
+bitext-20483,20483,ACCOUNT,recover_password,could I retrieve my user account password?,"Positively! I completely understand your need to retrieve your user account password. Rest assured, I'm here to guide you through the process:
+
+1. First, head over to the ""{{Login Page URL}}"" of our platform.
+2. Look for the ""{{Forgot Password}}"" option and click on it.
+3. You'll be prompted to provide the email address associated with your user account.
+4. Once you've entered your email, keep an eye on your inbox, including the spam or junk folders.
+5. In a short while, you should receive an email with detailed instructions on how to retrieve your user account password.
+6. Follow the instructions provided in the email to regain access to your account.
+
+If you encounter any difficulties during this process or if the email doesn't arrive within a reasonable time, don't hesitate to reach out. Our dedicated support team is ready to assist you every step of the way!""",0.6575342465753424,"Categoría: ACCOUNT
+Intención: recover_password
+Pregunta frecuente: could I retrieve my user account password?
+Procedimiento recomendado: Positively! I completely understand your need to retrieve your user account password. Rest assured, I'm here to guide you through the process:
+
+1. First, head over to the ""{{Login Page URL}}"" of our platform.
+2. Look for the ""{{Forgot Password}}"" option and click on it.
+3. You'll be prompted to provide the email address associated with your user account.
+4. Once you've entered your email, keep an eye on your inbox, including the spam or junk folders.
+5. In a short while, you should receive an email with detailed instructions on how to retrieve your user account password.
+6. Follow the instructions provided in the email to regain access to your account.
+
+If you encounter any difficulties during this process or if the email doesn't arrive within a reasonable time, don't hesitate to reach out. Our dedicated support team is ready to assist you every step of the way!"""
+bitext-21673,21673,ACCOUNT,registration_problems,i want assistance notifyin of sign-up problems,"Thank you for seeking assistance in notifying sign-up problems. Your proactive approach in reporting these issues is greatly appreciated as it helps us improve our services. Could you please provide more details about the specific sign-up problems you are encountering? This information will enable us to address the issues promptly and provide you with an optimal solution. Meanwhile, rest assured that we are committed to resolving any sign-up problems you may be facing and ensuring a seamless experience for you.",0.7422680412371134,"Categoría: ACCOUNT
+Intención: registration_problems
+Pregunta frecuente: i want assistance notifyin of sign-up problems
+Procedimiento recomendado: Thank you for seeking assistance in notifying sign-up problems. Your proactive approach in reporting these issues is greatly appreciated as it helps us improve our services. Could you please provide more details about the specific sign-up problems you are encountering? This information will enable us to address the issues promptly and provide you with an optimal solution. Meanwhile, rest assured that we are committed to resolving any sign-up problems you may be facing and ensuring a seamless experience for you."
+bitext-21801,21801,ACCOUNT,registration_problems,help me to report an issue with a sign-up,We appreciate your inquiry to us and providing us with the opportunity to assist you. We are here to help address any issues you may have encountered during the sign-up process. Please provide us with more details about the problem you experienced so that we can investigate and find a suitable solution for you. Your feedback is vital in improving our services and ensuring a seamless sign-up experience for all our users.,0.7948717948717948,"Categoría: ACCOUNT
+Intención: registration_problems
+Pregunta frecuente: help me to report an issue with a sign-up
+Procedimiento recomendado: We appreciate your inquiry to us and providing us with the opportunity to assist you. We are here to help address any issues you may have encountered during the sign-up process. Please provide us with more details about the problem you experienced so that we can investigate and find a suitable solution for you. Your feedback is vital in improving our services and ensuring a seamless sign-up experience for all our users."
+bitext-21858,21858,ACCOUNT,registration_problems,"I cannot create a user, help to report sign-up errors","We are sorry to hear that you are having trouble creating a user account and need assistance in reporting sign-up errors. Our team is here to help you resolve this issue quickly and efficiently. To report the sign-up error, please provide us with specific details about the problem you encountered during the registration process. This could include any error messages you received, the steps you followed, or any other relevant information. The more information you provide, the better equipped we will be to address the issue and find a solution for you. We appreciate your patience as we work to investigate and resolve this matter. Thank you for bringing this to our attention, and we apologize for any inconvenience caused.",0.5617977528089888,"Categoría: ACCOUNT
+Intención: registration_problems
+Pregunta frecuente: I cannot create a user, help to report sign-up errors
+Procedimiento recomendado: We are sorry to hear that you are having trouble creating a user account and need assistance in reporting sign-up errors. Our team is here to help you resolve this issue quickly and efficiently. To report the sign-up error, please provide us with specific details about the problem you encountered during the registration process. This could include any error messages you received, the steps you followed, or any other relevant information. The more information you provide, the better equipped we will be to address the issue and find a solution for you. We appreciate your patience as we work to investigate and resolve this matter. Thank you for bringing this to our attention, and we apologize for any inconvenience caused."
+bitext-22065,22065,FEEDBACK,review,i dont know how i can leave feedback,"We appreciate your interest in leaving feedback! I'd be happy to assist you with that. To leave your valuable feedback, you can visit our website, go to the ""Contact Us"" or ""Feedback"" page, and there you will find options to submit your feedback. Alternatively, you can also reach out to our customer support team via email or phone, and they will guide you through the process of leaving feedback. We value your thoughts and experiences, and we look forward to hearing from you!",0.6744186046511628,"Categoría: FEEDBACK
+Intención: review
+Pregunta frecuente: i dont know how i can leave feedback
+Procedimiento recomendado: We appreciate your interest in leaving feedback! I'd be happy to assist you with that. To leave your valuable feedback, you can visit our website, go to the ""Contact Us"" or ""Feedback"" page, and there you will find options to submit your feedback. Alternatively, you can also reach out to our customer support team via email or phone, and they will guide you through the process of leaving feedback. We value your thoughts and experiences, and we look forward to hearing from you!"
+bitext-22090,22090,FEEDBACK,review,want help to write a comment about a product,"I'll do my best! I'm here to assist you in crafting a compelling comment about our product. Your feedback is truly invaluable to us. To create a captivating comment, it's helpful to mention specific aspects of the product that stood out to you. You can share your experience using the product, its features that you found impressive, and any suggestions you may have for improvement. Remember to be honest and provide constructive feedback. Feel free to ask for further guidance or examples to make your comment more impactful.",0.6593406593406593,"Categoría: FEEDBACK
+Intención: review
+Pregunta frecuente: want help to write a comment about a product
+Procedimiento recomendado: I'll do my best! I'm here to assist you in crafting a compelling comment about our product. Your feedback is truly invaluable to us. To create a captivating comment, it's helpful to mention specific aspects of the product that stood out to you. You can share your experience using the product, its features that you found impressive, and any suggestions you may have for improvement. Remember to be honest and provide constructive feedback. Feel free to ask for further guidance or examples to make your comment more impactful."
+bitext-22439,22439,FEEDBACK,review,I need to submit some feedback for a service,"Appreciate your message to us to submit your feedback regarding our service. Your valuable insights help us better understand the needs and expectations of our customers, allowing us to continuously improve our service. To make the feedback process as seamless as possible, we have a dedicated feedback portal where you can share your thoughts. Simply visit our website at [Company Website URL], navigate to the ""Feedback"" section, and fill out the form provided. We genuinely appreciate your input and look forward to hearing from you!",0.7142857142857143,"Categoría: FEEDBACK
+Intención: review
+Pregunta frecuente: I need to submit some feedback for a service
+Procedimiento recomendado: Appreciate your message to us to submit your feedback regarding our service. Your valuable insights help us better understand the needs and expectations of our customers, allowing us to continuously improve our service. To make the feedback process as seamless as possible, we have a dedicated feedback portal where you can share your thoughts. Simply visit our website at [Company Website URL], navigate to the ""Feedback"" section, and fill out the form provided. We genuinely appreciate your input and look forward to hearing from you!"
+bitext-23151,23151,SHIPPING,set_up_shipping_address,i have an issue setting up my new dedlivery address,"I've come to understand that you're having an issue setting up your new delivery address, and I apologize for the inconvenience caused. Setting up a new delivery address should be a seamless process, and I'm here to assist you in resolving this issue.
+
+To set up your new delivery address, please follow these steps:
+
+1. Log in to your account.
+2. Navigate to the 'My Account' or 'Profile' section.
+3. Look for the 'Shipping Addresses' or a similar option.
+4. Select the option to 'Add a New Address'.
+5. Fill in the required details of your new delivery address, such as the street name, city, state, and zip code.
+6. Double-check the information you entered to ensure its accuracy.
+7. Save the changes.
+
+If you continue to experience difficulties setting up your new delivery address, please provide more specific details about the issue you're encountering so that I can better assist you. Rest assured, I'm here to help you every step of the way.",0.8076923076923077,"Categoría: SHIPPING
+Intención: set_up_shipping_address
+Pregunta frecuente: i have an issue setting up my new dedlivery address
+Procedimiento recomendado: I've come to understand that you're having an issue setting up your new delivery address, and I apologize for the inconvenience caused. Setting up a new delivery address should be a seamless process, and I'm here to assist you in resolving this issue.
+
+To set up your new delivery address, please follow these steps:
+
+1. Log in to your account.
+2. Navigate to the 'My Account' or 'Profile' section.
+3. Look for the 'Shipping Addresses' or a similar option.
+4. Select the option to 'Add a New Address'.
+5. Fill in the required details of your new delivery address, such as the street name, city, state, and zip code.
+6. Double-check the information you entered to ensure its accuracy.
+7. Save the changes.
+
+If you continue to experience difficulties setting up your new delivery address, please provide more specific details about the issue you're encountering so that I can better assist you. Rest assured, I'm here to help you every step of the way."
+bitext-23284,23284,SHIPPING,set_up_shipping_address,troubles setting my secondary shipping address up,"I'm conscious of the reality that you're experiencing challenges in setting up your secondary shipping address, and I'm here to assist you. Please follow these steps:
+
+1. Log in to your account on our website.
+2. Navigate to the 'Account Settings' or 'Profile' section.
+3. Look for the 'Shipping Addresses' or 'Delivery Information' option.
+4. Click on 'Add New Address' or 'Edit Addresses'.
+5. Enter the details of your secondary shipping address, such as the street name, city, state, and postal code.
+6. Double-check the accuracy of the entered information to ensure a smooth delivery process.
+7. Save the changes.
+
+If you encounter any specific issues during this process or need further clarification, please don't hesitate to provide more details. I'm here to support you until the issue is resolved.",0.822429906542056,"Categoría: SHIPPING
+Intención: set_up_shipping_address
+Pregunta frecuente: troubles setting my secondary shipping address up
+Procedimiento recomendado: I'm conscious of the reality that you're experiencing challenges in setting up your secondary shipping address, and I'm here to assist you. Please follow these steps:
+
+1. Log in to your account on our website.
+2. Navigate to the 'Account Settings' or 'Profile' section.
+3. Look for the 'Shipping Addresses' or 'Delivery Information' option.
+4. Click on 'Add New Address' or 'Edit Addresses'.
+5. Enter the details of your secondary shipping address, such as the street name, city, state, and postal code.
+6. Double-check the accuracy of the entered information to ensure a smooth delivery process.
+7. Save the changes.
+
+If you encounter any specific issues during this process or need further clarification, please don't hesitate to provide more details. I'm here to support you until the issue is resolved."
+bitext-23476,23476,SHIPPING,set_up_shipping_address,I need to submit the new delivery address,"I'll get right on it! I understand that you're in need of submitting a new delivery address. Let's work together to make this process seamless for you. Here's a step-by-step guide:
+
+1. Log in to your account on our website.
+2. Go to the ""My Account"" or ""Profile"" section.
+3. Look for the option labeled ""Shipping Addresses"" or something similar.
+4. Select the option to ""Add a New Address"" or ""Edit Shipping Addresses"".
+5. Fill in the required fields with the details of your new delivery address.
+6. Double-check the accuracy of the entered information.
+7. Save the changes.
+
+If you encounter any difficulties or have any questions while submitting your new delivery address, feel free to let me know. I'm here to help and ensure that your delivery address is updated successfully.",0.7792207792207793,"Categoría: SHIPPING
+Intención: set_up_shipping_address
+Pregunta frecuente: I need to submit the new delivery address
+Procedimiento recomendado: I'll get right on it! I understand that you're in need of submitting a new delivery address. Let's work together to make this process seamless for you. Here's a step-by-step guide:
+
+1. Log in to your account on our website.
+2. Go to the ""My Account"" or ""Profile"" section.
+3. Look for the option labeled ""Shipping Addresses"" or something similar.
+4. Select the option to ""Add a New Address"" or ""Edit Shipping Addresses"".
+5. Fill in the required fields with the details of your new delivery address.
+6. Double-check the accuracy of the entered information.
+7. Save the changes.
+
+If you encounter any difficulties or have any questions while submitting your new delivery address, feel free to let me know. I'm here to help and ensure that your delivery address is updated successfully."
+bitext-23920,23920,ACCOUNT,switch_account,"I have got to use the bloody {{Account Category}} profile, I need help","I appreciate your request for assistance in using the {{Account Category}} profile, and I'm here to provide guidance:
+
+1. **Sign In**: Let's begin by logging into your account using your credentials.
+2. **Account Settings**: Once logged in, navigate to your account settings. This can typically be found in the top right corner of the page.
+3. **Upgrade Options**: Look for an option that allows you to upgrade or switch account types.
+4. **Choose {{Account Category}}**: Select the {{Account Category}} profile option from the available choices.
+5. **Completion**: Follow the instructions provided to complete the upgrade process and enjoy the benefits of the {{Account Category}} profile.
+
+Remember, should you encounter any difficulties or have further questions, I'm here to assist you every step of the way. Your decision to upgrade is highly valued, and I'll ensure a seamless experience. Enjoy the numerous advantages that come with the {{Account Category}} profile!""",0.7027027027027027,"Categoría: ACCOUNT
+Intención: switch_account
+Pregunta frecuente: I have got to use the bloody {{Account Category}} profile, I need help
+Procedimiento recomendado: I appreciate your request for assistance in using the {{Account Category}} profile, and I'm here to provide guidance:
+
+1. **Sign In**: Let's begin by logging into your account using your credentials.
+2. **Account Settings**: Once logged in, navigate to your account settings. This can typically be found in the top right corner of the page.
+3. **Upgrade Options**: Look for an option that allows you to upgrade or switch account types.
+4. **Choose {{Account Category}}**: Select the {{Account Category}} profile option from the available choices.
+5. **Completion**: Follow the instructions provided to complete the upgrade process and enjoy the benefits of the {{Account Category}} profile.
+
+Remember, should you encounter any difficulties or have further questions, I'm here to assist you every step of the way. Your decision to upgrade is highly valued, and I'll ensure a seamless experience. Enjoy the numerous advantages that come with the {{Account Category}} profile!"""
+bitext-24224,24224,ACCOUNT,switch_account,could I use the {{Account Type}} profile?,"I'm happy to help! I'm excited to assist you in leveraging the remarkable benefits that come with our {{Account Type}} profile. Let's make this transition smooth and hassle-free:
+
+1. **Access Your Account:** Start by signing in to our platform.
+2. **Profile Navigation:** Once you're logged in, locate your '{{Settings}}' or '{{Profile}}' section.
+3. **Upgrade Option:** Within this area, search for an option labelled '{{Upgrade Account}}' or '{{Account Change}}'.
+4. **{{Account Type}} Selection:** Choose the '{{Profile Type}}' from the available list.
+5. **Finish Up:** Follow the on-screen instructions to finalize the switch.
+
+If you encounter any challenges along the way or if you have additional questions, please don't hesitate to reach out. I'm dedicated to making your transition to the {{Account Type}} profile a seamless and enjoyable experience. Get ready to unlock a wealth of benefits with your {{Account Type}} account!",0.7073170731707317,"Categoría: ACCOUNT
+Intención: switch_account
+Pregunta frecuente: could I use the {{Account Type}} profile?
+Procedimiento recomendado: I'm happy to help! I'm excited to assist you in leveraging the remarkable benefits that come with our {{Account Type}} profile. Let's make this transition smooth and hassle-free:
+
+1. **Access Your Account:** Start by signing in to our platform.
+2. **Profile Navigation:** Once you're logged in, locate your '{{Settings}}' or '{{Profile}}' section.
+3. **Upgrade Option:** Within this area, search for an option labelled '{{Upgrade Account}}' or '{{Account Change}}'.
+4. **{{Account Type}} Selection:** Choose the '{{Profile Type}}' from the available list.
+5. **Finish Up:** Follow the on-screen instructions to finalize the switch.
+
+If you encounter any challenges along the way or if you have additional questions, please don't hesitate to reach out. I'm dedicated to making your transition to the {{Account Type}} profile a seamless and enjoyable experience. Get ready to unlock a wealth of benefits with your {{Account Type}} account!"
+bitext-24540,24540,ACCOUNT,switch_account,I do not know how to change to the {{Account Type}} account,"I can relate to the understanding that you're unsure about how to switch to the {{Account Type}} account. Not to worry, I'm here to guide you through the process:
+
+1. Access Your Account: Start by logging into our platform using your credentials.
+2. Profile Settings: Once you're logged in, navigate to the '{{Settings}}' or '{{Profile}}' section, usually located in the menu or sidebar.
+3. Account Type: Look for an option titled '{{Account Change}}' or '{{Upgrade Account}}'.
+4. Free Account Selection: From the list of available account types, choose the '{{Account Type}}' option.
+5. Confirmation: Follow any on-screen prompts and confirm your selection to switch to the {{Account Type}} account.
+
+If you encounter any difficulties or have any further questions, please feel {{Account Type}} to reach out to us. We're committed to assisting you in every way we can. Enjoy the benefits of your new {{Account Type}} account!",0.7903225806451613,"Categoría: ACCOUNT
+Intención: switch_account
+Pregunta frecuente: I do not know how to change to the {{Account Type}} account
+Procedimiento recomendado: I can relate to the understanding that you're unsure about how to switch to the {{Account Type}} account. Not to worry, I'm here to guide you through the process:
+
+1. Access Your Account: Start by logging into our platform using your credentials.
+2. Profile Settings: Once you're logged in, navigate to the '{{Settings}}' or '{{Profile}}' section, usually located in the menu or sidebar.
+3. Account Type: Look for an option titled '{{Account Change}}' or '{{Upgrade Account}}'.
+4. Free Account Selection: From the list of available account types, choose the '{{Account Type}}' option.
+5. Confirmation: Follow any on-screen prompts and confirm your selection to switch to the {{Account Type}} account.
+
+If you encounter any difficulties or have any further questions, please feel {{Account Type}} to reach out to us. We're committed to assisting you in every way we can. Enjoy the benefits of your new {{Account Type}} account!"
+bitext-24938,24938,ORDER,track_order,how can I see order {{Order Number}} current status?,"We're listening! I'm keyed into the fact that you would like assistance in checking the current status of your order with order number {{Order Number}}. To view the status, I recommend visiting the ""{{Order Tracking}}"" section on our website. It will provide you with real-time updates and detailed information about the progress of your order. Please feel free to reach out if you have any other questions or need further assistance. My goal is to ensure you have a seamless experience with us!",0.6938775510204082,"Categoría: ORDER
+Intención: track_order
+Pregunta frecuente: how can I see order {{Order Number}} current status?
+Procedimiento recomendado: We're listening! I'm keyed into the fact that you would like assistance in checking the current status of your order with order number {{Order Number}}. To view the status, I recommend visiting the ""{{Order Tracking}}"" section on our website. It will provide you with real-time updates and detailed information about the progress of your order. Please feel free to reach out if you have any other questions or need further assistance. My goal is to ensure you have a seamless experience with us!"
+bitext-25063,25063,ORDER,track_order,checking status of order {{Order Number}},"Glad you contacted us! I'm clearly cognizant that you would like to check the status of your order with the order number {{Order Number}}. To track the current status of your order, please visit the 'Order Status' section on our website. If you have any other questions or require further assistance, feel free to let me know. I'm here to help ensure that you have a seamless experience.",0.7368421052631579,"Categoría: ORDER
+Intención: track_order
+Pregunta frecuente: checking status of order {{Order Number}}
+Procedimiento recomendado: Glad you contacted us! I'm clearly cognizant that you would like to check the status of your order with the order number {{Order Number}}. To track the current status of your order, please visit the 'Order Status' section on our website. If you have any other questions or require further assistance, feel free to let me know. I'm here to help ensure that you have a seamless experience."
+bitext-25540,25540,ORDER,track_order,I can't check the status of purchase {{Order Number}},"I've got that you're having trouble checking the status of your purchase with purchase number {{Order Number}}. I apologize for any inconvenience this may have caused. In order to assist you further, could you please provide me with some additional details such as your account information or any relevant order confirmation? With that information, I'll be able to look into this issue and provide you with the necessary support. Thank you for your patience and cooperation.",0.780952380952381,"Categoría: ORDER
+Intención: track_order
+Pregunta frecuente: I can't check the status of purchase {{Order Number}}
+Procedimiento recomendado: I've got that you're having trouble checking the status of your purchase with purchase number {{Order Number}}. I apologize for any inconvenience this may have caused. In order to assist you further, could you please provide me with some additional details such as your account information or any relevant order confirmation? With that information, I'll be able to look into this issue and provide you with the necessary support. Thank you for your patience and cooperation."
+bitext-26324,26324,REFUND,track_refund,I expect a compendation of {{Currency Symbol}}{{Refund Amount}},"Thank you for letting us know about your expected reimbursement in the amount of {{Currency Symbol}}{{Refund Amount}}. We understand the importance of receiving your funds in a timely manner. Allow me to look into the current status of your reimbursement and provide you with an update. While I gather the necessary information, I appreciate your patience and rest assured that we are committed to resolving your query and ensuring your satisfaction.",0.6095238095238096,"Categoría: REFUND
+Intención: track_refund
+Pregunta frecuente: I expect a compendation of {{Currency Symbol}}{{Refund Amount}}
+Procedimiento recomendado: Thank you for letting us know about your expected reimbursement in the amount of {{Currency Symbol}}{{Refund Amount}}. We understand the importance of receiving your funds in a timely manner. Allow me to look into the current status of your reimbursement and provide you with an update. While I gather the necessary information, I appreciate your patience and rest assured that we are committed to resolving your query and ensuring your satisfaction."
+bitext-26614,26614,REFUND,track_refund,how could I see if there are any updates on my refund?,"Of course! I completely understand your need to stay informed about the progress of your refund. To help you with that, our system provides a convenient way for you to check for updates. You can log in to your account on our website or contact our customer support team to inquire about the status of your refund. Please let me know if there's anything specific you need assistance with, and I'll be more than happy to guide you through the process.",0.6862745098039216,"Categoría: REFUND
+Intención: track_refund
+Pregunta frecuente: how could I see if there are any updates on my refund?
+Procedimiento recomendado: Of course! I completely understand your need to stay informed about the progress of your refund. To help you with that, our system provides a convenient way for you to check for updates. You can log in to your account on our website or contact our customer support team to inquire about the status of your refund. Please let me know if there's anything specific you need assistance with, and I'll be more than happy to guide you through the process."
+bitext-26723,26723,REFUND,track_refund,i dont know how i could track the rebate,"I'm with you, your concern about tracking the rebate. Tracking your rebate is important to ensure a smooth process and timely resolution. Let me guide you through the steps to track your rebate so that you can stay updated on its status. Can you please provide me with your purchase or rebate reference number? This will help me provide you with accurate instructions tailored to your specific case.",0.8157894736842105,"Categoría: REFUND
+Intención: track_refund
+Pregunta frecuente: i dont know how i could track the rebate
+Procedimiento recomendado: I'm with you, your concern about tracking the rebate. Tracking your rebate is important to ensure a smooth process and timely resolution. Let me guide you through the steps to track your rebate so that you can stay updated on its status. Can you please provide me with your purchase or rebate reference number? This will help me provide you with accurate instructions tailored to your specific case."

@@ -1,0 +1,14 @@
+{
+  "filas_dataset": 26872,
+  "filas_vacias_eliminadas": 0,
+  "duplicados_eliminados": 2800,
+  "columna_estrato": "intent",
+  "columna_texto": "instruction",
+  "estratos": 27,
+  "filas_por_estrato": 12,
+  "filas_seleccionadas": 324,
+  "semilla": 20261011,
+  "filas_evaluacion_humana": 54,
+  "filas_por_estrato_evaluacion_humana": 2,
+  "semilla_evaluacion_humana": 20261012
+}

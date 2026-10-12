@@ -12,7 +12,7 @@ esta escala y mantiene el procedimiento fácil de auditar.
 
 from __future__ import annotations
 
-from difflib import SequenceMatcher
+from difflib import SequenceMatcher, get_close_matches
 import re
 import time
 import unicodedata
@@ -103,15 +103,25 @@ def construir_corpus_conocimiento(
     coincidencias_exactas = int(mascara_exacta.sum())
     candidatos = candidatos.loc[~mascara_exacta].copy()
 
-    def similitud_maxima(texto: str) -> float:
-        if not evaluacion_norm:
-            return 0.0
-        return max(_similitud_superficial(texto, q) for q in evaluacion_norm)
+    evaluacion_lista = sorted(evaluacion_norm)
 
-    candidatos["similitud_max_evaluacion"] = candidatos["instruction_norm"].map(
-        similitud_maxima
-    )
-    mascara_cercana = candidatos["similitud_max_evaluacion"] >= umbral_similitud
+    def tiene_variante_cercana(texto: str) -> bool:
+        if not evaluacion_lista:
+            return False
+        # get_close_matches aplica real_quick_ratio y quick_ratio antes de
+        # SequenceMatcher.ratio. Ambas son cotas superiores, por lo que este
+        # filtro conserva el mismo criterio final y evita calcular millones de
+        # ratios completos al ampliar la muestra.
+        return bool(
+            get_close_matches(
+                texto,
+                evaluacion_lista,
+                n=1,
+                cutoff=umbral_similitud,
+            )
+        )
+
+    mascara_cercana = candidatos["instruction_norm"].map(tiene_variante_cercana)
     coincidencias_cercanas = int(mascara_cercana.sum())
     candidatos = candidatos.loc[~mascara_cercana].copy()
 
@@ -121,6 +131,15 @@ def construir_corpus_conocimiento(
         bloques.append(grupo.sample(n=n, random_state=semilla))
     corpus = pd.concat(bloques, ignore_index=True)
     corpus = corpus.sort_values(["intent", "source_row_id"]).reset_index(drop=True)
+    if evaluacion_lista:
+        corpus["similitud_max_evaluacion"] = corpus["instruction_norm"].map(
+            lambda texto: max(
+                _similitud_superficial(texto, consulta)
+                for consulta in evaluacion_lista
+            )
+        )
+    else:
+        corpus["similitud_max_evaluacion"] = 0.0
     for columna in ("instruction", "response"):
         corpus[columna] = corpus[columna].map(_limpiar_espacios_lineas)
     corpus.insert(

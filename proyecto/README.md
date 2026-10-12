@@ -2,12 +2,12 @@
 
 Trabajo Final de Juan Bautista Xifro (UAI, 2026). Compara GPT-4o mini, LLaMA 3.1 8B y Mistral sobre consultas de atención al cliente, midiendo calidad, latencia y costo en dos condiciones: baseline sin RAG y recuperación aumentada (RAG).
 
-El corpus proviene de [Bitext Customer Support LLM Chatbot Training Dataset](https://huggingface.co/datasets/bitext/Bitext-customer-support-llm-chatbot-training-dataset). La muestra persistida en `data/` contiene 20 consultas traducidas al español.
+El corpus proviene de [Bitext Customer Support LLM Chatbot Training Dataset](https://huggingface.co/datasets/bitext/Bitext-customer-support-llm-chatbot-training-dataset). En `data/` se conservan la muestra piloto de 20 consultas y la muestra ampliada de 324 consultas traducidas al español.
 
 ## Contenido
 
 - `src/`: corpus, clientes de OpenAI/Ollama, costos y recuperación RAG.
-- `tests/`: 27 pruebas unitarias sin llamadas reales a APIs.
+- `tests/`: pruebas unitarias sin llamadas reales a APIs.
 - `notebooks/02_fundamentos.ipynb`: experimento reproducible del baseline sin RAG.
 - `notebooks/03_rag_piloto.ipynb`: piloto RAG; la generación está desactivada por defecto.
 - `data/corpus_es_muestra.csv`: muestra traducida para evitar repetir costo y tiempo.
@@ -15,6 +15,20 @@ El corpus proviene de [Bitext Customer Support LLM Chatbot Training Dataset](htt
 - `data/conocimiento_rag_auditoria.json`: trazabilidad de duplicados y fugas excluidas.
 - `data/conocimiento_rag_es.csv`: traducción controlada usada como análisis de sensibilidad.
 - `data/conocimiento_rag_es_auditoria.json`: tokens, costo y correcciones de marcadores de la traducción.
+- `data/muestra_ampliada_en.csv`: 324 consultas del Subproyecto 3, con 12
+  casos para cada una de las 27 intenciones.
+- `data/muestra_ampliada_en_auditoria.json`: parámetros y controles de la
+  selección reproducible de la muestra ampliada.
+- `data/muestra_ampliada_en_evaluacion_humana.csv`: submuestra prevista para
+  la evaluación humana ciega.
+- `data/muestra_ampliada_es.csv`: consultas y respuestas de referencia
+  traducidas, con tokens e intentos auditados por fila.
+- `data/muestra_ampliada_es_auditoria.json`: completitud, consumo y costo
+  registrado de la traducción ampliada.
+- `data/muestra_ampliada_es_incidentes.json`: incidente de traducción que no
+  pudo reconstruirse desde el checkpoint inicial.
+- `data/conocimiento_rag_ampliado.csv`: corpus RAG reconstruido después de
+  separar la muestra ampliada y excluir fugas.
 - `resultados_fundamentos_20260913_1422.csv`: resultados de la primera corrida.
 - `resultados_recuperacion_rag_en.csv`: validación inicial español→inglés del recuperador.
 - `resultados_recuperacion_rag_es.csv`: validación con consultas y conocimiento en español.
@@ -26,6 +40,25 @@ El corpus proviene de [Bitext Customer Support LLM Chatbot Training Dataset](htt
 - `resultados_baseline_controlado_evaluados.csv`: nueva corrida sin RAG con warm-up.
 - `comparacion_controlada_rag.csv`: comparación principal bajo el mismo protocolo.
 - `conteos_comparacion_controlada.csv`: cantidad de consultas que mejoran o empeoran.
+- `resultados_recuperacion_rag_ampliada.csv`: recuperación sobre las 324
+  consultas del Subproyecto 3.
+- `resultados_recuperacion_rag_ampliada_por_intencion.csv`: diagnóstico de
+  recuperación para cada intención.
+- `resultados_smoke_experimento_ampliado.csv`: cuatro generaciones locales que
+  validan el ejecutor ampliado y su checkpoint.
+- `resultados_experimento_ampliado.csv`: 1.944 respuestas crudas del diseño
+  completo, con checkpoint por modelo, consulta y condición.
+- `resultados_experimento_ampliado_evaluados.csv`: respuestas con BERTScore,
+  ROUGE-L, costos y el índice normalizado dentro de cada condición.
+- `resumen_experimento_ampliado.csv`: métricas agregadas por modelo y condición.
+- `comparacion_pareada_ampliada.csv`: contrastes de RAG frente a la línea base.
+- `contraste_hipotesis_rag.csv`: comparación pareada de LLaMA y Mistral contra
+  GPT-4o mini usando exclusivamente la condición con RAG.
+- `evaluacion_humana/evaluador_1.xlsx` y `evaluador_2.xlsx`: formularios ciegos
+  con 324 respuestas, órdenes distintos, rúbrica y validaciones de puntaje.
+- `evaluacion_humana/clave_ciega.xlsx`: correspondencia separada entre el
+  identificador ciego, el modelo y la condición. No debe entregarse a los
+  evaluadores antes de cerrar ambos formularios.
 - `TF_Juan_Bautista_Xifro_2026.docx`: única versión vigente de la tesis.
 - `requirements.txt`: dependencias Python reproducibles.
 - `requirements-lock.txt`: versiones exactas verificadas en Windows.
@@ -82,7 +115,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\iniciar_ollama.ps1
 .\.ollama-bin\ollama.exe list
 ```
 
-El resultado esperado es `27 passed`. Antes de ejecutar el experimento generativo, Ollama debe estar activo en `http://localhost:11434`.
+El resultado esperado es `53 passed`. Antes de ejecutar el experimento generativo, Ollama debe estar activo en `http://localhost:11434`.
 
 ## Preparar y validar RAG
 
@@ -120,6 +153,146 @@ Ese comando usa GPT-4o mini solamente si existen filas pendientes. Guarda cada a
 ### Decisión de idioma del conocimiento
 
 La traducción no mejoró la recuperación: obtuvo `Hit@1 = 70 %` y `Hit@3 = 85 %`, con `14,56 ms` de latencia media. También se probó exploratoriamente `multilingual-e5-small` con los prefijos de recuperación recomendados por su documentación; su mejor variante alcanzó `70 % / 85 %`. Por eso el piloto generativo fija como condición principal MiniLM con el conocimiento original en inglés. La variante española se conserva como análisis de sensibilidad y esta decisión deberá confirmarse con la muestra ampliada.
+
+## Preparar el Subproyecto 3
+
+La muestra ampliada contiene 324 consultas porque se encuentra dentro del
+rango de 300–500 previsto en el TF y permite seleccionar exactamente 12 casos
+para cada una de las 27 intenciones. Puede reconstruirse sin usar APIs pagas:
+
+```powershell
+.\venv\Scripts\python.exe .\scripts\construir_muestra_ampliada.py
+```
+
+La traducción al español se ejecuta por separado y sí realiza llamadas pagas:
+
+```powershell
+.\venv\Scripts\python.exe .\scripts\traducir_muestra_ampliada.py
+```
+
+El traductor guarda cada fila en `data/muestra_ampliada_es.csv`, valida que un
+checkpoint corresponda a la misma entrada y reanuda únicamente las filas
+pendientes. Su auditoría registra completitud, tokens y costo real.
+
+La recuperación sobre la muestra ampliada se valida sin generar respuestas ni
+usar una API paga:
+
+```powershell
+.\venv\Scripts\python.exe .\scripts\validar_recuperacion_rag.py `
+  --corpus .\data\conocimiento_rag_ampliado.csv `
+  --evaluacion .\data\muestra_ampliada_es.csv `
+  --salida .\resultados_recuperacion_rag_ampliada.csv
+```
+
+La traducción finalizó con 324/324 filas, 74.418 tokens de entrada, 56.962 de
+salida y un costo registrado de USD 0,045340. Tres salidas que omitían un
+marcador fueron rechazadas y luego resueltas con traducción segmentada. Hubo
+además tres intentos iniciales cuyos tokens no pudieron recuperarse; el archivo
+de incidentes conserva esta limitación para conciliarla con el panel de uso.
+
+La recuperación ampliada obtuvo `Hit@1 = 81,8 %`, `Hit@3 = 96,0 %` y una
+latencia media de `14,43 ms`. Los resultados crudos se guardan en
+`resultados_recuperacion_rag_ampliada.csv` y el diagnóstico por intención en
+`resultados_recuperacion_rag_ampliada_por_intencion.csv`.
+
+El ejecutor ampliado construye un plan reproducible de 1.944 respuestas. Para
+cada modelo, alterna el orden de las condiciones: 162 consultas comienzan sin
+RAG y 162 con RAG. Un smoke test local puede ejecutarse así:
+
+```powershell
+.\venv\Scripts\python.exe .\scripts\ejecutar_experimento_ampliado.py `
+  --modelos llama-3.1-8b mistral `
+  --limite-consultas 1 `
+  --salida .\resultados_smoke_experimento_ampliado.csv
+```
+
+La corrida completa requiere una confirmación explícita para evitar iniciarla
+por accidente:
+
+```powershell
+.\venv\Scripts\python.exe .\scripts\ejecutar_experimento_ampliado.py `
+  --confirmar-corrida-completa
+```
+
+El checkpoint permite reanudar por la combinación única de modelo, consulta y
+condición. La corrida ampliada finalizó con 1.944/1.944 respuestas, sin errores
+ni campos vacíos. El costo registrado de GPT-4o mini fue USD 0,072590.
+
+Las métricas y los contrastes se regeneran sin invocar modelos ni APIs:
+
+```powershell
+.\venv\Scripts\python.exe .\scripts\evaluar_experimento_ampliado.py
+```
+
+El script reutiliza BERTScore y ROUGE-L si ya existen, pero recalcula costos,
+normalizaciones e índice. La normalización se realiza dentro de cada condición
+para que el contraste formal de H1–H3 utilice únicamente las configuraciones
+con RAG.
+
+### Resultado ampliado con RAG
+
+| Modelo | BERTScore F1 | ROUGE-L | Latencia media | Costo por 1.000 | Índice compuesto |
+|---|---:|---:|---:|---:|---:|
+| GPT-4o mini | 0,7491 | 0,3021 | 1,530 s | USD 0,1620 | 0,7680 |
+| LLaMA 3.1 8B | 0,7314 | 0,2589 | 1,112 s | USD 0,2130 | 0,7563 |
+| Mistral | 0,7372 | 0,2720 | 1,576 s | USD 0,3020 | 0,7177 |
+
+RAG elevó significativamente BERTScore y ROUGE-L en los tres modelos, aunque
+también aumentó su latencia y costo. Frente a GPT, Mistral quedó completamente
+dentro del margen de ±0,02 BERTScore (IC 95 % de la diferencia: −0,0150 a
+−0,0088). LLaMA cumplió el margen en la diferencia puntual (−0,0177), pero su
+intervalo lo cruzó levemente (−0,0217 a −0,0137). Por ello H1 recibe apoyo para
+Mistral y evidencia parcial para LLaMA bajo ese margen de referencia. H2 y H3
+no reciben apoyo: bajo el escenario cloud definido, ambos modelos abiertos
+costaron más por 1.000 consultas y ninguno superó el índice de GPT-4o mini.
+
+### Visualizar los resultados
+
+Las figuras incluidas en el TF se regeneran directamente desde los CSV del
+experimento, sin datos inventados ni llamadas a modelos:
+
+```powershell
+.\venv\Scripts\python.exe .\scripts\generar_figuras_resultados.py
+```
+
+El dashboard interactivo permite filtrar por modelo y condición, revisar las
+métricas agregadas y comparar calidad, latencia y costo:
+
+```powershell
+.\venv\Scripts\streamlit.exe run .\dashboard.py
+```
+
+Streamlit mostrará la dirección local en la terminal, normalmente
+`http://localhost:8501`. Los gráficos estáticos quedan en `figuras/`.
+
+### Evaluación humana ciega
+
+Los insumos se reconstruyen sin invocar modelos ni APIs:
+
+```powershell
+.\venv\Scripts\python.exe .\scripts\preparar_evaluacion_humana.py
+```
+
+El comando produce dos CSV con órdenes aleatorios diferentes y una clave
+separada. Las versiones Excel incluidas agregan la rúbrica, validaciones de
+entrada y una columna de estado. Cada evaluador debe completar únicamente su
+archivo, sin recibir `clave_ciega.xlsx` ni `clave_ciega.csv`.
+
+La escala es de 1 a 5 para corrección, utilidad, claridad y fidelidad al
+contexto. La alucinación se marca con 0 (ausente) o 1 (presente). El mismo
+contexto se muestra en las seis respuestas de cada consulta para conservar el
+cegamiento respecto de la condición generativa.
+
+Cuando ambos archivos estén completos, el análisis se ejecuta así:
+
+```powershell
+.\venv\Scripts\python.exe .\scripts\analizar_evaluacion_humana.py
+```
+
+El script valida las 324 filas por evaluador, calcula kappa de Cohen ponderado
+lineal para las escalas ordinales, kappa sin ponderar para alucinación y genera
+los promedios por modelo y condición. Si queda una fila incompleta, se detiene
+sin revelar resultados parciales.
 
 ## Resultado del piloto RAG
 

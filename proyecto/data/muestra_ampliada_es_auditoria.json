@@ -1,0 +1,13 @@
+{
+  "modelo": "gpt-4o-mini-2024-07-18",
+  "filas_totales": 324,
+  "filas_traducidas": 324,
+  "filas_pendientes": 0,
+  "tokens_in": 74418,
+  "tokens_out": 56962,
+  "intentos_api_registrados": 327,
+  "salidas_rechazadas_registradas": 3,
+  "precio_entrada_usd_por_millon": 0.15,
+  "precio_salida_usd_por_millon": 0.6,
+  "costo_total_usd": 0.04534
+}

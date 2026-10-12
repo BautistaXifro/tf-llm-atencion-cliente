@@ -57,6 +57,27 @@ def test_construccion_es_reproducible():
     assert a["document_id"].tolist() == b["document_id"].tolist()
 
 
+def test_construccion_excluye_variante_cercana_no_exacta():
+    datos = _dataset_fake()
+    datos.loc[len(datos)] = {
+        "category": "ACCOUNT",
+        "intent": "registro",
+        "instruction": "Where can I create my online account?",
+        "response": "Create it online.",
+    }
+    evaluacion = pd.DataFrame(
+        {"instruction": ["Where can I create my online account today?"]}
+    )
+    corpus, auditoria = rag.construir_corpus_conocimiento(
+        datos,
+        evaluacion,
+        documentos_por_intencion=2,
+        umbral_similitud=0.90,
+    )
+    assert auditoria["coincidencias_cercanas_excluidas"] == 1
+    assert not corpus["instruction_norm"].str.endswith("online account").any()
+
+
 def test_construccion_limpia_espacios_finales_multilinea():
     datos = _dataset_fake()
     datos.loc[0, "response"] = "Primera línea.   \nSegunda línea.  "

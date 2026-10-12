@@ -28,6 +28,10 @@ htmlcov/
 # Material local de gestión y contexto de desarrollo
 gestion/
 
+# Clave local para desenmascarar la evaluación humana
+proyecto/evaluacion_humana/clave_ciega.csv
+proyecto/evaluacion_humana/clave_ciega.xlsx
+
 # IDE y sistema operativo
 .vscode/
 .idea/

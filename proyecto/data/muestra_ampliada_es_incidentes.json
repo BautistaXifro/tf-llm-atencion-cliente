@@ -1,0 +1,11 @@
+{
+  "incidentes": [
+    {
+      "consulta_id": "bitext-eval-0140",
+      "intentos_no_registrados": 3,
+      "motivo": "La traducción omitió uno de cuatro marcadores {{Account Type}} en los tres intentos.",
+      "tokens_no_disponibles": true,
+      "impacto": "El costo informado por el CSV no incluirá estos tres intentos; deberá conciliarse con el panel de uso de OpenAI."
+    }
+  ]
+}

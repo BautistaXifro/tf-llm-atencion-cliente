@@ -14,6 +14,8 @@ ollama>=0.3.0
 datasets>=2.20.0
 numpy>=1.26.0
 pandas>=2.0.0
+scipy>=1.11.0
+openpyxl>=3.1.0
 
 # --- Recuperación aumentada (Subproyecto 2) ---
 sentence-transformers>=6.1.0,<7.0.0
@@ -28,6 +30,9 @@ python-dotenv>=1.0.0
 
 # --- Soporte para notebooks en VS Code ---
 ipykernel>=6.29.0
+
+# --- Dashboard de resultados ---
+streamlit>=1.39.0
 
 # --- Generación y ejecución de notebooks (Task 6) ---
 nbformat>=5.10.0
