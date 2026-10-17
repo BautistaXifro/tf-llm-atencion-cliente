@@ -16,6 +16,7 @@ numpy>=1.26.0
 pandas>=2.0.0
 scipy>=1.11.0
 openpyxl>=3.1.0
+pydantic>=2.7.0,<3.0.0
 
 # --- Recuperación aumentada (Subproyecto 2) ---
 sentence-transformers>=6.1.0,<7.0.0

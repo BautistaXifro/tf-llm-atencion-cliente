@@ -1,0 +1,21 @@
+{
+  "conocimiento": [
+    {
+      "documento_id": "DOC-001",
+      "contenido": "La dirección de entrega puede modificarse desde la configuración antes del despacho.",
+      "idioma": "es",
+      "categoria": "cuenta",
+      "intencion": "cambiar_direccion",
+      "fuente": "manual interno de ejemplo",
+      "metadata": {"version": "1.0"}
+    },
+    {
+      "documento_id": "DOC-002",
+      "contenido": "Ante un cobro duplicado se debe verificar la transacción y gestionar el reintegro.",
+      "idioma": "es",
+      "categoria": "pagos",
+      "intencion": "pago_duplicado",
+      "fuente": "manual interno de ejemplo"
+    }
+  ]
+}

@@ -115,7 +115,58 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\iniciar_ollama.ps1
 .\.ollama-bin\ollama.exe list
 ```
 
-El resultado esperado es `53 passed`. Antes de ejecutar el experimento generativo, Ollama debe estar activo en `http://localhost:11434`.
+El resultado esperado es `60 passed`. Antes de ejecutar el experimento generativo, Ollama debe estar activo en `http://localhost:11434`.
+
+## Usar datos propios: esquema de entrada v1
+
+El framework no depende del formato de Bitext. Los archivos externos se
+normalizan primero a dos estructuras canónicas y después, si corresponde, se
+convierten a los alias que consumen los scripts experimentales actuales.
+
+| Archivo | Campo | Requisito | Uso |
+|---|---|---:|---|
+| Consultas | `consulta_id` | Obligatorio y único | Identifica cada caso. |
+| Consultas | `texto` | Obligatorio | Mensaje que recibirá el modelo. |
+| Consultas | `respuesta_referencia` | Opcional | Habilita BERTScore y ROUGE-L. |
+| Consultas | `idioma` | Opcional; `es` por defecto | Idioma del texto. |
+| Consultas | `categoria`, `intencion` | Opcionales | Permiten análisis por grupo y Hit@k. |
+| Conocimiento | `documento_id` | Obligatorio y único | Identifica cada documento RAG. |
+| Conocimiento | `contenido` | Obligatorio | Texto que se indexará. |
+| Conocimiento | `idioma` | Opcional; `es` por defecto | Idioma del documento. |
+| Conocimiento | `categoria`, `intencion`, `fuente` | Opcionales | Trazabilidad y análisis. |
+| Ambos | `metadata` | Opcional | Objeto con atributos adicionales. |
+
+Se admiten CSV, JSON y JSON Lines. Si las columnas del usuario tienen otros
+nombres, un archivo de mapeo indica `campo_canónico: columna_de_origen`. Las
+columnas no mapeadas se conservan automáticamente en `metadata`; no se pierden.
+
+Ejemplo incluido en `examples/schema/`:
+
+```powershell
+.\venv\Scripts\python.exe .\scripts\validar_datos_entrada.py `
+  --tipo consultas `
+  --entrada .\examples\schema\consultas_propias.csv `
+  --mapeo .\examples\schema\mapeo_consultas.json `
+  --salida .\data\consultas_propias_normalizadas.csv `
+  --formato-pipeline
+
+.\venv\Scripts\python.exe .\scripts\validar_datos_entrada.py `
+  --tipo conocimiento `
+  --entrada .\examples\schema\conocimiento.json `
+  --salida .\data\conocimiento_propio_normalizado.csv `
+  --formato-pipeline
+```
+
+El comando solo valida y transforma archivos: no carga modelos ni hace
+llamadas a APIs. Ante un dato inválido informa la fila y el campo problemático.
+Las consultas sin respuesta de referencia igualmente pueden generar respuestas,
+pero no permiten calcular métricas automáticas contra una solución esperada.
+Del mismo modo, sin una intención conocida no puede calcularse Hit@k por
+intención, aunque el recuperador puede seguir buscando documentos similares.
+
+Para el corpus ya existente, `src/esquema_datos.py` incluye adaptadores Bitext.
+Así, Bitext queda como el conjunto usado para desarrollar y validar el Trabajo
+Final, no como una restricción del framework.
 
 ## Preparar y validar RAG
 

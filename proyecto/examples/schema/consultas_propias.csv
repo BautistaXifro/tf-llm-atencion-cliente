@@ -1,0 +1,3 @@
+ticket_id,mensaje,respuesta_esperada,language,area,canal
+T-001,¿Cómo puedo cambiar mi dirección?,Podés actualizarla desde la configuración de tu cuenta.,es,cuenta,web
+T-002,Me cobraron dos veces la misma compra,Verificaremos el pago duplicado y gestionaremos el reintegro.,es,pagos,chat

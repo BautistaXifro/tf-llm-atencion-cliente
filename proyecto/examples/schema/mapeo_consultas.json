@@ -1,0 +1,7 @@
+{
+  "consulta_id": "ticket_id",
+  "texto": "mensaje",
+  "respuesta_referencia": "respuesta_esperada",
+  "idioma": "language",
+  "categoria": "area"
+}

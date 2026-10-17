@@ -285,6 +285,7 @@ pyarrow==25.0.1
     #   streamlit
 pydantic==2.13.5
     # via
+    #   -r ./proyecto/requirements.txt
     #   ollama
     #   openai
 pydantic-core==2.46.5
