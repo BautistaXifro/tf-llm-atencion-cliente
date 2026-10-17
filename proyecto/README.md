@@ -168,6 +168,41 @@ Para el corpus ya existente, `src/esquema_datos.py` incluye adaptadores Bitext.
 Así, Bitext queda como el conjunto usado para desarrollar y validar el Trabajo
 Final, no como una restricción del framework.
 
+### Ejecutar el framework con datos propios
+
+El esquema v1 está conectado al mismo recuperador y a los mismos clientes de
+modelos usados en el experimento. El siguiente comando realiza solamente una
+previsualización: valida los archivos, informa cuántas respuestas se generarían
+y señala qué métricas están disponibles. No carga modelos ni consume APIs.
+
+```powershell
+.\venv\Scripts\python.exe .\scripts\ejecutar_datos_propios.py `
+  --consultas .\examples\schema\consultas_propias.csv `
+  --mapeo-consultas .\examples\schema\mapeo_consultas.json `
+  --conocimiento .\examples\schema\conocimiento.json
+```
+
+Para ejecutar la generación se debe agregar deliberadamente
+`--confirmar-ejecucion`. Puede limitarse primero a una consulta y un modelo:
+
+```powershell
+.\venv\Scripts\python.exe .\scripts\ejecutar_datos_propios.py `
+  --consultas .\examples\schema\consultas_propias.csv `
+  --mapeo-consultas .\examples\schema\mapeo_consultas.json `
+  --conocimiento .\examples\schema\conocimiento.json `
+  --modelos mistral `
+  --limite-consultas 1 `
+  --salida .\resultados_datos_propios.csv `
+  --confirmar-ejecucion
+```
+
+Si no se proporciona `--conocimiento`, el plan utiliza únicamente la condición
+`sin_rag`. Las respuestas de referencia y las intenciones continúan siendo
+opcionales: su ausencia deshabilita BERTScore/ROUGE-L o Hit@k, respectivamente,
+pero no impide generar respuestas. El archivo de salida funciona como
+checkpoint y se valida contra el identificador y el texto de cada consulta para
+evitar mezclar corridas de datasets diferentes.
+
 ## Preparar y validar RAG
 
 Desde `proyecto/`:

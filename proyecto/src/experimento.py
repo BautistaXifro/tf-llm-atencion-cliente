@@ -15,13 +15,14 @@ def construir_plan(
     evaluacion: pd.DataFrame,
     modelos: Iterable[str],
     semilla: int = SEMILLA_PLAN,
+    condiciones: Iterable[str] = CONDICIONES,
 ) -> pd.DataFrame:
     """Crea un plan pareado, aleatorio y balanceado por modelo.
 
     Las dos condiciones de una consulta quedan consecutivas. El orden AB/BA se
     alterna, por lo que una muestra par asigna exactamente la mitad a cada uno.
     """
-    requeridas = {"consulta_id", "instruction_es", "response_es"}
+    requeridas = {"consulta_id"}
     faltantes = requeridas - set(evaluacion.columns)
     if faltantes:
         raise ValueError(f"Faltan columnas en la evaluación: {sorted(faltantes)}")
@@ -32,6 +33,12 @@ def construir_plan(
     modelos = list(modelos)
     if not modelos or len(modelos) != len(set(modelos)):
         raise ValueError("Debe indicarse una lista no vacía de modelos únicos.")
+    condiciones = tuple(condiciones)
+    if not condiciones or len(condiciones) != len(set(condiciones)):
+        raise ValueError("Debe indicarse una lista no vacía de condiciones únicas.")
+    desconocidas = set(condiciones) - set(CONDICIONES)
+    if desconocidas:
+        raise ValueError(f"Condiciones desconocidas: {sorted(desconocidas)}")
 
     filas = []
     orden_global = 0
@@ -41,8 +48,8 @@ def construir_plan(
             random_state=semilla + orden_modelo - 1,
         )
         for posicion, (_, consulta) in enumerate(consultas.iterrows(), start=1):
-            condiciones = CONDICIONES if posicion % 2 else CONDICIONES[::-1]
-            for orden_condicion, condicion in enumerate(condiciones, start=1):
+            orden_condiciones = condiciones if posicion % 2 else condiciones[::-1]
+            for orden_condicion, condicion in enumerate(orden_condiciones, start=1):
                 orden_global += 1
                 filas.append(
                     {
