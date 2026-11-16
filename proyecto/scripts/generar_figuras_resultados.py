@@ -8,6 +8,9 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import matplotlib
+
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -17,6 +20,9 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = ROOT / "figuras"
 SUMMARY_PATH = ROOT / "resumen_experimento_ampliado.csv"
 RETRIEVAL_PATH = ROOT / "resultados_recuperacion_rag_ampliada_por_intencion.csv"
+HUMAN_SUMMARY_PATH = (
+    ROOT / "evaluacion_humana" / "resultados" / "resumen_evaluacion_humana.csv"
+)
 
 MODEL_LABELS = {
     "gpt-4o-mini": "GPT-4o mini",
@@ -197,6 +203,63 @@ def dashboard_figure(summary: pd.DataFrame, retrieval: pd.DataFrame) -> Path:
     return _save(fig, "dashboard_experimento_ampliado.png")
 
 
+def human_evaluation_figure() -> Path:
+    summary = pd.read_csv(HUMAN_SUMMARY_PATH)
+    models = ["gpt-4o-mini", "llama-3.1-8b", "mistral"]
+    conditions = ["sin_rag", "rag"]
+    x = np.arange(len(models))
+    width = 0.34
+
+    fig, axes = plt.subplots(1, 2, figsize=(11.2, 4.5), constrained_layout=True)
+    for ax, metric, title, scale in [
+        (axes[0], "calidad_promedio", "Calidad humana promedio", 1),
+        (axes[1], "tasa_alucinacion", "Respuestas marcadas con alucinación", 100),
+    ]:
+        for offset, condition in zip([-width / 2, width / 2], conditions, strict=True):
+            values = [
+                summary.loc[
+                    (summary["modelo"] == model)
+                    & (summary["condicion"] == condition),
+                    metric,
+                ].iloc[0]
+                * scale
+                for model in models
+            ]
+            bars = ax.bar(
+                x + offset,
+                values,
+                width,
+                label=CONDITION_LABELS[condition],
+                color=COLORS[condition],
+            )
+            ax.bar_label(
+                bars,
+                labels=[f"{value:.2f}" if scale == 1 else f"{value:.1f}%" for value in values],
+                padding=3,
+                fontsize=8,
+            )
+        ax.set_title(title, fontsize=11, weight="bold")
+        ax.set_xticks(x, [MODEL_LABELS[m] for m in models])
+        ax.set_ylim(0, 5 if scale == 1 else 20)
+        ax.set_ylabel("Escala de 1 a 5" if scale == 1 else "Porcentaje")
+        _style_axis(ax)
+    axes[0].legend(frameon=False, loc="upper left", fontsize=8)
+    fig.suptitle(
+        "Evaluación humana por modelo y condición (dos evaluadores, 324 respuestas cada uno)",
+        fontsize=12.5,
+        weight="bold",
+    )
+    fig.text(
+        0.5,
+        -0.01,
+        "Resultados descriptivos. El acuerdo fue bajo (κ de Cohen entre 0,054 y 0,143).",
+        ha="center",
+        fontsize=8.5,
+        color="#555555",
+    )
+    return _save(fig, "evaluacion_humana_modelos_condicion.png")
+
+
 def main() -> None:
     summary, retrieval = _load_data()
     paths = [
@@ -204,6 +267,8 @@ def main() -> None:
         quality_figure(summary),
         efficiency_figure(summary),
     ]
+    if HUMAN_SUMMARY_PATH.exists():
+        paths.append(human_evaluation_figure())
     for path in paths:
         print(path)
 

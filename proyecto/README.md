@@ -87,6 +87,11 @@ ollama pull mistral
 Copy-Item .env.example .env
 ```
 
+La corrida documentada utilizó `llama3.1:8b` con ID de Ollama
+`46e0c10c039e` y `mistral:latest` con ID `6577803aa9a0`. Como las etiquetas
+pueden actualizarse, conviene comparar estos identificadores con la salida de
+`ollama list` antes de repetir el experimento.
+
 Si una política de Windows impide instalar Python globalmente, puede utilizarse
 [uv](https://docs.astral.sh/uv/). El proyecto fija Python 3.11.17:
 
@@ -115,7 +120,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\iniciar_ollama.ps1
 .\.ollama-bin\ollama.exe list
 ```
 
-El resultado esperado es `60 passed`. Antes de ejecutar el experimento generativo, Ollama debe estar activo en `http://localhost:11434`.
+El resultado esperado es `73 passed`. Antes de ejecutar el experimento generativo, Ollama debe estar activo en `http://localhost:11434`.
 
 ## Usar datos propios: esquema de entrada v1
 
@@ -181,6 +186,16 @@ y señala qué métricas están disponibles. No carga modelos ni consume APIs.
   --mapeo-consultas .\examples\schema\mapeo_consultas.json `
   --conocimiento .\examples\schema\conocimiento.json
 ```
+
+La validación final de este ejemplo procesó dos consultas y dos documentos
+ajenos al formato Bitext, conservó los metadatos y construyó correctamente un
+plan de 12 respuestas: tres modelos, dos consultas y dos condiciones. Las
+métricas automáticas quedaron disponibles porque las consultas incluyen
+respuestas de referencia. Hit@k se declaró no disponible porque el archivo de
+consultas no informa la intención, comportamiento esperado para un campo
+opcional. Esta prueba confirma la interoperabilidad técnica del esquema y del
+preflight; no demuestra por sí sola que el desempeño observado con Bitext se
+transfiera a otro dominio.
 
 Para ejecutar la generación se debe agregar deliberadamente
 `--confirmar-ejecucion`. Puede limitarse primero a una consulta y un modelo:
@@ -342,7 +357,14 @@ experimento, sin datos inventados ni llamadas a modelos:
 ```
 
 El dashboard interactivo permite filtrar por modelo y condición, revisar las
-métricas agregadas y comparar calidad, latencia y costo:
+métricas agregadas y comparar calidad, latencia y costo. También incorpora una
+guía trazable que sugiere un modelo según la prioridad declarada: calidad,
+costo estimado, latencia o calidad entre alternativas abiertas.
+
+La evaluación humana ya está integrada. El dashboard y el notebook muestran
+automáticamente los promedios por modelo y condición y el acuerdo entre los
+dos evaluadores. El script de figuras también genera
+`evaluacion_humana_modelos_condicion.png` cuando encuentra los resultados.
 
 ```powershell
 .\venv\Scripts\streamlit.exe run .\dashboard.py
@@ -352,6 +374,11 @@ Streamlit mostrará la dirección local en la terminal, normalmente
 `http://localhost:8501`. Los gráficos estáticos quedan en `figuras/`.
 
 ### Evaluación humana ciega
+
+El protocolo que debe recibir cada participante está en
+`evaluacion_humana/INSTRUCCIONES.md`. Cada persona recibe solamente su archivo
+Excel y las instrucciones; la clave ciega y los resultados comparativos deben
+permanecer fuera de su alcance hasta que ambas evaluaciones estén cerradas.
 
 Los insumos se reconstruyen sin invocar modelos ni APIs:
 
@@ -375,10 +402,15 @@ Cuando ambos archivos estén completos, el análisis se ejecuta así:
 .\venv\Scripts\python.exe .\scripts\analizar_evaluacion_humana.py
 ```
 
+Si existen `evaluador_1_completado.xlsx` y `evaluador_2_completado.xlsx`, el
+script los selecciona automáticamente y conserva las planillas originales como
+plantillas de respaldo.
+
 El script valida las 324 filas por evaluador, calcula kappa de Cohen ponderado
 lineal para las escalas ordinales, kappa sin ponderar para alucinación y genera
-los promedios por modelo y condición. Si queda una fila incompleta, se detiene
-sin revelar resultados parciales.
+los promedios por modelo y condición. También guarda el resumen separado por
+evaluador y el cambio descriptivo producido por RAG. Si queda una fila
+incompleta, se detiene sin revelar resultados parciales.
 
 ## Resultado del piloto RAG
 
@@ -390,7 +422,7 @@ Las 60 generaciones finalizaron sin errores. Promedios:
 | LLaMA 3.1 8B | 0,7213 | 0,2224 | 1,496 s | +0,0059 |
 | Mistral | 0,7333 | 0,2770 | 1,867 s | +0,0230 |
 
-GPT-4o mini consumió USD 0,002958 en total. Los costos locales publicados por el código continúan siendo provisionales porque dependen de una tarifa de instancia pendiente de reemplazar por una fuente real.
+GPT-4o mini consumió USD 0,002958 en total. Para los modelos abiertos, el costo por consulta se estima con una instancia Lambda Cloud a USD 0,69 por GPU-hora, bajo el supuesto de una GPU exclusiva y ejecución secuencial. Es un escenario comparativo reproducible, no una factura observada ni una estimación con concurrencia o *batching*.
 
 ### Comparación controlada contra el baseline
 
@@ -408,7 +440,40 @@ El costo real de las 20 respuestas de GPT pasó de USD 0,001333 sin RAG a USD 0,
 
 Fuentes de los parámetros, consultadas el 4 de octubre de 2026: [precios de GPT-4o mini](https://developers.openai.com/api/docs/models/gpt-4o-mini), [instancias de Lambda Cloud](https://lambda.ai/instances), [especificaciones de la RTX 3080 Ti](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3080-3080ti/), [especificaciones del Ryzen 5 5600X](https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600x.html) y [precio comercial de electricidad de la EIA](https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a).
 
-## Ejecutar el notebook
+## Notebook integral de la evaluación
+
+Para la entrega final, `notebooks/04_evaluacion_completa.ipynb` reúne en un
+único recorrido la auditoría de datos, la recuperación RAG, la integridad de las
+1.944 respuestas, las métricas automáticas, los contrastes de hipótesis, los
+gráficos y el estado de la evaluación humana.
+
+Al abrirlo utiliza `MODO = "resultados"`: lee los CSV existentes y no llama a
+OpenAI, Ollama ni Hugging Face. También ofrece un modo de demostración acotado
+y un modo completo. Las operaciones que pueden consumir API o tardar varios
+minutos permanecen desactivadas y exigen cambiar controles y confirmaciones
+literales dentro del notebook.
+
+La versión incluida quedó ejecutada en modo `resultados`: completó sus 14
+celdas, verificó 1.944 respuestas sin errores ni textos vacíos e incorporó los
+resultados y gráficos de la evaluación humana. Los avisos de permisos de
+IPython que pueden aparecer en Windows no alteran los resultados guardados.
+
+En VS Code:
+
+1. Abrir `notebooks/04_evaluacion_completa.ipynb`.
+2. Seleccionar `proyecto\venv\Scripts\python.exe` como kernel.
+3. Mantener `MODO = "resultados"` y ejecutar todas las celdas.
+
+Desde PowerShell, la revisión segura completa puede ejecutarse así:
+
+```powershell
+Set-Location notebooks
+..\venv\Scripts\python.exe -m jupyter nbconvert `
+  --to notebook --execute --inplace 04_evaluacion_completa.ipynb
+Set-Location ..
+```
+
+## Notebooks anteriores
 
 En VS Code:
 

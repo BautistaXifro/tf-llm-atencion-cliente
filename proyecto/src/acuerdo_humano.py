@@ -14,6 +14,11 @@ METRICAS_LIKERT = [
 ]
 METRICA_BINARIA = "alucinacion_0_1"
 METRICAS = [*METRICAS_LIKERT, METRICA_BINARIA]
+ARCHIVO_ACUERDO = "acuerdo_interevaluador.csv"
+ARCHIVO_RESUMEN = "resumen_evaluacion_humana.csv"
+ARCHIVO_RESUMEN_POR_EVALUADOR = "resumen_evaluacion_humana_por_evaluador.csv"
+ARCHIVO_EFECTO_RAG = "efecto_rag_evaluacion_humana.csv"
+ARCHIVO_RESPUESTAS = "respuestas_evaluacion_humana.csv"
 
 
 def kappa_cohen(

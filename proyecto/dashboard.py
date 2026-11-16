@@ -5,6 +5,9 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
+from src.acuerdo_humano import ARCHIVO_ACUERDO, ARCHIVO_RESUMEN
+from src.seleccion_modelo import construir_guia_seleccion
+
 
 ROOT = Path(__file__).resolve().parent
 MODEL_LABELS = {
@@ -83,6 +86,20 @@ st.dataframe(
     use_container_width=True,
 )
 
+st.subheader("Guía de selección según prioridad")
+guia = construir_guia_seleccion(summary)
+prioridad = st.selectbox("Prioridad operativa", guia["prioridad"].tolist())
+recomendacion = guia.loc[guia["prioridad"].eq(prioridad)].iloc[0]
+st.markdown(f"**Modelo sugerido:** {recomendacion['modelo_recomendado']}")
+st.write(recomendacion["evidencia"])
+st.caption(recomendacion["alcance"])
+st.dataframe(guia, hide_index=True, use_container_width=True)
+st.caption(
+    "La guía resume el experimento y no establece un ganador universal. La "
+    "decisión final debe considerar privacidad, infraestructura, volumen y "
+    "resultados de la evaluación humana."
+)
+
 st.subheader("Recuperación por intención")
 retrieval_view = retrieval.set_index("intent_esperado")[["hit_top1", "hit_top_k"]].rename(
     columns={"hit_top1": "Hit@1", "hit_top_k": "Hit@3"}
@@ -91,3 +108,40 @@ st.bar_chart(retrieval_view, height=480)
 
 with st.expander("Ver cambios medios producidos por RAG"):
     st.dataframe(comparison, hide_index=True, use_container_width=True)
+
+st.subheader("Evaluación humana")
+human_results = ROOT / "evaluacion_humana" / "resultados"
+human_summary_path = human_results / ARCHIVO_RESUMEN
+human_agreement_path = human_results / ARCHIVO_ACUERDO
+
+if human_summary_path.exists() and human_agreement_path.exists():
+    human_summary = pd.read_csv(human_summary_path)
+    human_agreement = pd.read_csv(human_agreement_path)
+    human_summary["Modelo"] = human_summary["modelo"].map(MODEL_LABELS)
+    human_summary["Condición"] = human_summary["condicion"].map(CONDITION_LABELS)
+    st.success("Resultados humanos completos e integrados.")
+    st.dataframe(human_summary, hide_index=True, use_container_width=True)
+    human_left, human_right = st.columns(2)
+    with human_left:
+        st.caption("Calidad humana promedio (1–5)")
+        st.bar_chart(
+            human_summary.pivot(
+                index="Modelo", columns="Condición", values="calidad_promedio"
+            ),
+            height=320,
+        )
+    with human_right:
+        st.caption("Tasa de alucinación (0–1)")
+        st.bar_chart(
+            human_summary.pivot(
+                index="Modelo", columns="Condición", values="tasa_alucinacion"
+            ),
+            height=320,
+        )
+    with st.expander("Ver acuerdo entre evaluadores"):
+        st.dataframe(human_agreement, hide_index=True, use_container_width=True)
+else:
+    st.info(
+        "La evaluación humana continúa pendiente. Cuando se completen y analicen "
+        "los dos formularios, sus resultados aparecerán aquí automáticamente."
+    )
