@@ -10,6 +10,9 @@ El corpus proviene de [Bitext Customer Support LLM Chatbot Training Dataset](htt
 - `tests/`: pruebas unitarias sin llamadas reales a APIs.
 - `notebooks/02_fundamentos.ipynb`: experimento reproducible del baseline sin RAG.
 - `notebooks/03_rag_piloto.ipynb`: piloto RAG; la generación está desactivada por defecto.
+- `notebooks/04_evaluacion_completa.ipynb`: punto de entrada integral para
+  auditar datos, resultados, gráficos y evaluación humana sin consumir APIs en
+  su modo predeterminado.
 - `data/corpus_es_muestra.csv`: muestra traducida para evitar repetir costo y tiempo.
 - `data/conocimiento_rag.csv`: 81 documentos Bitext, tres por intención, sin solapamientos directos con la evaluación.
 - `data/conocimiento_rag_auditoria.json`: trazabilidad de duplicados y fugas excluidas.
@@ -56,13 +59,22 @@ El corpus proviene de [Bitext Customer Support LLM Chatbot Training Dataset](htt
   GPT-4o mini usando exclusivamente la condición con RAG.
 - `evaluacion_humana/evaluador_1.xlsx` y `evaluador_2.xlsx`: formularios ciegos
   con 324 respuestas, órdenes distintos, rúbrica y validaciones de puntaje.
-- `evaluacion_humana/clave_ciega.xlsx`: correspondencia separada entre el
-  identificador ciego, el modelo y la condición. No debe entregarse a los
-  evaluadores antes de cerrar ambos formularios.
+- `evaluacion_humana/evaluador_1_completado.xlsx` y
+  `evaluador_2_completado.xlsx`: formularios recibidos y utilizados para el
+  análisis humano final.
+- `evaluacion_humana/clave_ciega.xlsx`: correspondencia local entre el
+  identificador ciego, el modelo y la condición. Se genera con el protocolo,
+  permanece ignorada por Git y no debe entregarse a los evaluadores.
 - `TF_Juan_Bautista_Xifro_2026.docx`: única versión vigente de la tesis.
 - `requirements.txt`: dependencias Python reproducibles.
 - `requirements-lock.txt`: versiones exactas verificadas en Windows.
 - `.python-version`: versión de Python usada por el proyecto.
+
+Los archivos de resultados crudos, evaluados y agregados se conservan de forma
+intencional. Aunque algunos pueden regenerarse, en conjunto documentan los
+checkpoints y permiten reconstruir las tablas y figuras del TF sin repetir
+llamadas pagas ni depender de que sigan disponibles las mismas versiones de los
+modelos.
 
 ## Requisitos
 
@@ -117,7 +129,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\iniciar_ollama.ps1
 
 ```powershell
 .\venv\Scripts\python.exe -m pytest tests -v
-.\.ollama-bin\ollama.exe list
+ollama list
 ```
 
 El resultado esperado es `73 passed`. Antes de ejecutar el experimento generativo, Ollama debe estar activo en `http://localhost:11434`.
